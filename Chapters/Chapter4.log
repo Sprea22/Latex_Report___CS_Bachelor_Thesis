@@ -1,0 +1,4112 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.3)  17 APR 2017 18:06
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**Chapter4.tex
+(./Chapter4.tex
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
+! Undefined control sequence.
+l.1 \chap
+         {Implementation}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \chap{I
+           mplementation}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no I in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 1--2
+[] 
+ []
+
+! Undefined control sequence.
+l.3 \lstset
+           {
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 l
+     anguage=Python,
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no = in font nullfont!
+! Undefined control sequence.
+l.7 keywordstyle=\ttfamily\color
+                                {blue!90!black},
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.10 keywordstyle={[2]\ttfamily\color
+                                     {yellow!80!orange}},
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.11 keywordstyle={[3]\ttfamily\color
+                                     {red!80!orange}},
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.12 emph={MyClass,_
+                    _init__},
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 12.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 12.
+! Missing { inserted.
+<to be read again> 
+                   _
+l.12 emph={MyClass,__
+                     init__},
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.12 emph={MyClass,__init__
+                           },
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   }
+l.12 emph={MyClass,__init__}
+                            ,
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+
+! LaTeX Error: Command \ttfamily invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 emphstyle=\ttfamily
+                        \color{red!80!black},
+Please use the math alphabet \mathtt instead of the \ttfamily command. 
+
+! Undefined control sequence.
+l.13 emphstyle=\ttfamily\color
+                              {red!80!black},
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.14 stringstyle=\color
+                       {green!80!black},
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.17 Total implementation link: \url
+                                    {https://github.com/Sprea22/Data_Analyze...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.19 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.19 
+     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 4--19
+[]
+ []
+
+
+Overfull \hbox (5.24995pt too wide) in paragraph at lines 4--19
+\OT1/cmtt/m/n/10 ,
+ []
+
+
+Overfull \hbox (99.74913pt too wide) in paragraph at lines 4--19
+\OT1/cmtt/m/n/10 otherkeywords=self,
+ []
+
+
+Overfull \hbox (141.74876pt too wide) in paragraph at lines 4--19
+\OT1/cmtt/m/n/10 keywordstyle=blue!90!black,
+ []
+
+
+Overfull \hbox (120.74895pt too wide) in paragraph at lines 4--19
+\OT1/cmtt/m/n/10 keywords=[2]True,False,
+ []
+
+
+Overfull \hbox (83.99927pt too wide) in paragraph at lines 4--19
+\OT1/cmtt/m/n/10 keywords=[3]ttk,
+ []
+
+
+Overfull \hbox (173.24849pt too wide) in paragraph at lines 4--19
+\OT1/cmtt/m/n/10 keywordstyle=[2]yellow!80!orange,
+ []
+
+
+Overfull \hbox (157.49863pt too wide) in paragraph at lines 4--19
+\OT1/cmtt/m/n/10 keywordstyle=[3]red!80!orange,
+ []
+
+
+Overfull \hbox (856.29521pt too wide) in paragraph at lines 4--19
+\OT1/cmtt/m/n/10 emph=MyClass,$[]$ 
+ []
+
+! Undefined control sequence.
+l.20 \section
+             {1st Phase: Data collection}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 \section{1
+               st Phase: Data collection}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (35.74986pt too wide) in paragraph at lines 20--22
+[]\OT1/cmtt/m/n/10 1st
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 Phase:
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 Data
+ []
+
+
+Overfull \hbox (52.49954pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 collection
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 During
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 this
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 phase
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 is
+ []
+
+
+Overfull \hbox (47.24959pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 important
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 to
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 be
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 sure
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 to
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 have
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 all
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 the
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 data
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 that
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 we
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 are
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 going
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 to
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 need.
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 During
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 this
+ []
+
+
+Overfull \hbox (52.49954pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 particular
+ []
+
+
+Overfull \hbox (73.49936pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 implementation
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 we
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 need
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 the
+ []
+
+
+Overfull \hbox (5.24995pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 7
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 input
+ []
+
+
+Overfull \hbox (36.74968pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 dataset
+ []
+
+
+Overfull \hbox (36.74968pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 written
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 above
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 in
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 the
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 "Dataset
+ []
+
+
+Overfull \hbox (52.49954pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 structure"
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 section,
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 and
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 below
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 here
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 you
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 can
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 find
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 the
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 link
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 of
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 the
+ []
+
+
+Overfull \hbox (36.74968pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 website
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 where
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 you
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 can
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 download
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 all
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 the
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 needed
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 datasets
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 for
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 this
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 20--22
+\OT1/cmtt/m/n/10 example. 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 D
+      atasets downloads website: \url{http://www.fiskeridir.no/Akvakultur/St...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.23 Datasets downloads website: \url
+                                     {http://www.fiskeridir.no/Akvakultur/St...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (61.99963pt too wide) in paragraph at lines 23--24
+[]\OT1/cmtt/m/n/10 Datasets
+ []
+
+
+Overfull \hbox (47.24959pt too wide) in paragraph at lines 23--24
+\OT1/cmtt/m/n/10 downloads
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 23--24
+\OT1/cmtt/m/n/10 website:
+ []
+
+
+Overfull \hbox (398.99652pt too wide) in paragraph at lines 23--24
+\OT1/cmtt/m/n/10 http://www.fiskeridir.no/Akvakultur/Statistikk-akvakultur/Biom
+assestatistikk 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 T
+      he datasets that you can download on this website are in a different f...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (35.74986pt too wide) in paragraph at lines 25--26
+[]\OT1/cmtt/m/n/10 The
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 25--26
+\OT1/cmtt/m/n/10 datasets
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 25--26
+\OT1/cmtt/m/n/10 that
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 25--26
+\OT1/cmtt/m/n/10 you
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 25--26
+\OT1/cmtt/m/n/10 can
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 25--26
+\OT1/cmtt/m/n/10 download
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 25--26
+\OT1/cmtt/m/n/10 on
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 25--26
+\OT1/cmtt/m/n/10 this
+ []
+
+
+Overfull \hbox (36.74968pt too wide) in paragraph at lines 25--26
+\OT1/cmtt/m/n/10 website
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 25--26
+\OT1/cmtt/m/n/10 are
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 25--26
+\OT1/cmtt/m/n/10 in
+ []
+
+
+Overfull \hbox (5.24995pt too wide) in paragraph at lines 25--26
+\OT1/cmtt/m/n/10 a
+ []
+
+
+Overfull \hbox (47.24959pt too wide) in paragraph at lines 25--26
+\OT1/cmtt/m/n/10 different
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 25--26
+\OT1/cmtt/m/n/10 format
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 25--26
+\OT1/cmtt/m/n/10 than
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 25--26
+\OT1/cmtt/m/n/10 the
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 25--26
+\OT1/cmtt/m/n/10 one
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 25--26
+\OT1/cmtt/m/n/10 we
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 25--26
+\OT1/cmtt/m/n/10 will
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 25--26
+\OT1/cmtt/m/n/10 need,
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 25--26
+\OT1/cmtt/m/n/10 but
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 25--26
+\OT1/cmtt/m/n/10 for
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 25--26
+\OT1/cmtt/m/n/10 better
+ []
+
+
+Overfull \hbox (52.49954pt too wide) in paragraph at lines 25--26
+\OT1/cmtt/m/n/10 understand
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 25--26
+\OT1/cmtt/m/n/10 the
+ []
+
+
+Overfull \hbox (36.74968pt too wide) in paragraph at lines 25--26
+\OT1/cmtt/m/n/10 meaning
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 25--26
+\OT1/cmtt/m/n/10 of
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 25--26
+\OT1/cmtt/m/n/10 the
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 25--26
+\OT1/cmtt/m/n/10 data
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 25--26
+\OT1/cmtt/m/n/10 are
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 25--26
+\OT1/cmtt/m/n/10 useful
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 25--26
+\OT1/cmtt/m/n/10 since
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 25--26
+\OT1/cmtt/m/n/10 are
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 25--26
+\OT1/cmtt/m/n/10 in
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 25--26
+\OT1/cmtt/m/n/10 XLSX
+ []
+
+
+Overfull \hbox (36.74968pt too wide) in paragraph at lines 25--26
+\OT1/cmtt/m/n/10 format,
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 25--26
+\OT1/cmtt/m/n/10 splitted
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 25--26
+\OT1/cmtt/m/n/10 in
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 25--26
+\OT1/cmtt/m/n/10 clear
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 25--26
+\OT1/cmtt/m/n/10 tables
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 25--26
+\OT1/cmtt/m/n/10 and
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 25--26
+\OT1/cmtt/m/n/10 well
+ []
+
+
+Overfull \hbox (47.24959pt too wide) in paragraph at lines 25--26
+\OT1/cmtt/m/n/10 commented
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 25--26
+\OT1/cmtt/m/n/10 (only
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 25--26
+\OT1/cmtt/m/n/10 in
+ []
+
+
+Overfull \hbox (57.7495pt too wide) in paragraph at lines 25--26
+\OT1/cmtt/m/n/10 norwegian). 
+ []
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+! Undefined control sequence.
+l.27 \subsection
+                {Data sources}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 \subsection{D
+                  ata sources}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.28 \subsection
+                {Data description and validation}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (40.99982pt too wide) in paragraph at lines 27--29
+[]\OT1/cmtt/m/n/10 Data
+ []
+
+
+Overfull \hbox (36.74968pt too wide) in paragraph at lines 27--29
+\OT1/cmtt/m/n/10 sources
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 27--29
+\OT1/cmtt/m/n/10 Data
+ []
+
+
+Overfull \hbox (57.7495pt too wide) in paragraph at lines 27--29
+\OT1/cmtt/m/n/10 description
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 27--29
+\OT1/cmtt/m/n/10 and
+ []
+
+
+Overfull \hbox (52.49954pt too wide) in paragraph at lines 27--29
+\OT1/cmtt/m/n/10 validation 
+ []
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 \newpage
+             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[2]
+! Undefined control sequence.
+l.31 \section
+             {2nd Phase: Dataset creation}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 \section{2
+               nd Phase: Dataset creation}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.32 \subsection
+                {Processing the data}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (35.74986pt too wide) in paragraph at lines 31--37
+[]\OT1/cmtt/m/n/10 2nd
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 Phase:
+ []
+
+
+Overfull \hbox (36.74968pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 Dataset
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 creation
+ []
+
+
+Overfull \hbox (52.49954pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 Processing
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 the
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 data
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 Once
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 we
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 have
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 all
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 the
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 "row"
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 data
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 we
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 can
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 start
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 to
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 setup
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 the
+ []
+
+
+Overfull \hbox (36.74968pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 dataset
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 that
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 we
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 will
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 need
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 for
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 this
+ []
+
+
+Overfull \hbox (36.74968pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 system.
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 First
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 of
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 all
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 we
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 will
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 use
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 the
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 format
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 CSV
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 for
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 the
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 new
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 datasets
+ []
+
+
+Overfull \hbox (36.74968pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 instead
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 of
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 XLSX.
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 Then
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 we
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 need
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 to
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 create
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 three
+ []
+
+
+Overfull \hbox (47.24959pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 different
+ []
+
+
+Overfull \hbox (57.7495pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 "standards"
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 of
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 each
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 input
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 dataset.
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 The
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 reason
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 of
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 this
+ []
+
+
+Overfull \hbox (57.7495pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 requirement
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 is
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 that
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 using
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 the
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 python
+ []
+
+
+Overfull \hbox (36.74968pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 library
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 for
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 some
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 kind
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 of
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 analysis
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 is
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 easier
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 to
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 read
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 the
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 data
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 in
+ []
+
+
+Overfull \hbox (5.24995pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 a
+ []
+
+
+Overfull \hbox (52.49954pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 particular
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 format
+ []
+
+
+Overfull \hbox (36.74968pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 instead
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 of
+ []
+
+
+Overfull \hbox (36.74968pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 reading
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 the
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 data
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 always
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 in
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 the
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 normal
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 CSV
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 standard
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 and
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 then
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 edit
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 and
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 handle
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 it
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 later
+ []
+
+
+Overfull \hbox (36.74968pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 through
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 the
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 code.
+ []
+
+
+Overfull \hbox (47.24959pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 Following
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 are
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 reported
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 the
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 needed
+ []
+
+
+Overfull \hbox (52.49954pt too wide) in paragraph at lines 31--37
+\OT1/cmtt/m/n/10 standards. 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 \begin{itemize}
+                    
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 38--38
+[] 
+ []
+
+
+! LaTeX Error: Environment table undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.40 \begin{table}
+                  [ht]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.52     \caption
+                 [Dataset Normal Standard]{Dataset Normal Standard}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{itemize} on input line 38 ended by \end{table}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 \end{table}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 39--55
+\OT1/cmtt/m/n/10 Normal
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 39--55
+\OT1/cmtt/m/n/10 CSV
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 39--55
+\OT1/cmtt/m/n/10 standard
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 39--55
+\OT1/cmtt/m/n/10 [ht]
+ []
+
+
+Overfull \hbox (117.80898pt too wide) in paragraph at lines 39--55
+[]
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 39--55
+\OT1/cmtt/m/n/10 [Dataset
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 39--55
+\OT1/cmtt/m/n/10 Normal
+ []
+
+
+Overfull \hbox (83.99927pt too wide) in paragraph at lines 39--55
+\OT1/cmtt/m/n/10 Standard]Dataset
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 39--55
+\OT1/cmtt/m/n/10 Normal
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 39--55
+\OT1/cmtt/m/n/10 Standard
+ []
+
+
+! LaTeX Error: Environment table undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.57 \begin{table}
+                  [ht]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68     \caption
+                 [Dataset Month Standard]{Dataset Month Standard}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{itemize} on input line 38 ended by \end{table}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 \end{table}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 56--71
+\OT1/cmtt/m/n/10 Month
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 56--71
+\OT1/cmtt/m/n/10 standard
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 56--71
+\OT1/cmtt/m/n/10 [ht]
+ []
+
+
+Overfull \hbox (209.99826pt too wide) in paragraph at lines 56--71
+[]
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 56--71
+\OT1/cmtt/m/n/10 [Dataset
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 56--71
+\OT1/cmtt/m/n/10 Month
+ []
+
+
+Overfull \hbox (83.99927pt too wide) in paragraph at lines 56--71
+\OT1/cmtt/m/n/10 Standard]Dataset
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 56--71
+\OT1/cmtt/m/n/10 Month
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 56--71
+\OT1/cmtt/m/n/10 Standard
+ []
+
+
+! LaTeX Error: Environment table undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.73 \begin{table}
+                  [ht]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.84     \caption
+                 [Dataset Year Standard]{Dataset Year Standard}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{itemize} on input line 38 ended by \end{table}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.86 \end{table}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 72--87
+\OT1/cmtt/m/n/10 Year
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 72--87
+\OT1/cmtt/m/n/10 standard
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 72--87
+\OT1/cmtt/m/n/10 [ht]
+ []
+
+
+Overfull \hbox (204.7483pt too wide) in paragraph at lines 72--87
+[]
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 72--87
+\OT1/cmtt/m/n/10 [Dataset
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 72--87
+\OT1/cmtt/m/n/10 Year
+ []
+
+
+Overfull \hbox (83.99927pt too wide) in paragraph at lines 72--87
+\OT1/cmtt/m/n/10 Standard]Dataset
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 72--87
+\OT1/cmtt/m/n/10 Year
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 72--87
+\OT1/cmtt/m/n/10 Standard
+ []
+
+
+Overfull \hbox (40.99982pt too wide) in paragraph at lines 89--90
+[]\OT1/cmtt/m/n/10 Once
+ []
+
+
+Overfull \hbox (36.74968pt too wide) in paragraph at lines 89--90
+\OT1/cmtt/m/n/10 applied
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 89--90
+\OT1/cmtt/m/n/10 this
+ []
+
+
+Overfull \hbox (36.74968pt too wide) in paragraph at lines 89--90
+\OT1/cmtt/m/n/10 dataset
+ []
+
+
+Overfull \hbox (47.24959pt too wide) in paragraph at lines 89--90
+\OT1/cmtt/m/n/10 standard,
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 89--90
+\OT1/cmtt/m/n/10 we
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 89--90
+\OT1/cmtt/m/n/10 will
+ []
+
+
+Overfull \hbox (5.24995pt too wide) in paragraph at lines 89--90
+\OT1/cmtt/m/n/10 a
+ []
+
+
+Overfull \hbox (36.74968pt too wide) in paragraph at lines 89--90
+\OT1/cmtt/m/n/10 dataset
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 89--90
+\OT1/cmtt/m/n/10 that
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 89--90
+\OT1/cmtt/m/n/10 looks
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 89--90
+\OT1/cmtt/m/n/10 like: 
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 91--92
+\OT1/cmtt/m/n/10 Cages 
+ []
+
+
+Overfull \hbox (47.24959pt too wide) in paragraph at lines 93--94
+\OT1/cmtt/m/n/10 Cages.csv 
+ []
+
+
+Overfull \hbox (56.2795pt too wide) in paragraph at lines 94--95
+\OT1/cmtt/m/n/10 Cages[]M.csv 
+ []
+
+
+Overfull \hbox (56.2795pt too wide) in paragraph at lines 95--96
+\OT1/cmtt/m/n/10 Cages[]Y.csv 
+ []
+
+
+Overfull \hbox (52.49954pt too wide) in paragraph at lines 97--98
+\OT1/cmtt/m/n/10 Localities 
+ []
+
+
+Overfull \hbox (73.49936pt too wide) in paragraph at lines 99--100
+\OT1/cmtt/m/n/10 Localities.csv 
+ []
+
+
+Overfull \hbox (82.52927pt too wide) in paragraph at lines 100--101
+\OT1/cmtt/m/n/10 Localities[]M.csv 
+ []
+
+
+Overfull \hbox (82.52927pt too wide) in paragraph at lines 101--102
+\OT1/cmtt/m/n/10 Localities[]Y.csv 
+ []
+
+
+Overfull \hbox (102.05908pt too wide) in paragraph at lines 103--104
+\OT1/cmtt/m/n/10 Monthly[]salmon[]price 
+ []
+
+
+Overfull \hbox (123.0589pt too wide) in paragraph at lines 105--106
+\OT1/cmtt/m/n/10 Monthly[]salmon[]price.csv 
+ []
+
+
+Overfull \hbox (132.0888pt too wide) in paragraph at lines 106--107
+\OT1/cmtt/m/n/10 Monthly[]salmon[]price[]M.csv 
+ []
+
+
+Overfull \hbox (132.0888pt too wide) in paragraph at lines 107--108
+\OT1/cmtt/m/n/10 Monthly[]salmon[]price[]Y.csv 
+ []
+
+
+Overfull \hbox (121.5889pt too wide) in paragraph at lines 109--110
+\OT1/cmtt/m/n/10 Salmon[]biomass[]end[]month 
+ []
+
+
+Overfull \hbox (142.58871pt too wide) in paragraph at lines 111--112
+\OT1/cmtt/m/n/10 Salmon[]biomass[]end[]month.csv 
+ []
+
+
+Overfull \hbox (151.61862pt too wide) in paragraph at lines 112--113
+\OT1/cmtt/m/n/10 Salmon[]biomass[]end[]month[]M.csv 
+ []
+
+
+Overfull \hbox (151.61862pt too wide) in paragraph at lines 113--114
+\OT1/cmtt/m/n/10 Salmon[]biomass[]end[]month[]Y.csv 
+ []
+
+
+Overfull \hbox (132.0888pt too wide) in paragraph at lines 115--116
+\OT1/cmtt/m/n/10 Salmon[]consumption[]of[]feed 
+ []
+
+
+Overfull \hbox (153.08862pt too wide) in paragraph at lines 117--118
+\OT1/cmtt/m/n/10 Salmon[]consumption[]of[]feed.csv 
+ []
+
+
+Overfull \hbox (162.11853pt too wide) in paragraph at lines 118--119
+\OT1/cmtt/m/n/10 Salmon[]consumption[]of[]feed[]M.csv 
+ []
+
+
+Overfull \hbox (162.11853pt too wide) in paragraph at lines 119--120
+\OT1/cmtt/m/n/10 Salmon[]consumption[]of[]feed[]Y.csv 
+ []
+
+
+Overfull \hbox (116.33894pt too wide) in paragraph at lines 121--122
+\OT1/cmtt/m/n/10 Salmon[]number[]end[]month 
+ []
+
+
+Overfull \hbox (137.33876pt too wide) in paragraph at lines 123--124
+\OT1/cmtt/m/n/10 Salmon[]number[]end[]month.csv 
+ []
+
+
+Overfull \hbox (146.36867pt too wide) in paragraph at lines 124--125
+\OT1/cmtt/m/n/10 Salmon[]number[]end[]month[]M.csv 
+ []
+
+
+Overfull \hbox (146.36867pt too wide) in paragraph at lines 125--126
+\OT1/cmtt/m/n/10 Salmon[]number[]end[]month[]Y.csv 
+ []
+
+
+Overfull \hbox (72.02936pt too wide) in paragraph at lines 127--128
+\OT1/cmtt/m/n/10 Salmon[]restock 
+ []
+
+
+Overfull \hbox (93.02917pt too wide) in paragraph at lines 129--130
+\OT1/cmtt/m/n/10 Salmon[]restock.csv 
+ []
+
+
+Overfull \hbox (102.05908pt too wide) in paragraph at lines 130--131
+\OT1/cmtt/m/n/10 Salmon[]restock[]M.csv 
+ []
+
+
+Overfull \hbox (102.05908pt too wide) in paragraph at lines 131--132
+\OT1/cmtt/m/n/10 Salmon[]restock[]Y.csv 
+ []
+
+
+Overfull \hbox (93.02917pt too wide) in paragraph at lines 133--134
+\OT1/cmtt/m/n/10 Salmon[]withdrawals 
+ []
+
+
+Overfull \hbox (114.02899pt too wide) in paragraph at lines 135--136
+\OT1/cmtt/m/n/10 Salmon[]withdrawals.csv 
+ []
+
+
+Overfull \hbox (123.0589pt too wide) in paragraph at lines 136--137
+\OT1/cmtt/m/n/10 Salmon[]withdrawals[]M.csv 
+ []
+
+
+Overfull \hbox (123.0589pt too wide) in paragraph at lines 137--138
+\OT1/cmtt/m/n/10 Salmon[]withdrawals[]Y.csv 
+ []
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.141 \newpage
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[3
+! Undefined control sequence.
+<write> \newlabel{table: whether}{{}{\thepage 
+                                              }}
+l.141 \newpage
+              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{table: whether}{{}{}}
+! Undefined control sequence.
+<write> \newlabel{table: whether}{{}{\thepage 
+                                              }}
+l.141 \newpage
+              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{table: whether}{{}{}}
+! Undefined control sequence.
+<write> \newlabel{table: whether}{{}{\thepage 
+                                              }}
+l.141 \newpage
+              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{table: whether}{{}{}}
+]
+! Undefined control sequence.
+l.142 \section
+              {3nd Phase: Systems implementation}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.143 \subsection
+                 {Experiment 1: Data analysis system}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (35.74986pt too wide) in paragraph at lines 142--147
+[]\OT1/cmtt/m/n/10 3nd
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 Phase:
+ []
+
+
+Overfull \hbox (36.74968pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 Systems
+ []
+
+
+Overfull \hbox (73.49936pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 implementation
+ []
+
+
+Overfull \hbox (52.49954pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 Experiment
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 1:
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 Data
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 analysis
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 system
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 During
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 this
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 part
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 the
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 main
+ []
+
+
+Overfull \hbox (36.74968pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 purpose
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 is
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 to
+ []
+
+
+Overfull \hbox (36.74968pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 analyse
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 the
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 whole
+ []
+
+
+Overfull \hbox (36.74968pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 dataset
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 in
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 order
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 to
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 find
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 some
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 kind
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 of
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 useful
+ []
+
+
+Overfull \hbox (62.99945pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 informations
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 later
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 on. 
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 The
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 Python
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 system
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 that
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 we
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 are
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 going
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 to
+ []
+
+
+Overfull \hbox (47.24959pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 implement
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 is
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 mainly
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 used
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 for
+ []
+
+
+Overfull \hbox (5.24995pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 a
+ []
+
+
+Overfull \hbox (36.74968pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 generic
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 analysis
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 of
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 the
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 data
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 under
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 from
+ []
+
+
+Overfull \hbox (47.24959pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 different
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 point
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 of
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 views. 
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 The
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 output
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 of
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 this
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 phase
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 will
+ []
+
+
+Overfull \hbox (47.24959pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 basically
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 be
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 for
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 each
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 single
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 data
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 142--147
+\OT1/cmtt/m/n/10 input: 
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 148--149
+\OT1/cmtt/m/n/10 Total
+ []
+
+
+Overfull \hbox (36.74968pt too wide) in paragraph at lines 148--149
+\OT1/cmtt/m/n/10 graphic
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 148--149
+\OT1/cmtt/m/n/10 of
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 148--149
+\OT1/cmtt/m/n/10 the
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 148--149
+\OT1/cmtt/m/n/10 input
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 148--149
+\OT1/cmtt/m/n/10 data
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 148--149
+\OT1/cmtt/m/n/10 from
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 148--149
+\OT1/cmtt/m/n/10 2005
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 148--149
+\OT1/cmtt/m/n/10 to
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 148--149
+\OT1/cmtt/m/n/10 2016. 
+ []
+
+
+Overfull \hbox (52.49954pt too wide) in paragraph at lines 149--150
+\OT1/cmtt/m/n/10 Comparison
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 149--150
+\OT1/cmtt/m/n/10 of
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 149--150
+\OT1/cmtt/m/n/10 the
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 149--150
+\OT1/cmtt/m/n/10 graphics
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 149--150
+\OT1/cmtt/m/n/10 for
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 149--150
+\OT1/cmtt/m/n/10 each
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 149--150
+\OT1/cmtt/m/n/10 single
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 149--150
+\OT1/cmtt/m/n/10 year
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 149--150
+\OT1/cmtt/m/n/10 of
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 149--150
+\OT1/cmtt/m/n/10 the
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 149--150
+\OT1/cmtt/m/n/10 input
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 149--150
+\OT1/cmtt/m/n/10 data
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 149--150
+\OT1/cmtt/m/n/10 from
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 149--150
+\OT1/cmtt/m/n/10 2005
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 149--150
+\OT1/cmtt/m/n/10 to
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 149--150
+\OT1/cmtt/m/n/10 2016. 
+ []
+
+
+Overfull \hbox (57.7495pt too wide) in paragraph at lines 150--151
+\OT1/cmtt/m/n/10 Correlation
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 150--151
+\OT1/cmtt/m/n/10 matrix
+ []
+
+
+Overfull \hbox (36.74968pt too wide) in paragraph at lines 150--151
+\OT1/cmtt/m/n/10 between
+ []
+
+
+Overfull \hbox (47.24959pt too wide) in paragraph at lines 150--151
+\OT1/cmtt/m/n/10 different
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 150--151
+\OT1/cmtt/m/n/10 months
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 150--151
+\OT1/cmtt/m/n/10 of
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 150--151
+\OT1/cmtt/m/n/10 the
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 150--151
+\OT1/cmtt/m/n/10 same
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 150--151
+\OT1/cmtt/m/n/10 input. 
+ []
+
+
+Overfull \hbox (57.7495pt too wide) in paragraph at lines 151--152
+\OT1/cmtt/m/n/10 Correlation
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 151--152
+\OT1/cmtt/m/n/10 matrix
+ []
+
+
+Overfull \hbox (36.74968pt too wide) in paragraph at lines 151--152
+\OT1/cmtt/m/n/10 between
+ []
+
+
+Overfull \hbox (47.24959pt too wide) in paragraph at lines 151--152
+\OT1/cmtt/m/n/10 different
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 151--152
+\OT1/cmtt/m/n/10 years
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 151--152
+\OT1/cmtt/m/n/10 of
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 151--152
+\OT1/cmtt/m/n/10 the
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 151--152
+\OT1/cmtt/m/n/10 same
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 151--152
+\OT1/cmtt/m/n/10 input. 
+ []
+
+
+! LaTeX Error: Environment figure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.155 \begin{figure}
+                    [h]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment subfigure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.157     \begin{subfigure}
+                           [t]{0.5\textwidth}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.157     \begin{subfigure}[t]{0.5\textwidth}
+                                             
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.157     \begin{subfigure}[t]{0.5\textwidth}
+                                             
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+l.159         \includegraphics
+                              [height=1.2in]{Files/Cages_Total.jpg}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.159 ...ncludegraphics[height=1.2in]{Files/Cages_
+                                                  Total.jpg}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.159 ...hics[height=1.2in]{Files/Cages_Total.jpg}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.160         \caption
+                      {Total graphic of the input data from 2005 to 2016}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{document} ended by \end{subfigure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.161     \end{subfigure}
+                         %
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.161     \end{subfigure}
+                         %
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.161     \end{subfigure}
+                         %
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: Environment subfigure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.163     \begin{subfigure}
+                           [t]{0.5\textwidth}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.163     \begin{subfigure}[t]{0.5\textwidth}
+                                             
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.163     \begin{subfigure}[t]{0.5\textwidth}
+                                             
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+l.165         \includegraphics
+                              [height=1.2in]{Files/Cages_Years.jpg}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.165 ...ncludegraphics[height=1.2in]{Files/Cages_
+                                                  Years.jpg}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.165 ...hics[height=1.2in]{Files/Cages_Years.jpg}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.166         \caption
+                      {Graphics for each single year of the input data from ...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{document} ended by \end{subfigure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.167     \end{subfigure}
+                         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.167     \end{subfigure}
+                         
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.167     \end{subfigure}
+                         
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.168     \caption
+                  {Data input trends graphics}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{document} ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{figure}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (35.74986pt too wide) in paragraph at lines 155--170
+[]\OT1/cmtt/m/n/10 [h]
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 155--170
+\OT1/cmtt/m/n/10 [t]0.5
+ []
+
+
+Overfull \hbox (412.92572pt too wide) in paragraph at lines 155--170
+\OT1/cmtt/m/n/10 [height=1.2in]Files/Cages$[]\OML/cmm/m/it/10 otal:jpg[]$  \OT1
+/cmtt/m/n/10 [t]0.5
+ []
+
+
+Overfull \hbox (440.04123pt too wide) in paragraph at lines 155--170
+\OT1/cmtt/m/n/10 [height=1.2in]Files/Cages$[]\OML/cmm/m/it/10 ears:jpg[]$
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 155--170
+\OT1/cmtt/m/n/10 Data
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 155--170
+\OT1/cmtt/m/n/10 input
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 155--170
+\OT1/cmtt/m/n/10 trends
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 155--170
+\OT1/cmtt/m/n/10 graphics
+ []
+
+
+! LaTeX Error: Environment figure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.171 \begin{figure}
+                    [h]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment subfigure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.173     \begin{subfigure}
+                           [t]{0.5\textwidth}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.173     \begin{subfigure}[t]{0.5\textwidth}
+                                             
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.173     \begin{subfigure}[t]{0.5\textwidth}
+                                             
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+l.175         \includegraphics
+                              [height=1.2in]{Files/Cages_Months_Matrix.jpg}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.175 ...ncludegraphics[height=1.2in]{Files/Cages_
+                                                  Months_Matrix.jpg}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.175 ...ght=1.2in]{Files/Cages_Months_Matrix.jpg}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176         \caption
+                      {Correlation matrix between different months of the sa...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{document} ended by \end{subfigure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.177     \end{subfigure}
+                         %
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.177     \end{subfigure}
+                         %
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.177     \end{subfigure}
+                         %
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: Environment subfigure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.179     \begin{subfigure}
+                           [t]{0.5\textwidth}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.179     \begin{subfigure}[t]{0.5\textwidth}
+                                             
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.179     \begin{subfigure}[t]{0.5\textwidth}
+                                             
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+l.181         \includegraphics
+                              [height=1.2in]{Files/Cages_Years_Matrix.jpg}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.181 ...ncludegraphics[height=1.2in]{Files/Cages_
+                                                  Years_Matrix.jpg}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.181 ...ight=1.2in]{Files/Cages_Years_Matrix.jpg}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.182         \caption
+                      {Correlation matrix between different years of the sam...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{document} ended by \end{subfigure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183     \end{subfigure}
+                         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.183     \end{subfigure}
+                         
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.183     \end{subfigure}
+                         
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.184     \caption
+                  {Data input correlations matrices}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{document} ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.185 \end{figure}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (35.74986pt too wide) in paragraph at lines 171--186
+[]\OT1/cmtt/m/n/10 [h]
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 171--186
+\OT1/cmtt/m/n/10 [t]0.5
+ []
+
+
+Overfull \hbox (526.70436pt too wide) in paragraph at lines 171--186
+\OT1/cmtt/m/n/10 [height=1.2in]Files/Cages$[]\OML/cmm/m/it/10 onths[]atrix:jpg[
+]$  \OT1/cmtt/m/n/10 [t]0.5
+ []
+
+
+Overfull \hbox (468.25124pt too wide) in paragraph at lines 171--186
+\OT1/cmtt/m/n/10 [height=1.2in]Files/Cages$[]\OML/cmm/m/it/10 ears[]atrix:jpg[]
+$
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 171--186
+\OT1/cmtt/m/n/10 Data
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 171--186
+\OT1/cmtt/m/n/10 input
+ []
+
+
+Overfull \hbox (62.99945pt too wide) in paragraph at lines 171--186
+\OT1/cmtt/m/n/10 correlations
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 171--186
+\OT1/cmtt/m/n/10 matrices
+ []
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.187 \newpage
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[4]
+Overfull \hbox (40.99982pt too wide) in paragraph at lines 188--190
+[]\OT1/cmtt/m/n/10 It's
+ []
+
+
+Overfull \hbox (47.24959pt too wide) in paragraph at lines 188--190
+\OT1/cmtt/m/n/10 important
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 188--190
+\OT1/cmtt/m/n/10 to
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 188--190
+\OT1/cmtt/m/n/10 remind
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 188--190
+\OT1/cmtt/m/n/10 that
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 188--190
+\OT1/cmtt/m/n/10 this
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 188--190
+\OT1/cmtt/m/n/10 phase
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 188--190
+\OT1/cmtt/m/n/10 can
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 188--190
+\OT1/cmtt/m/n/10 be
+ []
+
+
+Overfull \hbox (57.7495pt too wide) in paragraph at lines 188--190
+\OT1/cmtt/m/n/10 implemented
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 188--190
+\OT1/cmtt/m/n/10 in
+ []
+
+
+Overfull \hbox (47.24959pt too wide) in paragraph at lines 188--190
+\OT1/cmtt/m/n/10 different
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 188--190
+\OT1/cmtt/m/n/10 ways
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 188--190
+\OT1/cmtt/m/n/10 and
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 188--190
+\OT1/cmtt/m/n/10 with
+ []
+
+
+Overfull \hbox (47.24959pt too wide) in paragraph at lines 188--190
+\OT1/cmtt/m/n/10 different
+ []
+
+
+Overfull \hbox (57.7495pt too wide) in paragraph at lines 188--190
+\OT1/cmtt/m/n/10 programming
+ []
+
+
+Overfull \hbox (47.24959pt too wide) in paragraph at lines 188--190
+\OT1/cmtt/m/n/10 language,
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 188--190
+\OT1/cmtt/m/n/10 in
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 188--190
+\OT1/cmtt/m/n/10 this
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 188--190
+\OT1/cmtt/m/n/10 case
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 188--190
+\OT1/cmtt/m/n/10 the
+ []
+
+
+Overfull \hbox (57.7495pt too wide) in paragraph at lines 188--190
+\OT1/cmtt/m/n/10 programming
+ []
+
+
+Overfull \hbox (41.99963pt too wide) in paragraph at lines 188--190
+\OT1/cmtt/m/n/10 language
+ []
+
+
+Overfull \hbox (36.74968pt too wide) in paragraph at lines 188--190
+\OT1/cmtt/m/n/10 choosen
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 188--190
+\OT1/cmtt/m/n/10 is
+ []
+
+
+Overfull \hbox (36.74968pt too wide) in paragraph at lines 188--190
+\OT1/cmtt/m/n/10 Python,
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 188--190
+\OT1/cmtt/m/n/10 so
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 188--190
+\OT1/cmtt/m/n/10 be
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 188--190
+\OT1/cmtt/m/n/10 sure
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 188--190
+\OT1/cmtt/m/n/10 to
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 188--190
+\OT1/cmtt/m/n/10 have
+ []
+
+
+Overfull \hbox (47.24959pt too wide) in paragraph at lines 188--190
+\OT1/cmtt/m/n/10 installed
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 188--190
+\OT1/cmtt/m/n/10 all
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 188--190
+\OT1/cmtt/m/n/10 the
+ []
+
+
+Overfull \hbox (47.24959pt too wide) in paragraph at lines 188--190
+\OT1/cmtt/m/n/10 necessary
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 188--190
+\OT1/cmtt/m/n/10 for
+ []
+
+
+Overfull \hbox (36.74968pt too wide) in paragraph at lines 188--190
+\OT1/cmtt/m/n/10 compile
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 188--190
+\OT1/cmtt/m/n/10 and
+ []
+
+
+Overfull \hbox (36.74968pt too wide) in paragraph at lines 188--190
+\OT1/cmtt/m/n/10 execute
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 188--190
+\OT1/cmtt/m/n/10 Python
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 188--190
+\OT1/cmtt/m/n/10 code
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 188--190
+\OT1/cmtt/m/n/10 on
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 188--190
+\OT1/cmtt/m/n/10 your
+ []
+
+
+Overfull \hbox (47.24959pt too wide) in paragraph at lines 188--190
+\OT1/cmtt/m/n/10 platform. 
+ []
+
+
+Overfull \hbox (36.74968pt too wide) in paragraph at lines 188--190
+\OT1/cmtt/m/n/10 (PYTHON
+ []
+
+
+Overfull \hbox (68.2494pt too wide) in paragraph at lines 188--190
+\OT1/cmtt/m/n/10 REQUIREMENTS) 
+ []
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.191 \newpage
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[5]
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.193 \begin{lstlisting}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.200 \end{lstlisting}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (46.24977pt too wide) in paragraph at lines 192--201
+[]\OT1/cmtt/m/n/10 First
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 192--201
+\OT1/cmtt/m/n/10 of
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 192--201
+\OT1/cmtt/m/n/10 all
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 192--201
+\OT1/cmtt/m/n/10 it's
+ []
+
+
+Overfull \hbox (47.24959pt too wide) in paragraph at lines 192--201
+\OT1/cmtt/m/n/10 necessary
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 192--201
+\OT1/cmtt/m/n/10 to
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 192--201
+\OT1/cmtt/m/n/10 import
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 192--201
+\OT1/cmtt/m/n/10 the
+ []
+
+
+Overfull \hbox (47.24959pt too wide) in paragraph at lines 192--201
+\OT1/cmtt/m/n/10 following
+ []
+
+
+Overfull \hbox (52.49954pt too wide) in paragraph at lines 192--201
+\OT1/cmtt/m/n/10 libraries,
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 192--201
+\OT1/cmtt/m/n/10 during
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 192--201
+\OT1/cmtt/m/n/10 the
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 192--201
+\OT1/cmtt/m/n/10 system
+ []
+
+
+Overfull \hbox (73.49936pt too wide) in paragraph at lines 192--201
+\OT1/cmtt/m/n/10 implementation
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 192--201
+\OT1/cmtt/m/n/10 we
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 192--201
+\OT1/cmtt/m/n/10 will
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 192--201
+\OT1/cmtt/m/n/10 see
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 192--201
+\OT1/cmtt/m/n/10 the
+ []
+
+
+Overfull \hbox (36.74968pt too wide) in paragraph at lines 192--201
+\OT1/cmtt/m/n/10 utility
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 192--201
+\OT1/cmtt/m/n/10 of
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 192--201
+\OT1/cmtt/m/n/10 each
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 192--201
+\OT1/cmtt/m/n/10 of
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 192--201
+\OT1/cmtt/m/n/10 them.
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 192--201
+\OT1/cmtt/m/n/10 import
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 192--201
+\OT1/cmtt/m/n/10 sys
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 192--201
+\OT1/cmtt/m/n/10 import
+ []
+
+
+Overfull \hbox (15.74986pt too wide) in paragraph at lines 192--201
+\OT1/cmtt/m/n/10 csv
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 192--201
+\OT1/cmtt/m/n/10 import
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 192--201
+\OT1/cmtt/m/n/10 pandas
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 192--201
+\OT1/cmtt/m/n/10 as
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 192--201
+\OT1/cmtt/m/n/10 pd
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 192--201
+\OT1/cmtt/m/n/10 from
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 192--201
+\OT1/cmtt/m/n/10 pandas
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 192--201
+\OT1/cmtt/m/n/10 import
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 192--201
+\OT1/cmtt/m/n/10 Series
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 192--201
+\OT1/cmtt/m/n/10 import
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 192--201
+\OT1/cmtt/m/n/10 numpy
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 192--201
+\OT1/cmtt/m/n/10 as
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 192--201
+\OT1/cmtt/m/n/10 np
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 192--201
+\OT1/cmtt/m/n/10 import
+ []
+
+
+Overfull \hbox (89.24922pt too wide) in paragraph at lines 192--201
+\OT1/cmtt/m/n/10 matplotlib.pyplot
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 192--201
+\OT1/cmtt/m/n/10 as
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 192--201
+\OT1/cmtt/m/n/10 pyplot
+ []
+
+
+Overfull \hbox (61.99963pt too wide) in paragraph at lines 202--203
+[]\OT1/cmtt/m/n/10 ANALYSIS
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 202--203
+\OT1/cmtt/m/n/10 PART
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 202--203
+\OT1/cmtt/m/n/10 1:
+ []
+
+
+Overfull \hbox (36.74968pt too wide) in paragraph at lines 202--203
+\OT1/cmtt/m/n/10 Graphic
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 202--203
+\OT1/cmtt/m/n/10 about
+ []
+
+
+Overfull \hbox (36.74968pt too wide) in paragraph at lines 202--203
+\OT1/cmtt/m/n/10 current
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 202--203
+\OT1/cmtt/m/n/10 input
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 202--203
+\OT1/cmtt/m/n/10 with
+ []
+
+
+Overfull \hbox (26.24977pt too wide) in paragraph at lines 202--203
+\OT1/cmtt/m/n/10 total
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 202--203
+\OT1/cmtt/m/n/10 data
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 202--203
+\OT1/cmtt/m/n/10 from
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 202--203
+\OT1/cmtt/m/n/10 2005
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 202--203
+\OT1/cmtt/m/n/10 to
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 202--203
+\OT1/cmtt/m/n/10 2016 
+ []
+
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.204 \begin{lstlisting}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.206 series = pd.read_
+                       csv(sys.argv[1]+"/"+sys.argv[1]+".csv", header=0)
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.215 \end{lstlisting}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.215 \end{lstlisting}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (51.49973pt too wide) in paragraph at lines 206--216
+[]\OT1/cmtt/m/n/10 series
+ []
+
+
+Overfull \hbox (5.24995pt too wide) in paragraph at lines 206--216
+\OT1/cmtt/m/n/10 =
+ []
+
+
+Overfull \hbox (110.76334pt too wide) in paragraph at lines 206--216
+\OT1/cmtt/m/n/10 pd.read$[]\OML/cmm/m/it/10 sv\OT1/cmr/m/n/10 (\OML/cmm/m/it/10
+ sys:argv\OT1/cmr/m/n/10 [1] +
+ []
+
+
+Overfull \hbox (22.77785pt too wide) in paragraph at lines 206--216
+\OT1/cmr/m/n/10 "\OML/cmm/m/it/10 =\OT1/cmr/m/n/10 " +
+ []
+
+
+Overfull \hbox (56.1575pt too wide) in paragraph at lines 206--216
+\OML/cmm/m/it/10 sys:argv\OT1/cmr/m/n/10 [1] +
+ []
+
+
+Overfull \hbox (72.35304pt too wide) in paragraph at lines 206--216
+\OT1/cmr/m/n/10 "\OML/cmm/m/it/10 :csv\OT1/cmr/m/n/10 "\OML/cmm/m/it/10 ; heade
+r \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (91.69527pt too wide) in paragraph at lines 206--216
+\OT1/cmr/m/n/10 0)\OML/cmm/m/it/10 series:plot\OT1/cmr/m/n/10 (\OML/cmm/m/it/10
+ color \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (85.58829pt too wide) in paragraph at lines 206--216
+\OT1/cmr/m/n/10 "\OML/cmm/m/it/10 blue\OT1/cmr/m/n/10 "\OML/cmm/m/it/10 ; linew
+idth \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (51.90285pt too wide) in paragraph at lines 206--216
+\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 5)\OML/cmm/m/it/10 years \OT
+1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (430.71599pt too wide) in paragraph at lines 206--216
+\OT1/cmr/m/n/10 ["2005"\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 "2006"\OML/cmm/m/it/1
+0 ; \OT1/cmr/m/n/10 "2007"\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 "2008"\OML/cmm/m/i
+t/10 ; \OT1/cmr/m/n/10 "2009"\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 "2010"\OML/cmm/
+m/it/10 ; \OT1/cmr/m/n/10 "2011"\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 "2012"\OML/c
+mm/m/it/10 ; \OT1/cmr/m/n/10 "2013"\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 "2014"\OM
+L/cmm/m/it/10 ; \OT1/cmr/m/n/10 "2015"\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 "2016"
+]\OML/cmm/m/it/10 x \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (235.64308pt too wide) in paragraph at lines 206--216
+\OML/cmm/m/it/10 range\OT1/cmr/m/n/10 (144)\OML/cmm/m/it/10 pyplot:xticks\OT1/c
+mr/m/n/10 (\OML/cmm/m/it/10 np:arange\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 min\OT1/
+cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; max\OT1/cmr/m
+/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) +
+ []
+
+
+Overfull \hbox (172.41649pt too wide) in paragraph at lines 206--216
+\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 12\OML/cmm/m/it/10 :\OT1/cm
+r/m/n/10 0)\OML/cmm/m/it/10 ; years\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 pyplot:tit
+le\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 sys:argv\OT1/cmr/m/n/10 [1] +
+ []
+
+
+Overfull \hbox (10.55551pt too wide) in paragraph at lines 206--216
+\OT1/cmr/m/n/10 " :
+ []
+
+
+Overfull \hbox (263.83179pt too wide) in paragraph at lines 206--216
+\OML/cmm/m/it/10 Totalgraphicfrom\OT1/cmr/m/n/10 2005\OML/cmm/m/it/10 to\OT1/cm
+r/m/n/10 2016")\OML/cmm/m/it/10 pyplot:savefig\OT1/cmr/m/n/10 (\OML/cmm/m/it/10
+ sys:argv\OT1/cmr/m/n/10 [1] +
+ []
+
+
+Overfull \hbox (73.92212pt too wide) in paragraph at lines 206--216
+\OT1/cmr/m/n/10 "\OML/cmm/m/it/10 =Evidences=\OT1/cmr/m/n/10 " +
+ []
+
+
+Overfull \hbox (56.1575pt too wide) in paragraph at lines 206--216
+\OML/cmm/m/it/10 sys:argv\OT1/cmr/m/n/10 [1] +
+ []
+
+
+Overfull \hbox (99.1384pt too wide) in paragraph at lines 206--216
+\OT1/cmr/m/n/10 "[]\OML/cmm/m/it/10 otal:jpg\OT1/cmr/m/n/10 "\OML/cmm/m/it/10 ;
+ format \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (28.73914pt too wide) in paragraph at lines 206--216
+\OT1/cmr/m/n/10 "\OML/cmm/m/it/10 jpg\OT1/cmr/m/n/10 ")$ 
+ []
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.217 \newpage
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[6]
+! Undefined control sequence.
+l.218 \subsection
+                 {Experiment 2: Values prediction system}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (72.49954pt too wide) in paragraph at lines 218--219
+[]\OT1/cmtt/m/n/10 Experiment
+ []
+
+
+Overfull \hbox (10.49991pt too wide) in paragraph at lines 218--219
+\OT1/cmtt/m/n/10 2:
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 218--219
+\OT1/cmtt/m/n/10 Values
+ []
+
+
+Overfull \hbox (52.49954pt too wide) in paragraph at lines 218--219
+\OT1/cmtt/m/n/10 prediction
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 218--219
+\OT1/cmtt/m/n/10 system 
+ []
+
+! Undefined control sequence.
+l.220 \section
+              {4nd Phase: Data displaying}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.221 \subsection
+                 {Interactive displaying}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (35.74986pt too wide) in paragraph at lines 220--222
+[]\OT1/cmtt/m/n/10 4nd
+ []
+
+
+Overfull \hbox (31.49973pt too wide) in paragraph at lines 220--222
+\OT1/cmtt/m/n/10 Phase:
+ []
+
+
+Overfull \hbox (20.99982pt too wide) in paragraph at lines 220--222
+\OT1/cmtt/m/n/10 Data
+ []
+
+
+Overfull \hbox (52.49954pt too wide) in paragraph at lines 220--222
+\OT1/cmtt/m/n/10 displaying
+ []
+
+
+Overfull \hbox (57.7495pt too wide) in paragraph at lines 220--222
+\OT1/cmtt/m/n/10 Interactive
+ []
+
+
+Overfull \hbox (52.49954pt too wide) in paragraph at lines 220--222
+\OT1/cmtt/m/n/10 displaying 
+ []
+
+)
+! Emergency stop.
+<*> Chapter4.tex
+                
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 25 strings out of 493029
+ 336 string characters out of 6136235
+ 70349 words of memory out of 5000000
+ 3658 multiletter control sequences out of 15000+600000
+ 3808 words of font info for 15 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 18i,7n,12p,342b,208s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!

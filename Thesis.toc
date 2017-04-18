@@ -1,0 +1,42 @@
+\contentsline {chapter}{Declaration of Authorship}{i}{dummy.1}
+\vspace {1em}
+\contentsline {chapter}{Abstract}{iii}{dummy.2}
+\vspace {1em}
+\contentsline {chapter}{Acknowledgements}{iv}{dummy.3}
+\vspace {1em}
+\contentsline {chapter}{List of Figures}{vii}{dummy.5}
+\contentsline {chapter}{List of Tables}{viii}{dummy.7}
+\contentsline {chapter}{Abbreviations}{ix}{dummy.9}
+\contentsline {chapter}{Physical Constants}{x}{dummy.12}
+\contentsline {chapter}{Symbols}{xi}{dummy.15}
+\vspace {2em}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.18}
+\contentsline {section}{\numberline {1.1}Aim of the study}{1}{section.19}
+\contentsline {section}{\numberline {1.2}Dataset Structure}{2}{section.20}
+\contentsline {chapter}{\numberline {2}Background Theory}{3}{chapter.21}
+\contentsline {section}{\numberline {2.1}Data science}{4}{section.22}
+\contentsline {section}{\numberline {2.2}Aquaculture in Norway}{5}{section.24}
+\contentsline {section}{\numberline {2.3}Machine learning}{5}{section.25}
+\contentsline {section}{\numberline {2.4}Python}{6}{section.27}
+\contentsline {chapter}{\numberline {3}Development Method}{7}{chapter.28}
+\contentsline {chapter}{\numberline {4}Implementation}{9}{chapter.30}
+\contentsline {section}{\numberline {4.1}1st Phase: Data collection}{10}{section.31}
+\contentsline {subsection}{\numberline {4.1.1}Data sources}{10}{subsection.32}
+\contentsline {subsection}{\numberline {4.1.2}Data description and validation}{10}{subsection.33}
+\contentsline {section}{\numberline {4.2}2nd Phase: Dataset creation}{11}{section.34}
+\contentsline {subsection}{\numberline {4.2.1}Processing the data}{11}{subsection.35}
+\contentsline {part}{I\hspace {1em}Experiment 1: Data analysis system}{13}{part.47}
+\contentsline {section}{\numberline {4.3}3nd Phase: Analyzer system implementation}{14}{section.48}
+\contentsline {subsection}{\numberline {4.3.1}Imported libraries}{15}{subsection.49}
+\contentsline {subsection}{\numberline {4.3.2}Analyzer section I: Total graphic for all the years}{16}{subsection.58}
+\contentsline {subsection}{\numberline {4.3.3}Analyzer section II: Single graphics for each year}{17}{subsection.73}
+\contentsline {subsection}{\numberline {4.3.4}Analyzer section III: Correlation matrix between years}{18}{subsection.86}
+\contentsline {subsection}{\numberline {4.3.5}Analyzer section IV: Correlation matrix between months}{20}{subsection.111}
+\contentsline {section}{\numberline {4.4}4th Phase: Data displaying}{22}{section.136}
+\contentsline {part}{II\hspace {1em}Experiment 2: Values prediction system}{23}{part.137}
+\contentsline {section}{\numberline {4.5}3th Phase: Data prediction system implementation}{24}{section.138}
+\contentsline {section}{\numberline {4.6}4th Phase: Prediction results displaying}{24}{section.139}
+\contentsline {chapter}{\numberline {5}Results and Discussion}{25}{chapter.140}
+\contentsline {chapter}{\numberline {6}Conclusion}{26}{chapter.141}
+\vspace {2em}
+\contentsline {chapter}{\numberline {A}An Appendix}{27}{appendix.142}

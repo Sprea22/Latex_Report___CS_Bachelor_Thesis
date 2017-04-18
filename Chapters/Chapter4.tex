@@ -1,0 +1,137 @@
+\chap{Implementation}
+
+\lstset{
+language=Python,
+backgroundcolor = \color{Ivory},
+basicstyle=\ttfamily,
+otherkeywords={self},             
+keywordstyle=\ttfamily\color{blue!90!black},
+keywords=[2]{True,False},
+keywords=[3]{ttk},
+keywordstyle={[2]\ttfamily\color{yellow!80!orange}},
+keywordstyle={[3]\ttfamily\color{red!80!orange}},
+emph={MyClass,__init__},          
+emphstyle=\ttfamily\color{red!80!black},    
+stringstyle=\color{green!80!black},
+showstringspaces=false            
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+Total implementation link for Experiment 1 : \\
+\hyperlink{https://github.com/Sprea22/Data_Analyzer_Python}{https://github.com/Sprea22/Data\_Analyzer\_Python}
+
+Total implementation link for Experiment 2 : \\
+\url{}
+
+(INSTRUCTION FOR DOWNLOAD AND USE FROM GITHUB)
+
+\newpage
+\section{1st Phase: Data collection}
+During this phase is important to be sure to have all the data that we are going to need. During this particular implementation we need the 7 input dataset written above in the "Dataset structure" section, and below here you can find the link of the website where you can download all the needed datasets for this example.
+
+Datasets downloads website:\\ 
+\hyperlink{http://www.fiskeridir.no/Akvakultur/Statistikk-akvakultur/Biomassestatistikk} {http://www.fiskeridir.no/Akvakultur/Statistikk-akvakultur/Biomassestatistikk} \\
+
+The datasets that you can download on this website are in a different format than the one we will need, but for better understand the meaning of the data are useful since are in XLSX format, splitted in clear tables and well commented (only in norwegian).
+
+\subsection{Data sources}
+\subsection{Data description and validation}
+
+\newpage
+\section{2nd Phase: Dataset creation}
+\subsection{Processing the data}
+Once we have all the "row" data we can start to setup the dataset that we will need for this system. 
+First of all we will use the format CSV for the new datasets instead of XLSX.
+Then we need to create three different "standards" of each input dataset. The reason of this requirement is that using the python library for some kind of analysis is easier to read the data in a particular format instead of reading the data always in the normal CSV standard and then edit and handle it later through the code.
+Following are reported the needed standards.
+
+\begin{itemize}
+\item Normal CSV standard (Standard\_N)
+\begin{table}[ht] 
+    \centering 
+    \begin{tabular}{ | l | l |}
+        \hline
+       	Month & Input\_Name\\ \hline
+        January\_2005 & Value1 \\ \hline
+        February\_2005 & Value2\\ \hline
+        March\_2005 & Value3\\ \hline
+        ... & ...\\ \hline
+        November\_2016 & Value143\\ \hline
+        December\_2016 & Value144\\ \hline
+    \end{tabular}
+    \caption[Dataset Normal Standard]{Dataset Normal Standard}
+    \label{table: whether} 
+\end{table}    
+
+\item Month standard (Standard\_M)
+\begin{table}[ht] 
+    \centering 
+    \begin{tabular}{ | l | l | l | l | l | l |}
+        \hline
+       	Month & 2005 & 2006 & 2007 & ... & 2016\\ \hline
+        January & value1 & value13 & value25 & ... & value133\\ \hline
+        February & value2 & value14 & value26 & ... & value134\\ \hline
+        March & value3 & value15 & value27 & ... & value135\\ \hline
+        ... & ... & ... & ... & ... & ...\\ \hline
+        December & value12 & value24 & value36 & ... & value144\\ \hline
+    \end{tabular}
+    \caption[Dataset Month Standard]{Dataset Month Standard}
+    \label{table: whether} 
+\end{table}  
+
+\item Year standard (Standard\_Y)
+\begin{table}[ht] 
+    \centering 
+    \begin{tabular}{ | l | l | l | l | l | l |}
+        \hline
+       	Year & January & February & March & ... & December\\ \hline
+        2005 & value1 & value2 & value3 & ... & value12\\ \hline
+        2006 & value13 & value14 & value15 & ... & value24\\ \hline
+        2007 & value25 & value26 & value27 & ... & value36\\ \hline
+        ... & ... & ... & ... & ... & ...\\ \hline
+        2016 & value133 & value134 & value135 & ... & value144\\ \hline
+    \end{tabular}
+    \caption[Dataset Year Standard]{Dataset Year Standard}
+    \label{table: whether} 
+\end{table}  
+\end{itemize}
+
+The last step of this phase is to setup the final dataset, creating for each data input three different CSV file that are following the three standard reported above.\\
+The following strucutre show how our final dataset will looks like once we apply the standards on each one of our data inputs.
+\begin{enumerate}
+\item Cages
+	\begin{itemize}
+		\item Cages.csv : Contains the data about "Cages" following the Stand\_N
+		\item Cages\_M.csv : Contains the data about "Cages" following the Stand\_M
+		\item Cages\_Y.csv : Contains the data about "Cages" following the Stand\_Y
+	\end{itemize}
+\item Localities
+	\begin{itemize}
+		\item Localities.csv : Contains the data about "Localities" following the Stand\_N
+		\item Localities\_M.csv : Contains the data about "Localities" following the Stand\_M
+		\item Localities\_Y.csv : Contains the data about "Localities" following the Stand\_Y
+	\end{itemize}
+Continue and do the same thing for all the other data input
+\item Monthly\_salmon\_price 
+\item Salmon\_biomass\_end\_month
+\item Salmon\_consumption\_of\_feed
+\item Salmon\_number\_end\_month
+\item Salmon\_restock
+\item Salmon\_withdrawals
+\end{enumerate}
+
+\newpage
+
+
+\input{Chapters/Chapter4-1} % Experiment 1
+
+\input{Chapters/Chapter4-2} % Experiment 2
+
+
+
+
