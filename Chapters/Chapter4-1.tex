@@ -1,7 +1,7 @@
 \part{Experiment 1: Data analysis system}
 \section{3nd Phase: Analyzer system implementation}
 Total implementation link for Experiment 1 : \\
-\hyperlink{https://github.com/Sprea22/Data_Analyzer_Python}{https://github.com/Sprea22/Data\_Analyzer\_Python}
+\url{https://github.com/Sprea22/Data_Analyzer_Python}
 
 During this part the main purpose is to analyse the whole dataset in order to find some kind of useful informations later on. \\
 The Python system that we are going to implement is mainly used for a generic analysis of the data under from different point of views.\\
@@ -16,19 +16,17 @@ The output of this phase will basically be for each single data input:
 
 It's important to remind that this phase can be implemented in different ways and with different programming language, in this case the programming language choosen is Python, so be sure to have installed all the necessary for compile and execute Python code on your platform.\\
 (PYTHON REQUIREMENTS)\\
-The analyzer system code can be divided in the following pieces:
+During this experiment we are going to implement a system that is basically divided in two subsystems, that are:
 \begin{itemize}
-\item Imported libraries and initial settings
-\item Analysis part I: Graphic about current input with total data from 2005 to 2016
-\item Analysis part II: Graphic setup about current input for each year from 2005 to 2016
-\item Analysis part III: Correlation matrix about current input between each year from 2005 to 2016 
-\item Analysis part IV: Correlation matrix about current input between each single month from 2005 to 2016
+\item Single Input Analyzer (SIA): Used for analyze a single data input.
+\item Multiple Inputs Analyzer (TIA): Used for analyze multiple data inputs.
 \end{itemize}
-
 \newpage
 \subsection{Imported libraries}
 
-During the implementation of this data analyzer in Python the "pandas" library will be very useful for read the data from CSV dataset and setup the plot abut it.
+During the implementation of both the analysis systems we will need the following Python libraries. \\
+
+The "pandas" library will be very useful for read the data from CSV dataset and setup the plot abut it.
 \begin{lstlisting}
 import pandas as pd
 \end{lstlisting}
@@ -48,10 +46,16 @@ Also the library "sys" would be very useful for test and execute the program, ma
 import sys
 \end{lstlisting}
 
-
-
 \newpage
-\subsection{Analyzer section I: Total graphic for all the years}
+\subsection{Single Input Analyzer}
+\begin{itemize}
+\item SIA part I: Generate and display araphic about current input with total data from 2005 to 2016
+\item SIA part II: Generate and display a graphic about current input for each year from 2005 to 2016
+\item SIA part III: Generate and display a graphic that contains the correlation matrix between each single year from 2005 to 2016 of the current input.
+\item SIA part IV: Generate and display a graphic that contains the correlation matrix between each single months of the year of the current input.
+\end{itemize}
+\newpage
+\subsubsection{SIA section I: Total graphic for all the years}
 \textbf{Goal:}\\
 Generate and display the total graphic about current input from 2005 to 2016.
 
@@ -96,13 +100,13 @@ With this first part of the code we are able to display and save the basic graph
 \begin{minipage}{0.45\textwidth}
 \begin{figure}[H]
 \includegraphics[width=0.9\textwidth]{Files/Cages_Total.jpg}
-\caption{Total graphic about current input (Cages) with total data from 2005 to 2016.}
+\caption{Total graphic about current input with total data from 2005 to 2016.}
 \end{figure}
 \end{minipage}
 
 
 \newpage
-\subsection{Analyzer section II: Single graphics for each year}
+\subsubsection{SIA section II: Single graphics for each year}
 
 \textbf{Goal:}\\
 Generate and display graphics about current input for each year from 2005 to 2016
@@ -150,7 +154,7 @@ With this second part of the code we are able to display and save the graphics a
 
 
 \newpage
-\subsection{Analyzer section III: Correlation matrix between years}
+\subsubsection{SIA section III: Correlation matrix between years}
 
 \textbf{Goal:}\\
 Generate and display the correlation matrix about current input between each single year from 2005 to 2016
@@ -192,7 +196,7 @@ pyplot.yticks(y_pos,years)
 pyplot.xticks(x_pos,years)
 \end{lstlisting}
 \newpage
-Adding a title to the graphic that we are going to display and also a bar that works like a legend for the color of the matrix, allowing the reader to understand better the values reported inside the matrix.
+Adding a title to the graphic that we are going to display and also a bar that works like a legend for the colors of the matrix, allowing the reader to better understand the values reported inside the matrix.
 \begin{lstlisting}
 pyplot.title("Correlation between different years")
 pyplot.colorbar(cax)
@@ -218,7 +222,7 @@ With this second part of the code we are able to display and save the correlatio
 
 
 \newpage
-\subsection{Analyzer section IV: Correlation matrix between months}
+\subsubsection{SIA section IV: Correlation matrix between months}
 
 \textbf{Goal:}\\
 Correlation matrix about current input between each single month from 2005 to 2016
@@ -260,7 +264,7 @@ pyplot.yticks(y_pos,months)
 pyplot.xticks(x_pos,months)
 \end{lstlisting}
 \newpage
-Adding a title to the graphic that we are going to display and also a bar that works like a legend for the color of the matrix, allowing the reader to understand better the values reported inside the matrix.
+Adding a title to the graphic that we are going to display and also a bar that works like a legend for the colors of the matrix, allowing the reader to better understand the values reported inside the matrix.
 \begin{lstlisting}
 pyplot.title("Correlation between different months")
 pyplot.colorbar(cax)
@@ -285,8 +289,68 @@ With this second part of the code we are able to display and save the correlatio
 
 
 
+\newpage
+\subsection{Multiple Inputs Analyzer}
+\textbf{Goal:}\\
+This analyzer is mainly used for show the correlation coefficent between the diffent inputs along the total period (from 2005 o 2016), that it will be important to have a general about which kind of relation there is between different inputs and how much strong it is.
 
+\textbf{Requirements:}\\
+- Input dataset: Total\_Dataset required, structure already reported here:
+\hyperref[table: Total_Dataset]{Total Dataset}
 
+\textbf{Code implementation:}\\
+First of all, we are going to use the "pandas" library for read the dataset.
+\begin{lstlisting}
+series3 = pd.read_csv("TOTAL_DATASET_DIRECTORY", 
+	index_col=['Input'], header=0)
+\end{lstlisting}
+
+Then with the library "numpy" is possible to calculate the correlation coefficents between all the variables just read above.
+\begin{lstlisting}
+test = np.corrcoef(series3.values)
+\end{lstlisting}
+
+Setup the figure that will display the correlation matrix using the library "pyplot".
+\begin{lstlisting}
+fig2 = pyplot.figure()
+ax = fig2.add_subplot(111)
+\end{lstlisting}
+
+Creating the correlationg matrix using the already calculated correlation coefficents.
+\begin{lstlisting}
+cax = ax.matshow(test, interpolation='nearest')
+\end{lstlisting}
+
+Settings for display the matrix in the right way, in particular for the values to display on both the axis x and y, in this case every single input.
+\begin{lstlisting}
+inputs = ["Cages", "Feed", "Number", "Restock",
+	"Local", "Withdr", "Biomass", "Price"]
+x_pos = np.arange(len(inputs))
+y_pos = np.arange(len(inputs))
+pyplot.yticks(y_pos,inputs)
+pyplot.xticks(x_pos,inputs)
+\end{lstlisting}
+
+Adding a title to the graphic that we are going to display and also a ba that works like a legend for the colors of the matrix, allowing the reader to better understand the values reported inside the matrix.
+\begin{lstlisting}
+pyplot.title("Correlation between different inputs 
+		about data from 2005 to 2016")
+pyplot.colorbar(cax)
+\end{lstlisting}
+
+In the end, using again the library "pyplot", there is the possibility to save the correlation matrix graphic like an image and/or display it.
+\begin{lstlisting}
+pyplot.savefig("OUTPUT_DIRECTORY")
+pyplot.show()
+\end{lstlisting}
+
+\textbf{Results:} \\
+
+\begin{figure}[H]
+	\centering
+    \includegraphics[width=0.75\textwidth]{Files/Total_Dataset_Years_Matrix.jpg}
+    \caption{Correlation matrix between different inputs with data from 2005 to 2016}
+\end{figure}
 
 
 \newpage
