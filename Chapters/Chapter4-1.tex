@@ -8,7 +8,7 @@ The Python system that we are going to implement is mainly used for a generic an
 The output of this phase will basically be for each single data input:
 \begin{itemize}
 \item Total graphic of the input data from 2005 to 2016.
-\item Comparison of the graphics for each single year of the input data from 2005 to 2016.
+\item Graphic of the input data for each single year from 2005 to 2016.
 \item Correlation matrix between different months of the same input.
 \item Correlation matrix between different years of the same input.
 \end{itemize}
@@ -22,10 +22,21 @@ During this experiment we are going to implement a system that is basically divi
 \item Multiple Inputs Analyzer (TIA): Used for analyze multiple data inputs.
 \end{itemize}
 \newpage
-\subsection{Imported libraries}
 
-During the implementation of both the analysis systems we will need the following Python libraries. \\
 
+\newpage
+\subsection{Single Input Analyzer}
+\begin{itemize}
+\item SIA imported libraries.
+\item SIA part I: Generate and display a graphic about current input with total data from 2005 to 2016.
+\item SIA part II: Generate and display a graphic about current input for each year from 2005 to 2016.
+\item SIA part III: Generate and display a graphic that contains the correlation matrix between each single year from 2005 to 2016 of the current input.
+\item SIA part IV: Generate and display a graphic that contains the correlation matrix between each single months of the year of the current input.
+\item SIA part V: Generate and display a single overview image for the current input and update the total overview PDF.
+\end{itemize}
+
+\newpage
+\subsubsection{SIA: Imported libraries}
 The "pandas" library will be very useful for read the data from CSV dataset and setup the plot abut it.
 \begin{lstlisting}
 import pandas as pd
@@ -46,14 +57,15 @@ Also the library "sys" would be very useful for test and execute the program, ma
 import sys
 \end{lstlisting}
 
-\newpage
-\subsection{Single Input Analyzer}
-\begin{itemize}
-\item SIA part I: Generate and display araphic about current input with total data from 2005 to 2016
-\item SIA part II: Generate and display a graphic about current input for each year from 2005 to 2016
-\item SIA part III: Generate and display a graphic that contains the correlation matrix between each single year from 2005 to 2016 of the current input.
-\item SIA part IV: Generate and display a graphic that contains the correlation matrix between each single months of the year of the current input.
-\end{itemize}
+The library "PIL" supports many file formats, and provides powerful image processing and graphics capabilities.
+\begin{lstlisting}
+from PIL import Image
+\end{lstlisting}
+
+The library "fpdf" allows to generate and use PDF file.
+\begin{lstlisting}
+from fpdf import FPDF
+\end{lstlisting}
 \newpage
 \subsubsection{SIA section I: Total graphic for all the years}
 \textbf{Goal:}\\
@@ -287,10 +299,124 @@ With this second part of the code we are able to display and save the correlatio
 \end{figure}
 \end{minipage}
 
+\newpage
+\subsubsection{SIA section V: Single and Total overview}
+
+\textbf{Goal:}\\
+Generate and display a single overview image for the current input and update the total overview PDF.
+
+\textbf{Requirements:}\\
+- All the images that contain graphic about current input.
+
+\textbf{Code implementation:}\\
+The current code is basically composed from two methods, that are:
+\begin{itemize}
+\item create\_single\_overview() : this method will use the "Image" library for autogenerate a collage of the current input's graphics and save it like an overview image. The content of the params will basically decide how the "Current input overview image" will looks like.
+\item create\_total\_overview() : this method it's created for update the "total overview pdf".
+It uses each single "current input overview image" of all the inputs for combine them in a unique "total overview" and save it using the PDF format.
+\end{itemize}
+\begin{lstlisting}
+listofimages=["CURRENT_INPUT_TOTAL_GRAPHIC",
+            "CURRENT_INPUT_YEARS_MATRIX", 
+            "CURRENT_INPUT_YEARS_GRAPHIC",
+            "CURRENT_INPUT_MONTHS_MATRIX"]
+           
+create_single_overview(params1, listofimages)
+create_single_overview(params2, listofimages)
+create_total_overview()
+\end{lstlisting}
+
+\newpage
+The "create\_total\_overview" method has basically this structured, and then its configuration depends from the input data and from the preferences.
+\begin{lstlisting}
+def create_total_overview():
+    listof=["INPUT1_OVERVIEW_IMAGE",
+			"INPUT2_OVERVIEW_IMAGE",
+			"INPUT3_OVERVIEW_IMAGE",
+			"INPUT4_OVERVIEW_IMAGE",
+			"INPUT5_OVERVIEW_IMAGE",
+			"INPUT6_OVERVIEW_IMAGE",
+			"INPUT7_OVERVIEW_IMAGE",
+			"INPUT8_OVERVIEW_IMAGE"]	
+    pdf = FPDF(orientation = 'L')
+    for image in listof:
+        pdf.add_page()
+        pdf.line(0,y-5,300,y-5)
+        pdf.image(image,x,y,w,h)
+    pdf.output("TOTAL_OVERVIEW_PDF", "F")
+\end{lstlisting}
+
+The "create\_single\_overview" method has basically this structured, and then its configuration depends from the input data and from the preferences.
+\begin{lstlisting}
+def create_single_overview(cols, rows ,
+			width, height, listofimages):
+    thumbnail_width = width//cols
+    thumbnail_height = height//rows
+    size = thumbnail_width, thumbnail_height
+    new_im = Image.new('RGB', (width, height))
+    ims = []
+    for p in listofimages:
+        im = Image.open(p)
+        im.thumbnail(size)
+        ims.append(im)
+    i = 0
+    x = 0
+    y = 0
+    for col in range(cols):
+        for row in range(rows):
+            new_im.paste(ims[i], (x, y))
+            i += 1
+            y += thumbnail_height
+        x += thumbnail_width
+        y = 0
+    new_im.save(SINGLE_OVERVIEW_IMAGE")
+	new_im.show()
+\end{lstlisting}
+
+\textbf{Results:}
+\begin{figure}[H]
+	\centering
+    \includegraphics[width=1\textwidth]{Files/Cages_Overview.jpg}
+    \caption{Example of "Single Input Overview Image"}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+    \includegraphics[width=1\textwidth]{Files/Total_Overview.jpg}
+    \caption{Example of a single page of the "Total Overview PDF"}
+\end{figure}
+
+
+
 
 
 \newpage
 \subsection{Multiple Inputs Analyzer}
+
+\newpage
+\subsubsection{MIA: Imported libraries}
+The "pandas" library will be very useful for read the data from CSV dataset and setup the plot abut it.
+\begin{lstlisting}
+import pandas as pd
+\end{lstlisting}
+
+The "numpy" library it's used for mathematic purpose, such as calculating the correlation coefficent between two series.
+\begin{lstlisting}
+import numpy as np
+\end{lstlisting}
+ 
+The "pyplot" library it's used for basic graphic displaying and customization, easy to use but very efficent.
+\begin{lstlisting}
+import matplotlib.pyplot as pyplot
+\end{lstlisting}
+
+Also the library "sys" would be very useful for test and execute the program, mainly because it allows to input directly from terminal.
+\begin{lstlisting}
+import sys
+\end{lstlisting}
+
+\newpage
+\subsubsection{MIA: Implementation}
 \textbf{Goal:}\\
 This analyzer is mainly used for show the correlation coefficent between the diffent inputs along the total period (from 2005 o 2016), that it will be important to have a general about which kind of relation there is between different inputs and how much strong it is.
 
