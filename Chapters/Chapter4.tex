@@ -1,3 +1,4 @@
+
 \chap{Implementation}
 
 \lstset{
@@ -23,17 +24,51 @@ showstringspaces=false
     urlcolor=blue,
 }
 
+\subsection{Implemented Systems repositories}
+You can easily download my already implemented system for test it and better understand how it works.
 
-Total implementation link for Experiment 1 : \\
+Link for Total implementation Experiment 1 : \\
 \url{https://github.com/Sprea22/Data_Analyzer_Python}
 
-Total implementation link for Experiment 2 : \\
-\url{}
+Link for Total implementation Experiment 2 : \\
+\url{https://github.com/Sprea22/Forecasting_System_Python}
 
-(INSTRUCTION FOR DOWNLOAD AND USE FROM GITHUB)
+\textbf{How to download and test it:}\\
+There are two ways for download it:
+\begin{itemize}
+\item Download the ZIP files from the following links:\\
+
+Direct link for the already implemented Data Analyzer in Python.\\
+\url{https://codeload.github.com/Sprea22/Data_Analyzer_Python/zip/master}\\
+
+Direct link for the already implemented Forecasting System in Python.\\
+\url{https://codeload.github.com/Sprea22/Forecasting_System_Python/zip/master}
 
 \newpage
-\section{1st Phase: Data collection}
+\item If you have already installed github on your computer, you can easily download it creating a folder and then inside that folder open a terminal shell and execute the following commands:\\
+\begin{lstlisting}
+git init
+git remote add origin https://github.com/Sprea22/
+		Data\_Analyzer\_Python.git
+git pull origin master
+\end{lstlisting}
+
+Otherwise:\\
+
+\begin{lstlisting}
+git init
+git remote add origin https://github.com/Sprea22/
+		Forecasting\_System\_Python.git
+git pull origin master
+\end{lstlisting}
+\end{itemize}
+
+Once you downloaded it you will find a readMe inside both the repository that will explain your how to execute and how to test it.
+
+\part{Data collection and validation}
+\newpage
+\section{Data collection}
+\subsection{Data sources}
 During this phase is important to be sure to have all the data that we are going to need. During this particular implementation we need the 7 input dataset written above in the "Dataset structure" section, and below here you can find the link of the website where you can download all the needed datasets for this example.
 
 Datasets downloads website:\\ 
@@ -41,115 +76,88 @@ Datasets downloads website:\\
 
 The datasets that you can download on this website are in a different format than the one we will need, but for better understand the meaning of the data are useful since are in XLSX format, splitted in clear tables and well commented (only in norwegian).
 
-\subsection{Data sources}
+\newpage
 \subsection{Data description and validation}
+\textbf{- Cages:}
+	\\ Content: Reported number of cages with salmon and rainbow trout.
+	\\ Observation Frequency: Once per month
+	\\ Period:  From January 2005 to December 2016.
+	\\ Location: Norway.
 
-\newpage
-\section{2nd Phase: Dataset creation}
-\subsection{Processing the data}
-
-Once we have all the "row" data we can start to setup the dataset that we will need for this system. 
-First of all we will use the format CSV for the new datasets instead of XLSX.
-Then we need to create three different "standards" of each input dataset. The reason of this requirement is that using the python library for some kind of analysis is easier to read the data in a particular format instead of reading the data always in the normal CSV standard and then edit and handle it later through the code.
-Following are reported the needed standards.
-
-\begin{itemize}
-\item Normal CSV standard (Standard\_N)
-\begin{table}[ht] 
-    \centering 
-    \begin{tabular}{ | l | l |}
-        \hline
-       	Month & Input\_Name\\ \hline
-        January\_2005 & Value1 \\ \hline
-        February\_2005 & Value2\\ \hline
-        March\_2005 & Value3\\ \hline
-        ... & ...\\ \hline
-        November\_2016 & Value143\\ \hline
-        December\_2016 & Value144\\ \hline
-    \end{tabular}
-    \caption[Dataset Normal Standard]{Dataset Normal Standard}
-    \label{table: Dataset_Normal_Standard} 
-\end{table}    
-
-\item Month standard (Standard\_M)
-\begin{table}[ht] 
-    \centering 
-    \begin{tabular}{ | l | l | l | l | l | l |}
-        \hline
-       	Month & 2005 & 2006 & 2007 & ... & 2016\\ \hline
-        January & value1 & value13 & value25 & ... & value133\\ \hline
-        February & value2 & value14 & value26 & ... & value134\\ \hline
-        March & value3 & value15 & value27 & ... & value135\\ \hline
-        ... & ... & ... & ... & ... & ...\\ \hline
-        December & value12 & value24 & value36 & ... & value144\\ \hline
-    \end{tabular}
-    \caption[Dataset Month Standard]{Dataset Month Standard}
-    \label{table: Dataset_Month_Standard} 
-\end{table}  
-
-\item Year standard (Standard\_Y)
-\begin{table}[ht] 
-    \centering 
-    \begin{tabular}{ | l | l | l | l | l | l |}
-        \hline
-       	Year & January & February & March & ... & December\\ \hline
-        2005 & value1 & value2 & value3 & ... & value12\\ \hline
-        2006 & value13 & value14 & value15 & ... & value24\\ \hline
-        2007 & value25 & value26 & value27 & ... & value36\\ \hline
-        ... & ... & ... & ... & ... & ...\\ \hline
-        2016 & value133 & value134 & value135 & ... & value144\\ \hline
-    \end{tabular}
-    \caption[Dataset Year Standard]{Dataset Year Standard}
-    \label{table: Dataset_Year_Standard} 
-\end{table}  
-\end{itemize}
-
-The last step of this phase is to setup the final dataset, creating for each data input three different CSV file that are following the three standard reported above.\\
-The following strucutre show how our final dataset will looks like once we apply the standards on each one of our data inputs.
-\begin{enumerate}
-\item Cages
-	\begin{itemize}
-		\item Cages.csv : Contains the data about "Cages" following the Stand\_N
-		\item Cages\_M.csv : Contains the data about "Cages" following the Stand\_M
-		\item Cages\_Y.csv : Contains the data about "Cages" following the Stand\_Y
-	\end{itemize}
-\item Localities
-	\begin{itemize}
-		\item Localities.csv : Contains the data about "Localities" following the Stand\_N
-		\item Localities\_M.csv : Contains the data about "Localities" following the Stand\_M
-		\item Localities\_Y.csv : Contains the data about "Localities" following the Stand\_Y
-	\end{itemize}
-Continue and do the same thing for all the other data input
-\item Monthly\_salmon\_price 
-\item Salmon\_biomass\_end\_month
-\item Salmon\_consumption\_of\_feed
-\item Salmon\_number\_end\_month
-\item Salmon\_restock
-\item Salmon\_withdrawals
-\end{enumerate}
-
-And in the end we will create also a total dataset of all the different inputs, that we will call it Total\_Dataset.csv and looks like:
-\begin{table}[ht] 
-    \label{table:Total_Dataset} 
-    \centering 
-    \begin{tabular}{ | l | l | l | l | l | l | l |}
-        \hline
-       	Input & January\_2005 & February\_2005 & March\_2005 & ... & November\_2016 & December\_2016\\ \hline
-        Input1 & value1.1 & value1.2 & value1.3 & ... & value1.143 & value1.144\\ \hline
-        Input2 & value2.1 & value2.2 & value2.3 & ... & value2.143 & value2.144\\ \hline
-        Input3 & value3.1 & value3.2 & value3.3 & ... & value3.143 & value3.144\\ \hline
-        ... & ... & ... & ... & ... & ...\\ \hline
-        Input7 & value7.1 & value7.2 & value7.3 & ... & value7.143 & value7.144\\ \hline
-        Input8 & value8.1 & value8.2 & value8.3 & ... & value8.143 & value8.144\\ \hline
-    \end{tabular}
-    \caption[Total Dataset]{Total Dataset}
-\end{table}  
-\newpage
+\textbf{- Localities:}
+	\\ Content: Reported number of localities with salmon and rainbow trout. 
+	\\ Observation Frequency: Once per month
+	\\ Period:  From January 2005 to December 2016.
+	\\ Location: Norway.
 
 
-\input{Chapters/Chapter4-1} % Experiment 1
+\textbf{- Consumption of feed}
+	\\ Content: Reported feed consumption for Salmon.
+	\\ Units: Figures in tonnes.
+	\\ Observation Frequency: Once per month
+	\\ Period:  From January 2005 to December 2016.
+	\\ Location: Norway.
 
-\input{Chapters/Chapter4-2} % Experiment 2
+
+\textbf{- Fish at the end of the month (Salmon)}
+	\\ Content: Reported number of Salmon. 
+	\\ Units: Figures in 1000 pcs.
+	\\ Observation Frequency: Once per month
+	\\ Period:  From January 2005 to December 2016.
+	\\ Location: Norway.
+
+\textbf{- Biomass at the end of the month (Salmon)}
+	\\ Content: Reported biomass of Salmon. 
+	\\ Units: Figures in tonnes.
+	\\ Observation Frequency: Once per month
+	\\ Period:  From January 2005 to December 2016.
+	\\ Location: Norway.
+	
+\textbf{- Fish restock (Salmon)}
+	\\ Content: Fish restock reported for Salmon.
+	\\ Units: Figures in 1000 pcs.
+	\\ Observation Frequency: Once per month
+	\\ Period:  From January 2005 to December 2016.
+	\\ Location: Norway.
+
+
+\textbf{- Withdrawals (Salmon)}
+	\\ Content: Withdrawals of Salmon for slaughter. 
+	\\ Units: Figures in tonnes.
+	\\ Observation Frequency: Once per month
+	\\ Period:  From January 2005 to December 2016.
+	\\ Location: Norway.
+
+
+\textbf{- Monthly Salmon Price (US Dollar)}
+	\\ Content: Fish Salmon, Farm Bred Norwegian Salmon, export price, US Dollar per kg. 
+	\\ Units: US Dollars per Kilogram. 
+	\\ Observation Frequency: Once per month
+	\\ Period:  From January 2005 to December 2016.
+	\\ Location: Norway.
+	
+\section{Increase accessibility and availability of data}
+Quite complicated datasets structure rebuilt in a easy readable way, provided an accurate description (in English, since it was available just in Norwegian) and collected in a unique big dataset. \\
+It allows to access to different kind of values about aquaculture in Norway in a much easier way.
+
+
+
+\part{Data Analysis and Dislaying}
+\input{Chapters/Chapter4-1} % Data Analysis and Displaying
+
+
+\part{Data Prediction}
+\input{Chapters/Chapter4-2} % Data Prediction
+
+
+\part{Future Works}
+\section{Visualization of the data and software as a service ideas}
+
+
+
+
+
+
 
 
 

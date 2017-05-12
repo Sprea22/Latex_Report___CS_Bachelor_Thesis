@@ -1,41 +1,59 @@
 %*******10********20********30********40********50********60********70********80
 
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue,
+}
+
 % For all chapters, use the newdefined chap{} instead of chapter{}
 % This will make the text at the top-left of the page be the same as the chapter
 
 \chap{Development Method}
+\section{Development Flow}
 
-In order to achieve the problem reported in the introduction, has been developed an easy but clear plan (how you can see in the follow picture 3.1).\\
+\textbf{1st Phase: Data collection and validation}
+During this phase the most important thing is to gather as much as possible data, but they must be as much as possible reliable and useful since they are going to be indispensable for the next phases and in particular for the final results and conclusions.\\
+The data’s reliability mainly depend by the kind of sources where you’re able to mine.\\
+Then you should customize the unstructured data that you collected. This data’s customizing has the main purposes of:\\
+- Let the data structure be a summarize of all the data inputs previous collected.\\
+- Let the new data structure be easier to access and read.\\
+- Follow some kind of setting and standard needed in the system that will be implemented.
 
+\textbf{2nd Phase: Data Analysis and Displaying}
+During this phase the first thing that you’re going to do is to decide some kind of analysis results that you would like to have.\\
+Once you decided which kind of results you might reach, you will start with the analysis system implementation and meanwhile saving eviences of it.\\
+Once the general analysis of the data is finished, and evidences have been collected, it's time to analyze it and try to extract information about it.
+
+\newpage
+
+\textbf{3rd Phase: Data Prediction}
+During this phase the main purpose is to predict some kind of useful data about the current dataset. To reach this goal, is first of all indispensable to choose a prediction system to implement. \\
+Once the prediction system has been implemented, it's time to apply it on the current data and try to get as much evidences as possible. \\
+
+\textbf{4th Phase: Future Work ideas}\\
+The last but not least phase is to watch at the future: try to figure out some other extra implementations about this thesis.
+
+\newpage
 \begin{figure}[h]
     \centering
-    \includegraphics[trim=0cm 0cm 0cm 0cm, clip=true, width=0.65\textwidth,natwidth=610,natheight=642]{Files/PlanChart.png}
+    \includegraphics[trim=0cm 0cm 0cm 0cm, clip=true, width=0.90\textwidth,natwidth=610,natheight=642]{Files/PlanChart.png}
     \caption[Plan flow chart]{Plan flow chart}
     \label{fig: Plan_Flow_Chart}
 \end{figure}
 
-\newpage
-\textbf{1st Phase: Data collection}
-During this phase the most important thing is to gather as much as possible data, 	but they must be as much as possible reliable and useful they are going to be indispensable for the next phases and in particular the final result and conclusion.
-The data’s reliability and utility mainly depend by the kind of sources where you’re able to mine.
-
-\textbf{2nd Phase: Dataset creation}
-During this phase you should customize the unstructured data that you collected in the first phase. This data’s customizing has the main purpose to let the data structure follow some kind of setting and standard needed in the system that will be implemented later on.
-Part of this phase has to be done meanwhile you’re working on the successive phase, since you’re going to discover a lot of needed setting and standard once you’re trying to feed the system.
-
-\textbf{3rd Phase: Data analysis}
-During this phase the first thing that you’re going to do is to decide some kind of analysis results that you would like to have.
-Once you decided which kind of results you might reach, you will start with the analysis system implementation and then for the predictions system.
-
-	\qquad \textbf {3.1rd Phase – Initial data analysis system:}
-
-	\qquad \textbf {3.2rd Phase – Data prediction system:}
-
-\textbf{4th Phase: Data displaying}
-This is the last but not least phase since displaying some information in a easy-read mode sometimes is very difficult.
-During this phase the main purpose will be to find a way to display the analysis results in a way that could be easily understand.
-
-	\qquad \textbf {4.1th Phase - Initial analysis results displaying}
-	
-	\qquad \textbf {4.2th Phase - Prediction results displaying}
 \newpage 
+\section{Github Usage}
+GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+
+In this thesis it will be used like "version control" since I'm the only person working on it, and I created on myself three repositories that will be very useful for better understand the work done with this thesis.
+
+Repository that contains the Latex document about my thesis.\\
+\url{https://github.com/Sprea22/Thesis_Latex_Doc}
+
+Repository that contains the Data Analyzer implemented in python.\\
+\url{https://github.com/Sprea22/Data_Analyzer_Python}
+
+Repostory that contains the System for data forecasting implemented in python.\\
+\url{https://github.com/Sprea22/Forecasting_System_Python}

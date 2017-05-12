@@ -14,6 +14,7 @@ Could be very useful to give some basic definitions and explanations about the t
 
 \newpage
 \section{Data science}
+It's really important to have a general idea about what "Data Science" means since this thesis procedure is strongly based on the classic Data Science Process.
 We can define Data Science like a "concept to unify statistics, data analysis and their related methods" in order to "understand and analyze actual phenomena" with data.
 It includes theories drawn from many field within the broad areas of mathematics, statistics, information science and computer science.
 
@@ -22,7 +23,7 @@ The follow image represents the "Blitzstein and Pfister's framework" and provide
 
 \begin{figure}[h]
     \centering
-    \includegraphics[trim=0cm 0.7cm 0cm 0cm, clip=true, width=0.8\textwidth,natwidth=610,natheight=642]{Files/Data_Science_Process_2.jpg}
+    \includegraphics[trim=0cm 0cm 0cm 0cm, clip=true, width=1\textwidth,natwidth=819,natheight=321]{Files/Data_Science_Process.png}
     \caption[Data science process]{Data science process}
     \label{fig: Data_science}
 \end{figure}
@@ -40,18 +41,31 @@ In 2030, according to the World Bank, aquaculture will supply:
 
 
 \section{Machine learning}
-This subfield of computer science gives "computers the ability to learn without being explicitly programmed". \\Evolved from the study of pattern recognition and computational learning theory in artificial intelligence,[2] machine learning explores the study and construction of algorithms that can learn from and make predictions on data.
+This subfield of computer science gives "computers the ability to learn without being explicitly programmed". \\Evolved from the study of pattern recognition and computational learning theory in artificial intelligence, machine learning explores the study and construction of algorithms that can learn from and make predictions on data.
 
 There are several machine learning algorithm, each one of them is used for a different purpose.The following picture gives a general idea about which categories of algorithms are used and some specific types.
-\begin{figure}[h]
-    \centering
-    \includegraphics[trim=0cm 0cm 0cm 0cm, clip=true, width=0.8\textwidth,natwidth=610,natheight=642]{Files/Machine_Learning.png}
-    \caption[Machine learning algorithms]{Machine learning algorithms}
-    \label{fig: Machine_Learning}
-\end{figure}
 
 
+\subsection{Time Series analysis and predictions}
+Time Series forecasting is an important area of machine learning, but that is often neglected.
 
+Is that important mainly beause there are so many prediction problems that involve a time component, and these problems are neglected because it is this time component that makes time series problems more difficult to handle.
+
+" A time series is a sequence of observations taken sequentially in time. "
+Quoted — Page 1, Time Series Analysis: Forecasting and Control.
+
+Classic example of a time series dataset:\\ 		
+Time \#1, observation\\
+Time \#2, observation\\
+Time \#3, observation
+
+There are different goals depending on wheter we are interested in understanding a dataset or making predictions.
+
+Understanding a dataset is called time series analysis and it can helps to make better prediction, but sometimes it's not required and can result in a large of technocal investment in time and expertise.
+
+Making predictions could be called time series forecasting and it involves taking models fit on historical data and using them to predict future observations.
+
+Information Source: http://machinelearningmastery.com/time-series-forecasting/
 \section{Python}
 
 
