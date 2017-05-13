@@ -62,11 +62,11 @@
 
 \input{Frontpages/Fixed/ListOfTables.tex}
 
-\input{Frontpages/Abbreviations.tex}
+% \input{Frontpages/Abbreviations.tex}
 
-\input{Frontpages/PhysicalConstants.tex}
+% \input{Frontpages/PhysicalConstants.tex}
 
-\input{Frontpages/Symbols.tex}
+% \input{Frontpages/Symbols.tex}
 
 \input{Frontpages/Dedication.tex}
 
@@ -82,46 +82,32 @@
 % Just uncomment the lines as you write the chapters
 
 
-\input{Chapters/Chapter1} % Introduction
+\input{Chapters/1_Introduction} % Introduction
 
-\input{Chapters/Chapter2} % Background Theory 
+\input{Chapters/2_Background_theory} % Background Theory 
 
-\input{Chapters/Chapter3} % Development Method
+\input{Chapters/3_Development_method} % Development Method
 
-\input{Chapters/Chapter4} % Implementation
+\input{Chapters/4_Implementation} % Implementation
 
-\input{Chapters/Chapter5} % Results
+\input{Chapters/5_Results} % Results
 
-\input{Chapters/Chapter6} % Discussion
+\input{Chapters/6_Discussion} % Discussion
 
-\input{Chapters/Chapter7} % Conclusion
+\input{Chapters/7_Conclusion} % Conclusion
 
-\input{Chapters/Chapter8} % Bibliography
+\input{Chapters/8_Bibliography} % Bibliography
 
 %% Appendices -----------------------------------------------------
 \addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
 \lhead{\emph{Appendices}}  % Change the left side page header to "Appendices"
 \appendix % Cue to tell LaTeX that the following 'chapters' are Appendices
 
-\input{Appendices/AppendixA} % Appendix Title
+\input{Appendices/A} % Appendix Title
 
-%\input{Appendices/AppendixB} % Appendix Title
+\input{Appendices/B} % Appendix Title
 
-%\input{Appendices/AppendixC} % Appendix Title
-
-
-%% Bibliography ---------------------------------------------------
-\backmatter % Cue to tell LaTeX that the following 'chapters' are Bibliography
-\label{Bibliography}
-\lhead{\emph{Bibliography}}  % left side page header to "Bibliography"
-\bibliographystyle{unsrtnat}  % Use the "unsrtnat" BibTeX style for formatting the Bibliography
-
-\begingroup
-    \raggedright
-    \sloppy
-    \bibliography{Bibliography}  % The references (bibliography) information are stored in the file named "Bibliography.bib"
-\endgroup 
-
+\input{Appendices/C} % Appendix Title
 
 \end{document}  % The End
 %% ----------------------------------------------------------------

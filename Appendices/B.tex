@@ -1,0 +1,78 @@
+\chap{MIA Implementation code}
+
+\section{MIA: Imported libraries}
+The "pandas" library will be very useful for read the data from CSV dataset and setup the plot abut it.
+\begin{lstlisting}
+import pandas as pd
+\end{lstlisting}
+
+The "numpy" library it's used for mathematic purpose, such as calculating the correlation coefficent between two series.
+\begin{lstlisting}
+import numpy as np
+\end{lstlisting}
+
+ 
+The "pyplot" library it's used for basic graphic displaying and customization, easy to use but very efficent.
+\begin{lstlisting}
+import matplotlib.pyplot as pyplot
+\end{lstlisting}
+
+\section{MIA: Implementation}
+\textbf{Code implementation:}\\
+First of all, we are going to use the "pandas" library for read the dataset.
+\begin{lstlisting}
+series3 = pd.read_csv("TOTAL_DATASET_DIRECTORY", 
+	index_col=['Input'], header=0)
+\end{lstlisting}
+
+Then with the library "numpy" is possible to calculate the correlation coefficents between all the variables just read above.
+\begin{lstlisting}
+test = np.corrcoef(series3.values)
+\end{lstlisting}
+
+Setup the figure that will display the correlation matrix using the library "pyplot".
+\begin{lstlisting}
+fig2 = pyplot.figure()
+ax = fig2.add_subplot(111)
+\end{lstlisting}
+
+Creating the correlationg matrix using the already calculated correlation coefficents.
+\begin{lstlisting}
+cax = ax.matshow(test, interpolation='nearest')
+\end{lstlisting}
+
+Settings for display the matrix in the right way, in particular for the values to display on both the axis x and y, in this case every single input.
+\begin{lstlisting}
+inputs = ["Cages", "Feed", "Number", "Restock",
+	"Local", "Withdr", "Biomass", "Price"]
+x_pos = np.arange(len(inputs))
+y_pos = np.arange(len(inputs))
+pyplot.yticks(y_pos,inputs)
+pyplot.xticks(x_pos,inputs)
+\end{lstlisting}
+
+Adding a title to the graphic that we are going to display and also a ba that works like a legend for the colors of the matrix, allowing the reader to better understand the values reported inside the matrix.
+\begin{lstlisting}
+pyplot.title("Correlation between different inputs 
+		about data from 2005 to 2016")
+pyplot.colorbar(cax)
+\end{lstlisting}
+
+In the end, using again the library "pyplot", there is the possibility to save the correlation matrix graphic like an image and/or display it.
+\begin{lstlisting}
+pyplot.savefig("OUTPUT_DIRECTORY")
+\end{lstlisting}
+
+\begin{lstlisting}
+series = pd.read_csv("TRENDLINES_VALUES_DOCUMENT",
+	 header=0, usecols=["Norm Ang Coeffs"])
+series.plot(kind="barh")
+pyplot.savefig("OUTPUT_DIRECTORY")
+
+create_total_overview()
+\end{lstlisting}
+
+\begin{lstlisting}
+pyplot.show()
+\end{lstlisting}
+
