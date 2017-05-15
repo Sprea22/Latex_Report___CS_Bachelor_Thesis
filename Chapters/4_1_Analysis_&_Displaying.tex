@@ -76,7 +76,7 @@ It's possible to check out the full ccommented code in the appendice: [\ref{SIA_
 With this first part of the code has been reached the first goal of displaying and saving the basic graphic about the current input from 2005 to 2016 with also the relative trendline, that looks like this example:
 
 \begin{figure}[H]
-\includegraphics[width=1\textwidth]{Files/Cages_Total.jpg}
+\includegraphics[width=1\textwidth]{Files/Cages_Total.pdf}
 \caption{Total graphic about current input with total data from 2005 to 2016.}
 \end{figure}
 
@@ -99,7 +99,7 @@ With this second part of the code has been reached the goal of displaying and sa
 
 \begin{figure}[H]
 	\centering
-    \includegraphics[width=1\textwidth]{Files/Cages_Years.jpg}
+    \includegraphics[width=1\textwidth]{Files/Cages_Years.pdf}
     \caption{Graphics for each single year of the input data from 2005 to 2016}
 \end{figure}
 
@@ -124,7 +124,7 @@ Then has been also displayed and saved the correlation matrix about it, that loo
 
 \begin{figure}[H]
 	\centering
-    \includegraphics[width=1\textwidth]{Files/Cages_Months_Matrix.jpg}
+    \includegraphics[width=1\textwidth]{Files/Cages_Months_Matrix.pdf}
     \caption{Correlation matrix between different months of the same input}
 \end{figure}
 
@@ -150,7 +150,7 @@ Then has been also displayed and saved the correlation matrix about it, that loo
 
 \begin{figure}[H]
 	\centering
-    \includegraphics[width=1\textwidth]{Files/Cages_Years_Matrix.jpg}
+    \includegraphics[width=1\textwidth]{Files/Cages_Years_Matrix.pdf}
     \caption{Correlation matrix between different years of the same input}
 \end{figure}
 
@@ -169,9 +169,30 @@ It's possible to check out the full ccommented code in the appendice: [\ref{SIA_
 
 \textbf{Results:}
 With this part of the code it's possible to have a single overview image for the current input, that is basically showing and comparing all the graphics that have already been calculated about this input. It looks like this example:
+
+
+
 \begin{figure}[H]
-    \makebox[\textwidth][c]{\includegraphics[width=1.4\textwidth]{Files/Cages_Overview.jpg}}
-    \caption{Example of "Single Input Overview Image"}
+\begin{subfigure}{.5\textwidth}
+	\centering
+    \includegraphics[width=1\textwidth]{Files/Cages_Total.pdf}
+    
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+	\centering
+    \includegraphics[width=1\textwidth]{Files/Cages_Years.pdf}
+\end{subfigure}%
+\end{figure} 
+
+\begin{figure}[H]
+\begin{subfigure}{.5\textwidth}
+	\centering
+    \includegraphics[width=1\textwidth]{Files/Cages_Years_Matrix.pdf}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+	\centering
+    \includegraphics[width=1\textwidth]{Files/Cages_Months_Matrix.pdf}
+\end{subfigure}%
 \end{figure}
 
 \newpage
@@ -204,7 +225,7 @@ The first part of the MIA implementation allows to calculate the correlation coe
 
 \begin{figure}[H]
 	\centering
-    \includegraphics[width=0.90\textwidth]{Files/Total_Dataset_Years_Matrix.jpg}
+    \includegraphics[width=0.90\textwidth]{Files/Total_Dataset_Years_Matrix.pdf}
     \caption{Correlation matrix between different inputs with data from 2005 to 2016.}
 \end{figure}
 

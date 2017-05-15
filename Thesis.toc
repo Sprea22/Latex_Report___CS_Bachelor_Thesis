@@ -37,37 +37,37 @@
 \contentsline {subsubsection}{\numberline {4.3.1.5}SIA section III: Correlation matrix between years}{24}{subsubsection.54}
 \contentsline {subsubsection}{\numberline {4.3.1.6}SIA section IV: Correlation matrix between months}{25}{subsubsection.56}
 \contentsline {subsubsection}{\numberline {4.3.1.7}SIA section V: Single overview}{26}{subsubsection.58}
-\contentsline {subsection}{\numberline {4.3.2}Multiple Inputs Analyzer}{28}{subsection.60}
-\contentsline {subsubsection}{\numberline {4.3.2.1}MIA: Requirements for reusability}{28}{subsubsection.61}
-\contentsline {subsubsection}{\numberline {4.3.2.2}SIA: Imported libraries}{28}{subsubsection.62}
-\contentsline {subsubsection}{\numberline {4.3.2.3}MIA: Implementation}{29}{subsubsection.63}
-\contentsline {section}{\numberline {4.4}Extract information from data}{31}{section.66}
-\contentsline {part}{III\hspace {1em}Data Prediction}{32}{part.67}
-\contentsline {section}{\numberline {4.5}Prediction of values about the data}{33}{section.68}
-\contentsline {subsection}{\numberline {4.5.1}Evaluating System}{34}{subsection.72}
-\contentsline {subsection}{\numberline {4.5.2}Training System}{35}{subsection.78}
-\contentsline {subsection}{\numberline {4.5.3}Future Prediction System}{37}{subsection.93}
-\contentsline {section}{\numberline {4.6}Requirements for reusability}{39}{section.117}
-\contentsline {part}{IV\hspace {1em}Future Works}{40}{part.118}
-\contentsline {section}{\numberline {4.7}Dataset about single locality}{41}{section.119}
-\contentsline {section}{\numberline {4.8}Visualization of the data}{41}{section.120}
-\contentsline {section}{\numberline {4.9}Prediction system as a service}{42}{section.121}
-\contentsline {chapter}{\numberline {5}Results}{43}{chapter.123}
-\contentsline {chapter}{\numberline {6}Discussion}{46}{chapter.130}
-\contentsline {chapter}{\numberline {7}Conclusion}{47}{chapter.131}
-\contentsline {chapter}{\numberline {8}Bibliography}{48}{chapter.132}
+\contentsline {subsection}{\numberline {4.3.2}Multiple Inputs Analyzer}{27}{subsection.61}
+\contentsline {subsubsection}{\numberline {4.3.2.1}MIA: Requirements for reusability}{27}{subsubsection.62}
+\contentsline {subsubsection}{\numberline {4.3.2.2}SIA: Imported libraries}{27}{subsubsection.63}
+\contentsline {subsubsection}{\numberline {4.3.2.3}MIA: Implementation}{28}{subsubsection.64}
+\contentsline {section}{\numberline {4.4}Extract information from data}{30}{section.67}
+\contentsline {part}{III\hspace {1em}Data Prediction}{31}{part.68}
+\contentsline {section}{\numberline {4.5}Prediction of values about the data}{32}{section.69}
+\contentsline {subsection}{\numberline {4.5.1}Evaluating System}{33}{subsection.73}
+\contentsline {subsection}{\numberline {4.5.2}Training System}{34}{subsection.79}
+\contentsline {subsection}{\numberline {4.5.3}Future Prediction System}{36}{subsection.94}
+\contentsline {section}{\numberline {4.6}Requirements for reusability}{39}{section.118}
+\contentsline {part}{IV\hspace {1em}Future Works}{40}{part.119}
+\contentsline {section}{\numberline {4.7}Dataset about single locality}{41}{section.120}
+\contentsline {section}{\numberline {4.8}Visualization of the data}{41}{section.121}
+\contentsline {section}{\numberline {4.9}Prediction system as a service}{42}{section.122}
+\contentsline {chapter}{\numberline {5}Results}{43}{chapter.124}
+\contentsline {chapter}{\numberline {6}Discussion}{47}{chapter.132}
+\contentsline {chapter}{\numberline {7}Conclusion}{48}{chapter.133}
+\contentsline {chapter}{\numberline {8}Bibliography}{49}{chapter.134}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}SIA Implementation code}{49}{appendix.133}
-\contentsline {section}{\numberline {A.1}SIA: Imported libraries}{49}{section.134}
-\contentsline {section}{\numberline {A.2}SIA section I: Total graphic for all the years}{50}{section.151}
-\contentsline {section}{\numberline {A.3}SIA section II: Single graphics for each year}{51}{section.174}
-\contentsline {section}{\numberline {A.4}SIA section III: Correlation matrix between years}{52}{section.205}
-\contentsline {section}{\numberline {A.5}SIA section IV: Correlation matrix between months}{54}{section.245}
-\contentsline {section}{\numberline {A.6}SIA section V: Single overview}{55}{section.272}
-\contentsline {chapter}{\numberline {B}MIA Implementation code}{57}{appendix.305}
-\contentsline {section}{\numberline {B.1}MIA: Imported libraries}{57}{section.306}
-\contentsline {section}{\numberline {B.2}MIA: Implementation}{57}{section.313}
-\contentsline {chapter}{\numberline {C}Prediction System Implementation code}{59}{appendix.346}
-\contentsline {section}{\numberline {C.1}Evaluating System}{59}{section.347}
-\contentsline {section}{\numberline {C.2}Training System}{61}{section.408}
-\contentsline {section}{\numberline {C.3}Future Prediction System}{61}{section.412}
+\contentsline {chapter}{\numberline {A}SIA Implementation code}{50}{appendix.135}
+\contentsline {section}{\numberline {A.1}SIA: Imported libraries}{50}{section.136}
+\contentsline {section}{\numberline {A.2}SIA section I: Total graphic for all the years}{51}{section.153}
+\contentsline {section}{\numberline {A.3}SIA section II: Single graphics for each year}{52}{section.176}
+\contentsline {section}{\numberline {A.4}SIA section III: Correlation matrix between years}{53}{section.207}
+\contentsline {section}{\numberline {A.5}SIA section IV: Correlation matrix between months}{55}{section.247}
+\contentsline {section}{\numberline {A.6}SIA section V: Single overview}{56}{section.274}
+\contentsline {chapter}{\numberline {B}MIA Implementation code}{58}{appendix.307}
+\contentsline {section}{\numberline {B.1}MIA: Imported libraries}{58}{section.308}
+\contentsline {section}{\numberline {B.2}MIA: Implementation}{58}{section.315}
+\contentsline {chapter}{\numberline {C}Prediction System Implementation code}{60}{appendix.348}
+\contentsline {section}{\numberline {C.1}Evaluating System}{60}{section.349}
+\contentsline {section}{\numberline {C.2}Training System}{62}{section.410}
+\contentsline {section}{\numberline {C.3}Future Prediction System}{62}{section.414}

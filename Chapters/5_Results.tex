@@ -2,7 +2,7 @@
 
 \begin{figure}[H]
 	\centering
-    \includegraphics[width=0.90\textwidth]{Files/Total_Dataset_Years_Matrix.jpg}
+    \includegraphics[width=0.90\textwidth]{Files/Total_Dataset_Years_Matrix.pdf}
     \caption{Correlation matrix between different inputs with data from 2005 to 2016.}
 \end{figure}
 
@@ -66,6 +66,12 @@ Price	& -0.10039588	& 0.1978647		& 0.49510642	& 0.13621911	& 0.0626106		& 0.3520
     \label{table: norm_trendline} 
 \end{table}
 
+
+\begin{figure}[H]
+    \makebox[\textwidth][c]{\includegraphics[width=1.2\textwidth]{Files/Best_MAPE.pdf}}
+    \caption{Lower MAPE with best ARIMA Configuration for each tested input.}
+\end{figure}
+
 \begin{table}[ht] 
 	\centering
     \begin{tabular}{ | l | l | l |}
@@ -79,10 +85,100 @@ Salmon\_restock 				&	(10,0,1)	&	96.006\%	\\ \hline
 Salmon\_withdrawals 			&	(10,0,1)	&	6.277\%	\\ \hline
 Salmon\_biomass\_end\_month		&	(8,1,0)		&	1.601\%	\\ \hline
 Salmon\_number\_end\_month 		&	(10,2,0)	&	1.723\%	\\ \hline
-    \end{tabular} 
+    \end{tabular}  
     \caption{Dataset inputs normalized trendline equation}
     \label{table: Best ARIMA configurations with relative MAPE result in the Evaluation Test} 
 \end{table}
 
 
+
+\makebox[\textwidth][c]{
+\resizebox{1.3\textwidth}{!}{
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\multirow{3}{*}{Months} & \multicolumn{2}{c|}{Cages} & \multicolumn{2}{c|}{Localities} & \multicolumn{2}{c|}{Salmon Biomass} & \multicolumn{2}{c|}{Salmon Number}\\
+\cline{2-9}
+ & Real Values & Predictions & Real Values & Predictions & Real Values & Predictions & Real Values & Predictions \\
+\hline
+ January 2017 & 3436 & 3444.87 & & & & & &\\
+\hline
+ February 2017 & 3225 & 3251.915 & & & & & &\\
+ \hline
+ March 2017 & 3153 & 3164.190 & & & & & &\\
+ \hline
+ April 2017 & & 3317.814 & & & & & &\\
+ \hline
+ May 2017 & & 3492.701 & & & & & &\\
+ \hline
+ June 2017 & & 3507.062 & & & & & &\\
+ \hline
+ July 2017 & & 3485.804 & & & & & &\\
+ \hline
+ August 2017 & & & & & & & &\\
+ \hline
+ September 2017 & & & & & & & &\\
+ \hline
+ October 2017 & & & & & & & &\\
+ \hline
+ November 2017 & & & & & & & &\\
+ \hline
+ December 2017 & & & & & & & &\\
+ \hline
+% etc. ...
+\end{tabular}  }}
+
+
+\makebox[\textwidth][c]{
+\resizebox{1.3\textwidth}{!}{
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\multirow{3}{*}{Months} & \multicolumn{2}{c|}{Consumption of feed} & \multicolumn{2}{c|}{Salmon restock} & \multicolumn{2}{c|}{Salmon Withdrawals} & \multicolumn{2}{c|}{Salmon price}\\
+\cline{2-9}
+ & Real Values & Predictions & Real Values & Predictions & Real Values & Predictions & Real Values & Predictions \\
+\hline
+ January 2017 &  &  & & & & & &\\
+\hline
+ February 2017 & & & & & & & &\\
+ \hline
+ March 2017 & & & & & & & &\\
+ \hline
+ April 2017 & & & & & & & &\\
+ \hline
+ May 2017 & & & & & & & &\\
+ \hline
+ June 2017 & & & & & & & &\\
+ \hline
+ July 2017 & & & & & & & &\\
+ \hline
+ August 2017 & & & & & & & &\\
+ \hline
+ September 2017 & & & & & & & &\\
+ \hline
+ October 2017 & & & & & & & &\\
+ \hline
+ November 2017 & & & & & & & &\\
+ \hline
+ December 2017 & & & & & & & &\\
+ \hline
+% etc. ...
+\end{tabular}  }}
+
+\makebox[\textwidth][c]{
+\resizebox{1.3\textwidth}{!}{
+\begin{tabular}{|c|c|c|c|c|c|c|c|}
+
+	\hline
+     Input & Type & January 2017 & February 2017 & March 2017 & April 2017 & May 2017 & June 2017 \\ 
+    \hline
+    \multirow{2}{*}{Cages} &Real &3436 &3225 & & & &\\&Predicted &3444.87 &3251.915 & & & & \\
+    \hline
+    \multirow{2}{*}{Localities} &Real & & & & & &\\&Predicted & & & & & &\\
+    \hline
+    \multirow{2}{*}{Salmon Biomass} &Real & & & & & &\\&Predicted & & & & & &\\
+    \hline
+    \multirow{2}{*}{Salmon Number} &Real & & & & & &\\&Predicted & & & & & & \\
+    \hline
+   
+
+\end{tabular}}}
 

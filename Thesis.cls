@@ -379,6 +379,7 @@
   \addtotoc{\bibname}
   \btypeout{\bibname}
   \@mainmatterfalse}
+  
 \endinput
 %%
 %% End of file `Thesis.cls'.
