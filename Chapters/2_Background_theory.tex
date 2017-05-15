@@ -80,7 +80,17 @@ Understanding a dataset is called time series analysis and it can helps to make 
 
 Making predictions could be called time series forecasting and it involves taking models fit on historical data and using them to predict future observations.
 
-Information Source: http://machinelearningmastery.com/time-series-forecasting/
-\section{Python}
+\subsection{Autoregressive integrated moving average (ARIMA)}
+
+In statistics and econometrics, and in particular in time series analysis, an autoregressive integrated moving average (ARIMA) model is a generalization of an autoregressive moving average (ARMA) model. Both of these models are fitted to time series data either to better understand the data or to predict future points in the series (forecasting).
+
+ARIMA(p, d, q)
+\begin{itemize}
+\item \textbf{p} is the number of autoregressive terms (How many preceding values are examinated for the current value’s forecast).
+
+\item \textbf{d} is the number of nonseasonal differences needed for stationarity.
+
+\item \textbf{q} is the number of lagged forecast errors in the prediction equation. 
+\end{itemize}
 
 

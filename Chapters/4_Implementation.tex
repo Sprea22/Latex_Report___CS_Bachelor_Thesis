@@ -77,6 +77,19 @@ Datasets downloads website:\\
 The datasets that you can download on this website are in a different format than the one we will need, but for better understand the meaning of the data are useful since are in XLSX format, splitted in clear tables and well commented (only in norwegian).
 
 \newpage
+
+\section{Increase accessibility and availability of data}
+Quite complicated datasets structure rebuilt in a easy readable way, provided an accurate description (in English, since it was available just in Norwegian) and collected in a unique big dataset. \\
+It allows to access to different kind of values about aquaculture in Norway in a much easier way.
+
+\begin{figure}[H]
+	
+        \makebox[\textwidth][c]{\includegraphics[width=1.2\textwidth]{Files/Dataset.pdf}}
+    \caption{Dataset structure.}
+\end{figure}
+
+
+\newpage
 \subsection{Data description and validation}
 \textbf{- Cages:}
 	\\ Content: Reported number of cages with salmon and rainbow trout.
@@ -136,20 +149,35 @@ The datasets that you can download on this website are in a different format tha
 	\\ Period:  From January 2005 to December 2016.
 	\\ Location: Norway.
 	
-\section{Increase accessibility and availability of data}
-Quite complicated datasets structure rebuilt in a easy readable way, provided an accurate description (in English, since it was available just in Norwegian) and collected in a unique big dataset. \\
-It allows to access to different kind of values about aquaculture in Norway in a much easier way.
+
 
 \input{Chapters/4_1_Analysis_&_Displaying} % Data Analysis and Displaying
 
 \input{Chapters/4_2_Prediction} % Data Prediction
 
 \part{Future Works}
+\section{Dataset about single locality}
+This thesis allows to have a general overview and predictions of values about the aquaculture business in Norway. 
+
+But it would be much more useful, in particular for people into the aquaculture business, to use this system to have an overview and predictions of data provided by a single locality of aquaculture.\\
+In this case the system could be used from the owner of the locality to analyze historic values and use the prediction system to have a forecast about some particular parameters.
+
 \section{Visualization of the data}
+
+\newpage
+
 \section{Prediction system as a service}
+This system has been developed with the idea that it could become a "Service system", that is basically a configuration of technology and organizational networks designed to deliver services that satisfy the needs or wants of customers.
+Since the prediction system implemented during this work is almost 100\% reusable, it could be used from people for prediction about any kind of data. 
+
+Basically the idea is to create a web application that allows to let you upload your own dataset, choose your own preferences and prediction settings, and then the system will calculate and display prediction of the current values in the future together with the MAPE (Mean Average Percentage Error) to have an idea bout how accurate are the.\\
 
 
-
+\begin{figure}[H]
+	\centering
+        \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{Files/ServiceSystem.pdf}}
+    \caption{Idea of the Servie System for predictions.}
+\end{figure}
 
 
 

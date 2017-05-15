@@ -1,21 +1,25 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Data science concept\relax }}{5}{figure.caption.23}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Data science process}}{5}{figure.caption.24}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Data science concept\relax }}{5}{figure.caption.17}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Data science process}}{5}{figure.caption.18}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Plan flow chart}}{10}{figure.caption.31}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Plan flow chart}}{10}{figure.caption.25}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Total graphic about current input with total data from 2005 to 2016.\relax }}{21}{figure.caption.55}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Graphics for each single year of the input data from 2005 to 2016\relax }}{22}{figure.caption.57}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Correlation matrix between different months of the same input\relax }}{23}{figure.caption.59}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Correlation matrix between different years of the same input\relax }}{24}{figure.caption.61}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Example of "Single Input Overview Image"\relax }}{25}{figure.caption.63}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Correlation matrix between different inputs with data from 2005 to 2016.\relax }}{26}{figure.caption.67}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Normalized angular coefficients of each input's trendline.\relax }}{27}{figure.caption.68}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Graphic that displays different MAPE values for each ARIMA order.\relax }}{31}{figure.caption.80}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Graphic that displays the predicted values from a particular ARIMA machine configuration and the historic real values.\relax }}{33}{figure.caption.95}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Graphic that display historic, future and predicted values of a input.\relax }}{35}{figure.caption.117}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Dataset structure.\relax }}{16}{figure.caption.43}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Total graphic about current input with total data from 2005 to 2016.\relax }}{22}{figure.caption.51}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Graphics for each single year of the input data from 2005 to 2016\relax }}{23}{figure.caption.53}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Correlation matrix between different months of the same input\relax }}{24}{figure.caption.55}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Correlation matrix between different years of the same input\relax }}{25}{figure.caption.57}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Example of "Single Input Overview Image"\relax }}{27}{figure.caption.59}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Correlation matrix between different inputs with data from 2005 to 2016.\relax }}{29}{figure.caption.64}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Normalized angular coefficients of each input's trendline.\relax }}{30}{figure.caption.65}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Graphic that displays different MAPE values for each ARIMA order.\relax }}{34}{figure.caption.77}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Graphic that displays the predicted values from a particular ARIMA machine configuration and the historic real values.\relax }}{36}{figure.caption.92}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Graphic that display historic, future and predicted values of a input.\relax }}{38}{figure.caption.116}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Idea of the Servie System for predictions.\relax }}{42}{figure.caption.122}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Correlation matrix between different inputs with data from 2005 to 2016.\relax }}{43}{figure.caption.124}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Normalized angular coefficients of each input's trendline.\relax }}{44}{figure.caption.126}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

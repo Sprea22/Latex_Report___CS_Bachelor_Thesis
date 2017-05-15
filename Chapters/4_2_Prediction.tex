@@ -52,11 +52,10 @@ All these results have been reported in a document and then also displayed with 
 \newpage
 \subsection{Training System}
 \textbf{Goal:}\\ 
-This system has the goal of training/testing a particular specific ARIMA configuration about a data input, and see how much accurate it is. \\
-
+This system has the goal of training/testing a specific ARIMA configuration on a particular data input, and see how much accurate it is. 
 
 \textbf{Requirements:}\\
-Since this Traning System has been used mainly for train and test the current dataset, it need to have like input a dataset that follows the same format:
+Since this Traning System has been used mainly for train and test the current dataset, it need to have like input a dataset that follows the same format:\\
 - Data content: 144 values, 1 value for each month from 2005 to 2016
 
 \textbf{Code implementation:}\\
@@ -64,12 +63,15 @@ First of all this system it's going to split the input data in two part:\\
 - Train data: values which the ARIMA model is going to use for training. \\
 - Test data: values which are hided by the forecasting model. \\
 Once the ARIMA model has been created, the system will try to predict the future values, that are actually the "Test data".\\
-Once the predictions have been calculated it's possible to display the "Test data" (that are the real values) and the predicted values, just to see how much the ARIMA configuration is accurate.
+
 \begin{lstlisting}
 model = ARIMA(history, order=arima_order)
 model_fit = model.fit(disp=0)
 yhat = model_fit.forecast()[0]
 \end{lstlisting}
+
+Once the predictions have been calculated it's possible to display the "Test data" (that are the real values) and the predicted values, just to see how much the ARIMA configuration is accurate.
+
 \begin{lstlisting}
 series = pd.read_csv("Dataset.csv", usecols=[sys.argv[1]])
 series.plot(color="blue", linewidth=1.5,
@@ -80,8 +82,12 @@ output = Series.from_csv('Output_Files/predictions.csv')
 output.plot(color="red", linewidth=1.5,
 		label="Prediction test:")
 \end{lstlisting}
-\textbf{Results:}\\
 
+\newpage
+
+\textbf{Results:}\\
+The following picture is an output example of this training system. \\
+It actually allows to have an idea about how accurate is that ARIMA configuration for predictions.
 \begin{figure}[H]
 	\centering
     \makebox[\textwidth][c]{\includegraphics[width=1.5\textwidth]{Files/Cages_TRAIN.jpg}}
@@ -102,24 +108,45 @@ It basically collects real future values, in this particular are values about 20
 This system has to be as much reusable as possible, so there are not that strict requirements. You can reuse this Future Prediction System with any kind of dataset with no restrictions about length. \\
 The only requirement to let it works in a proper way is that you have to set the historic and real values datasets in the right way; it means that you have to write down the historic values in the dataset in this way:
 
-Index | Input\\
-1	  |	Value1\\
-2	  |	Value2\\
-3	  |	Value3\\
-..	  |	..\\
-120	  |	Value120\\
-121	  |	Value121\\
-122   |	Value122\\
+
+\begin{table}[ht] 
+    \centering 
+    \begin{tabular}{ | l | l | l | p{5cm} |}
+        \hline
+        Index 	& Input1 	& Input2			\\ \hline
+          	1 	& Value1 	& Value1			\\ \hline
+          	2 	& Value2 	& Value2			\\ \hline
+          	3 	& Value3	& Value3 		\\ \hline
+          	... & ... 		& ...				\\ \hline
+           	120 & Value120 & Value120	\\ \hline
+          	121 & Value121 & Value121	\\ \hline
+ 			122 & Value122 & Value122	\\ \hline
+    \end{tabular}
+    \caption{Historic dataset structure}
+    \label{table: pred_historic_values} 
+\end{table} 
 
 And then, if you want to compare the predicted values with some real values that are already available, you have to set the real values dataset in this way:
 
-Index | Input\\
-123	  |	Value123\\
-124	  |	Value124\\
-125	  |	Value125\\
-126	  |	\\
-127	  |	\\
-128   |	\\
+
+\begin{table}[ht] 
+    \centering 
+    \begin{tabular}{ | l | l | l | p{5cm} |}
+        \hline
+        Index & Input1 & Input2 		\\ \hline
+          	123 & Value123 & Value123 	\\ \hline
+          	124 & Value124 & Value124 	\\ \hline
+          	125 & Value125 & Value125 	\\ \hline
+          	126 & 	&					\\ \hline
+          	127 & 	&					\\ \hline
+          	128 & 	&					\\ \hline
+ 			129 & 	&					\\ \hline
+    \end{tabular}
+    \caption{Future real values dataset structure}
+    \label{table: pred_real_values} 
+\end{table} 
+
+\newpage
 
 \textbf{Code implementation:}\\
 \begin{lstlisting}

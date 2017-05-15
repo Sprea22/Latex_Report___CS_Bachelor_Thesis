@@ -3,8 +3,8 @@
 Total implementation link for data analyzer : \\
 \url{https://github.com/Sprea22/Data_Analyzer_Python}
 
-During this part the main purpose is to analyse the whole dataset in order to find some kind of useful informations later on. \\
-The Python system implemented in this section is mainly used for a generic analysis of the data from different point of views.\\
+During this part the main purpose is to analyze the whole dataset in order to find some kind of useful informations later on. 
+
 The output of this phase will basically be for each single data input:
 \begin{itemize}
 \item Total graphic of the input data from 2005 to 2016.
@@ -19,12 +19,14 @@ And then it also provides:
 \item Graphic of the normalized angular coefficients of all the inputs.
 \end{itemize}
 
-It's important to remind that this phase can be implemented in different ways and with different programming language, in this case has been choose Python, so be sure to have installed all the necessary for compile and execute Python code on your platform.\\
+It's important to remind that this phase can be implemented in different ways and with different programming language;\\
+This proceure will describes the system implentation using Python, so be sure to have installed all the necessary for compile and execute Python code on your platform.
+
 Current development environment:\\
 Python version: 2.7.12\\
 Linux kernel version number: Linux Asus 4.4.0-71-generic SMP\\
 
-During this experiment has been implemented a system that could be divided in two subsystems, that are:
+The system that it's going to be implemented during this part of the work could be divided in two subsystems:
 \begin{itemize}
 \item Single Input Analyzer (SIA): Used for analyze a single data input.
 \item Multiple Inputs Analyzer (MIA): Used for analyze multiple data inputs.
@@ -34,8 +36,10 @@ During this experiment has been implemented a system that could be divided in tw
 
 \newpage
 \subsection{Single Input Analyzer}
+It's possible to check out the total implementation code of the SIA in the appendice  [\ref{SIA_Implementation}].
+The implementation of this Analyzer can be divided in the following parts:
 \begin{itemize}
-\item SIA imported libraries.
+\item SIA imported libraries. 
 \item SIA part I: Generate and display a graphic about current input with total data from 2005 to 2016.
 \item SIA part II: Generate and display a graphic about current input for each year from 2005 to 2016.
 \item SIA part III: Generate and display a graphic that contains the correlation matrix between each single year from 2005 to 2016 of the current input.
@@ -51,6 +55,11 @@ The aalysis system need in input a dataset structure that:
 \item One single value for each month
 \end{itemize}
 It means that the dataset must contains 144 values for each single input.
+
+\subsubsection{SIA: Imported libraries}
+Specific Python libraries have been imported for the implementation of this system.
+It's possible to find out a list of this libraries with a specific description for each of them in the appendice [\ref{SIA_libraries}].
+
 \newpage
 
 \subsubsection{SIA section I: Total graphic for all the years}
@@ -61,10 +70,10 @@ Generate and display the total graphic about current input from 2005 to 2016.
 - Data content: 144 values, 1 value for each month from 2005 to 2016
 
 \textbf{Implementation:}\\
-It's possible to check out the full ccommented code in the appendice: \ref{SIA_section_I}
+It's possible to check out the full ccommented code in the appendice: [\ref{SIA_section_I}]
 
 \textbf{Results:} \\
-With this first part of the code has been reached the first goal of to displaying and save the basic graphic about the current input from 2005 to 2016, with also the trendline displayed, that looks like this example:
+With this first part of the code has been reached the first goal of displaying and saving the basic graphic about the current input from 2005 to 2016 with also the relative trendline, that looks like this example:
 
 \begin{figure}[H]
 \includegraphics[width=1\textwidth]{Files/Cages_Total.jpg}
@@ -77,13 +86,16 @@ With this first part of the code has been reached the first goal of to displayin
 \subsubsection{SIA section II: Single graphics for each year}
 
 \textbf{Goal:}\\
-Generate and display graphics about current input for each year from 2005 to 2016
+Generate and display a graphic that contains the plots of each single year from 2005 to 2016 of the current input. 
 
 \textbf{Requirements:}\\
 - Data content: 144 values, 1 value for each month from 2005 to 2016
 
+\textbf{Implementation:}\\
+It's possible to check out the full ccommented code in the appendice: [\ref{SIA_section_II}]
+
 \textbf{Results:} \\
-With this second part of the code has been reached the goal of displaying and save the graphics about the current input for each single year from 2005 to 2016, that looks like this example:
+With this second part of the code has been reached the goal of displaying and saving the graphic of the plots for each single year of the current input from 2005 to 2016, that looks like this example:
 
 \begin{figure}[H]
 	\centering
@@ -103,10 +115,12 @@ Calculate the correlation coefficients between each single year from 2005 to 201
 \textbf{Requirements:}\\
 - Data content: 144 values, 1 value for each month from 2005 to 2016
 
-
+\textbf{Implementation:}\\
+It's possible to check out the full ccommented code in the appendice: [\ref{SIA_section_III}]
 
 \textbf{Results:} \\
-With this third part of the code have been calculated the correlation coefficients between each single year from 2005 to 2016 for each single inputs, saved the values in a document and then also displayed and saved the correlation matrix about it, that looks like this example:
+With this part of the code have been calculated the correlation coefficients between each single year from 2005 to 2016 of the current input and saved it in a document. \\
+Then has been also displayed and saved the correlation matrix about it, that looks like the current example:
 
 \begin{figure}[H]
 	\centering
@@ -126,8 +140,13 @@ Calculate the correlation coefficients between each single month from 2005 to 20
 \textbf{Requirements:}\\
 - Data content: 144 values, 1 value for each month from 2005 to 2016
 
+\textbf{Implementation:}\\
+It's possible to check out the full ccommented code in the appendice: [\ref{SIA_section_IV}]
+
+
 \textbf{Results:} \\
-With this part of the code have been calculated the correlation coefficients between each single month from 2005 to 2016 of all the inputs and saved it in a document. Then has been also displayed and saved the correlation matrix about it, that looks like this example:
+With this part of the code have been calculated the correlation coefficients between each single month from 2005 to 2016 of the current input and saved it in a document. \\
+Then has been also displayed and saved the correlation matrix about it, that looks like the current example:
 
 \begin{figure}[H]
 	\centering
@@ -140,14 +159,18 @@ With this part of the code have been calculated the correlation coefficients bet
 \subsubsection{SIA section V: Single overview}
 
 \textbf{Goal:}\\
-Generate and display a single overview image for the current input.
+Generate and display a single overview image that contains all the graphics previous calculated for the current input.
+
+\textbf{Implementation:}\\
+It's possible to check out the full ccommented code in the appendice: [\ref{SIA_section_V}]
 
 \textbf{Requirements:}\\
-- All the images that contain graphic about current input.
+- All the graphics about the current input have to be already calculated and saved.
 
 \textbf{Results:}
+With this part of the code it's possible to have a single overview image for the current input, that is basically showing and comparing all the graphics that have already been calculated about this input. It looks like this example:
 \begin{figure}[H]
-    \makebox[\textwidth][c]{\includegraphics[width=1.2\textwidth]{Files/Cages_Overview.jpg}}
+    \makebox[\textwidth][c]{\includegraphics[width=1.4\textwidth]{Files/Cages_Overview.jpg}}
     \caption{Example of "Single Input Overview Image"}
 \end{figure}
 
@@ -156,27 +179,42 @@ Generate and display a single overview image for the current input.
 \subsection{Multiple Inputs Analyzer}
 \subsubsection{MIA: Requirements for reusability}
 The system that is going to be implemented during this phase it's not reusable at all.
-It means that has been implemneted just for analyze the current dataset composed by 8 different inputs about Aquaculture.
+It means that has been implemented just for analyze and display the result about the dataset that is used during this work.
+
+\subsubsection{SIA: Imported libraries}
+Specific Python libraries have been imported for the implementation of this system.
+It's possible to find out a list of this libraries with a specific description for each of them in the appendice [\ref{MIA_Libraries}].
+
+\newpage
 
 \subsubsection{MIA: Implementation}
 \textbf{Goal:}\\
-This analyzer is mainly used for show the correlation coefficent between the diffent inputs along the total period (from 2005 o 2016), that it will be important to have a general about which kind of relation there is between different inputs and how much strong it is.
+This analyzer is mainly used for show the correlation coefficent between the diffent inputs along the total period (from 2005 o 2016) and also for display the comparison between the normalized angular coefficients for each single input in the current dataset.
 
 \textbf{Requirements:}\\
-- Input dataset: Total\_Dataset required, structure already reported here:
-\hyperref[table: Total_Dataset]{Total Dataset}
+How it's written above, this part of the system is not reusable at all.\\
+So the requirements are strict about the input data, that have to be exactly tha same that we are using during this work.\\
+Of course this system can be used for the other dataset, but before doing it you have to personalize the implementation code.
+
+\textbf{Implementation:}\\
+It's possible to check out the full ccommented code in the appendice: [\ref{MIA_Implementation}]
 
 \textbf{Results:} \\
+The first part of the MIA implementation allows to calculate the correlation coefficients value between each single inputs and then also to display and save it. The graphic result looks like:
 
 \begin{figure}[H]
 	\centering
-    \includegraphics[width=0.75\textwidth]{Files/Total_Dataset_Years_Matrix.jpg}
+    \includegraphics[width=0.90\textwidth]{Files/Total_Dataset_Years_Matrix.jpg}
     \caption{Correlation matrix between different inputs with data from 2005 to 2016.}
 \end{figure}
 
+\newpage
+
+The second part of the MIA implementation allows to display a graphic that compare the normalized angular coefficients for each single input that have been already calculated and reported in a document. The result graphic look like:
+
 \begin{figure}[H]
 	\centering
-    \includegraphics[width=0.75\textwidth]{Files/Norm_Ang_Coeffs.jpg}
+    \includegraphics[width=0.90\textwidth]{Files/Norm_Ang_Coeffs.jpg}
     \caption{Normalized angular coefficients of each input's trendline.}
 \end{figure}
 
