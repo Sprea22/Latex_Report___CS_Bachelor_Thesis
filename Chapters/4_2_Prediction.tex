@@ -43,7 +43,7 @@ All these results have been reported in a document and then also displayed with 
 
 \begin{figure}[H]
 	\raggedleft
-	\makebox[\textwidth][c]{\includegraphics[width=0.7\textwidth]{Files/Cages_MAPE.pdf}}
+	\makebox[\textwidth][c]{\includegraphics[width=1.5\textwidth]{Files/Cages_MAPE.pdf}}
     \caption{Graphic that displays different MAPE values for each ARIMA order.}
 \end{figure}
 
@@ -147,15 +147,16 @@ And then, if you want to compare the predicted values with some real values that
 \end{table} 
 
 \newpage
-
 \textbf{Code implementation:}\\
+First of all a new ARIMA model it's created using the current historic values and a specific ARIMA-Order, that it should be the Best ARIMA-Order calculated during by the Evaluation System.\\
+Then, once the model is ready, it's possible to calculate as many prediction values in the future as you want. \\
 \begin{lstlisting}
 model = ARIMA(history, order=arima_order)
 model_fit = model.fit(disp=0)
 yhat = model_fit.forecast()[0]
 \end{lstlisting}
 
-
+Once the predictions have been calculated, it's possible to display a graphic that contains the historic values, the future predictions value and the real future values (if already available).
 \begin{lstlisting}
 # 1) Historic values
 series = pd.read_csv("HISTORIC DATASET", 
@@ -173,8 +174,11 @@ pyplot.plot(series["Index"], series[sys.argv[1]],
 	color="green", linewidth=1.5, label="Real values")
 
 \end{lstlisting}
+
+\newpage 
+
 \textbf{Results:}\\
-The system implemented during this phase allows to predict future for as many months as you want in the future and to display it, compared also with the historic values and real values once are available.
+The system implemented during this phase allows to predict future for as many months as you want in the future and to display it, compared also with the historic values and real values once are available. The output graphic look like:
 \begin{figure}[H]
 	\centering
     \makebox[\textwidth][c]{\includegraphics[width=1.5\textwidth]{Files/Cages_Predictions.pdf}}

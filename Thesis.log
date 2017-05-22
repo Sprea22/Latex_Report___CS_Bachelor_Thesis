@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.3)  15 MAY 2017 15:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.3)  22 MAY 2017 13:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1025,18 +1025,18 @@ Chapter 2.
 ------------------------------------------------------------------------------
 [4
 
-] <Files/Data_Science_Concept.pdf, id=484, 597.50829pt x 845.0471pt>
+] <Files/Data_Science_Concept.pdf, id=521, 597.50829pt x 845.0471pt>
 File: Files/Data_Science_Concept.pdf Graphic file (type pdf)
 
 <use Files/Data_Science_Concept.pdf>
-Package pdftex.def Info: Files/Data_Science_Concept.pdf used on input line 23.
+Package pdftex.def Info: Files/Data_Science_Concept.pdf used on input line 22.
 (pdftex.def)             Requested size: 166.98668pt x 188.45114pt.
 
-<Files/Data_Science_Process.pdf, id=486, 845.0471pt x 597.50829pt>
+<Files/Data_Science_Process.pdf, id=523, 845.0471pt x 597.50829pt>
 File: Files/Data_Science_Process.pdf Graphic file (type pdf)
 
 <use Files/Data_Science_Process.pdf>
-Package pdftex.def Info: Files/Data_Science_Process.pdf used on input line 36.
+Package pdftex.def Info: Files/Data_Science_Process.pdf used on input line 35.
 (pdftex.def)             Requested size: 500.9664pt x 185.5453pt.
  [5 <./Files/Data_Science_Concept.pdf> <./Files/Data_Science_Process.pdf>] [6] 
 [7]) (./Chapters/3_Development_method.tex
@@ -1061,7 +1061,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--43
 
  []
 
-<Files/DevelopmentFlow.pdf, id=524, 773.89125pt x 684.5575pt>
+<Files/DevelopmentFlow.pdf, id=561, 773.89125pt x 684.5575pt>
 File: Files/DevelopmentFlow.pdf Graphic file (type pdf)
 
 <use Files/DevelopmentFlow.pdf>
@@ -1073,29 +1073,33 @@ Chapter 4.
 ------------------------------------------------------------------------------
  4 Implementation
 ------------------------------------------------------------------------------
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 9.
+
+LaTeX Font Info:    Try loading font information for T1+txtt on input line 11.
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/t1txtt.fd
+File: t1txtt.fd 2000/12/15 v3.1
+)
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 
-Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 25.
-
-
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 27.
+(hyperref)                than one, level fixed on input line 37.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--40
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 41--43
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
 
  []
 
 
-Overfull \hbox (23.80751pt too wide) in paragraph at lines 44--46
+Underfull \hbox (badness 10000) in paragraph at lines 51--53
+
+ []
+
+
+Overfull \hbox (23.80751pt too wide) in paragraph at lines 54--56
 [][]$\OT1/cmtt/m/n/10.95 https : / / codeload . github . com / Sprea22 / Foreca
 sting _ System _ Python / zip / master$[][] 
  []
@@ -1103,12 +1107,14 @@ sting _ System _ Python / zip / master$[][]
 [12
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
  []
 
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 62.
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
 
  []
 
@@ -1117,26 +1123,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--57
 ]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 70.
+(hyperref)                than one, level fixed on input line 80.
 
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 71.
+(hyperref)                than one, level fixed on input line 81.
 
-
-Overfull \hbox (19.9272pt too wide) in paragraph at lines 74--76
-[][]$\OT1/cmtt/m/n/10.95 http : / / www . fiskeridir . no / Akvakultur / Statis
-tikk-[]akvakultur / Biomassestatistikk$[][] 
- []
-
-[15] <Files/Dataset.pdf, id=572, 723.70375pt x 443.6575pt>
+[15] <Files/Dataset.pdf, id=612, 723.70375pt x 443.6575pt>
 File: Files/Dataset.pdf Graphic file (type pdf)
 
 <use Files/Dataset.pdf>
-Package pdftex.def Info: Files/Dataset.pdf used on input line 87.
-(pdftex.def)             Requested size: 500.9664pt x 307.11237pt.
- [16 <./Files/Dataset.pdf>] [17]
-(./Chapters/4_1_Analysis_&_Displaying.tex [18] [19
+Package pdftex.def Info: Files/Dataset.pdf used on input line 113.
+(pdftex.def)             Requested size: 417.47307pt x 255.92697pt.
+ <Files/Dataset2.pdf, id=613, 723.70375pt x 443.6575pt>
+File: Files/Dataset2.pdf Graphic file (type pdf)
+
+<use Files/Dataset2.pdf>
+Package pdftex.def Info: Files/Dataset2.pdf used on input line 145.
+(pdftex.def)             Requested size: 417.47307pt x 255.92697pt.
+ [16 <./Files/Dataset.pdf>] [17 <./Files/Dataset2.pdf>] (./Chapters/4_1_Analysi
+s_&_Displaying.tex [18
 
 ]
 
@@ -1148,7 +1154,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--28
 
  []
 
-[20]
+[19]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 38.
@@ -1157,69 +1163,88 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 50.
 
-[21] <Files/Cages_Total.pdf, id=606, 578.16pt x 433.62pt>
+[20] <Files/Cages_Total.pdf, id=645, 578.16pt x 433.62pt>
 File: Files/Cages_Total.pdf Graphic file (type pdf)
 
 <use Files/Cages_Total.pdf>
-Package pdftex.def Info: Files/Cages_Total.pdf used on input line 79.
-(pdftex.def)             Requested size: 417.47307pt x 313.106pt.
- [22 <./Files/Cages_Total.pdf>]
-<Files/Cages_Years.pdf, id=646, 578.16pt x 433.62pt>
+Package pdftex.def Info: Files/Cages_Total.pdf used on input line 84.
+(pdftex.def)             Requested size: 375.7232pt x 281.79012pt.
+ [21 <./Files/Cages_Total.pdf>]
+<Files/Cages_Years.pdf, id=688, 578.16pt x 433.62pt>
 File: Files/Cages_Years.pdf Graphic file (type pdf)
 
 <use Files/Cages_Years.pdf>
-Package pdftex.def Info: Files/Cages_Years.pdf used on input line 102.
-(pdftex.def)             Requested size: 417.47307pt x 313.106pt.
- [23 <./Files/Cages_Years.pdf>]
-<Files/Cages_Months_Matrix.pdf, id=699, 578.16pt x 433.62pt>
+Package pdftex.def Info: Files/Cages_Years.pdf used on input line 114.
+(pdftex.def)             Requested size: 375.7232pt x 281.79012pt.
+ [22 <./Files/Cages_Years.pdf>]
+<Files/Cages_Months_Matrix.pdf, id=743, 578.16pt x 433.62pt>
 File: Files/Cages_Months_Matrix.pdf Graphic file (type pdf)
 
 <use Files/Cages_Months_Matrix.pdf>
-Package pdftex.def Info: Files/Cages_Months_Matrix.pdf used on input line 127.
-(pdftex.def)             Requested size: 417.47307pt x 313.106pt.
- [24 <./Files/Cages_Months_Matrix.pdf>]
-<Files/Cages_Years_Matrix.pdf, id=758, 578.16pt x 433.62pt>
+Package pdftex.def Info: Files/Cages_Months_Matrix.pdf used on input line 146.
+(pdftex.def)             Requested size: 375.7232pt x 281.79012pt.
+ [23 <./Files/Cages_Months_Matrix.pdf>]
+<Files/Cages_Years_Matrix.pdf, id=807, 578.16pt x 433.62pt>
 File: Files/Cages_Years_Matrix.pdf Graphic file (type pdf)
 
 <use Files/Cages_Years_Matrix.pdf>
-Package pdftex.def Info: Files/Cages_Years_Matrix.pdf used on input line 153.
-(pdftex.def)             Requested size: 417.47307pt x 313.106pt.
- [25 <./Files/Cages_Years_Matrix.pdf>]
+Package pdftex.def Info: Files/Cages_Years_Matrix.pdf used on input line 179.
+(pdftex.def)             Requested size: 375.7232pt x 281.79012pt.
+ [24 <./Files/Cages_Years_Matrix.pdf>]
 File: Files/Cages_Total.pdf Graphic file (type pdf)
 
 <use Files/Cages_Total.pdf>
-Package pdftex.def Info: Files/Cages_Total.pdf used on input line 178.
+Package pdftex.def Info: Files/Cages_Total.pdf used on input line 204.
 (pdftex.def)             Requested size: 208.73653pt x 156.553pt.
 File: Files/Cages_Years.pdf Graphic file (type pdf)
  <use Files/Cages_Years.pdf>
-Package pdftex.def Info: Files/Cages_Years.pdf used on input line 183.
+Package pdftex.def Info: Files/Cages_Years.pdf used on input line 209.
 (pdftex.def)             Requested size: 208.73653pt x 156.553pt.
 File: Files/Cages_Years_Matrix.pdf Graphic file (type pdf)
 
 <use Files/Cages_Years_Matrix.pdf>
-Package pdftex.def Info: Files/Cages_Years_Matrix.pdf used on input line 190.
+Package pdftex.def Info: Files/Cages_Years_Matrix.pdf used on input line 216.
 (pdftex.def)             Requested size: 208.73653pt x 156.553pt.
 File: Files/Cages_Months_Matrix.pdf Graphic file (type pdf)
  <use Files/Cages_Months_Matrix.pdf>
-Package pdftex.def Info: Files/Cages_Months_Matrix.pdf used on input line 194.
+Package pdftex.def Info: Files/Cages_Months_Matrix.pdf used on input line 220.
 (pdftex.def)             Requested size: 208.73653pt x 156.553pt.
- [26]
-[27] <Files/Total_Dataset_Years_Matrix.pdf, id=816, 845.0471pt x 597.50829pt>
-File: Files/Total_Dataset_Years_Matrix.pdf Graphic file (type pdf)
+ [25]
+[26] <Files/Total_Dataset_Matrix.pdf, id=874, 578.16pt x 433.62pt>
+File: Files/Total_Dataset_Matrix.pdf Graphic file (type pdf)
 
-<use Files/Total_Dataset_Years_Matrix.pdf>
-Package pdftex.def Info: Files/Total_Dataset_Years_Matrix.pdf used on input lin
-e 228.
-(pdftex.def)             Requested size: 375.7232pt x 265.66698pt.
- [28 <./Files/Total_Dataset_Years_Matrix.pdf>] <Files/Norm_Ang_Coeffs.jpg, id=8
-27, 803.0pt x 602.25pt>
-File: Files/Norm_Ang_Coeffs.jpg Graphic file (type jpg)
+<use Files/Total_Dataset_Matrix.pdf>
+Package pdftex.def Info: Files/Total_Dataset_Matrix.pdf used on input line 268.
 
-<use Files/Norm_Ang_Coeffs.jpg>
-Package pdftex.def Info: Files/Norm_Ang_Coeffs.jpg used on input line 238.
-(pdftex.def)             Requested size: 375.7232pt x 281.79855pt.
- [29 <./Files/Norm_Ang_Coeffs.jpg>])
-(./Chapters/4_2_Prediction.tex [30] [31
+(pdftex.def)             Requested size: 354.85464pt x 266.13547pt.
+ [27 <./Files/Total_Dataset_Matrix.pdf>]
+<Files/Norm_Ang_Coeffs.pdf, id=933, 578.16pt x 433.62pt>
+File: Files/Norm_Ang_Coeffs.pdf Graphic file (type pdf)
+
+<use Files/Norm_Ang_Coeffs.pdf>
+Package pdftex.def Info: Files/Norm_Ang_Coeffs.pdf used on input line 293.
+(pdftex.def)             Requested size: 375.7232pt x 281.79012pt.
+ [28 <./Files/Norm_Ang_Coeffs.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 301--302
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 303--304
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 305--306
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 307--308
+
+ []
+
+[29]) (./Chapters/4_2_Prediction.tex [30] [31
 
 ]
 
@@ -1231,90 +1256,91 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 19.
 
-<Files/Cages_MAPE.pdf, id=849, 1675.76062pt x 923.24924pt>
+<Files/Cages_MAPE.pdf, id=1002, 1675.76062pt x 923.24924pt>
 File: Files/Cages_MAPE.pdf Graphic file (type pdf)
 
 <use Files/Cages_MAPE.pdf>
 Package pdftex.def Info: Files/Cages_MAPE.pdf used on input line 46.
-(pdftex.def)             Requested size: 292.22987pt x 160.99344pt.
- [33 <./Files/Cages_MAPE.pdf>]
+(pdftex.def)             Requested size: 626.2096pt x 345.00607pt.
+ [33] [34 <./Files/Cages_MAPE.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 61--66
 
  []
 
-[34] <Files/Cages_TRAIN.pdf, id=928, 1675.76062pt x 923.24924pt>
+[35] <Files/Cages_TRAIN.pdf, id=1086, 1675.76062pt x 923.24924pt>
 File: Files/Cages_TRAIN.pdf Graphic file (type pdf)
 
 <use Files/Cages_TRAIN.pdf>
 Package pdftex.def Info: Files/Cages_TRAIN.pdf used on input line 93.
 (pdftex.def)             Requested size: 626.2096pt x 345.00607pt.
- [35 <./Files/Cages_TRAIN.pdf>] [36]
-Underfull \hbox (badness 10000) in paragraph at lines 151--152
+ [36 <./Files/Cages_TRAIN.pdf>] [37]
+Underfull \hbox (badness 10000) in paragraph at lines 150--153
 
  []
 
-<Files/Cages_Predictions.pdf, id=972, 1675.76062pt x 897.95473pt>
+[38] <Files/Cages_Predictions.pdf, id=1155, 1675.76062pt x 897.95473pt>
 File: Files/Cages_Predictions.pdf Graphic file (type pdf)
 
 <use Files/Cages_Predictions.pdf>
-Package pdftex.def Info: Files/Cages_Predictions.pdf used on input line 180.
+Package pdftex.def Info: Files/Cages_Predictions.pdf used on input line 184.
 (pdftex.def)             Requested size: 626.2096pt x 335.55385pt.
- [37] [38 <./Files/Cages_Predictions.pdf>])
-[39] [40
+ [39 <./Files/Cages_Predictions.pdf>])
+[40] [41
 
 ]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 159.
+(hyperref)                than one, level fixed on input line 185.
 
-[41]
-Underfull \hbox (badness 10000) in paragraph at lines 173--174
+[42]
+Underfull \hbox (badness 10000) in paragraph at lines 201--202
 
  []
 
-<Files/ServiceSystem.pdf, id=1052, 563.10374pt x 242.9075pt>
+<Files/ServiceSystem.pdf, id=1209, 563.10374pt x 242.9075pt>
 File: Files/ServiceSystem.pdf Graphic file (type pdf)
 
 <use Files/ServiceSystem.pdf>
-Package pdftex.def Info: Files/ServiceSystem.pdf used on input line 178.
+Package pdftex.def Info: Files/ServiceSystem.pdf used on input line 206.
 (pdftex.def)             Requested size: 417.47307pt x 180.08601pt.
-) (./Chapters/5_Results.tex [42 <./Files/ServiceSystem.pdf>]
+) (./Chapters/5_Results.tex [43 <./Files/ServiceSystem.pdf>]
 Chapter 5.
 ------------------------------------------------------------------------------
  5 Results
 ------------------------------------------------------------------------------
-File: Files/Total_Dataset_Years_Matrix.pdf Graphic file (type pdf)
-<use Files/Total_Dataset_Years_Matrix.pdf>
-Package pdftex.def Info: Files/Total_Dataset_Years_Matrix.pdf used on input lin
-e 5.
-(pdftex.def)             Requested size: 375.7232pt x 265.66698pt.
-File: Files/Norm_Ang_Coeffs.jpg Graphic file (type jpg)
- <use Files/Norm_Ang_Coeffs.jpg>
-Package pdftex.def Info: Files/Norm_Ang_Coeffs.jpg used on input line 30.
-(pdftex.def)             Requested size: 313.1048pt x 234.8306pt.
+[44
 
-[43
+]
+File: Files/Total_Dataset_Matrix.pdf Graphic file (type pdf)
+ <use Files/Total_Dataset_Matrix.pdf>
+Package pdftex.def Info: Files/Total_Dataset_Matrix.pdf used on input line 7.
+(pdftex.def)             Requested size: 417.47307pt x 313.106pt.
+ [45]
+File: Files/Norm_Ang_Coeffs.pdf Graphic file (type pdf)
+ <use Files/Norm_Ang_Coeffs.pdf>
+Package pdftex.def Info: Files/Norm_Ang_Coeffs.pdf used on input line 33.
+(pdftex.def)             Requested size: 417.47307pt x 313.106pt.
 
-] <Files/Best_MAPE.pdf, id=1065, 845.0471pt x 597.50829pt>
+[46] <Files/Best_MAPE.pdf, id=1230, 845.0471pt x 597.50829pt>
 File: Files/Best_MAPE.pdf Graphic file (type pdf)
 
 <use Files/Best_MAPE.pdf>
-Package pdftex.def Info: Files/Best_MAPE.pdf used on input line 71.
+Package pdftex.def Info: Files/Best_MAPE.pdf used on input line 76.
 (pdftex.def)             Requested size: 500.9664pt x 354.22263pt.
- [44] [45 <./Files/Best_MAPE.pdf>])
-(./Chapters/6_Discussion.tex [46]
+ [47 <./Files/Best_MAPE.pdf>])
+(./Chapters/6_Discussion.tex [48]
 Chapter 6.
 ------------------------------------------------------------------------------
  6 Discussion
 ------------------------------------------------------------------------------
-) (./Chapters/7_Conclusion.tex [47
+) (./Chapters/7_Conclusion.tex [49
 
 ]
 Chapter 7.
 ------------------------------------------------------------------------------
  7 Conclusion
 ------------------------------------------------------------------------------
-) (./Chapters/8_Bibliography.tex [48
+) (./Chapters/8_Bibliography.tex [50
 
 ]
 Chapter 8.
@@ -1327,59 +1353,57 @@ Overfull \hbox (33.91888pt too wide) in paragraph at lines 3--4
 o / Akvakultur / Statistikk-[]akvakultur / Biomassestatistikk$[][] 
  []
 
-) (./Appendices/A.tex [49
+)
+Overfull \hbox (27.39651pt too wide) in paragraph at lines 34--102
+[]\OT1/cmr/m/n/10.95 [14] [][]$\OT1/cmtt/m/n/10.95 http : / / www . indexmundi 
+. com / commodities / ?commodity = fish & months = 180 & currency =
+ []
+
+(./Appendices/A.tex [51
 
 ]
 Appendix A.
 ------------------------------------------------------------------------------
  A SIA Implementation code
 ------------------------------------------------------------------------------
-[50
+[52
 
-] [51] [52] [53]
-Overfull \hbox (37.82784pt too wide) in paragraph at lines 185--186
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][] 
+] [53] [54]
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
+
  []
 
-[54]
-Overfull \hbox (17.13234pt too wide) in paragraph at lines 212--213
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-[55] [56]) (./Appendices/B.tex [57]
+[55] [56] [57] [58]) (./Appendices/B.tex [59]
 Appendix B.
 ------------------------------------------------------------------------------
  B MIA Implementation code
 ------------------------------------------------------------------------------
-[58
+[60
 
-]) (./Appendices/C.tex [59]
+] [61]) (./Appendices/C.tex [62]
 Appendix C.
 ------------------------------------------------------------------------------
  C Prediction System Implementation code
 ------------------------------------------------------------------------------
-[60
+[63
 
 ]
-Overfull \hbox (30.92934pt too wide) in paragraph at lines 43--44
-[][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (51.62483pt too wide) in paragraph at lines 67--68
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-[61])
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 56.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <9> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 56.
+)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 114.
- [62]
+ [64]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 114.
- (./Thesis.aux)
+
+(./Thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 114.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 114.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 5E1E98ED99EA778D8BB01B28EC9D117B;14193.
+(rerunfilecheck)             Checksum: 70098FAC60CD41176D13B503F18E18AA;16429.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1387,30 +1411,32 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 114.
  ) 
 Here is how much of TeX's memory you used:
- 15356 strings out of 493029
- 211790 string characters out of 6136235
- 324069 words of memory out of 5000000
- 18107 multiletter control sequences out of 15000+600000
- 13644 words of font info for 51 fonts, out of 8000000 for 9000
+ 15683 strings out of 493029
+ 215871 string characters out of 6136235
+ 498327 words of memory out of 5000000
+ 18328 multiletter control sequences out of 15000+600000
+ 16023 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 49i,12n,45p,13111b,1832s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,12n,45p,13111b,1876s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmsl12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
-t10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam
-7.pfb>
-Output written on Thesis.pdf (74 pages, 1110449 bytes).
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsl12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb>
+Output written on Thesis.pdf (76 pages, 1093855 bytes).
 PDF statistics:
- 1574 PDF objects out of 1728 (max. 8388607)
- 1197 compressed objects within 12 object streams
- 486 named destinations out of 1000 (max. 500000)
- 632 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1831 PDF objects out of 2073 (max. 8388607)
+ 1373 compressed objects within 14 object streams
+ 579 named destinations out of 1000 (max. 500000)
+ 693 words of extra memory for PDF output out of 10000 (max. 10000000)
 

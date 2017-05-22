@@ -1,28 +1,38 @@
 
 \chap{Implementation}
 
-\lstset{
-language=Python,
-backgroundcolor = \color{Ivory},
-basicstyle=\ttfamily,
-otherkeywords={self},             
-keywordstyle=\ttfamily\color{blue!90!black},
-keywords=[2]{True,False},
-keywords=[3]{ttk},
-keywordstyle={[2]\ttfamily\color{yellow!80!orange}},
-keywordstyle={[3]\ttfamily\color{red!80!orange}},
-emph={MyClass,__init__},          
-emphstyle=\ttfamily\color{red!80!black},    
-stringstyle=\color{green!80!black},
-showstringspaces=false            
-}
-
 \hypersetup{
     colorlinks=true,
     linkcolor=blue,
     filecolor=magenta,      
     urlcolor=blue,
 }
+
+\DeclareFixedFont{\ttb}{T1}{txtt}{bx}{n}{12} % for bold
+\DeclareFixedFont{\ttm}{T1}{txtt}{m}{n}{12}  % for normal
+\definecolor{deepblue}{rgb}{0,0,0.5}
+\definecolor{deepred}{rgb}{0.6,0,0}
+\definecolor{deepgreen}{rgb}{0,0.5,0}
+
+% Python style for highlighting
+\lstset{
+	backgroundcolor = \color{Ivory},
+    language=Python,
+    basicstyle=\footnotesize,
+    otherkeywords={self},             
+    keywordstyle=\footnotesize\color{deepblue},
+    emph={__init__},          
+    emphstyle=\footnotesize\color{deepred},    
+    stringstyle=\color{deepgreen},
+    frame=single,                         
+    showstringspaces=false  ,
+    breaklines=true,
+    numbers=left,
+    numberstyle=\footnotesize,
+    tabsize=3,
+    breakatwhitespace=false
+}
+
 
 \subsection{Implemented Systems repositories}
 You can easily download my already implemented system for test it and better understand how it works.
@@ -69,85 +79,101 @@ Once you downloaded it you will find a readMe inside both the repository that wi
 \newpage
 \section{Data collection}
 \subsection{Data sources}
-During this phase is important to be sure to have all the data that we are going to need. During this particular implementation we need the 7 input dataset written above in the "Dataset structure" section, and below here you can find the link of the website where you can download all the needed datasets for this example.
+During this phase of the work the most important thing is to collect as much useful data as possible.The data have been searched on different websites, such as:
+\begin{itemize}
+\item fiskeridir.no (7 Inputs): \\ This has been the main data source for this work. It provides several statistics about Aquaculture in Norway. The only complications about this website are:
+\begin{itemize}
+\item XLSX Format: The data are available just in XLSX format, with a lot of comments and county categories.
+\item Language: The data are available just in Norwegian.
+\item Download: Is not possible to implement a script for automatic download of the data since there isn't a static download link for the latest version.
+\item Upload frequency: The data are periodically uploaded once per month.
+\end{itemize}
 
-Datasets downloads website:\\ 
-\url{http://www.fiskeridir.no/Akvakultur/Statistikk-akvakultur/Biomassestatistikk}
+\item indexmundi.com (1 input):\\ Is possible to find data about fish (salmon) monthly price, Norwegian Krone per Kilogram.
 
-The datasets that you can download on this website are in a different format than the one we will need, but for better understand the meaning of the data are useful since are in XLSX format, splitted in clear tables and well commented (only in norwegian).
+\item quandl.com (0 Input):\\ Is possible to find data about fish (salmon) monthly price, US Dollar per Kilogram.
 
-\newpage
+\item kart.fiskeridir.no (0 Input):\\ It allows to show some data about Aquaculture in Norway displayed on a map, and is also possible to download it (not every single data) in XLSX/CSV format. 
+
+\item sildelaget.no (0 Input):\\ This website provides some general statistics about fisheries and also a catch journal.
+
+\end{itemize}
+
 
 \section{Increase accessibility and availability of data}
 Quite complicated datasets structure rebuilt in a easy readable way, provided an accurate description (in English, since it was available just in Norwegian) and collected in a unique big dataset. \\
 It allows to access to different kind of values about aquaculture in Norway in a much easier way.
 
+\newpage
+
+\subsection{Data description and validation}
+\subsubsection{Dataset about Norway}
+
 \begin{figure}[H]
-	
-        \makebox[\textwidth][c]{\includegraphics[width=1.2\textwidth]{Files/Dataset.pdf}}
+        \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{Files/Dataset.pdf}}
     \caption{Dataset structure.}
 \end{figure}
 
+\makebox[\textwidth][c]{
+\resizebox{1.3\textwidth}{!}{
+    \begin{tabular}{ | l | l | l | l | l | l | l |}
+            \hline
+\textbf{Input}							&	\textbf{Content}	& \textbf{Unit} & \textbf{Frequency} & \textbf{Period} & \textbf{Location} & \textbf{Source}	\\ \hline
+1. Cages							&	\multicolumn{1}{p{4cm}|}{\raggedright Reported number of cages with salmon and rainbow trout.}
+									& Number & Monthly & January 2005 - December 2016 & Norway & 	fiskeridir.no	\\ \hline
+									
+2. Localities						& \multicolumn{1}{p{4cm}|}{\raggedright Reported number of localities with salmon and rainbow trout.}
+									& Number & Monthly & January 2005 - December 2016 & Norway & fiskeridir.no	\\ \hline
+3. Monthly\_salmon\_price 			& \multicolumn{1}{p{4cm}|}{\raggedright Fish Salmon, Farm Bred Norwegian Salmon, export price, NOK per kg.}	
+									& NOK per kg & Monthly & January 2005 - December 2016 & Norway & 	indexmundi.com	\\ \hline
+4. Salmon\_consumption\_of\_feed	&  \multicolumn{1}{p{4cm}|}{\raggedright Reported feed consumption for Salmon.}		
+									& Tonnes & Monthly & January 2005 - December 2016 & Norway & 	fiskeridir.no	\\ \hline
+5. Salmon\_restock 				& \multicolumn{1}{p{4cm}|}{\raggedright Fish restock reported for Salmon.}	
+									& 1000 pcs & Monthly & January 2005 - December 2016 & Norway & 	fiskeridir.no	\\ \hline
+6. Salmon\_withdrawals 			& \multicolumn{1}{p{4cm}|}{\raggedright Withdrawals of Salmon for slaughter. } 		
+									& Tonnes & Monthly & January 2005 - December 2016 & Norway & 	fiskeridir.no	\\ \hline
+7. Salmon\_biomass\_end\_month		& \multicolumn{1}{p{4cm}|}{\raggedright Reported biomass of Salmon. }
+									& Tonnes & Monthly & January 2005 - December 2016 & Norway & 	fiskeridir.no	\\ \hline
+8. Salmon\_number\_end\_month 		& \multicolumn{1}{p{4cm}|}{\raggedright Reported number of Salmon. }		
+									& Number & Monthly & January 2005 - December 2016 & Norway & 	fiskeridir.no	\\ \hline
+    \end{tabular}}}
+    
+
+\subsubsection{Dataset about each single county} 
+
+\begin{figure}[H]
+        \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{Files/Dataset2.pdf}}
+    \caption{Dataset structure.}
+\end{figure}
+
+\makebox[\textwidth][c]{
+\resizebox{1.3\textwidth}{!}{
+   \begin{tabular}{ | l | l | l | l | l | l | l |}
+            \hline
+\textbf{Input}							&	\textbf{Content}	& \textbf{Unit} & \textbf{Frequency} & \textbf{Period} & \textbf{Location} & \textbf{Source}	\\ \hline
+1. Cages							&	\multicolumn{1}{p{4cm}|}{\raggedright Reported number of cages with salmon and rainbow trout.}
+									& Number & Monthly & January 2007 - December 2014 & Troms & fiskeridir.no	\\ \hline
+									
+2. Localities						& \multicolumn{1}{p{4cm}|}{\raggedright Reported number of localities with salmon and rainbow trout.}
+									& Number & Monthly & January 2007 - December 2014 & Troms & fiskeridir.no	\\ \hline
+3. Average Sea Temperature 			& \multicolumn{1}{p{4cm}|}{\raggedright }	
+									&  & Monthly &  & Troms & 	\\ \hline
+4. Salmon\_consumption\_of\_feed	&  \multicolumn{1}{p{4cm}|}{\raggedright Reported feed consumption for Salmon.}		
+									& Tonnes & Monthly & January 2007 - December 2014 & Troms & fiskeridir.no	\\ \hline
+5. Salmon\_restock 				& \multicolumn{1}{p{4cm}|}{\raggedright Fish restock reported for Salmon.}	
+									& 1000 pcs & Monthly & January 2007 - December 2014 & Troms & fiskeridir.no	\\ \hline
+6. Salmon\_withdrawals 			& \multicolumn{1}{p{4cm}|}{\raggedright Withdrawals of Salmon for slaughter. } 		
+									& Tonnes & Monthly & January 2007 - December 2014 & Troms & fiskeridir.no	\\ \hline
+7. Salmon\_biomass\_end\_month		& \multicolumn{1}{p{4cm}|}{\raggedright Reported biomass of Salmon. }
+									& Tonnes & Monthly & January 2007 - December 2014 & Troms & fiskeridir.no	\\ \hline
+8. Salmon\_number\_end\_month 		& \multicolumn{1}{p{4cm}|}{\raggedright Reported number of Salmon. }		
+									& Number & Monthly & January 2007 - December 2014 & Troms & fiskeridir.no	\\ \hline
+    \end{tabular}}}
 
 \newpage
-\subsection{Data description and validation}
-\textbf{- Cages:}
-	\\ Content: Reported number of cages with salmon and rainbow trout.
-	\\ Observation Frequency: Once per month
-	\\ Period:  From January 2005 to December 2016.
-	\\ Location: Norway.
-
-\textbf{- Localities:}
-	\\ Content: Reported number of localities with salmon and rainbow trout. 
-	\\ Observation Frequency: Once per month
-	\\ Period:  From January 2005 to December 2016.
-	\\ Location: Norway.
 
 
-\textbf{- Consumption of feed}
-	\\ Content: Reported feed consumption for Salmon.
-	\\ Units: Figures in tonnes.
-	\\ Observation Frequency: Once per month
-	\\ Period:  From January 2005 to December 2016.
-	\\ Location: Norway.
-
-
-\textbf{- Fish at the end of the month (Salmon)}
-	\\ Content: Reported number of Salmon. 
-	\\ Units: Figures in 1000 pcs.
-	\\ Observation Frequency: Once per month
-	\\ Period:  From January 2005 to December 2016.
-	\\ Location: Norway.
-
-\textbf{- Biomass at the end of the month (Salmon)}
-	\\ Content: Reported biomass of Salmon. 
-	\\ Units: Figures in tonnes.
-	\\ Observation Frequency: Once per month
-	\\ Period:  From January 2005 to December 2016.
-	\\ Location: Norway.
 	
-\textbf{- Fish restock (Salmon)}
-	\\ Content: Fish restock reported for Salmon.
-	\\ Units: Figures in 1000 pcs.
-	\\ Observation Frequency: Once per month
-	\\ Period:  From January 2005 to December 2016.
-	\\ Location: Norway.
-
-
-\textbf{- Withdrawals (Salmon)}
-	\\ Content: Withdrawals of Salmon for slaughter. 
-	\\ Units: Figures in tonnes.
-	\\ Observation Frequency: Once per month
-	\\ Period:  From January 2005 to December 2016.
-	\\ Location: Norway.
-
-
-\textbf{- Monthly Salmon Price (US Dollar)}
-	\\ Content: Fish Salmon, Farm Bred Norwegian Salmon, export price, US Dollar per kg. 
-	\\ Units: US Dollars per Kilogram. 
-	\\ Observation Frequency: Once per month
-	\\ Period:  From January 2005 to December 2016.
-	\\ Location: Norway.
 	
 
 
@@ -163,6 +189,8 @@ But it would be much more useful, in particular for people into the aquaculture 
 In this case the system could be used from the owner of the locality to analyze historic values and use the prediction system to have a forecast about some particular parameters.
 
 \section{Visualization of the data}
+
+\section{Test prediction system with a bigger dataset}
 
 \newpage
 

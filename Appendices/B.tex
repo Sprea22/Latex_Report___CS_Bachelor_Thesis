@@ -12,68 +12,75 @@ The "numpy" library it's used for mathematic purpose, such as calculating the co
 import numpy as np
 \end{lstlisting}
 
+\begin{lstlisting}
+import sys
+\end{lstlisting}
+
+
+\begin{lstlisting}
+pyplot.style.use('ggplot')
+\end{lstlisting}
  
 The "pyplot" library it's used for basic graphic displaying and customization, easy to use but very efficent.
 \begin{lstlisting}
 import matplotlib.pyplot as pyplot
 \end{lstlisting}
 
-\section{MIA: Implementation}
-\textbf{Code implementation:}\\
-First of all, we are going to use the "pandas" library for read the dataset.
-\begin{lstlisting}
-series3 = pd.read_csv("TOTAL_DATASET_DIRECTORY", 
-	index_col=['Input'], header=0)
-\end{lstlisting}
+\section{MIA section I: Total Correlation Coefficients}
+\label{MIA_section_I}
 
-Then with the library "numpy" is possible to calculate the correlation coefficents between all the variables just read above.
 \begin{lstlisting}
-test = np.corrcoef(series3.values)
-\end{lstlisting}
+series = pd.read_csv("Datasets/" + sys.argv[1]+".csv", usecols=range(2,10), header=0)
+corr = []
+for column in series:
+    corr.append(series[column].values)
+# Calculatic che correlation coefficent between each year of the input dataset
+corrRes = np.corrcoef(corr)
 
-Setup the figure that will display the correlation matrix using the library "pyplot".
+mat = np.matrix(corrRes)
+dataframe = pd.DataFrame(data=mat.astype(float))
+dataframe.to_csv("Results/"+sys.argv[1]+"/Total_Evidences/"+sys.argv[1]+"_CorrCoeff.csv", sep=',', header=False, float_format='%.2f', index=False)
+
+fig = pyplot.figure()
+ax = fig.add_subplot(111)
+# Displaying the matrix with the results about correlation coefficents
+cax = ax.matshow(corrRes, interpolation='nearest')
+labels = []
+j = 1
+for i in range(len(series.columns)+1):
+		if i == 0:
+			labels.append("")
+		else:
+			labels.append(series.columns[i-1])
+ax.set_xticklabels(labels)
+ax.set_yticklabels(labels)
+pyplot.setp(ax.get_xticklabels(), rotation=30, horizontalalignment='left')
+pyplot.setp(ax.get_yticklabels(), rotation=30, horizontalalignment='right')
+#cax.set_clim(vmin=0.5, vmax=1) 
+pyplot.colorbar(cax)
+pyplot.title("Correlation Coefficients Matrix - " + sys.argv[1], y=1.15)
+pyplot.tight_layout()
+pyplot.savefig("Results/" + sys.argv[1]+"/Total_Evidences/"+sys.argv[1]+"_Total_Matrix.jpg", format="jpg")
+
+\end{lstlisting}
+\section{MIA section II: Normalized Angular Coefficients}
+\label{MIA_section_II}
+
 \begin{lstlisting}
 fig2 = pyplot.figure()
-ax = fig2.add_subplot(111)
+ax2 = fig2.add_subplot(111)
+temp = [] 
+for i in series.columns:
+	index = sys.argv[1]+"-"+i
+	tempSeries = pd.read_csv("Results/"+sys.argv[1]+"/"+i+"/"+sys.argv[1]+"_"+i+"_AngCoeff.csv", header=0)
+	temp.append(tempSeries[index].values[1])
+x = range(len(series.columns))
+
+pyplot.barh(x, temp)
+# Displaying and saving the bar graphic  
+pyplot.yticks(x,series.columns)
+pyplot.title("Normalized Angular coefficients - " + sys.argv[1])
+pyplot.tight_layout()
+pyplot.savefig("Results/"+sys.argv[1]+"/Total_Evidences/"+sys.argv[1]+"_Norm_Ang_Coeffs.jpg", format="jpg")
+
 \end{lstlisting}
-
-Creating the correlationg matrix using the already calculated correlation coefficents.
-\begin{lstlisting}
-cax = ax.matshow(test, interpolation='nearest')
-\end{lstlisting}
-
-Settings for display the matrix in the right way, in particular for the values to display on both the axis x and y, in this case every single input.
-\begin{lstlisting}
-inputs = ["Cages", "Feed", "Number", "Restock",
-	"Local", "Withdr", "Biomass", "Price"]
-x_pos = np.arange(len(inputs))
-y_pos = np.arange(len(inputs))
-pyplot.yticks(y_pos,inputs)
-pyplot.xticks(x_pos,inputs)
-\end{lstlisting}
-
-Adding a title to the graphic that we are going to display and also a ba that works like a legend for the colors of the matrix, allowing the reader to better understand the values reported inside the matrix.
-\begin{lstlisting}
-pyplot.title("Correlation between different inputs 
-		about data from 2005 to 2016")
-pyplot.colorbar(cax)
-\end{lstlisting}
-
-In the end, using again the library "pyplot", there is the possibility to save the correlation matrix graphic like an image and/or display it.
-\begin{lstlisting}
-pyplot.savefig("OUTPUT_DIRECTORY")
-\end{lstlisting}
-
-\begin{lstlisting}
-series = pd.read_csv("TRENDLINES_VALUES_DOCUMENT",
-	 header=0, usecols=["Norm Ang Coeffs"])
-series.plot(kind="barh")
-pyplot.savefig("OUTPUT_DIRECTORY")
-
-create_total_overview()
-\end{lstlisting}
-
-\begin{lstlisting}
-pyplot.show()
-\end{lstlisting}
-

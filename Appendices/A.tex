@@ -1,4 +1,7 @@
 \chap{SIA Implementation code}
+
+
+
 \label{SIA_Implementation}
 
 \section{SIA: Imported libraries}
@@ -38,245 +41,14 @@ The library "PIL" supports many file formats, and provides powerful image proces
 from PIL import Image
 \end{lstlisting}
 
-The library "fpdf" allows to generate and use PDF file.
+\section{SIA: Implemented methods}
+
 \begin{lstlisting}
-from fpdf import FPDF
-\end{lstlisting}
-
-\section{SIA section I: Total graphic for all the years}
-\label{SIA_section_I}
-\textbf{Code implementation:}\\
-During this section of the code was used "pandas" library for read the dataset.
-\begin{lstlisting}
-series = pd.read_csv("Dataset.csv", usecols=[1,sys.argv[1]])
-\end{lstlisting}
-
-Then using the "pyplot" library has been possible to setup the plot of the input data.
-\begin{lstlisting}
-series.plot(color="blue", linewidth=1.5)
-\end{lstlisting}
-
-
-Thera are some settings about the axis x just to display the data in the right format, are easy to change and to costume.
-\begin{lstlisting}
-years = ["2005","2006","2007","2008","2009","2010",
-	"2011","2012","2013","2014","2015","2016"]
-x = range(144)
-pyplot.xticks(np.arange(min(x), max(x)+1, 12.0), years)
-pyplot.title("Total graphic from 2005 to 2016")
-\end{lstlisting}
-
-Once setted up the plot of the current data, the next step was to display the trendline of the current graphic. \\ 
-The following code represent the method for calculate and display it.
-\begin{lstlisting}
-def trendline(x, y, col):
-	z = np.polyfit(x, y, 1)
-	p = np.poly1d(z)
-	pylab.plot(x,p(x), c=col)
-	# print "y=%.6fx+(%.6f)"%(z[0],z[1])
-\end{lstlisting}	
-
-At this point the current data values have been read again and passed to the method just impleneted above for calculating the trendline.
-\begin{lstlisting}
-series2 = pd.read_csv("Dataset.csv", usecols=[sys.argv[1]],
-			squeeze=True)
-trendline(x, seriesV.values, "red")
-\end{lstlisting}
-
-There is the possibility to save the graphic like an image and/or display it.
-\begin{lstlisting}
-saveFigure("_Total.jpg")
-\end{lstlisting}
-
-
-\section{SIA section II: Single graphics for each year}
-\label{SIA_section_II}
-\textbf{Code implementation:}\\
-During this section of the code was used "pandas" library for read the dataset.
-\begin{lstlisting}
-series2 = pd.read_csv("Dataset.csv", index_col=['Month'],
-			usecols=[0,1,sys.argv[1]])
-\end{lstlisting}
-
-Some initialization of variables that are going to be useful.
-\begin{lstlisting}
-months = ["Jan","Feb","Mar","Apr","May","Jun",
-		"Jul","Aug","Sep","Oct","Nov","Dec"]
-x_pos = np.arange(len(months))
-test = []
-j = 0
-\end{lstlisting}
-
-The following code allows the system to split the values and display them in the right way: that means that are going to be splitted for each single year and then plotted on the same graphic.
-\begin{lstlisting}
-for i in range(len(series2.values)):
-	if j in range(12):
-		test.append(series2.values[i][1])
-		j = j + 1
-	else:
-		pyplot.plot(x_pos, test, linewidth=2, 
-			alpha=0.8, 
-			label = int(series2.values[i-1][0]))
-		test = []
-		test.append(series2.values[i][1])
-		j = 1
-
-\end{lstlisting}
-
-These are some personalization settings that could be easily changed as you want.
-\begin{lstlisting}
-ax.legend(loc=4, ncol=1, fancybox=True, shadow=True)
-pyplot.xticks(x_pos,months)
-pyplot.xlim(0,11)
-pyplot.title(sys.argv[1]+ 
-		": Single year's graphic from 2005 to 2016")
-\end{lstlisting}
-
-There is the possibility to save the graphic like an image and/or display it.
-\begin{lstlisting}
-saveFigure("_Years.jpg")
-\end{lstlisting}
-
-
-\section{SIA section III: Correlation matrix between years}
-\label{SIA_section_III}
-\textbf{Code implementation:}\\
-During this section of the code was used "pandas" library for read the dataset.
-\begin{lstlisting}
-series3 = pd.read_csv("Dataset.csv", index_col=['Year'],
-			usecols=[0,sys.argv[1]])
+pyplot.style.use('ggplot')
 \end{lstlisting}
 
 \begin{lstlisting}
-corr = []
-test = []
-j = 0
-# Collecting the correct values to elaborate.
-for i in range(len(series2.values)+1):
-	if j in range(12):
-		test.append(series2.values[i][1])
-		j = j + 1
-	else:
-		corr.append(test)
-		test = []
-		if i in range(144):
-			test.append(series2.values[i][1])
-			j = 1
-\end{lstlisting}
-
-With the library "numpy" is possible to calculate the correlation coefficents between all the variables in the series just read.
-\begin{lstlisting}
-test = np.corrcoef(corr)
-\end{lstlisting}
-
-Setup the figure that will display the correlation matrix using the library "pypot".
-\begin{lstlisting}
-fig2 = pyplot.figure()
-ax = fig2.add_subplot(111)
-\end{lstlisting}
-
-Creating the correlation matrix using the already calculated correlation coefficents.
-\begin{lstlisting}
-cax = ax.matshow(test, interpolation='nearest')
-\end{lstlisting}
-
-Settings for display the matrix in the right way, in particular for the values to display on both the axis x and y, in this case every single year from 2005 to 2016
-\begin{lstlisting}
-pyplot.title(sys.argv[1]+ ": Correlation between different years")
-years = ["2005","2006","2007","2008","2009","2010",
-	"2011","2012","2013","2014","2015","2016"]
-x_pos = np.arange(len(years))
-y_pos = np.arange(len(years))
-pyplot.yticks(y_pos,years)
-pyplot.xticks(x_pos,years)
-pyplot.colorbar(cax)
-\end{lstlisting}
-\newpage
-Adding a title to the graphic that we are going to display and also a bar that works like a legend for the colors of the matrix, allowing the reader to better understand the values reported inside the matrix.
-\begin{lstlisting}
-saveFigure("_Years_Matrix.jpg")
-\end{lstlisting}
-
-There is the possibility to save the correlation matrix like an image and/or display it.
-\begin{lstlisting}
-pyplot.savefig("OUTPUT_DIRECTORY", format="jpg")
-pyplot.show()
-\end{lstlisting}
-
-
-\section{SIA section IV: Correlation matrix between months}
-\label{SIA_section_IV}
-\textbf{Code implementation:}\\
-During this section of the code was used "pandas" library for read the dataset.
-\begin{lstlisting}
-series4 = pd.read_csv("Dataset.csv", usecols=[0,1,sys.argv[1]])
-\end{lstlisting}
-
-\begin{lstlisting}
-corr = []
-for Month, Year in series4.groupby(["Month"], sort=False):
-	corr.append(Year[sys.argv[1]].values)
-\end{lstlisting}
-	
-With the library "numpy" is possible to calculate the correlation coefficents between all the variables in the series just read.
-\begin{lstlisting}
-test = np.corrcoef(series4.values)
-\end{lstlisting}
-
-Setup the figure that will display the correlation matrix using the library "pypot".
-\begin{lstlisting}
-fig2 = pyplot.figure()
-ax = fig2.add_subplot(111)
-\end{lstlisting}
-
-Creating the correlation matrix using the already calculated correlation coefficents.
-\begin{lstlisting}
-cax = ax.matshow(test, interpolation='nearest')
-\end{lstlisting}
-
-Settings for display the matrix in the right way, in particular for the values to display on both the axis x and y, in this case every single months of the year.
-\begin{lstlisting}
-months = ["Jan","Feb","Mar","Apr","May","Jun",
-	"Jul","Aug","Sep","Oct","Nov","Dec"]
-x_pos = np.arange(len(months))
-y_pos = np.arange(len(months))
-pyplot.yticks(y_pos,months)
-pyplot.xticks(x_pos,months)
-\end{lstlisting}
-Adding a title to the graphic that we are going to display and also a bar that works like a legend for the colors of the matrix, allowing the reader to better understand the values reported inside the matrix.
-\begin{lstlisting}
-pyplot.title("Correlation between different months")
-pyplot.colorbar(cax)
-\end{lstlisting}
-
-There is the possibility to save the correlation matrix like an image and/or display it.
-\begin{lstlisting}
-saveFigure("_Months_Matrix.jpg")
-pyplot.show()
-\end{lstlisting}
-
-\section{SIA section V: Single overview}
-\label{SIA_section_V}
-\textbf{Code implementation:}\\
-create\_single\_overview() : this method will use the "Image" library for autogenerate a collage of the current input's graphics and save it like an overview image. The content of the params will basically decide how the "Current input overview image" will looks like.
-
-It uses each single "current input overview image" of all the inputs and the "correlation matrix between all the inputs image" for combine them in a unique "total overview" and save it using the PDF format.
-
-\begin{lstlisting}
-listofimages=["CURRENT_INPUT_TOTAL_GRAPHIC",
-            "CURRENT_INPUT_YEARS_MATRIX", 
-            "CURRENT_INPUT_YEARS_GRAPHIC",
-            "CURRENT_INPUT_MONTHS_MATRIX"]
-            
-create_single_overview(params1, listofimages)
-create_single_overview(params2, listofimages)
-\end{lstlisting}
-
-
-The "create\_single\_overview" method has basically this structured, and then its configuration depends from the input data and from the preferences.
-\begin{lstlisting}
-def create_single_overview(cols, rows ,
-			width, height, listofimages):
+def create_single_overview(cols, rows, dest, width, height, listofimages):
     thumbnail_width = width//cols
     thumbnail_height = height//rows
     size = thumbnail_width, thumbnail_height
@@ -296,6 +68,273 @@ def create_single_overview(cols, rows ,
             y += thumbnail_height
         x += thumbnail_width
         y = 0
-    new_im.save(SINGLE_OVERVIEW_IMAGE")
-	new_im.show()
+    if dest==0:
+    	script_dir = os.path.dirname(__file__)
+    	results_dir = os.path.join(script_dir, "Results/" + sys.argv[1]+"/"+sys.argv[2]+"/")
+    	if not os.path.isdir(results_dir):
+    		os.makedirs(results_dir)
+        new_im.save(results_dir+"/"+ sys.argv[1] +"_"+sys.argv[2]+"_Graphics_Overview.jpg")
+        new_im.show()
+    if dest==1:
+    	script_dir2 = os.path.dirname(__file__)
+    	results_dir2 = os.path.join(script_dir2, "Results/" + sys.argv[1]+"/Total_Evidences/Single_Inputs")
+    	if not os.path.isdir(results_dir2):
+    		os.makedirs(results_dir2)
+        new_im.save(results_dir2+"/"+ sys.argv[1] +"_"+sys.argv[2]+"_Overview.jpg")
+\end{lstlisting}
+
+
+\begin{lstlisting}
+def trendlineNorm(x, y):
+	z = np.polyfit(x, y, 1)
+	return z[0]
+\end{lstlisting}
+
+\begin{lstlisting}
+def trendline(x, y, col):
+	z = np.polyfit(x, y, 1)
+	p = np.poly1d(z)
+	pylab.plot(x,p(x), c=col)
+	z2 = trendlineNorm(x, normalization(y))
+	return z[0], z2
+\end{lstlisting}
+
+\begin{lstlisting}
+def normalization(values):
+	column = list(float(a) for a in range(0, 0))
+	val = np.array(values)
+	val.astype(float)
+	column = val / val.max()
+	return column
+\end{lstlisting}
+
+\begin{lstlisting}
+def saveFigure(descr):
+    script_dir = os.path.dirname(__file__)
+    results_dir = os.path.join(script_dir, "Results/" + sys.argv[1] + "/" + sys.argv[2]+"/")
+    if not os.path.isdir(results_dir):
+        os.makedirs(results_dir)
+\end{lstlisting}
+
+\begin{lstlisting}
+def saveMatrix(corrRes, dest):
+	mat = np.matrix(corrRes)
+	dataframe = pd.DataFrame(data=mat.astype(float))
+	dataframe.to_csv(dest, sep=',', header=False, float_format='%.2f', index=False)
+\end{lstlisting}
+\section{SIA section I: Total graphic for all the years}
+\label{SIA_section_I}
+\textbf{Code implementation:}\\
+During this section of the code was used "pandas" library for read the dataset.
+\begin{lstlisting}
+series1 = pd.read_csv("Datasets/" + sys.argv[1]+".csv", usecols=[1,sys.argv[2]])
+\end{lstlisting}
+
+Then using the "pyplot" library has been possible to setup the plot of the input data.
+\begin{lstlisting}
+series1.plot(color="blue", linewidth=1.5)
+\end{lstlisting}
+
+
+Thera are some settings about the axis x just to display the data in the right format, are easy to change and to costume.
+\begin{lstlisting}
+years = []
+j = 0
+for i in range(len(yearInput)):
+    if j==11:
+        years.append(yearInput.values[i][0])
+        j=0
+    else:
+        j=j+1 
+x = range(0, len(yearInput.values))
+pyplot.xticks(np.arange(min(x), max(x)+1, 12.0), years)
+pyplot.title(sys.argv[1] + "\n" + sys.argv[2]+ ": Total graphic")
+\end{lstlisting}
+
+Once setted up the plot of the current data, the next step was to display the trendline of the current graphic. \\ 
+
+At this point the current data values have been read again and passed to the method just impleneted above for calculating the trendline.
+\begin{lstlisting}
+series1 = pd.read_csv("Datasets/" + sys.argv[1]+".csv", usecols=[sys.argv[2]], squeeze=True)
+z1, z2 = trendline(x, series1.values.astype(float), "red")
+saveFigure("_Total.jpg")
+results_dir = "Results/" + sys.argv[1]+"/"+sys.argv[2]+"/"+sys.argv[1]+"_"+sys.argv[2]+"_AngCoeff.csv"
+with open(results_dir, "w") as text_file:
+	text_file.write("," + sys.argv[1] + "-" + sys.argv[2]+"\n")
+	text_file.write("," + "Ang_Coeff " + "," + str(z1)+"\n")
+	text_file.write("," + "Norma_Ang_Coeff " + "," + str(z2)+"\n")
+\end{lstlisting}
+
+\section{SIA section II: Single graphics for each year}
+\label{SIA_section_II}
+\textbf{Code implementation:}\\
+During this section of the code was used "pandas" library for read the dataset.
+\begin{lstlisting}
+series2 = pd.read_csv("Datasets/" + sys.argv[1]+".csv", index_col=['month'], usecols=[0,1,sys.argv[2]])
+\end{lstlisting}
+
+Some initialization of variables that are going to be useful.
+\begin{lstlisting}
+fig2 = pyplot.figure()
+ax = fig2.add_subplot(111)
+months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]
+x_pos = np.arange(len(months))
+\end{lstlisting}
+
+The following code allows the system to split the values and display them in the right way: that means that are going to be splitted for each single year and then plotted on the same graphic.
+\begin{lstlisting}
+tempValues = []
+j = 0
+for i in range(len(series2.values)):
+	if j in range(12):
+		tempValues.append(series2.values[i][1])
+		j = j + 1
+		if(i == len(series2.values)-1):
+			pyplot.plot(x_pos, tempValues, linewidth=2, alpha=0.8, label = int(series2.values[i-1][0]))
+	else:
+		pyplot.plot(x_pos, tempValues, linewidth=2, alpha=0.8, label = int(series2.values[i-1][0]))
+		tempValues = []
+		tempValues.append(series2.values[i][1])
+		j = 1
+\end{lstlisting}
+
+These are some personalization settings that could be easily changed as you want.
+\begin{lstlisting}
+ax.legend(loc=4, ncol=1, fancybox=True, shadow=True)
+pyplot.xticks(x_pos,months)
+pyplot.xlim(0,11)
+pyplot.title(sys.argv[1] + "\n" + sys.argv[2]+ ": Single year's graphic")
+pyplot.tight_layout()
+\end{lstlisting}
+
+There is the possibility to save the graphic like an image and/or display it.
+\begin{lstlisting}
+saveFigure("_Years.jpg")
+\end{lstlisting}
+
+
+\section{SIA section III: Correlation matrix between years}
+\label{SIA_section_III}
+\textbf{Code implementation:}\\
+During this section of the code was used "pandas" library for read the dataset.
+\begin{lstlisting}
+series3 = pd.read_csv("Datasets/" + sys.argv[1]+".csv", index_col=['month'], usecols=[0,1,sys.argv[2]])
+\end{lstlisting}
+
+\begin{lstlisting}
+corr = []
+tempValues = []
+j = 0
+# Collecting the correct values to elaborate.
+for i in range(len(series3.values)+1):
+	if j in range(12):
+		tempValues.append(series3.values[i][1])
+		j = j + 1
+	else:
+		corr.append(tempValues)
+		tempValues = []
+		if i in range(len(yearInput)):
+			tempValues.append(series3.values[i][1])
+			j = 1
+\end{lstlisting}
+
+With the library "numpy" is possible to calculate the correlation coefficents between all the variables in the series just read.
+\begin{lstlisting}
+corrRes = np.corrcoef(corr)
+\end{lstlisting}
+
+Setup the figure that will display the correlation matrix using the library "pypot".
+\begin{lstlisting}
+fig3 = pyplot.figure()
+ax = fig3.add_subplot(111)
+\end{lstlisting}
+
+Creating the correlation matrix using the already calculated correlation coefficents.
+\begin{lstlisting}
+cax = ax.matshow(corrRes, interpolation='nearest')
+\end{lstlisting}
+
+Settings for display the matrix in the right way, in particular for the values to display on both the axis x and y, in this case every single year from 2005 to 2016
+\begin{lstlisting}
+pyplot.title(sys.argv[1] + "\n" + sys.argv[2]+ ": Correlation between different years")
+x_pos = np.arange(yearsLen)
+y_pos = np.arange(yearsLen)
+pyplot.yticks(y_pos,years)
+pyplot.xticks(x_pos,years)
+pyplot.colorbar(cax)
+\end{lstlisting}
+\newpage
+Adding a title to the graphic that we are going to display and also a bar that works like a legend for the colors of the matrix, allowing the reader to better understand the values reported inside the matrix.
+\begin{lstlisting}
+pyplot.tight_layout()
+saveFigure("_years_Matrix.jpg")
+saveMatrix(corrRes, "Results/"+sys.argv[1]+"/"+sys.argv[2]+"/"+sys.argv[1]+"_"+sys.argv[2]+"_years_CorrCoeff.csv")
+
+\end{lstlisting}
+
+
+\section{SIA section IV: Correlation matrix between months}
+\label{SIA_section_IV}
+\textbf{Code implementation:}\\
+During this section of the code was used "pandas" library for read the dataset.
+\begin{lstlisting}
+series4 = pd.read_csv("Datasets/" + sys.argv[1]+".csv", usecols=[0,1,sys.argv[2]])
+\end{lstlisting}
+
+\begin{lstlisting}
+corr = []
+for month, year in series4.groupby(["month"], sort=False):
+	corr.append(year[sys.argv[2]].values)
+corrRes = np.corrcoef(corr)
+\end{lstlisting}
+
+Setup the figure that will display the correlation matrix using the library "pypot".
+\begin{lstlisting}
+fig4 = pyplot.figure()
+ax = fig4.add_subplot(111)
+\end{lstlisting}
+
+Creating the correlation matrix using the already calculated correlation coefficents.
+\begin{lstlisting}
+cax = ax.matshow(test, interpolation='nearest')
+\end{lstlisting}
+
+Settings for display the matrix in the right way, in particular for the values to display on both the axis x and y, in this case every single months of the year.
+\begin{lstlisting}
+
+months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]
+x_pos = np.arange(len(months))
+y_pos = np.arange(len(months))
+pyplot.yticks(y_pos,months)
+pyplot.xticks(x_pos,months)
+\end{lstlisting}
+Adding a title to the graphic that we are going to display and also a bar that works like a legend for the colors of the matrix, allowing the reader to better understand the values reported inside the matrix.
+\begin{lstlisting}
+pyplot.title(sys.argv[1] + "\n" + sys.argv[2]+ ": Correlation between different months")
+pyplot.colorbar(cax)
+\end{lstlisting}
+
+There is the possibility to save the correlation matrix like an image and/or display it.
+\begin{lstlisting}
+pyplot.tight_layout()
+saveFigure("_months_Matrix.jpg")
+saveMatrix(corrRes, "Results/"+sys.argv[1]+"/"+sys.argv[2]+"/"+sys.argv[1]+"_"+sys.argv[2]+"_months_CorrCoeff.csv")
+
+\end{lstlisting}
+
+\section{SIA section V: Single overview}
+\label{SIA_section_V}
+\textbf{Code implementation:}\\
+create\_single\_overview() : this method will use the "Image" library for autogenerate a collage of the current input's graphics and save it like an overview image. The content of the params will basically decide how the "Current input overview image" will looks like.
+
+It uses each single "current input overview image" of all the inputs and the "correlation matrix between all the inputs image" for combine them in a unique "total overview" and save it using the PDF format.
+
+\begin{lstlisting}
+listofimages=["Results/" + sys.argv[1]+"/"+sys.argv[2]+"/"+sys.argv[1]+"_"+sys.argv[2]+"_Total.jpg",
+            "Results/" + sys.argv[1]+"/"+sys.argv[2]+"/"+sys.argv[1]+"_"+sys.argv[2]+"_years_Matrix.jpg", 
+            "Results/" + sys.argv[1]+"/"+sys.argv[2]+"/"+sys.argv[1]+"_"+sys.argv[2]+"_years.jpg",
+            "Results/" + sys.argv[1]+"/"+sys.argv[2]+"/"+sys.argv[1]+"_"+sys.argv[2]+"_months_Matrix.jpg"]
+
+create_single_overview(4, 1, 1, 3200, 600, listofimages)
+create_single_overview(2, 2, 0, 1600, 1200, listofimages)
 \end{lstlisting}
