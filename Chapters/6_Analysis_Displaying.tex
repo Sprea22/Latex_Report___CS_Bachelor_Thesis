@@ -1,0 +1,328 @@
+
+\chapter{Analysis of the data}
+Total implementation link for data analyzer : \\
+\url{https://github.com/Sprea22/Data_Analyzer_Python}
+
+During this part the main purpose is to analyze the whole dataset in order to find some kind of useful informations later on. 
+
+The system that it's going to be implemented during this part of the work could be divided in two subsystems, with the relative outcomes:
+\begin{itemize}
+\item Single Input Analyzer (SIA): Used for analyze a single data input.
+\begin{itemize}
+\item Total graphic of the input data for the whole period.
+\item Graphic of the input data for each single year.
+\item Correlation matrix between different months of the same input.
+\item Correlation matrix between different years of the same input.
+\end{itemize}
+\item Multiple Inputs Analyzer (MIA): Used for analyze multiple data inputs.
+\begin{itemize}
+\item General correlation matrix between all the different inputs.
+
+\item Graphic of the normalized angular coefficients of all the inputs.
+\end{itemize}
+\end{itemize}
+
+\newpage
+
+\section{Requirements for reusability}
+Both the analysis systems that are going to be implemented during this phase of the work will need for just one requirement about the input dataset:
+\begin{itemize}
+\item Monthly frequency of data values contained.
+\end{itemize}
+
+\section{System requirements}
+It's important to remind that this phase can be implemented in different ways and with different programming language;\\
+This proceure will describes the system implentation using Python, so be sure to have installed all the necessary for compile and execute Python code on your platform.\\
+\begin{lstlisting}
+Current development environment:
+Python version: 2.7.12
+Linux kernel version number: Linux Asus 4.4.0-71-generic SMP
+\end{lstlisting}
+
+\newpage
+
+\section{Single Input Analyzer}
+It's possible to check out the total implementation code of the SIA in the appendice  [\ref{SIA_Implementation}].
+The implementation of this Analyzer can be divided in the following parts:
+\begin{itemize}
+\item SIA imported libraries. 
+\item SIA part I: Generate and display a graphic about current input with total data.
+\item SIA part II: Generate and display a graphic about current input for each year.
+\item SIA part III: Generate and display a graphic that contains the correlation matrix between each single year of the current input.
+\item SIA part IV: Generate and display a graphic that contains the correlation matrix between each single months of the year of the current input.
+\item SIA part V: Generate and display a single overview image for the current input.
+\end{itemize}
+
+\subsection{SIA: Imported libraries}
+Specific Python libraries have been imported for the implementation of this system.
+It's possible to find out a list of this libraries with a specific description for each of them in the appendice [\ref{SIA_libraries}].
+
+\newpage
+
+\subsection{SIA section I: Total graphic for all the years}
+\textbf{Goal:}\\
+Generate and display the total graphic about current input, and then calculate and display the trend line as well. Trend line angular coefficient has to be save in a document.
+
+\textbf{Requirements:}\\
+The current data input has to be with a monthly frequency. 
+
+\textbf{Implementation:}\\
+To reach the current goal have been used two main functions of the "pandas" library. They allow to read the data values from the dataset and display it on a graphic.
+\begin{lstlisting}
+series = pandas.read_csv()
+seris.plot()
+\end{lstlisting}
+
+It's possible to check out the full commented implementation in the appendice: [\ref{SIA_section_I}]
+
+\textbf{Results:} \\
+With this first part of the code has been reached the first goal of displaying and saving the basic graphic about the current input, with also the relative trend line and saving it angular coefficient in a document, that looks like:
+
+\begin{figure}[H]
+\includegraphics[width=0.9\textwidth]{Files/Cages_Total.pdf}
+\caption{Total graphic about current input over the whole period.}
+\end{figure}
+
+
+
+\newpage
+\subsection{SIA section II: Single graphics for each year}
+
+\textbf{Goal:}\\
+Generate and display a graphic that contains the plots of each single year over the whole period of the current input. 
+
+\textbf{Requirements:}\\
+The current data input has to be with a monthly frequency. 
+
+\textbf{Implementation:}\\
+To reach the current goal have been used two main libraries.\\
+The "pandas" library allows to read the data values from the dataset and return it like "ndarray" type, then the library "pyplot" allows to display it on a graphic.
+\begin{lstlisting}
+series = pandas.read_csv()
+series.values()
+pyplot.plot()
+\end{lstlisting}
+
+It's possible to check out the full ccommented code in the appendice: [\ref{SIA_section_II}]
+
+\textbf{Results:} \\
+With this second part of the code has been reached the goal of displaying and saving the graphic of the plots for each single year of the current input, that looks like:
+\begin{figure}[H]
+	\centering
+    \includegraphics[width=0.9\textwidth]{Files/Cages_Years.pdf}
+    \caption{Graphics for each single year of the current input data.}
+\end{figure}
+
+
+
+
+\newpage
+\subsection{SIA section III: Correlation matrix between years}
+
+\textbf{Goal:}\\
+Calculate and save the correlation coefficients between each single year over the whole period of the current input and then display it with a correlation matrix.
+
+\textbf{Requirements:}\\
+The current data input has to be with a monthly frequency. 
+
+\textbf{Implementation:}\\
+To reach the current goal have been used the scientific computing library "numpy", that allows to calculate the correlation coefficients between data. Then the library "pyplot" has been used to display the results on a matrix.
+\begin{lstlisting}
+numpy.corrcoef()
+figure = pyplot.figure()
+ax = figure.add_subplot()
+ax.matshow()
+\end{lstlisting}
+
+It's possible to check out the full ccommented code in the appendice: [\ref{SIA_section_III}]
+
+\textbf{Results:} \\
+With this part of the code have been calculated and displayed the correlation coefficients between each single year of the current input, that looks like:
+
+\begin{figure}[H]
+	\centering
+    \includegraphics[width=0.9\textwidth]{Files/Cages_Months_Matrix.pdf}
+    \caption{Correlation matrix between different months of the same input}
+\end{figure}
+
+
+
+
+\newpage
+\subsection{SIA section IV: Correlation matrix between months}
+
+\textbf{Goal:}\\
+Calculate and save the correlation coefficients between each single month of the current input and then display it with a correlation matrix.
+
+\textbf{Requirements:}\\
+The current data input has to be with a monthly frequency. 
+
+\textbf{Implementation:}\\
+To reach the current goal have been used the scientific computing library "numpy", that allows to calculate the correlation coefficients between data. Then the library "pyplot" has been used to display the results on a matrix.
+\begin{lstlisting}
+numpy.corrcoef()
+figure = pyplot.figure()
+ax = figure.add_subplot()
+ax.matshow()
+\end{lstlisting}
+
+It's possible to check out the full ccommented code in the appendice: [\ref{SIA_section_IV}]
+
+
+\textbf{Results:} \\
+With this part of the code have been calculated and displayed the correlation coefficients between each single month of the current input, that looks like: 
+
+\begin{figure}[H]
+	\centering
+    \includegraphics[width=0.9\textwidth]{Files/Cages_Years_Matrix.pdf}
+    \caption{Correlation matrix between different years of the same input}
+\end{figure}
+
+
+\newpage
+\subsection{SIA section V: Single overview}
+
+\textbf{Goal:}\\
+Generate and display a single overview image that contains all the graphics previous calculated for the current input.
+
+\textbf{Implementation:}\\
+It's possible to check out the full ccommented code in the appendice: [\ref{SIA_section_V}]
+
+\textbf{Requirements:}\\
+- All the graphics about the current input have to be already calculated and saved.
+
+\textbf{Results:}
+With this part of the code it's possible to have a single overview image for the current input, that is basically showing and comparing all the graphics that have already been calculated about this input. It looks like this example:
+
+
+
+\begin{figure}[H]
+\begin{subfigure}{.5\textwidth}
+	\centering
+    \includegraphics[width=1\textwidth]{Files/Cages_Total.pdf}
+    
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+	\centering
+    \includegraphics[width=1\textwidth]{Files/Cages_Years.pdf}
+\end{subfigure}%
+\end{figure} 
+
+\begin{figure}[H]
+\begin{subfigure}{.5\textwidth}
+	\centering
+    \includegraphics[width=1\textwidth]{Files/Cages_Years_Matrix.pdf}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+	\centering
+    \includegraphics[width=1\textwidth]{Files/Cages_Months_Matrix.pdf}
+\end{subfigure}%
+\end{figure}
+
+\newpage
+
+\section{Multiple Inputs Analyzer}
+The implementation of this Analyzer can be divided in the following parts:
+\begin{itemize}
+\item MIA imported libraries. 
+\item MIA part I: Calculate the correlation coefficients between the different input of a dataset, save the result and display it in a matrix.
+\item MIA part II: Display the comparison graphic between the different input's trend line normalized angular coefficients.
+\end{itemize}
+
+It's possible to check out the total implementation of the MIA in the appendice  [\ref{MIA_Implementation}].
+
+\subsection{MIA: Imported libraries}
+Specific Python libraries have been imported for the implementation of this system.
+It's possible to find out a list of this libraries with a specific description for each of them in the appendice [\ref{MIA_Libraries}].
+
+\newpage
+
+\subsection{MIA section I: Total Correlation Coefficients}
+\textbf{Goal:}\\
+Calculate and save the correlation coefficients between different inputs of the current dataset and then show it with a matrix.
+
+\textbf{Requirements:}\\
+To let the MIA system works in a proper way, is necessary that the current dataset has been already analyzed from the SIA system.
+
+\textbf{Implementation:}\\
+To reach the current goal have been used the scientific computing library "numpy", that allows to calculate the correlation coefficients between data. Then the library "pyplot" has been used to display the results on a matrix.
+\begin{lstlisting}
+numpy.corrcoef()
+figure = pyplot.figure()
+ax = figure.add_subplot()
+ax.matshow()
+\end{lstlisting}
+
+It's possible to check out the full ccommented code in the appendice: [\ref{MIA_section_I}]
+
+\textbf{Results:} \\
+This part of the MIA implementation allows to calculate the correlation coefficients value between each single inputs and then also to display and save it. It looks like:
+
+\begin{figure}[H]
+	\centering
+    \includegraphics[width=0.85\textwidth]{Files/Total_Dataset_Matrix.pdf}
+    \caption{Correlation matrix between different inputs with data.}
+\end{figure}
+
+\subsection{MIA section II: Normalized Angular Coefficients}
+\textbf{Goal:}\\
+Display the comparison graphic between the normalized angular coefficient of each input trend line.
+
+\textbf{Requirements:}\\
+To let the MIA system works in a proper way, is necessary that the current dataset has been already analyzed from the SIA system.
+
+\textbf{Implementation:}\\
+Also to reach this goal have been used the two libraries "pandas" and "pyplot". The first one allows us to read the values that the library "pyplot" will display, in this case in a histogram.
+\begin{lstlisting}
+pandas.read_csv()
+pyplot.barh()
+\end{lstlisting}
+
+It's possible to check out the full ccommented code in the appendice: [\ref{MIA_section_II}]
+
+\textbf{Results:} \\
+This part of the MIA implementation allows to display a graphic that compare the normalized angular coefficients for each single input that have been already calculated and reported in a document. The result graphic look like:
+
+\begin{figure}[H]
+	\centering
+    \includegraphics[width=0.90\textwidth]{Files/Norm_Ang_Coeffs.pdf}
+    \caption{Normalized angular coefficients of each input's trendline.}
+\end{figure}
+
+
+\newpage
+
+\section{Data Displaying: Map graphic}
+\textbf{Goal:}\\
+The main goal of this phase is to display the county data values in a easy way to understand and analyze.\\
+In this particular case would be useful to display it on a real map of Norway, in order to be able to have an overview about all the counties about different parameters.
+
+\textbf{Requirements:}\\
+One parameter in input which has a single value for each county.
+
+\textbf{Implementation:}\\
+The library "shpreader" allows to read the extension file ".shp", which in this particular case contains the Norway's shape.\\
+Then we can display the current shape using the "pyplot" library and set the colors based on the input values with the library "matplotlib".\\
+
+\begin{lstlisting}
+shpreader.Reader().geometries()
+
+plt.figure()
+ax = plt.axes()
+axes.add_geometries
+
+plt.get_cmap
+matplotlib.colors.Normalize
+\end{lstlisting}
+
+
+\textbf{Results:} \\
+
+\begin{figure}[H]
+    	\makebox[\textwidth][c]{\includegraphics[trim={0cm 2cm 0 3cm},clip, width=0.8\textwidth]{Files/Norway-averageTemp.jpeg}}
+    \caption{Average Sea Temperature from 2007 to 2014 in Norway.}
+\end{figure}
+
+\newpage
+
+\section{Extract information from data}
