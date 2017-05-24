@@ -1,4 +1,36 @@
 %*******10********20********30********40********50********60********70********80
+s
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue,
+}
+
+\DeclareFixedFont{\ttb}{T1}{txtt}{bx}{n}{12} % for bold
+\DeclareFixedFont{\ttm}{T1}{txtt}{m}{n}{12}  % for normal
+\definecolor{deepblue}{rgb}{0,0,0.5}
+\definecolor{deepred}{rgb}{0.6,0,0}
+\definecolor{deepgreen}{rgb}{0,0.5,0}
+
+% Python style for highlighting
+\lstset{
+	backgroundcolor = \color{Ivory},
+    language=Python,
+    basicstyle=\footnotesize,
+    otherkeywords={self},             
+    keywordstyle=\footnotesize\color{deepblue},
+    emph={__init__},          
+    emphstyle=\footnotesize\color{deepred},    
+    stringstyle=\color{deepgreen},
+    frame=single,                         
+    showstringspaces=false  ,
+    breaklines=true,
+    numbers=left,
+    numberstyle=\footnotesize,
+    tabsize=3,
+    breakatwhitespace=false
+}
 
 \hypersetup{
     colorlinks=true,
@@ -51,4 +83,14 @@ The last but not least phase is to watch at the future: try to figure out some o
     \label{fig: Development_Flow}
 \end{figure}
 
+
+\section{Github Usage}
+In this thesis Github were used just like a private "version control" since I was the only person working on it. \\
+Since in the following repositories there are the final results of the Python systems implemented during this thesis, I \textbf{strongly recommend} to check out and download the following repository. It allows to test the system and better understand how it is structured and how it works.
+
+The Github repository is:\\
+\url{https://github.com/Sprea22/Python_Systems}
+
+The direct Zip file download is:\\
+\url{https://codeload.github.com/Sprea22/Python_Systems/zip/master}
 

@@ -1,0 +1,117 @@
+
+\chapter{Prediction System}
+
+Some basic and general goals were defined before starting this phase, with the idea of "doing as much as possible". \\
+The main purpose was the one of, after the previous analysis, predict some values and evaluate the quality of the results.
+This prediction system was not defined with some specific requirements, so the first main problem was to find a reliable, accurated and user-friendly way to predict and display prediction of values.
+
+Since the current dataset can be considered like a time series, in this phase we will develop the data prediction system using an ARIMA machine implemented in python.
+
+The ARIMA machine can be configured with several configurations, it allows you to have more accurated results; so the first thing was to find the right configuration of the ARIMA machine of each single input which we are interested to forecast.
+
+During this phase of the work have been implemented 3 different subsystems for different purposes:
+\begin{enumerate}
+\item Evaluating System
+\item Prediction System
+\end{enumerate}
+
+\newpage
+\section{Evaluating System}
+\textbf{Goal:}\\ 
+Used for evaluate different configurations of ARIMA machine. \\ It tests 112 different configurations for the current input that we would like to forecast and report the results with each MAPE (Mean Average Percentage Error) values.
+
+\textbf{Requirements:}\\
+There are not any kind of needed requirements. It's possible to use this system on dataset of arbitrary length.
+
+\textbf{Code implementation:}\\
+The most important part of the code about the Evaluating System is the following.\\
+Basically the method ARIMA() allows to train a model based on historic values (history) and a specific order (p,d,q). After that it's possible to call the method forecast() through the trained model and having some predictions like result.
+\begin{lstlisting}
+model = ARIMA(history, order=arima_order)
+model_fit = model.fit(disp=0)
+yhat = model_fit.forecast()[0]
+\end{lstlisting}
+
+This system will provide 112 different ARIMA configurations results for each single input, and in particular it will display the best ARIMA configuration, that is the one with the lower MAPE.
+
+\textbf{Results:}\\
+The system will display the MAPE between real value and predicted values for each single tested ARIMA machine, in particular the configuration that gives the best result.
+All these results have been reported in a document and then also displayed with a 3D graphic that allows to see the MAPE value for each different order in input.
+
+\begin{figure}[H]
+	\raggedleft
+	\makebox[\textwidth][c]{\includegraphics[width=0.6\textwidth]{Files/Cages_MAPE.pdf}}
+    \caption{Graphic that displays different MAPE values for each ARIMA order.}
+\end{figure}
+
+ 
+ 
+\newpage
+\section{Prediction System}
+\textbf{Goal:}\\ 
+This system has three main goals:
+\vspace{-5mm}
+\begin{itemize}
+ \setlength{\itemsep}{-5pt} 
+\item Testing a specific ARIMA configuration on a particular data input, and display how much accurate it is (MAPE).
+\item Predict some future value with the same ARIMA configuration.
+\item Display the historic data together with the testing and future predictions.
+\end{itemize}
+
+\textbf{Requirements:}\\
+There are not any kind of needed requirements. It's possible to use this system on input dataset of arbitrary length.
+
+
+\textbf{Code implementation:}\\
+To reach the first of the goals reported above the system will divide the input dataset in two parts, train and test. It allows to train the ARIMA model with just the "train" part of the dataset, that usually is 66\% of the whole dataset, and then try to predict the rest of the dataset values, comparing in the end with the values contain in the "test" part to have a general idea about the accuracy.
+
+The method ARIMA() allows to train a model based on historic values (history) and a specific order (p,d,q). After that it's possible to call the method forecast() through the trained model and having some predictions like result.
+
+\begin{lstlisting}
+model = ARIMA(history, order=arima_order)
+model_fit = model.fit(disp=0)
+yhat = model_fit.forecast()[0]
+\end{lstlisting}
+
+Then the system will also predict a number of future values choosen by the system user.
+\begin{lstlisting}
+model = ARIMA(dataset, order=order)
+model_fit = model.fit(disp=0)
+forecast = model_fit.forecast(int(sys.argv[3]))[0]
+\end{lstlisting}
+
+The final step is to display the historic data together with the test prediction and the future prediction on the same graphic. 
+\begin{lstlisting}
+# Plot current input's historic values 
+series.plot(color="blue", linewidth=1.5, label="Series: "+sys.argv[1])
+
+# Plot current input's test prediction
+predHistoric.plot(color="red", linewidth=1.5, label="Prediction test:")
+
+# Plot current input's future prediction
+predFuture.plot(color="green", linewidth=1.5, label="Future Prediction:")
+
+\end{lstlisting}
+
+\textbf{Results:}\\
+This system will automatically generate two documents that contain:
+\vspace{-5mm}
+\begin{itemize}
+ \setlength{\itemsep}{-5pt} 
+\item Test predictions values
+\item Future predictions values
+\end{itemize}
+
+And then it provides also the possibility to visualize the historic, test and future predictions values on the same graphic, that looks like the following example:
+
+\begin{figure}[H]
+	\centering
+    \makebox[\textwidth][c]{\includegraphics[width=1.5\textwidth]{Files/Cages_Predictions.pdf}}
+    \caption{Graphic that display historic, future and predicted values of a input.}
+\end{figure}
+
+
+\newpage
+
+
+

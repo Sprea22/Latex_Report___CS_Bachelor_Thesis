@@ -84,44 +84,46 @@
 % Just uncomment the lines as you write the chapters
 
 
-\input{Chapters/1_Introduction} % Introduction
+\input{Chapters/Introduction} % Introduction
+\input{Chapters/Background_theory} % Background Theory 
+\input{Chapters/Approach_Design} % Approach and Design
 
-\input{Chapters/2_Background_theory} % Background Theory 
+%\input{Chapters/Implementation} % Implementation
 
-\input{Chapters/3_Development_method} % Development Method
+\part{Data collection}
+\input{Chapters/Data_Collection}
 
-\input{Chapters/4_Implementation} % Implementation
+\part{Implementation}
+\input{Chapters/Analysis_Displaying}
+\input{Chapters/Predictions}
 
-\input{Chapters/5_Data_Collection}
+\part{Results, Evaluations and Conclusions}
+\input{Chapters/Results} % Results
+\input{Chapters/Evaluations} % Evaluations
+\input{Chapters/Conclusion} % Conclusion
 
-\input{Chapters/6_Analysis_Displaying}
+%\input{Chapters/Future_Works}
 
-\input{Chapters/7_Predictions}
-
-\input{Chapters/8_Results} % Results
-
-\input{Chapters/9_Discussion} % Discussion
-
-\input{Chapters/10_Conclusion} % Conclusion
-
-%\input{Chapters/11_Future_Works}
-
-\input{Chapters/12_Bibliography} % Bibliography
 
 %% Appendices -----------------------------------------------------
 
 
 
 \addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
-\bookmarksetup{startatroot}
+
 \lhead{\emph{Appendices}}  % Change the left side page header to "Appendices"
-\appendix % Cue to tell LaTeX that the following 'chapters' are Appendices
+
+\part{Code Full Implementation}
+\begin{appendix}
 
 \input{Appendices/A} % SIA Implementation code
 
 \input{Appendices/B} % MIA Implementation code
 
 \input{Appendices/C} % Prediction System Implementation code
+\end{appendix}
 
+\bookmarksetup{startatroot}
+\input{Chapters/Bibliography} % Bibliography
 \end{document}  % The End
 %% ----------------------------------------------------------------

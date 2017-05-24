@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.3)  23 MAY 2017 14:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.3)  24 MAY 2017 09:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1005,7 +1005,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [11
 
 
-]) (./Chapters/1_Introduction.tex
+]) (./Chapters/Introduction.tex
 Chapter 1.
 ------------------------------------------------------------------------------
  1 Introduction
@@ -1021,12 +1021,12 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 
 
 ] [2])
-(./Chapters/2_Background_theory.tex [3]
+(./Chapters/Background_theory.tex [3]
 Chapter 2.
 ------------------------------------------------------------------------------
  2 Background Theory
 ------------------------------------------------------------------------------
-<Files/Data_Science_Concept.pdf, id=292, 597.50829pt x 845.0471pt>
+<Files/Data_Science_Concept.pdf, id=283, 597.50829pt x 845.0471pt>
 File: Files/Data_Science_Concept.pdf Graphic file (type pdf)
 
 <use Files/Data_Science_Concept.pdf>
@@ -1035,17 +1035,32 @@ Package pdftex.def Info: Files/Data_Science_Concept.pdf used on input line 11.
  [4
 
  <./Files/Data_Science_Concept.pdf>]
-<Files/Data_Science_Process.pdf, id=306, 845.0471pt x 597.50829pt>
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+
+ []
+
+<Files/Data_Science_Process.pdf, id=297, 751.80875pt x 599.23875pt>
 File: Files/Data_Science_Process.pdf Graphic file (type pdf)
 
 <use Files/Data_Science_Process.pdf>
 Package pdftex.def Info: Files/Data_Science_Process.pdf used on input line 32.
-(pdftex.def)             Requested size: 500.9664pt x 185.5453pt.
+(pdftex.def)             Requested size: 500.9664pt x 361.39186pt.
  [5 <./Files/Data_Science_Process.pdf>]
-[6] [7]) (./Chapters/3_Development_method.tex
+[6] [7]) (./Chapters/Approach_Design.tex
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 8.
+
+LaTeX Font Info:    Try loading font information for T1+txtt on input line 10.
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/t1txtt.fd
+File: t1txtt.fd 2000/12/15 v3.1
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 40.
 
 [8]
 Chapter 3.
@@ -1055,253 +1070,254 @@ Chapter 3.
 [9
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 44--46
+Underfull \hbox (badness 10000) in paragraph at lines 76--78
 
  []
 
-<Files/DevelopmentFlow.pdf, id=337, 773.89125pt x 684.5575pt>
+<Files/DevelopmentFlow.pdf, id=325, 773.89125pt x 684.5575pt>
 File: Files/DevelopmentFlow.pdf Graphic file (type pdf)
 
 <use Files/DevelopmentFlow.pdf>
-Package pdftex.def Info: Files/DevelopmentFlow.pdf used on input line 49.
+Package pdftex.def Info: Files/DevelopmentFlow.pdf used on input line 81.
 (pdftex.def)             Requested size: 459.22292pt x 406.21477pt.
-) (./Chapters/4_Implementation.tex [10 <./Files/DevelopmentFlow.pdf>]
+ [10 <./Files/DevelopmentFlow.pdf>]) [11]
+[12
+
+] (./Chapters/Data_Collection.tex
 Chapter 4.
 ------------------------------------------------------------------------------
- 4 Implementation
-------------------------------------------------------------------------------
-
-Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 9.
-
-LaTeX Font Info:    Try loading font information for T1+txtt on input line 11.
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/t1txtt.fd
-File: t1txtt.fd 2000/12/15 v3.1
-)
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2015/06/04 1.6 listings language file
-)
-Underfull \hbox (badness 10000) in paragraph at lines 38--43
-
- []
-
-) (./Chapters/5_Data_Collection.tex [11
-
-]
-Chapter 5.
-------------------------------------------------------------------------------
- 5 Data collection
+ 4 Description and collection of the data
 ------------------------------------------------------------------------------
 
 Underfull \hbox (badness 10000) in paragraph at lines 11--13
 
  []
 
-[12
+[13
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 32--52
 
  []
 
-[13]
+[14]
 Underfull \hbox (badness 10000) in paragraph at lines 67--68
 
  []
 
-[14] <Files/Dataset.pdf, id=367, 733.74126pt x 463.7325pt>
+[15] <Files/Dataset.pdf, id=357, 733.74126pt x 463.7325pt>
 File: Files/Dataset.pdf Graphic file (type pdf)
 
 <use Files/Dataset.pdf>
 Package pdftex.def Info: Files/Dataset.pdf used on input line 116.
 (pdftex.def)             Requested size: 417.47307pt x 263.84909pt.
- <Files/Dataset2.pdf, id=368, 733.74126pt x 463.7325pt>
+ <Files/Dataset2.pdf, id=358, 733.74126pt x 463.7325pt>
 File: Files/Dataset2.pdf Graphic file (type pdf)
 
 <use Files/Dataset2.pdf>
 Package pdftex.def Info: Files/Dataset2.pdf used on input line 139.
 (pdftex.def)             Requested size: 417.47307pt x 263.84909pt.
- [15 <./Files/Dataset.pdf>])
-(./Chapters/6_Analysis_Displaying.tex [16 <./Files/Dataset2.pdf>]
-Chapter 6.
+ [16 <./Files/Dataset.pdf>]) [17 <./Files/Dataset2.pdf>] [18
+
+] (./Chapters/Analysis_Displaying.tex
+Chapter 5.
 ------------------------------------------------------------------------------
- 6 Analysis of the data
+ 5 Analyzer System
 ------------------------------------------------------------------------------
-[17
+[19
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 34--36
+Underfull \hbox (badness 10000) in paragraph at lines 35--37
 
  []
 
-[18] [19] <Files/Cages_Total.pdf, id=406, 578.16pt x 433.62pt>
+[20] [21] <Files/Cages_Total.pdf, id=400, 578.16pt x 433.62pt>
 File: Files/Cages_Total.pdf Graphic file (type pdf)
 
 <use Files/Cages_Total.pdf>
-Package pdftex.def Info: Files/Cages_Total.pdf used on input line 82.
+Package pdftex.def Info: Files/Cages_Total.pdf used on input line 83.
 (pdftex.def)             Requested size: 375.7232pt x 281.79012pt.
- [20 <./Files/Cages_Total.pdf>]
-<Files/Cages_Years.pdf, id=449, 578.16pt x 433.62pt>
+ [22 <./Files/Cages_Total.pdf>]
+<Files/Cages_Years.pdf, id=443, 578.16pt x 433.62pt>
 File: Files/Cages_Years.pdf Graphic file (type pdf)
 
 <use Files/Cages_Years.pdf>
-Package pdftex.def Info: Files/Cages_Years.pdf used on input line 112.
+Package pdftex.def Info: Files/Cages_Years.pdf used on input line 113.
 (pdftex.def)             Requested size: 375.7232pt x 281.79012pt.
- [21 <./Files/Cages_Years.pdf>]
-<Files/Cages_Months_Matrix.pdf, id=505, 578.16pt x 433.62pt>
+ [23 <./Files/Cages_Years.pdf>]
+<Files/Cages_Months_Matrix.pdf, id=499, 578.16pt x 433.62pt>
 File: Files/Cages_Months_Matrix.pdf Graphic file (type pdf)
 
 <use Files/Cages_Months_Matrix.pdf>
-Package pdftex.def Info: Files/Cages_Months_Matrix.pdf used on input line 144.
+Package pdftex.def Info: Files/Cages_Months_Matrix.pdf used on input line 145.
 (pdftex.def)             Requested size: 375.7232pt x 281.79012pt.
- [22 <./Files/Cages_Months_Matrix.pdf>]
-<Files/Cages_Years_Matrix.pdf, id=569, 578.16pt x 433.62pt>
+ [24 <./Files/Cages_Months_Matrix.pdf>]
+<Files/Cages_Years_Matrix.pdf, id=563, 578.16pt x 433.62pt>
 File: Files/Cages_Years_Matrix.pdf Graphic file (type pdf)
 
 <use Files/Cages_Years_Matrix.pdf>
-Package pdftex.def Info: Files/Cages_Years_Matrix.pdf used on input line 177.
+Package pdftex.def Info: Files/Cages_Years_Matrix.pdf used on input line 178.
 (pdftex.def)             Requested size: 375.7232pt x 281.79012pt.
- [23 <./Files/Cages_Years_Matrix.pdf>]
+ [25 <./Files/Cages_Years_Matrix.pdf>]
 File: Files/Cages_Total.pdf Graphic file (type pdf)
 
 <use Files/Cages_Total.pdf>
-Package pdftex.def Info: Files/Cages_Total.pdf used on input line 202.
+Package pdftex.def Info: Files/Cages_Total.pdf used on input line 203.
 (pdftex.def)             Requested size: 208.73653pt x 156.553pt.
 File: Files/Cages_Years.pdf Graphic file (type pdf)
  <use Files/Cages_Years.pdf>
-Package pdftex.def Info: Files/Cages_Years.pdf used on input line 207.
+Package pdftex.def Info: Files/Cages_Years.pdf used on input line 208.
 (pdftex.def)             Requested size: 208.73653pt x 156.553pt.
 File: Files/Cages_Years_Matrix.pdf Graphic file (type pdf)
 
 <use Files/Cages_Years_Matrix.pdf>
-Package pdftex.def Info: Files/Cages_Years_Matrix.pdf used on input line 214.
+Package pdftex.def Info: Files/Cages_Years_Matrix.pdf used on input line 215.
 (pdftex.def)             Requested size: 208.73653pt x 156.553pt.
 File: Files/Cages_Months_Matrix.pdf Graphic file (type pdf)
  <use Files/Cages_Months_Matrix.pdf>
-Package pdftex.def Info: Files/Cages_Months_Matrix.pdf used on input line 218.
+Package pdftex.def Info: Files/Cages_Months_Matrix.pdf used on input line 219.
 (pdftex.def)             Requested size: 208.73653pt x 156.553pt.
- [24]
-[25] <Files/Total_Dataset_Matrix.pdf, id=635, 578.16pt x 433.62pt>
+ [26]
+[27] <Files/Total_Dataset_Matrix.pdf, id=629, 578.16pt x 433.62pt>
 File: Files/Total_Dataset_Matrix.pdf Graphic file (type pdf)
 
 <use Files/Total_Dataset_Matrix.pdf>
-Package pdftex.def Info: Files/Total_Dataset_Matrix.pdf used on input line 263.
+Package pdftex.def Info: Files/Total_Dataset_Matrix.pdf used on input line 264.
 
 (pdftex.def)             Requested size: 354.85464pt x 266.13547pt.
- [26 <./Files/Total_Dataset_Matrix.pdf>]
-<Files/Norm_Ang_Coeffs.pdf, id=694, 578.16pt x 433.62pt>
+ [28 <./Files/Total_Dataset_Matrix.pdf>]
+<Files/Norm_Ang_Coeffs.pdf, id=688, 578.16pt x 433.62pt>
 File: Files/Norm_Ang_Coeffs.pdf Graphic file (type pdf)
 
 <use Files/Norm_Ang_Coeffs.pdf>
-Package pdftex.def Info: Files/Norm_Ang_Coeffs.pdf used on input line 288.
+Package pdftex.def Info: Files/Norm_Ang_Coeffs.pdf used on input line 289.
 (pdftex.def)             Requested size: 375.7232pt x 281.79012pt.
- [27 <./Files/Norm_Ang_Coeffs.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 303--306
+ [29 <./Files/Norm_Ang_Coeffs.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 304--307
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 319--320
+Underfull \hbox (badness 10000) in paragraph at lines 320--321
 
  []
 
-<Files/Norway-averageTemp.jpeg, id=743, 2326.6925pt x 1281.78876pt>
+<Files/Norway-averageTemp.jpeg, id=737, 2326.6925pt x 1281.78876pt>
 File: Files/Norway-averageTemp.jpeg Graphic file (type jpg)
 
 <use Files/Norway-averageTemp.jpeg>
-Package pdftex.def Info: Files/Norway-averageTemp.jpeg used on input line 322.
+Package pdftex.def Info: Files/Norway-averageTemp.jpeg used on input line 323.
 (pdftex.def)             Requested size: 333.97972pt x 163.56636pt.
- [28 <./Files/Norway-averageTemp.jpeg>])
-(./Chapters/7_Predictions.tex [29]
-Chapter 7.
+ [30 <./Files/Norway-averageTemp.jpeg>])
+(./Chapters/Predictions.tex [31]
+Chapter 6.
 ------------------------------------------------------------------------------
- 7 Prediction of values
+ 6 Prediction System
 ------------------------------------------------------------------------------
-[30
+[32
 
-] [31] <Files/Cages_MAPE.pdf, id=776, 1675.76062pt x 923.24924pt>
+] <Files/Cages_MAPE.pdf, id=765, 1675.76062pt x 923.24924pt>
 File: Files/Cages_MAPE.pdf Graphic file (type pdf)
 
 <use Files/Cages_MAPE.pdf>
-Package pdftex.def Info: Files/Cages_MAPE.pdf used on input line 55.
+Package pdftex.def Info: Files/Cages_MAPE.pdf used on input line 43.
 (pdftex.def)             Requested size: 250.48637pt x 138.00243pt.
- [32 <./Files/Cages_MAPE.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 70--75
-
- []
-
-[33] <Files/Cages_TRAIN.pdf, id=855, 1675.76062pt x 923.24924pt>
-File: Files/Cages_TRAIN.pdf Graphic file (type pdf)
-
-<use Files/Cages_TRAIN.pdf>
-Package pdftex.def Info: Files/Cages_TRAIN.pdf used on input line 102.
-(pdftex.def)             Requested size: 626.2096pt x 345.00607pt.
- [34 <./Files/Cages_TRAIN.pdf>] [35]
-Underfull \hbox (badness 10000) in paragraph at lines 159--162
-
- []
-
-[36] <Files/Cages_Predictions.pdf, id=923, 1675.76062pt x 897.95473pt>
+ [33 <./Files/Cages_MAPE.pdf>] [34]
+<Files/Cages_Predictions.pdf, id=849, 1675.76062pt x 897.95473pt>
 File: Files/Cages_Predictions.pdf Graphic file (type pdf)
 
 <use Files/Cages_Predictions.pdf>
-Package pdftex.def Info: Files/Cages_Predictions.pdf used on input line 193.
+Package pdftex.def Info: Files/Cages_Predictions.pdf used on input line 109.
 (pdftex.def)             Requested size: 626.2096pt x 335.55385pt.
- [37 <./Files/Cages_Predictions.pdf>])
-(./Chapters/8_Results.tex
-Chapter 8.
+ [35 <./Files/Cages_Predictions.pdf>])
+[36
+
+] (./Chapters/Results.tex
+Chapter 7.
 ------------------------------------------------------------------------------
- 8 Results
+ 7 Results
 ------------------------------------------------------------------------------
-[38
+[37
 
 ]
 File: Files/Total_Dataset_Matrix.pdf Graphic file (type pdf)
  <use Files/Total_Dataset_Matrix.pdf>
 Package pdftex.def Info: Files/Total_Dataset_Matrix.pdf used on input line 15.
 (pdftex.def)             Requested size: 417.47307pt x 313.106pt.
- [39]
+ [38]
 File: Files/Norm_Ang_Coeffs.pdf Graphic file (type pdf)
  <use Files/Norm_Ang_Coeffs.pdf>
 Package pdftex.def Info: Files/Norm_Ang_Coeffs.pdf used on input line 41.
 (pdftex.def)             Requested size: 417.47307pt x 313.106pt.
 
-[40] <Files/Best_MAPE.pdf, id=979, 845.0471pt x 597.50829pt>
+[39] <Files/Best_MAPE.pdf, id=908, 845.0471pt x 597.50829pt>
 File: Files/Best_MAPE.pdf Graphic file (type pdf)
 
 <use Files/Best_MAPE.pdf>
 Package pdftex.def Info: Files/Best_MAPE.pdf used on input line 84.
 (pdftex.def)             Requested size: 500.9664pt x 354.22263pt.
- [41 <./Files/Best_MAPE.pdf>])
-(./Chapters/9_Discussion.tex [42]
-Chapter 9.
+ [40 <./Files/Best_MAPE.pdf>])
+(./Chapters/Evaluations.tex [41]
+Chapter 8.
 ------------------------------------------------------------------------------
- 9 Discussion
+ 8 Evaluations
 ------------------------------------------------------------------------------
-) (./Chapters/10_Conclusion.tex [43
+) (./Chapters/Conclusion.tex [42
 
 ]
-Chapter 10.
+Chapter 9.
 ------------------------------------------------------------------------------
- 10 Conclusion
+ 9 Conclusion
 ------------------------------------------------------------------------------
-[44
+[43
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 21--22
 
  []
 
-<Files/ServiceSystem.pdf, id=1003, 563.10374pt x 242.9075pt>
+<Files/ServiceSystem.pdf, id=933, 563.10374pt x 242.9075pt>
 File: Files/ServiceSystem.pdf Graphic file (type pdf)
 
 <use Files/ServiceSystem.pdf>
 Package pdftex.def Info: Files/ServiceSystem.pdf used on input line 26.
 (pdftex.def)             Requested size: 417.47307pt x 180.08601pt.
-) (./Chapters/12_Bibliography.tex [45 <./Files/ServiceSystem.pdf>]
-Chapter 11.
+) [44 <./Files/ServiceSystem.pdf>] [45
+
+]
+(./Appendices/A.tex
+Appendix A.
 ------------------------------------------------------------------------------
- 11 Bibliography
+ A SIA Implementation code
+------------------------------------------------------------------------------
+[46
+
+] [47] [48]
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 151.
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
+
+ []
+
+[49] [50] [51] [52]) (./Appendices/B.tex [53]
+Appendix B.
+------------------------------------------------------------------------------
+ B MIA Implementation code
+------------------------------------------------------------------------------
+[54
+
+] [55]) (./Appendices/C.tex [56]
+Appendix C.
+------------------------------------------------------------------------------
+ C Prediction System Implementation code
+------------------------------------------------------------------------------
+) (./Chapters/Bibliography.tex [57
+
+]
+Appendix D.
+------------------------------------------------------------------------------
+ D Bibliography
 ------------------------------------------------------------------------------
 
 Overfull \hbox (33.91888pt too wide) in paragraph at lines 3--4
@@ -1315,85 +1331,47 @@ Overfull \hbox (27.39651pt too wide) in paragraph at lines 34--35
 . com / commodities / ?commodity = fish & months = 180 & currency =
  []
 
-) (./Appendices/A.tex [46
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 128.
+ [58
 
 ]
-Appendix A.
-------------------------------------------------------------------------------
- A SIA Implementation code
-------------------------------------------------------------------------------
-[47
-
-] [48] [49]
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 151.
-
-Underfull \hbox (badness 10000) in paragraph at lines 154--155
-
- []
-
-[50] [51] [52] [53]) (./Appendices/B.tex [54]
-Appendix B.
-------------------------------------------------------------------------------
- B MIA Implementation code
-------------------------------------------------------------------------------
-[55
-
-] [56]) (./Appendices/C.tex [57]
-Appendix C.
-------------------------------------------------------------------------------
- C Prediction System Implementation code
-------------------------------------------------------------------------------
-[58
-
-]
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 56.
- (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
-File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <9> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 56.
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 126.
- [59]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 126.
-
-(./Thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 126.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 126.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 128.
+ (./Thesis.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 128.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 128.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 126.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 128.
  ) 
 Here is how much of TeX's memory you used:
- 15947 strings out of 493029
- 219603 string characters out of 6136235
- 503065 words of memory out of 5000000
- 18587 multiletter control sequences out of 15000+600000
+ 15768 strings out of 493029
+ 217029 string characters out of 6136235
+ 502273 words of memory out of 5000000
+ 18496 multiletter control sequences out of 15000+600000
  16023 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 49i,12n,45p,13111b,1876s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,12n,45p,13111b,1932s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmsl12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on Thesis.pdf (71 pages, 1356920 bytes).
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsl12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb>
+Output written on Thesis.pdf (70 pages, 1359759 bytes).
 PDF statistics:
- 1814 PDF objects out of 2073 (max. 8388607)
- 1359 compressed objects within 14 object streams
- 578 named destinations out of 1000 (max. 500000)
- 704 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1659 PDF objects out of 1728 (max. 8388607)
+ 1239 compressed objects within 13 object streams
+ 497 named destinations out of 1000 (max. 500000)
+ 691 words of extra memory for PDF output out of 10000 (max. 10000000)
 
