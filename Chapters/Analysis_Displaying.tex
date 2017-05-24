@@ -28,7 +28,7 @@ The system that it's going to be implemented during this part of the work could 
 \section{Requirements for reusability}
 Both the analysis systems that are going to be implemented during this phase of the work will need for just one requirement about the input dataset:
 \begin{itemize}
-\item Monthly frequency of data values contained.
+\item Monthly frequency of data values.
 \end{itemize}
 
 \section{System requirements}
@@ -295,32 +295,58 @@ This part of the MIA implementation allows to display a graphic that compare the
 
 \section{Data Displaying: Map graphic}
 \textbf{Goal:}\\
-The main goal of this phase is to display the county data values in a easy way to understand and analyze.\\
-In this particular case would be useful to display it on a real map of Norway, in order to be able to have an overview about all the counties about different parameters.
+The main goal of this phase is to find a way to visualize some data values on a map graphic.\\
+In this particular the goal is to display data on a real map of Norway, in order to be able to have an overview about all the counties about different parameters.
 
 \textbf{Requirements:}\\
-One parameter in input which has a single value for each county.
+Since this displaying system was used with data values about Norway's counties, it's not reusable for other countries.\\
+So the main requirements is that is provided a dataset with data about the norwegian counties considered during this work.
+
+During this work has been created a specific dataset for test the system works. It contains the average value of a specific input about a single county on the whole available period.\\
+The following table shows the dataset structure: for each county has been calculated the average value from 2007 to 2014 of different parameters.\\
+
+\makebox[\textwidth][c]{
+\resizebox{1.2\textwidth}{!}{
+    \begin{tabular}{ | l | l | l | l | l | l |}
+            \hline
+county						&	averageSeaTemp	&	cages 				& localities			& ...	&  feedConsumption/biomass
+	\\ \hline
+Finnmark					&	5.2128134819	&	257.2395833333		&	33.8333333333		& ...	& 0.1611964666	\\ \hline
+Troms						&	6.2185416667	&	393.3958333333		&	52.1666666667		& ...	&	0.1831404686	\\ \hline
+Nordland 					&	6.8333444959	&	804.5104166667		&	109.0208333333		& ...	&	0.1849358645	\\ \hline
+Nord-Trondelag				&	7.322600258		&	231.6875			&	30.3645833333		& ...	&	0.1852350478	\\ \hline
+Sor-Trondelag				&	7.5381376237	&	306.9479166667		&	51.3645833333		& ...	&	0.1862036956	\\ \hline
+More\_og\_Romsdal				&	8.0087820154	&	347.3229166667		&	59.5729166667		& ...	&	0.1831662176	\\ \hline
+Sogn\_og\_Fjordane			&	8.1081250683	&	318.9583333333		&	52.5				& ...	&	0.1863151035	\\ \hline
+Hordaland					&	7.8033025443	&	738.8854166667		&	131.1770833333		& ...	&	0.1925203347	\\ \hline
+Rogaland\_og\_Agder 			&	7.1951075619	&	338.53125			&	53.0416666667		& ...	&	0.1840209916	\\ \hline
+    \end{tabular}}}
+    
+\newpage
 
 \textbf{Implementation:}\\
-The library "shpreader" allows to read the extension file ".shp", which in this particular case contains the Norway's shape.\\
-Then we can display the current shape using the "pyplot" library and set the colors based on the input values with the library "matplotlib".\\
-
+The library "shpreader" allows to read the extension file ".shp", which in this particular case contains the Norway's shape.
 \begin{lstlisting}
 shpreader.Reader().geometries()
+\end{lstlisting}
 
+Then we can display the current shape using the "pyplot" library .
+\begin{lstlisting}
 plt.figure()
 ax = plt.axes()
 axes.add_geometries
+\end{lstlisting}
 
+Is possible to set the colors based on the input values with the library "matplotlib".
+\begin{lstlisting}
 plt.get_cmap
 matplotlib.colors.Normalize
 \end{lstlisting}
 
-
 \textbf{Results:} \\
 
 \begin{figure}[H]
-    	\makebox[\textwidth][c]{\includegraphics[trim={0cm 2cm 0 3cm},clip, width=0.8\textwidth]{Files/Norway-averageTemp.jpeg}}
+    	\makebox[\textwidth][c]{\includegraphics[trim={0cm 2cm 0 3cm},clip, width=1.7\textwidth]{Files/Norway-averageTemp.jpeg}}
     \caption{Average Sea Temperature from 2007 to 2014 in Norway.}
 \end{figure}
 

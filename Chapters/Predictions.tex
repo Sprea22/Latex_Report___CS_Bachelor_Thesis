@@ -24,6 +24,8 @@ Used for evaluate different configurations of ARIMA machine. \\ It tests 112 dif
 There are not any kind of needed requirements. It's possible to use this system on dataset of arbitrary length.
 
 \textbf{Code implementation:}\\
+It's possible to check out the full implemented code in the appendice: \ref{Evaluating_System}
+
 The most important part of the code about the Evaluating System is the following.\\
 Basically the method ARIMA() allows to train a model based on historic values (history) and a specific order (p,d,q). After that it's possible to call the method forecast() through the trained model and having some predictions like result.
 \begin{lstlisting}
@@ -32,15 +34,31 @@ model_fit = model.fit(disp=0)
 yhat = model_fit.forecast()[0]
 \end{lstlisting}
 
-This system will provide 112 different ARIMA configurations results for each single input, and in particular it will display the best ARIMA configuration, that is the one with the lower MAPE.
+More in the specific, the 112 different ARIMA configurations that were tested are all the possible combinations between the following three parameters values:
+\begin{lstlisting}
+p_values = [0, 1, 2, 4, 6, 8, 10]
+d_values = [0, 1, 2, 3]
+q_values = [0, 1, 2, 3]
+\end{lstlisting}
+
+\newpage
 
 \textbf{Results:}\\
-The system will display the MAPE between real value and predicted values for each single tested ARIMA machine, in particular the configuration that gives the best result.
-All these results have been reported in a document and then also displayed with a 3D graphic that allows to see the MAPE value for each different order in input.
+The system will display the MAPE between real value and predicted values for each of the 112 tested ARIMA machine. In particular, once tested all the configurations, the system will provide the configuration that gave the best MAPE result.\\
+All these results have been reported in a document that is possible to check for check out the different configurations result.
+
+The following graphic display the different ARIMA configurations tested, providing also:
+\vspace{-5mm}
+\begin{itemize}
+ \setlength{\itemsep}{-5pt} 
+\item General overview about MAPE values for each single tested configuratons. 
+\item Best configuration with relative MAPE value.
+\item Color legend, where the red means lower MAPE, so more accurate predictions, and blue means higher MAPE, so less accurate predictions.
+\end{itemize}
 
 \begin{figure}[H]
 	\raggedleft
-	\makebox[\textwidth][c]{\includegraphics[width=0.6\textwidth]{Files/Cages_MAPE.pdf}}
+	\makebox[1\textwidth][c]{\includegraphics[width=1.5\textwidth]{Files/Cages_MAPE.pdf}}
     \caption{Graphic that displays different MAPE values for each ARIMA order.}
 \end{figure}
 
