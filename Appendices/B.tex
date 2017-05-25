@@ -12,11 +12,12 @@ The "numpy" library it's used for mathematic purpose, such as calculating the co
 import numpy as np
 \end{lstlisting}
 
+Also the library "sys" would be very useful for test and execute the program, mainly because it allows to input directly from terminal.
 \begin{lstlisting}
 import sys
 \end{lstlisting}
 
-
+This pyplot style configuration allows to customize the graphic desig. In this case was used ggplot, a popular plotting package.
 \begin{lstlisting}
 pyplot.style.use('ggplot')
 \end{lstlisting}
@@ -29,21 +30,30 @@ import matplotlib.pyplot as pyplot
 \section{MIA section I: Total Correlation Coefficients}
 \label{MIA_section_I}
 
+During the first part of the implementation of this system was used again the "pandas" library for reading all the values of each single paramaeter of the current input dataset.
 \begin{lstlisting}
 series = pd.read_csv("Datasets/" + sys.argv[1]+".csv", usecols=range(2,10), header=0)
 corr = []
 for column in series:
     corr.append(series[column].values)
-# Calculatic che correlation coefficent between each year of the input dataset
-corrRes = np.corrcoef(corr)
+\end{lstlisting} 
 
+Then, once read and organized the values, are calculated all the correlation coefficients between each single paramater values
+\begin{lstlisting}
+corrRes = np.corrcoef(corr)
 mat = np.matrix(corrRes)
 dataframe = pd.DataFrame(data=mat.astype(float))
-dataframe.to_csv("Results/"+sys.argv[1]+"/Total_Evidences/"+sys.argv[1]+"_CorrCoeff.csv", sep=',', header=False, float_format='%.2f', index=False)
+\end{lstlisting} 
 
+The resulting correlation coefficients values are reported in a CSV output file.
+\begin{lstlisting}
+dataframe.to_csv("Results/"+sys.argv[1]+"/Total_Evidences/"+sys.argv[1]+"_CorrCoeff.csv", sep=',', header=False, float_format='%.2f', index=False)
+\end{lstlisting} 
+
+The final step of this first part of the MIA implementation is to display the calculated correlation coefficients on a correlation matrix. The following code show how to set it up, customize both the tick labels and in end how to save it.
+\begin{lstlisting}
 fig = pyplot.figure()
 ax = fig.add_subplot(111)
-# Displaying the matrix with the results about correlation coefficents
 cax = ax.matshow(corrRes, interpolation='nearest')
 labels = []
 j = 1
@@ -56,7 +66,6 @@ ax.set_xticklabels(labels)
 ax.set_yticklabels(labels)
 pyplot.setp(ax.get_xticklabels(), rotation=30, horizontalalignment='left')
 pyplot.setp(ax.get_yticklabels(), rotation=30, horizontalalignment='right')
-#cax.set_clim(vmin=0.5, vmax=1) 
 pyplot.colorbar(cax)
 pyplot.title("Correlation Coefficients Matrix - " + sys.argv[1], y=1.15)
 pyplot.tight_layout()
@@ -66,21 +75,27 @@ pyplot.savefig("Results/" + sys.argv[1]+"/Total_Evidences/"+sys.argv[1]+"_Total_
 \section{MIA section II: Normalized Angular Coefficients}
 \label{MIA_section_II}
 
+During this part of the code the system will read for each single paramater of the current input dataset the trend line normalized angular coefficient. The coefficients values are organized and saved in a temporary data structure.
 \begin{lstlisting}
-fig2 = pyplot.figure()
-ax2 = fig2.add_subplot(111)
 temp = [] 
 for i in series.columns:
 	index = sys.argv[1]+"-"+i
 	tempSeries = pd.read_csv("Results/"+sys.argv[1]+"/"+i+"/"+sys.argv[1]+"_"+i+"_AngCoeff.csv", header=0)
 	temp.append(tempSeries[index].values[1])
-x = range(len(series.columns))
+\end{lstlisting}
 
+Once the values are ready to be elaborated, the system displays it on a horizontal bar plot using the library "pyploy".
+\begin{lstlisting}
+fig2 = pyplot.figure()
+ax2 = fig2.add_subplot(111)
+x = range(len(series.columns))
 pyplot.barh(x, temp)
-# Displaying and saving the bar graphic  
+\end{lstlisting}
+
+Last part of the code was used for graphic's customization and for saving it.
+\begin{lstlisting}
 pyplot.yticks(x,series.columns)
 pyplot.title("Normalized Angular coefficients - " + sys.argv[1])
 pyplot.tight_layout()
 pyplot.savefig("Results/"+sys.argv[1]+"/Total_Evidences/"+sys.argv[1]+"_Norm_Ang_Coeffs.jpg", format="jpg")
-
 \end{lstlisting}

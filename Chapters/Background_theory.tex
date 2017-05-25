@@ -2,9 +2,10 @@
 
 \chap{Background Theory} 
 \section{Data science}
+\vspace{-5mm}
 It's really important to have a general idea about what "Data Science" means since this thesis procedure is strongly based on the classic Data Science Process.
 
-We can define Data Science like a "concept to unify statistics, data analysis and their related methods" in order to understand and analyze actual phenomena with data.\\
+We can define Data Science like a "concept to unify statistics, data analysis and their related methods" in order to understand and analyze actual phenomena with data.\cite{wiki:DataScience}\\
 It includes theories drawn from many field within the broad areas of mathematics, statistics, information science and computer science.
 
 \begin{minipage}{0.5\textwidth}
@@ -25,9 +26,7 @@ In the computer science area are particular important the subdomains of:
     \caption{Data science concept}
     \label{fig: Data_science}
 \end{figure}
-
 \end{minipage}
-
 \newpage 
 
 Here is reported a short definitions about the main subdomains considered by this study:
@@ -37,7 +36,7 @@ Here is reported a short definitions about the main subdomains considered by thi
 
 \item \textbf{Data Visualization}: It involves the creation and study of the visual representation of data. The primary goal of data visualization is to communication information clearly and efficiently via graphics and plots.
 
-\item \textbf{Machine learning}: Is a subfield of computer science that, according to Arthur Samuel in 1959, gives computers the ability to learn without being explicitly programmed. More useful specific informations about this field are provided in the following section [\ref{ML}].
+\item \textbf{Machine learning}: Is a subfield of computer science that gives computers the ability to learn without being explicitly programmed.\cite{ArthurSamuel} More useful specific informations about this field are provided in the following section [\ref{ML}].
 \end{itemize}
 
 The follow image represents the "Blitzstein and Pfister's framework" and provides a clear overview of the Data Science process.
@@ -45,7 +44,7 @@ The follow image represents the "Blitzstein and Pfister's framework" and provide
     \centering
     \makebox[\textwidth][c]{\includegraphics[trim={0 0 0 2cm},clip, width=1.2\textwidth]{Files/Data_Science_Process.pdf}}
     \caption[Data science process]{Data science process}
-    \label{fig: Data_science}
+    \label{fig: Data_science_process}
 \end{figure}
 
 
@@ -54,6 +53,7 @@ The follow image represents the "Blitzstein and Pfister's framework" and provide
 
 
 \section{Machine learning}
+\vspace{-5mm}
 \label{ML}
 How is reported in the previous section, this subfield of computer science gives "computers the ability to learn without being explicitly programmed". \\
 Machine learning explores the study and construction of algorithms that can learn from and make predictions on data.
@@ -73,10 +73,9 @@ There are several machine learning algorithm, each one of them is used for a dif
 
 \subsection{Time Series analysis and predictions}
   \vspace{-5mm}
-Time Series forecasting is an important area of machine learning, but that is often neglected. Is that important mainly beause there are so many prediction problems that involve a time component, and these problems are neglected because it is this time component that makes time series problems more difficult to handle.
+Time Series forecasting is an important area of machine learning, but that is often neglected. Is that important mainly beause there are so many prediction problems that involve a time component, and these problems are neglected because it is this time component that makes time series problems more difficult to handle.\cite{MachineLearningMastery}
 
-" A time series is a sequence of observations taken sequentially in time. " \\
-Quoted — Page 1, Time Series Analysis: Forecasting and Control.
+" A time series is a sequence of observations taken sequentially in time. "\cite{TimeSeries} 
 
 Classic example of a time series dataset:
 
@@ -95,17 +94,16 @@ Making predictions could be called time series forecasting and it involves takin
 
 \subsection{Autoregressive integrated moving average (ARIMA)}
 \vspace{-5mm}
-Since this a very complicated and deep topic, this study provided just an initial implementation and descripton of it.
-During this section are provided some basic definitions and overviews enough to understand the general logic behind a forecasting system. If you are particular interested in this topic my suggestion is to read more about it, in the specific the mathematic side.\\
+Since this a very complicated and deep topic, this study provided just an initial implementation and descripton of it. During this section are provided some basic definitions and overviews enough to understand the general logic behind a forecasting system. If you are particular interested in this topic my suggestion is to read more about it, in the specific the mathematic side.
 
-\textbf{AR model}: an autoregressive model is a representation of a type of random process; as such, it is used to describe certain time-varying processes in nature, economics, etc. The autoregressive model specifies that the output variable depends linearly on its own previous values and on a stochastic term (an imperfectly predictable term); thus the model is in the form of a stochastic difference equation.
+\textbf{AR model}: an autoregressive model is a representation of a type of random process; as such, it is used to describe certain time-varying processes in nature, economics, etc. The autoregressive model specifies that the output variable depends linearly on its own previous values and on a stochastic term (an imperfectly predictable term); thus the model is in the form of a stochastic difference equation.\cite{wiki:AR}
 
-\textbf{MA model}: a moving-average model is a common approach for modeling univariate time series. The moving-average model specifies that the output variable depends linearly on the current and various past values of a stochastic (imperfectly predictable) term. 
+\textbf{MA model}: a moving-average model is a common approach for modeling univariate time series. The moving-average model specifies that the output variable depends linearly on the current and various past values of a stochastic (imperfectly predictable) term.\cite{wiki:MA}
 
-\textbf{ARMA model}: an autoregressive-moving-average model provides a parsimonious description of a stationary stochastic process in terms of two polynomials, one for the autoregression and the second for the moving average. Basically it combines both AR and MA models into a unique representation.
+\textbf{ARMA model}: an autoregressive-moving-average model provides a parsimonious description of a stationary stochastic process in terms of two polynomials, one for the autoregression and the second for the moving average. Basically it combines both AR and MA models into a unique representation.\cite{wiki:ARMA}
 
 \textbf{ARIMA model}: is a generalization of an autoregressive moving average (ARMA) model. Both of these models are fitted to time series data either to better understand the data or to predict future points in the series (forecasting).\\
-This model is applied in some cases where data show evidence of non-stationarity, where an initial differencing step (corresponding to the "integrated" part of the model) can be applied one or more times to eliminate the non-stationarity.
+This model is applied in some cases where data show evidence of non-stationarity, where an initial differencing step (corresponding to the "integrated" part of the model) can be applied one or more times to eliminate the non-stationarity.\cite{wiki:ARIMA}
 
 \textbf{ARIMA(p, d, q)}
   \vspace{-5mm}
@@ -121,19 +119,15 @@ This model is applied in some cases where data show evidence of non-stationarity
 \newpage
 
 \section{Aquaculture in Norway}
+\vspace{-5mm}
+During the last years there has been a very rapid development of Norway's aquaculture industry, and the production of Atlantic salmon has grown to become a major sector of its economy. The industry is now an economic pillar for several Norwegian coastal communities.\cite{SenCanada}
 
-Is the aquaculture business in Norway growing? 
-  
-Aquaculture, also known as aquafarming, is the farming of fish, crustaceans, molluscs, aquatic plants, algae, and other aquatic organisms.
+The Aquaculture industry in Norway is dominated by its finfish sector, with Atlantic salmon and Rainbow trout accounting for 93.9\% and 5.8\% respectively of total volume produced.
 
-Aquaculture would be the future of fish:
-In 2030, according to the World Bank, aquaculture will supply:
-\begin{itemize}
-\item 93.6 Million tonnes of fish per year
-\item 25 percent less wild fish will be available
-\item 62 percent of the fish we eat will come from farms
-\end{itemize}
+This business takes place in the counties along most of the country's coastline. In the finfish sector Nordland is the dominant producer county, with Hordaland coming second, Møre og Romsdal third, and Troms fourth.
 
-
-
-
+\begin{figure}[h]
+    \makebox[\textwidth][c]{\includegraphics[width=1.6\textwidth, trim={4cm 4cm 0 0cm},clip,]{Files/Counties.jpeg}}
+    \caption[Norwegian counties involved in aquaculture business]{Norwegian counties involved in aquaculture business}
+    \label{fig: Norway_Counties}
+\end{figure}

@@ -369,15 +369,13 @@
 \vfil\null
 \cleardoublepage
 }
-\renewcommand\backmatter{
-  \if@openright
-    \cleardoublepage
-  \else
-    \clearpage
-  \fi
-  \addtotoc{\bibname}
-  \btypeout{\bibname}
-  \@mainmatterfalse}
+\newcommand\backmatter{%
+    \if@openright
+      \cleardoublepage
+    \else
+      \clearpage
+    \fi
+    \@mainmatterfalse}
 \endinput
 %%
 %% End of file `Thesis.cls'.

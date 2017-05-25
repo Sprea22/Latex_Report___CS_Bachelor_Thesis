@@ -1,12 +1,4 @@
 %*******10********20********30********40********50********60********70********80
-s
-\hypersetup{
-    colorlinks=true,
-    linkcolor=blue,
-    filecolor=magenta,      
-    urlcolor=blue,
-}
-
 \DeclareFixedFont{\ttb}{T1}{txtt}{bx}{n}{12} % for bold
 \DeclareFixedFont{\ttm}{T1}{txtt}{m}{n}{12}  % for normal
 \definecolor{deepblue}{rgb}{0,0,0.5}
@@ -32,59 +24,74 @@ s
     breakatwhitespace=false
 }
 
-\hypersetup{
-    colorlinks=true,
-    linkcolor=blue,
-    filecolor=magenta,      
-    urlcolor=blue,
-}
+
 
 % For all chapters, use the newdefined chap{} instead of chapter{}
 % This will make the text at the top-left of the page be the same as the chapter
 
 \chap{Approach and Design}
 \section{Development Flow}
-
-\textbf{1st Phase: Data collection and validation}\\
-During this phase the most important thing is to gather as much as possible data, but they must be as much as possible reliable and useful since they are going to be indispensable for the next phases and in particular for the final results and conclusions.\\
-The data’s reliability mainly depend by the kind of sources where you’re able to mine.\\
-Then you should customize the unstructured data that you collected.\\
-This data’s customizing has the main purposes of:
+\vspace{-5mm}
+\textbf{I Part: Data collection and validation}
 \vspace{-5mm}
 \begin{itemize}
  \setlength{\itemsep}{-5pt}
- \item Let the data structure be a summarize of all the data inputs previous collected.
- \item Let the new data structure be easier to access and read.
- \item Follow some kind of setting and standard needed in the system that will be implemented.
+ \item Collect as many useful data as possible.
+ \item Create a structured dataset that contains the collected data.
+ \item Let the new data structure be accessable, available and readable.
+ \item Let the data structure be an appropriate input to the analysis system used during the study.
 \end{itemize}
 
 
-\textbf{2nd Phase: Data Analysis and Displaying}\\
-During this phase the first thing that you’re going to do is to decide some kind of analysis results that you would like to have.\\
-Once you decided which kind of results you might reach, you will start with the analysis system implementation and meanwhile saving eviences of it.\\
-Once the general analysis of the data is finished, and evidences have been collected, it's time to analyze it and try to extract information about it.
+\textbf{II Part: Systems implementation}
+\vspace{-5mm}
+\begin{itemize}
+ \setlength{\itemsep}{-5pt}
+ \item Analysis and displaying system implementation and results collection..
+ \item Informations extraction.
+ \item Prediction system implementation and results collection.
+\end{itemize}
+
+
+\textbf{III Part: Result, Discussion and Conclusions }
+\vspace{-5mm}
+\begin{itemize}
+ \setlength{\itemsep}{-5pt}
+ \item Results:
+ \item Discussion:
+ \item Conclusions:
+\end{itemize}
+
+
+\textbf{IV Part: Full code Implementation }
 
 \newpage
 
-\textbf{3rd Phase: Data Prediction}\\
+------> I PART
+During this phase the most important thing is to gather as much data as possible. The data have to be of course related with the current area of interest and they should be considered somehow useful for asnwering the initial questions of the study.\\
+At the same time they should be as much reliable as possible since they are indispensable for the next phases and in particular for the final results and conclusions.\\
+The data’s reliability mainly depends by which source they are coming from.\\
+Then you should elaborate the data that you collected in order to:
+
+------> II PART
+This phase of the work will investigate about different ways for understanding and extracting information from the data.
+For instance, the data will be displayed on different kind of graphics in order to increase their readable. Further more, several coefficients will be calculated and reported, always to allow the informations extraction from the data.
 During this phase the main purpose is to predict some kind of useful data about the current dataset. To reach this goal, is first of all indispensable to choose a prediction system to implement. \\
 Once the prediction system has been implemented, it's time to apply it on the current data and try to get as much evidences as possible.
 
-\textbf{4th Phase: Results, Discussion and Conclusions }\\
-During this phase of the work all the obtained results will be reported and discussed, trying to figure some useful conclusions.
+------> III PART
+The results part contains
 
-\textbf{5th Phase: Future Works}\\
-The last but not least phase is to watch at the future: try to figure out some other extra implementations about this thesis.\\
-
+The purpose of the discussion is to interpret and describe the significance of this thesis results. Further more, has to be reported a critical evaluation about the work done and explain any kind of limitations found during the procedure.
+The conclusion part has to contains a summarize about what was done in this thesis, and then figure out some other extra ideas, implementations or recommendations to future work about this thesis.\\
 \begin{figure}[h]
-
     \makebox[\textwidth][c]{\includegraphics[width=1.1\textwidth,natwidth=761,natheight=681]{Files/DevelopmentFlow.pdf}}
     \caption[Plan flow chart]{Plan flow chart}
     \label{fig: Development_Flow}
 \end{figure}
 
 
-\section{important recommendation}
+\section{Important recommendation}
 Before start to read the implementation procedure about this work, it's important to know that is possible to find the system's full implementation on Github.\\
 I \textbf{strongly recommend} to check it out and download the following repository. It allows to test the system and better understand how it is structured and how it works.\\
 Further more, it's possible to find inside the same repository all the needed datasets and a "Manual" wich contains the instructions about how to use it.

@@ -2,31 +2,30 @@
 %% ----------------------------------------------------------------
 %% Thesis.tex -- MAIN FILE (the one that you compile with LaTeX)
 %% ---------------------------------------------------------------- 
-
 %% This template is based on Graduate Thesis written by Sunil Patel,
+
 % (ho based it on the ecsthesis template) under the LaTeX Project Public License.
 % which can be found here: http://latex-project.org/lppl/
 % in the hope that it will be easier to use and to scale down to your needs
 % by Simon Ternsjö in 2013-10
-
-
-
 % INSTRUCTIONS:
-
 % The meaning is not to edit this document much, but to fill in information 
 % in the different files in the folders;
 % Settings, Frontpages, Chapters, Appendices and possibly Files,
 % as well as the file Bibliography.bib
-
 % This template is easy to scale down to suite your need, 
 % simply comment the input statements explained below
-
-
 % Set up the document:
 \documentclass[a4paper, 11pt, oneside]{Thesis}  % Use the "Thesis" style, based on the ECS Thesis style by Steve Gunn
 
 % Add more package in Package.tex:
 \input{Settings/Packages.tex}
+
+\hypersetup{
+    linkcolor=black,
+    filecolor=magenta,      
+    urlcolor=blue,
+}
 
 % Use if you want:
 %5%\graphicspath{Figures/}  % Location of the graphics files (set up for graphics to be in PDF format)
@@ -90,25 +89,21 @@
 
 %\input{Chapters/Implementation} % Implementation
 
-\part{Data collection}
+\part{Data Collection and Validation}
 \input{Chapters/Data_Collection}
 
 \part{Implementation}
 \input{Chapters/Analysis_Displaying}
 \input{Chapters/Predictions}
 
-\part{Results, Evaluations and Conclusions}
-\input{Chapters/Results} % Results
+\part{Discussion, Evaluations and Conclusions}
+%\input{Chapters/Results} % Results
 \input{Chapters/Evaluations} % Evaluations
 \input{Chapters/Conclusion} % Conclusion
 
 %\input{Chapters/Future_Works}
 
-
 %% Appendices -----------------------------------------------------
-
-
-
 \addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
 
 \lhead{\emph{Appendices}}  % Change the left side page header to "Appendices"
@@ -121,9 +116,15 @@
 \input{Appendices/B} % MIA Implementation code
 
 \input{Appendices/C} % Prediction System Implementation code
+
+\input{Appendices/D} % Map System Implementation code 
+
 \end{appendix}
 
 \bookmarksetup{startatroot}
-\input{Chapters/Bibliography} % Bibliography
-\end{document}  % The End
+\bibliographystyle{unsrt}
+\bibliography{Bibliography}
+\addcontentsline{toc}{chapter}{Bibliography}
+\end{document}  % The End 
+
 %% ----------------------------------------------------------------

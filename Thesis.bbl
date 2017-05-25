@@ -1,0 +1,55 @@
+\begin{thebibliography}{10}
+
+\bibitem{previousWork}
+Jason Brownlee.
+\newblock How to create an arima model for time series forecasting with python.
+\newblock
+  \url{http://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/},
+  January 9, 2017.
+\newblock Online.
+
+\bibitem{wiki:DataScience}
+Wikipedia.
+\newblock Data science --- wikipedia{,} the free encyclopedia, 2017.
+\newblock [Online].
+
+\bibitem{ArthurSamuel}
+Arthur Samuel, 1959.
+
+\bibitem{MachineLearningMastery}
+Jason Brownlee.
+\newblock Machine learning mastery, 2017.
+
+\bibitem{TimeSeries}
+Time series analysis: Forecasting and control.
+\newblock [page 1].
+
+\bibitem{wiki:AR}
+Wikipedia.
+\newblock Autoregressive model --- wikipedia{,} the free encyclopedia, 2017.
+\newblock [Online].
+
+\bibitem{wiki:MA}
+Wikipedia.
+\newblock Moving-average model --- wikipedia{,} the free encyclopedia, 2017.
+\newblock [Online].
+
+\bibitem{wiki:ARMA}
+Wikipedia.
+\newblock Autoregressive–moving-average model --- wikipedia{,} the free
+  encyclopedia, 2017.
+\newblock [Online].
+
+\bibitem{wiki:ARIMA}
+Wikipedia.
+\newblock Autoregressive integrated moving average --- wikipedia{,} the free
+  encyclopedia, 2017.
+\newblock [Online].
+
+\bibitem{SenCanada}
+Standing Senate~Committee on~Fisheries and Oceans.
+\newblock Volume two - aquaculture industry and governance in norway and
+  scotland, June 2016.
+\newblock [Online].
+
+\end{thebibliography}

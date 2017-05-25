@@ -2,31 +2,28 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Data science concept\relax }}{5}{figure.caption.17}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Data science process}}{6}{figure.caption.18}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Data science concept\relax }}{4}{figure.caption.17}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Data science process}}{5}{figure.caption.18}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Norwegian counties involved in aquaculture business}}{8}{figure.caption.23}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Plan flow chart}}{11}{figure.caption.25}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Plan flow chart}}{11}{figure.caption.26}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Dataset structure.\relax }}{17}{figure.caption.35}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Dataset structure.\relax }}{18}{figure.caption.37}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Dataset structure.\relax }}{16}{figure.caption.39}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Dataset structure.\relax }}{17}{figure.caption.42}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Total graphic about current input over the whole period.\relax }}{23}{figure.caption.52}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Graphics for each single year of the current input data.\relax }}{24}{figure.caption.58}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Correlation matrix between different months of the same input\relax }}{25}{figure.caption.65}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Correlation matrix between different years of the same input\relax }}{26}{figure.caption.72}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Correlation matrix between different inputs with data.\relax }}{29}{figure.caption.84}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Normalized angular coefficients of each input's trendline.\relax }}{30}{figure.caption.89}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Average Sea Temperature from 2007 to 2014 in Norway.\relax }}{32}{figure.caption.100}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Total graphic about current input over the whole period.\relax }}{22}{figure.caption.58}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Graphics for each single year of the current input data.\relax }}{23}{figure.caption.64}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Correlation matrix between different months of the same input\relax }}{24}{figure.caption.71}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Correlation matrix between different years of the same input\relax }}{25}{figure.caption.78}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Correlation matrix between different inputs with data.\relax }}{29}{figure.caption.97}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Normalized angular coefficients of each input's trendline.\relax }}{30}{figure.caption.102}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Average Sea Temperature from 2007 to 2014 in Norway.\relax }}{32}{figure.caption.114}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Graphic that displays different MAPE values for each ARIMA order.\relax }}{36}{figure.caption.114}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Graphic that display historic, future and predicted values of a input.\relax }}{38}{figure.caption.134}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Correlation matrix between different inputs with data from 2005 to 2016.\relax }}{41}{figure.caption.137}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Normalized angular coefficients of each input's trendline.\relax }}{42}{figure.caption.139}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Lower MAPE with best ARIMA Configuration for each tested input.\relax }}{43}{figure.caption.142}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Graphic that displays different MAPE values for each ARIMA order.\relax }}{36}{figure.caption.128}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Graphic that display historic, future and predicted values of a input.\relax }}{38}{figure.caption.148}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {9.1}{\ignorespaces Idea of the Servie System for predictions.\relax }}{47}{figure.caption.152}
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Idea of the Servie System for predictions.\relax }}{43}{figure.caption.159}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

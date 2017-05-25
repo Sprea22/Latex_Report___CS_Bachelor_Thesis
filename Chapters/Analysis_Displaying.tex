@@ -160,6 +160,7 @@ The current data input has to be with a monthly frequency.
 
 \textbf{Implementation:}\\
 To reach the current goal have been used the scientific computing library "numpy", that allows to calculate the correlation coefficients between data. Then the library "pyplot" has been used to display the results on a matrix.
+
 \begin{lstlisting}
 numpy.corrcoef()
 figure = pyplot.figure()
@@ -184,24 +185,45 @@ With this part of the code have been calculated and displayed the correlation co
 \subsection{SIA section V: Single overview}
 
 \textbf{Goal:}\\
-Generate and display a single overview image that contains all the graphics previous calculated for the current input.
-
-\textbf{Implementation:}\\
-It's possible to check out the full ccommented code in the appendice: [\ref{SIA_section_V}]
+Generate and display a single overview image that contains all the graphics previous calculated about the current input.
 
 \textbf{Requirements:}\\
-- All the graphics about the current input have to be already calculated and saved.
+All the graphics about the current input have to be already calculated and saved.
 
-\textbf{Results:}
-With this part of the code it's possible to have a single overview image for the current input, that is basically showing and comparing all the graphics that have already been calculated about this input. It looks like this example:
+\textbf{Implementation:}\\
+During this part of the implemented system has been indispensable the Python Imaging Library, called also PIL. 
+\begin{lstlisting}
+from PIL import Image
+\end{lstlisting}
 
+It basically allowed to create a new "empty" image and then create a sort of collage pasting the already calculated graphic's images on it.
+\begin{lstlisting}
+new_im = Image.new()
+new_im.paste()
+\end{lstlisting}
 
+The following method contains the full code that allows to create the overview image. 
+\begin{lstlisting}
+def create_single_overview(cols, rows, dest, width, height, listofimages):
+\end{lstlisting}
+The output of this phase depends by the input to this method, that are basically the list of image and the preferences about the collage's structure.\\
+Is possible to view the final result of this phase in the next page and is possible to check out the full ccommented code in the appendice: [\ref{SIA_section_V}]
+
+\newpage
+
+\textbf{Results:}\\
+With this part of the code it's possible to have a single overview image about the current input, that basically allows to compare all the graphics already calculated about this input. The general overview graphic contains:
+\begin{itemize}
+\item Total graphic of the input data for the whole period.
+\item Graphic of the input data for each single year.
+\item Correlation matrix between different months of the same input.
+\item Correlation matrix between different years of the same input.
+\end{itemize}
 
 \begin{figure}[H]
 \begin{subfigure}{.5\textwidth}
 	\centering
     \includegraphics[width=1\textwidth]{Files/Cages_Total.pdf}
-    
 \end{subfigure}%
 \begin{subfigure}{.5\textwidth}
 	\centering
@@ -293,23 +315,21 @@ This part of the MIA implementation allows to display a graphic that compare the
 
 \newpage
 
-\section{Data Displaying: Map graphic}
+\section{Data Displaying on a map}
 \textbf{Goal:}\\
-The main goal of this phase is to find a way to visualize some data values on a map graphic.\\
-In this particular the goal is to display data on a real map of Norway, in order to be able to have an overview about all the counties about different parameters.
+The main goal of this phase is to find a way to visualize some data values on a map graphic using Python. In this particular case the map graphic has to represents the Norway territory and its every single county.
+
 
 \textbf{Requirements:}\\
-Since this displaying system was used with data values about Norway's counties, it's not reusable for other countries.\\
-So the main requirements is that is provided a dataset with data about the norwegian counties considered during this work.
+This displaying system was implemented just for displaying data about Norway, that means it's not reusable for other input datasets.
 
-During this work has been created a specific dataset for test the system works. It contains the average value of a specific input about a single county on the whole available period.\\
-The following table shows the dataset structure: for each county has been calculated the average value from 2007 to 2014 of different parameters.\\
+During this work has been created a specific dataset for test the system works. It contains the average value of a specific input about a single county on the whole available period. The following table shows some examples about the dataset structure: for each county has been calculated the average value from 2007 to 2014 of different parameters.\\
 
 \makebox[\textwidth][c]{
 \resizebox{1.2\textwidth}{!}{
     \begin{tabular}{ | l | l | l | l | l | l |}
             \hline
-county						&	averageSeaTemp	&	cages 				& localities			& ...	&  feedConsumption/biomass
+\textbf{county}						&	\textbf{averageSeaTemp}	&	\textbf{cages}				& \textbf{localities}			& \textbf{...}	&  \textbf{feedConsumption/biomass}
 	\\ \hline
 Finnmark					&	5.2128134819	&	257.2395833333		&	33.8333333333		& ...	& 0.1611964666	\\ \hline
 Troms						&	6.2185416667	&	393.3958333333		&	52.1666666667		& ...	&	0.1831404686	\\ \hline
@@ -320,33 +340,36 @@ More\_og\_Romsdal				&	8.0087820154	&	347.3229166667		&	59.5729166667		& ...	&	0
 Sogn\_og\_Fjordane			&	8.1081250683	&	318.9583333333		&	52.5				& ...	&	0.1863151035	\\ \hline
 Hordaland					&	7.8033025443	&	738.8854166667		&	131.1770833333		& ...	&	0.1925203347	\\ \hline
 Rogaland\_og\_Agder 			&	7.1951075619	&	338.53125			&	53.0416666667		& ...	&	0.1840209916	\\ \hline
-    \end{tabular}}}
+    \end{tabular}}}\\
     
-\newpage
 
 \textbf{Implementation:}\\
-The library "shpreader" allows to read the extension file ".shp", which in this particular case contains the Norway's shape.
+During the implementation was used the library "cartopy", that provdes cartographic tools for Python. \\
+In this particular case has been useful use the library "cartopy.io.shapereader" that allows to read the extension file ".shp", which in this particular case contains the Norway's shape.
 \begin{lstlisting}
-shpreader.Reader().geometries()
+import cartopy.io.shapereader as shpreader
+shpreader.Reader(filename).geometries())
 \end{lstlisting}
 
-Then we can display the current shape using the "pyplot" library .
+Then the input shapely geometries were displayed  to the axes using the "matplotlib".
 \begin{lstlisting}
 plt.figure()
 ax = plt.axes()
 axes.add_geometries
 \end{lstlisting}
 
-Is possible to set the colors based on the input values with the library "matplotlib".
+Once displayed the geometries on the map, is possible to set their colors based on some input values with the library "matplotlib".
 \begin{lstlisting}
 plt.get_cmap
 matplotlib.colors.Normalize
 \end{lstlisting}
 
-\textbf{Results:} \\
+It's possible to check out the full ccommented code in the appendice: [\ref{MapNOR}]
 
+\textbf{Results:} \\
+During this implementation was implemented a cartographic representation of some parameters about each single county involved in the Norwegian aquaculture business, but is possible to use the reported library to implement a system about an another territory or an another country.
 \begin{figure}[H]
-    	\makebox[\textwidth][c]{\includegraphics[trim={0cm 2cm 0 3cm},clip, width=1.7\textwidth]{Files/Norway-averageTemp.jpeg}}
+    	\makebox[\textwidth][c]{\includegraphics[trim={0cm 2cm 0 3cm},clip, width=1.4\textwidth]{Files/Norway-averageTemp.jpeg}}
     \caption{Average Sea Temperature from 2007 to 2014 in Norway.}
 \end{figure}
 
