@@ -25,49 +25,50 @@
 \contentsline {subsection}{\numberline {3.2.1}Dataset about Norway}{15}{subsection.39}
 \contentsline {subsection}{\numberline {3.2.2}Dataset about single county}{16}{subsection.42}
 \contentsline {part}{II\hspace {1em}Implementation}{17}{part.45}
-\contentsline {chapter}{\numberline {4}Implementation Design}{18}{chapter.46}
-\contentsline {section}{\numberline {4.1}System Design}{18}{section.47}
-\contentsline {chapter}{\numberline {5}Analyzer System}{20}{chapter.49}
-\contentsline {section}{\numberline {5.1}Requirements for reusability}{21}{section.50}
-\contentsline {section}{\numberline {5.2}System requirements}{21}{section.51}
-\contentsline {section}{\numberline {5.3}Single Input Analyzer}{22}{section.56}
-\contentsline {subsection}{\numberline {5.3.1}SIA: Imported libraries}{22}{subsection.57}
-\contentsline {subsection}{\numberline {5.3.2}SIA section I: Total graphic for all the years}{23}{subsection.58}
-\contentsline {subsection}{\numberline {5.3.3}SIA section II: Single graphics for each year}{24}{subsection.63}
-\contentsline {subsection}{\numberline {5.3.4}SIA section III: Correlation matrix between years}{25}{subsection.69}
-\contentsline {subsection}{\numberline {5.3.5}SIA section IV: Correlation matrix between months}{26}{subsection.76}
-\contentsline {subsection}{\numberline {5.3.6}SIA section V: Single overview}{27}{subsection.83}
-\contentsline {section}{\numberline {5.4}Multiple Inputs Analyzer}{29}{section.93}
-\contentsline {subsection}{\numberline {5.4.1}MIA: Imported libraries}{29}{subsection.94}
-\contentsline {subsection}{\numberline {5.4.2}MIA section I: Total Correlation Coefficients}{30}{subsection.95}
-\contentsline {subsection}{\numberline {5.4.3}MIA section II: Normalized Angular Coefficients}{31}{subsection.102}
-\contentsline {section}{\numberline {5.5}Data Displaying on a map}{32}{section.107}
-\contentsline {chapter}{\numberline {6}Prediction System}{34}{chapter.119}
-\contentsline {section}{\numberline {6.1}Evaluating System}{35}{section.123}
-\contentsline {section}{\numberline {6.2}Prediction System}{37}{section.133}
-\contentsline {part}{III\hspace {1em}Results, Discussion, and Conclusions}{39}{part.152}
-\contentsline {chapter}{\numberline {7}Results Overview}{40}{chapter.153}
-\contentsline {chapter}{\numberline {8}Discussion and Evaluations}{41}{chapter.154}
-\contentsline {section}{\numberline {8.1}Forecast of feed consumption values}{43}{section.155}
-\contentsline {section}{\numberline {8.2}Evaluation and limitations of the study}{46}{section.166}
-\contentsline {chapter}{\numberline {9}Conclusion}{47}{chapter.167}
-\contentsline {section}{\numberline {9.1}Summary}{47}{section.168}
-\contentsline {section}{\numberline {9.2}Recommendations to future work}{48}{section.169}
+\contentsline {chapter}{\numberline {4}Implementation Design and Requirements}{18}{chapter.46}
+\contentsline {section}{\numberline {4.1}System Requirements}{18}{section.47}
+\contentsline {subsection}{\numberline {4.1.1}Requirements for reusability}{18}{subsection.48}
+\contentsline {subsection}{\numberline {4.1.2}System requirements}{18}{subsection.49}
+\contentsline {section}{\numberline {4.2}System Design}{19}{section.54}
+\contentsline {chapter}{\numberline {5}Analyzer System}{20}{chapter.56}
+\contentsline {section}{\numberline {5.1}Single Input Analyzer}{21}{section.57}
+\contentsline {subsection}{\numberline {5.1.1}SIA: Imported libraries}{21}{subsection.58}
+\contentsline {subsection}{\numberline {5.1.2}SIA section I: Total graphic for all the years}{22}{subsection.59}
+\contentsline {subsection}{\numberline {5.1.3}SIA section II: Single graphics for each year}{23}{subsection.64}
+\contentsline {subsection}{\numberline {5.1.4}SIA section III: Correlation matrix between years}{24}{subsection.70}
+\contentsline {subsection}{\numberline {5.1.5}SIA section IV: Correlation matrix between months}{25}{subsection.77}
+\contentsline {subsection}{\numberline {5.1.6}SIA section V: Single overview}{26}{subsection.84}
+\contentsline {section}{\numberline {5.2}Multiple Inputs Analyzer}{28}{section.94}
+\contentsline {subsection}{\numberline {5.2.1}MIA: Imported libraries}{28}{subsection.95}
+\contentsline {subsection}{\numberline {5.2.2}MIA section I: Total Correlation Coefficients}{29}{subsection.96}
+\contentsline {subsection}{\numberline {5.2.3}MIA section II: Normalized Angular Coefficients}{30}{subsection.103}
+\contentsline {section}{\numberline {5.3}Data Displaying on a map}{31}{section.108}
+\contentsline {chapter}{\numberline {6}Prediction System}{33}{chapter.122}
+\contentsline {section}{\numberline {6.1}Evaluating System}{34}{section.126}
+\contentsline {section}{\numberline {6.2}Prediction System}{36}{section.136}
+\contentsline {part}{III\hspace {1em}Results, Discussion, and Conclusions}{38}{part.155}
+\contentsline {chapter}{\numberline {7}Results Overview}{39}{chapter.156}
+\contentsline {chapter}{\numberline {8}Discussion and Evaluations}{41}{chapter.158}
+\contentsline {section}{\numberline {8.1}Forecast of feed consumption values}{43}{section.159}
+\contentsline {section}{\numberline {8.2}Evaluation and limitations of the study}{46}{section.170}
+\contentsline {chapter}{\numberline {9}Conclusion}{47}{chapter.171}
+\contentsline {section}{\numberline {9.1}Summary}{47}{section.172}
+\contentsline {section}{\numberline {9.2}Recommendations to future work}{48}{section.173}
 \vspace {2em}
-\contentsline {part}{IV\hspace {1em}Full Code Implementation}{49}{part.170}
-\contentsline {chapter}{\numberline {A}SIA Implementation code}{50}{appendix.171}
-\contentsline {section}{\numberline {A.1}SIA: Imported libraries}{50}{section.172}
-\contentsline {section}{\numberline {A.2}SIA: Implemented methods}{51}{section.185}
-\contentsline {section}{\numberline {A.3}SIA section I: Total graphic for all the years}{53}{section.251}
-\contentsline {section}{\numberline {A.4}SIA section II: Single graphics for each year}{54}{section.277}
-\contentsline {section}{\numberline {A.5}SIA section III: Correlation matrix between years}{55}{section.307}
-\contentsline {section}{\numberline {A.6}SIA section IV: Correlation matrix between months}{56}{section.344}
-\contentsline {section}{\numberline {A.7}SIA section V: Single overview}{57}{section.372}
-\contentsline {chapter}{\numberline {B}MIA Implementation code}{58}{appendix.381}
-\contentsline {section}{\numberline {B.1}MIA: Imported libraries}{58}{section.382}
-\contentsline {section}{\numberline {B.2}MIA section I: Total Correlation Coefficients}{59}{section.393}
-\contentsline {section}{\numberline {B.3}MIA section II: Normalized Angular Coefficients}{60}{section.425}
-\contentsline {chapter}{\numberline {C}Norway's Map System Implementation Code}{61}{appendix.442}
-\contentsline {section}{\numberline {C.1}Map System: Imported libraries}{61}{section.443}
-\contentsline {section}{\numberline {C.2}Norwegian map implementation}{62}{section.456}
-\contentsline {chapter}{Bibliography}{64}{appendix*.507}
+\contentsline {part}{IV\hspace {1em}Full Code Implementation}{49}{part.174}
+\contentsline {chapter}{\numberline {A}SIA Implementation code}{50}{appendix.175}
+\contentsline {section}{\numberline {A.1}SIA: Imported libraries}{50}{section.176}
+\contentsline {section}{\numberline {A.2}SIA: Implemented methods}{51}{section.189}
+\contentsline {section}{\numberline {A.3}SIA section I: Total graphic for all the years}{53}{section.255}
+\contentsline {section}{\numberline {A.4}SIA section II: Single graphics for each year}{54}{section.281}
+\contentsline {section}{\numberline {A.5}SIA section III: Correlation matrix between years}{55}{section.311}
+\contentsline {section}{\numberline {A.6}SIA section IV: Correlation matrix between months}{56}{section.348}
+\contentsline {section}{\numberline {A.7}SIA section V: Single overview}{57}{section.376}
+\contentsline {chapter}{\numberline {B}MIA Implementation code}{58}{appendix.385}
+\contentsline {section}{\numberline {B.1}MIA: Imported libraries}{58}{section.386}
+\contentsline {section}{\numberline {B.2}MIA section I: Total Correlation Coefficients}{59}{section.397}
+\contentsline {section}{\numberline {B.3}MIA section II: Normalized Angular Coefficients}{60}{section.429}
+\contentsline {chapter}{\numberline {C}Norway's Map System Implementation Code}{61}{appendix.446}
+\contentsline {section}{\numberline {C.1}Map System: Imported libraries}{61}{section.447}
+\contentsline {section}{\numberline {C.2}Norwegian map implementation}{62}{section.460}
+\contentsline {chapter}{Bibliography}{64}{appendix*.511}

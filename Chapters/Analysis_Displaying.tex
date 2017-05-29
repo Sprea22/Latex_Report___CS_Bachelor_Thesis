@@ -25,22 +25,6 @@ The system that it's going to be implemented during this part of the work could 
 
 \newpage
 
-\section{Requirements for reusability}
-Both the analysis systems that are going to be implemented during this phase of the work will need for just one requirement about the input dataset:
-\begin{itemize}
-\item Monthly frequency of data values.
-\end{itemize}
-
-\section{System requirements}
-It's important to remind that this phase can be implemented in different ways and with different programming language;\\
-This proceure will describes the system implentation using Python, so be sure to have installed all the necessary for compile and execute Python code on your platform.\\
-\begin{lstlisting}
-Current development environment:
-Python version: 2.7.12
-Linux kernel version number: Linux Asus 4.4.0-71-generic SMP
-\end{lstlisting}
-
-\newpage
 
 \section{Single Input Analyzer}
 It's possible to check out the total implementation code of the SIA in the appendice  [\ref{SIA_Implementation}].
@@ -345,12 +329,15 @@ Rogaland\_og\_Agder 			&	7.1951075619	&	338.53125			&	53.0416666667		& ...	&	0.1
     
 
 \textbf{Implementation:}\\
-During the implementation was used the library "cartopy", that provdes cartographic tools for Python. \\
-In this particular case has been useful use the library "cartopy.io.shapereader" that allows to read the extension file ".shp", which in this particular case contains the Norway's shape.
+The library "cartopy", that basically provdes cartographic tools for Python. More specifically, the most useful classes used during this part of the work have been "cartopy.io.shapereader", that allows to read the file extension ".shp"\footnote{See the definition of Shapefile: \\ \url{https://en.wikipedia.org/wiki/Shapefile}}, and "cartopy.crs", that allows to use several projections with the same interface.\\
+It's possible to check out more details about the needed libraries in the appendice: [\ref{Map_libraries}]
 \begin{lstlisting}
+import cartopy.crs as ccrs
 import cartopy.io.shapereader as shpreader
 shpreader.Reader(filename).geometries())
 \end{lstlisting}
+
+\newpage
 
 Then the input shapely geometries were displayed  to the axes using the "matplotlib".
 \begin{lstlisting}
@@ -365,7 +352,7 @@ plt.get_cmap
 matplotlib.colors.Normalize
 \end{lstlisting}
 
-It's possible to check out the full ccommented code in the appendice: [\ref{MapNOR}]
+It's possible to check out the full ccommented code in the appendice: [\ref{Map_System}]
 
 \textbf{Results:} \\
 During this implementation was implemented a cartographic representation of some parameters about each single county involved in the Norwegian aquaculture business, but is possible to use the reported library to implement a system about an another territory or an another country.

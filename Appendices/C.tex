@@ -1,5 +1,5 @@
 \chapter{Norway's Map System Implementation Code}
-
+\label{Map_System}
 \section{Map System: Imported libraries}
 \label{Map_libraries}
 The library report below here have already been used during the previous phase of the implementation work, and is possible to check out their utilities here: [\ref{SIA_libraries}]
@@ -38,27 +38,33 @@ fname = 'Datasets/NOR/NOR_adm1.shp'
 NOR_shapes = list(shpreader.Reader(fname).geometries())
 \end{lstlisting}
 
-How reported in the implementation partm during this part of the work was created a specific dataset "countiesAverages". [\ref{Map_displaying}] \\ The system creates a list that contains the value of the paramater "dataInput" for each county.
+How reported in the implementation partm during this part of the work was created a specific dataset "countiesAverages". [\ref{Map_displaying}] The system creates a list that contains the value of the paramater "dataInput" for each county.
 \begin{lstlisting}
 dataInput = sys.argv[1]
 inputSeries = pd.read_csv("Datasets/countiesAverages.csv")
 inputValues = [inputSeries[dataInput][0], inputSeries[dataInput][1], inputSeries[dataInput][2], inputSeries[dataInput][3], inputSeries[dataInput][4], inputSeries[dataInput][5], inputSeries[dataInput][6], inputSeries[dataInput][7], inputSeries[dataInput][8]]
 \end{lstlisting}
 
+In the following code the class "Normalize" is used for normalize the data input into [vmin , vmax] interval, that are respectively max and min for input values. 
 \begin{lstlisting}
-colMap='bwr'
-cm = plt.get_cmap(colMap)
 minValues = min(inputValues)
 maxValues = max(inputValues)
 cNorm = matplotlib.colors.Normalize(vmin=minValues, vmax=maxValues)
+\end{lstlisting}
+
+\newpage
+
+The "colMap" variable contains a specific range of colors and it will be used together with thenormalized range of values by the class "ScalarMappable" that returns RGBA colors, that with the function "colorbar" are used for generate a legend about the values and the colors.
+\begin{lstlisting}
+colMap='bwr'
+cm = plt.get_cmap(colMap)
 scalarMap = cmx.ScalarMappable(norm=cNorm, cmap=cm)	
 col = scalarMap.to_rgba(inputValues)	
 scalarMap.set_array(inputValues)
 plt.colorbar(scalarMap,label='Input Value')
 \end{lstlisting}
 
-\newpage
-
+Once the system has the values and the relative colors, it uses the "add\_geom" method in order to display the geometric shape of each country with the related color and label. 
 \begin{lstlisting}
 ax = plt.axes(projection=ccrs.Robinson())
 ax.coastlines(resolution='10m')
@@ -76,10 +82,12 @@ rogaland_og_agder = add_geom(ax,NOR_shapes[2], "Rogaland og Agder",col[8])
 rogaland_og_agder = add_geom(ax,NOR_shapes[12], "Rogaland og Agder",col[8])
 rogaland_og_agder = add_geom(ax,NOR_shapes[17], "Rogaland og Agder",col[8])
 \end{lstlisting}
+
+Final settings for modify the title of the graphic and display a legend with the correct labels. \\
+The "manager.resize(*manager.window.maxsize())" function allows to maximize to fullscreen the displayed graphic with "plt.show".
 \begin{lstlisting}
 plt.title('Norway - '+sys.argv[1] , fontsize=35)
 labels = ['Finnmark', 'Troms', 'Nordland','Nord Trondelag', 'Sor Trondelag', 'More og Romsdal',	'Sogn og Fjordane', 'Hordaland', 	'Rogaland og Agder','Other counties', ]
-	
 plt.legend([finnmark, troms, nordland, nord_trondelag, sor_trondelag, 
 	more_og_romsdal, sogn_og_fjordane, hordaland, rogaland_og_agder, norway], 
 	labels, loc='lower right', fancybox=True)

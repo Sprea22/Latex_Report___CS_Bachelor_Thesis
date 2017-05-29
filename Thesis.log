@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.3)  29 MAY 2017 22:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.3)  30 MAY 2017 01:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1020,7 +1020,7 @@ Chapter 2.
 ------------------------------------------------------------------------------
  2 Background Theory
 ------------------------------------------------------------------------------
-<Files/Data_Science_Concept.pdf, id=295, 597.50829pt x 845.0471pt>
+<Files/Data_Science_Concept.pdf, id=297, 597.50829pt x 845.0471pt>
 File: Files/Data_Science_Concept.pdf Graphic file (type pdf)
 
 <use Files/Data_Science_Concept.pdf>
@@ -1034,14 +1034,14 @@ Overfull \hbox (2.43332pt too wide) in paragraph at lines 11--30
 [6
 
  <./Files/Data_Science_Concept.pdf>]
-<Files/Data_Science_Process.pdf, id=312, 751.80875pt x 599.23875pt>
+<Files/Data_Science_Process.pdf, id=314, 751.80875pt x 599.23875pt>
 File: Files/Data_Science_Process.pdf Graphic file (type pdf)
 
 <use Files/Data_Science_Process.pdf>
 Package pdftex.def Info: Files/Data_Science_Process.pdf used on input line 45.
 (pdftex.def)             Requested size: 500.9664pt x 361.39186pt.
  [7 <./Files/Data_Science_Process.pdf>]
-[8] [9] <Files/Counties.jpeg, id=345, 2326.6925pt x 1246.6575pt>
+[8] [9] <Files/Counties.jpeg, id=347, 2326.6925pt x 1246.6575pt>
 File: Files/Counties.jpeg Graphic file (type jpg)
 
 <use Files/Counties.jpeg>
@@ -1072,13 +1072,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 75--76
 
  []
 
-[14] <Files/Dataset.pdf, id=383, 733.74126pt x 463.7325pt>
+[14] <Files/Dataset.pdf, id=385, 733.74126pt x 463.7325pt>
 File: Files/Dataset.pdf Graphic file (type pdf)
 
 <use Files/Dataset.pdf>
 Package pdftex.def Info: Files/Dataset.pdf used on input line 131.
 (pdftex.def)             Requested size: 417.47307pt x 263.84909pt.
- <Files/Dataset2.pdf, id=384, 733.74126pt x 463.7325pt>
+ <Files/Dataset2.pdf, id=386, 733.74126pt x 463.7325pt>
 File: Files/Dataset2.pdf Graphic file (type pdf)
 
 <use Files/Dataset2.pdf>
@@ -1089,146 +1089,136 @@ Package pdftex.def Info: Files/Dataset2.pdf used on input line 158.
 ] (./Chapters/Approach_Design.tex
 Chapter 4.
 ------------------------------------------------------------------------------
- 4 Implementation Design
+ 4 Implementation Design and Requirements
 ------------------------------------------------------------------------------
-<Files/SystemDesign.pdf, id=405, 739.76375pt x 319.1925pt>
+[18
+
+] <Files/SystemDesign.pdf, id=419, 739.76375pt x 319.1925pt>
 File: Files/SystemDesign.pdf Graphic file (type pdf)
 
 <use Files/SystemDesign.pdf>
-Package pdftex.def Info: Files/SystemDesign.pdf used on input line 18.
+Package pdftex.def Info: Files/SystemDesign.pdf used on input line 46.
 (pdftex.def)             Requested size: 417.47307pt x 180.12979pt.
- [18
-
- <./Files/SystemDesign.pdf>])
-(./Chapters/Analysis_Displaying.tex [19]
+) (./Chapters/Analysis_Displaying.tex [19 <./Files/SystemDesign.pdf>]
 Chapter 5.
 ------------------------------------------------------------------------------
  5 Analyzer System
 ------------------------------------------------------------------------------
 [20
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 35--37
-
- []
-
-[21] [22] <Files/Cages_Total.pdf, id=440, 578.16pt x 433.62pt>
+] [21] <Files/Cages_Total.pdf, id=440, 578.16pt x 433.62pt>
 File: Files/Cages_Total.pdf Graphic file (type pdf)
 
 <use Files/Cages_Total.pdf>
-Package pdftex.def Info: Files/Cages_Total.pdf used on input line 83.
+Package pdftex.def Info: Files/Cages_Total.pdf used on input line 67.
 (pdftex.def)             Requested size: 375.7232pt x 281.79012pt.
- [23 <./Files/Cages_Total.pdf>]
-<Files/Cages_Years.pdf, id=483, 578.16pt x 433.62pt>
+ [22 <./Files/Cages_Total.pdf>]
+<Files/Cages_Years.pdf, id=484, 578.16pt x 433.62pt>
 File: Files/Cages_Years.pdf Graphic file (type pdf)
 
 <use Files/Cages_Years.pdf>
-Package pdftex.def Info: Files/Cages_Years.pdf used on input line 113.
+Package pdftex.def Info: Files/Cages_Years.pdf used on input line 97.
 (pdftex.def)             Requested size: 375.7232pt x 281.79012pt.
- [24 <./Files/Cages_Years.pdf>]
-<Files/Cages_Months_Matrix.pdf, id=538, 578.16pt x 433.62pt>
+ [23 <./Files/Cages_Years.pdf>]
+<Files/Cages_Months_Matrix.pdf, id=539, 578.16pt x 433.62pt>
 File: Files/Cages_Months_Matrix.pdf Graphic file (type pdf)
 
 <use Files/Cages_Months_Matrix.pdf>
-Package pdftex.def Info: Files/Cages_Months_Matrix.pdf used on input line 145.
+Package pdftex.def Info: Files/Cages_Months_Matrix.pdf used on input line 129.
 (pdftex.def)             Requested size: 375.7232pt x 281.79012pt.
- [25 <./Files/Cages_Months_Matrix.pdf>]
-<Files/Cages_Years_Matrix.pdf, id=602, 578.16pt x 433.62pt>
+ [24 <./Files/Cages_Months_Matrix.pdf>]
+<Files/Cages_Years_Matrix.pdf, id=603, 578.16pt x 433.62pt>
 File: Files/Cages_Years_Matrix.pdf Graphic file (type pdf)
 
 <use Files/Cages_Years_Matrix.pdf>
-Package pdftex.def Info: Files/Cages_Years_Matrix.pdf used on input line 179.
+Package pdftex.def Info: Files/Cages_Years_Matrix.pdf used on input line 163.
 (pdftex.def)             Requested size: 375.7232pt x 281.79012pt.
- [26 <./Files/Cages_Years_Matrix.pdf>]
-[27]
+ [25 <./Files/Cages_Years_Matrix.pdf>]
+[26]
 File: Files/Cages_Total.pdf Graphic file (type pdf)
  <use Files/Cages_Total.pdf>
-Package pdftex.def Info: Files/Cages_Total.pdf used on input line 226.
+Package pdftex.def Info: Files/Cages_Total.pdf used on input line 210.
 (pdftex.def)             Requested size: 208.73653pt x 156.553pt.
 File: Files/Cages_Years.pdf Graphic file (type pdf)
  <use Files/Cages_Years.pdf>
-Package pdftex.def Info: Files/Cages_Years.pdf used on input line 230.
+Package pdftex.def Info: Files/Cages_Years.pdf used on input line 214.
 (pdftex.def)             Requested size: 208.73653pt x 156.553pt.
 File: Files/Cages_Years_Matrix.pdf Graphic file (type pdf)
 
 <use Files/Cages_Years_Matrix.pdf>
-Package pdftex.def Info: Files/Cages_Years_Matrix.pdf used on input line 237.
+Package pdftex.def Info: Files/Cages_Years_Matrix.pdf used on input line 221.
 (pdftex.def)             Requested size: 208.73653pt x 156.553pt.
 File: Files/Cages_Months_Matrix.pdf Graphic file (type pdf)
  <use Files/Cages_Months_Matrix.pdf>
-Package pdftex.def Info: Files/Cages_Months_Matrix.pdf used on input line 241.
+Package pdftex.def Info: Files/Cages_Months_Matrix.pdf used on input line 225.
 (pdftex.def)             Requested size: 208.73653pt x 156.553pt.
- [28]
-[29] <Files/Total_Dataset_Matrix.pdf, id=679, 578.16pt x 433.62pt>
+ [27]
+[28] <Files/Total_Dataset_Matrix.pdf, id=681, 578.16pt x 433.62pt>
 File: Files/Total_Dataset_Matrix.pdf Graphic file (type pdf)
 
 <use Files/Total_Dataset_Matrix.pdf>
-Package pdftex.def Info: Files/Total_Dataset_Matrix.pdf used on input line 286.
+Package pdftex.def Info: Files/Total_Dataset_Matrix.pdf used on input line 270.
 
 (pdftex.def)             Requested size: 354.85464pt x 266.13547pt.
- [30 <./Files/Total_Dataset_Matrix.pdf>]
-<Files/Norm_Ang_Coeffs.pdf, id=739, 578.16pt x 433.62pt>
+ [29 <./Files/Total_Dataset_Matrix.pdf>]
+<Files/Norm_Ang_Coeffs.pdf, id=740, 578.16pt x 433.62pt>
 File: Files/Norm_Ang_Coeffs.pdf Graphic file (type pdf)
 
 <use Files/Norm_Ang_Coeffs.pdf>
-Package pdftex.def Info: Files/Norm_Ang_Coeffs.pdf used on input line 311.
+Package pdftex.def Info: Files/Norm_Ang_Coeffs.pdf used on input line 295.
 (pdftex.def)             Requested size: 375.7232pt x 281.79012pt.
- [31 <./Files/Norm_Ang_Coeffs.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 327--328
+ [30 <./Files/Norm_Ang_Coeffs.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 311--312
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 329--345
+Underfull \hbox (badness 10000) in paragraph at lines 313--329
 
  []
 
-[32]
-
-LaTeX Warning: Reference `MapNOR' on page 33 undefined on input line 368.
-
-<Files/Norway-averageTemp.jpeg, id=799, 2326.6925pt x 1281.78876pt>
+[31] <Files/Norway-averageTemp.jpeg, id=802, 2326.6925pt x 1281.78876pt>
 File: Files/Norway-averageTemp.jpeg Graphic file (type jpg)
 
 <use Files/Norway-averageTemp.jpeg>
-Package pdftex.def Info: Files/Norway-averageTemp.jpeg used on input line 373.
+Package pdftex.def Info: Files/Norway-averageTemp.jpeg used on input line 360.
 (pdftex.def)             Requested size: 584.45975pt x 286.23679pt.
-) (./Chapters/Predictions.tex [33 <./Files/Norway-averageTemp.jpeg>]
+) (./Chapters/Predictions.tex [32 <./Files/Norway-averageTemp.jpeg>]
 Chapter 6.
 ------------------------------------------------------------------------------
  6 Prediction System
 ------------------------------------------------------------------------------
-[34
+[33
 
-] [35] <Files/Cages_MAPE.pdf, id=832, 1675.76062pt x 923.24924pt>
+] [34] <Files/Cages_MAPE.pdf, id=839, 1675.76062pt x 923.24924pt>
 File: Files/Cages_MAPE.pdf Graphic file (type pdf)
 
 <use Files/Cages_MAPE.pdf>
 Package pdftex.def Info: Files/Cages_MAPE.pdf used on input line 56.
 (pdftex.def)             Requested size: 626.2096pt x 345.00607pt.
- [36 <./Files/Cages_MAPE.pdf>] [37]
-<Files/Cages_Predictions.pdf, id=914, 1675.76062pt x 923.24924pt>
+ [35 <./Files/Cages_MAPE.pdf>] [36]
+<Files/Cages_Predictions.pdf, id=921, 1675.76062pt x 923.24924pt>
 File: Files/Cages_Predictions.pdf Graphic file (type pdf)
 
 <use Files/Cages_Predictions.pdf>
 Package pdftex.def Info: Files/Cages_Predictions.pdf used on input line 122.
 (pdftex.def)             Requested size: 626.2096pt x 345.00607pt.
- [38 <./Files/Cages_Predictions.pdf>])
-[39
+ [37 <./Files/Cages_Predictions.pdf>])
+[38
 
 ] (./Chapters/Results_Overview.tex
 Chapter 7.
 ------------------------------------------------------------------------------
  7 Results Overview
 ------------------------------------------------------------------------------
-) (./Chapters/Evaluations.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--1
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--23
 
  []
 
-[40
+[39
 
-]
+]) (./Chapters/Evaluations.tex [40]
 Chapter 8.
 ------------------------------------------------------------------------------
  8 Discussion and Evaluations
@@ -1236,7 +1226,7 @@ Chapter 8.
 [41
 
 ] [42]
-<Files/Finnmark_feedConsumption_years.jpg, id=972, 803.0pt x 602.25pt>
+<Files/Finnmark_feedConsumption_years.jpg, id=985, 803.0pt x 602.25pt>
 File: Files/Finnmark_feedConsumption_years.jpg Graphic file (type jpg)
 
 <use Files/Finnmark_feedConsumption_years.jpg>
@@ -1244,7 +1234,7 @@ Package pdftex.def Info: Files/Finnmark_feedConsumption_years.jpg used on input
  line 40.
 (pdftex.def)             Requested size: 250.48637pt x 187.86264pt.
 
-<Files/Troms_feedConsumption_years.jpg, id=974, 803.0pt x 602.25pt>
+<Files/Troms_feedConsumption_years.jpg, id=987, 803.0pt x 602.25pt>
 File: Files/Troms_feedConsumption_years.jpg Graphic file (type jpg)
 
 <use Files/Troms_feedConsumption_years.jpg>
@@ -1252,7 +1242,7 @@ Package pdftex.def Info: Files/Troms_feedConsumption_years.jpg used on input li
 ne 40.
 (pdftex.def)             Requested size: 250.48637pt x 187.86264pt.
 
-<Files/Nordland_feedConsumption_years.jpg, id=976, 803.0pt x 602.25pt>
+<Files/Nordland_feedConsumption_years.jpg, id=989, 803.0pt x 602.25pt>
 File: Files/Nordland_feedConsumption_years.jpg Graphic file (type jpg)
 
 <use Files/Nordland_feedConsumption_years.jpg>
@@ -1260,7 +1250,7 @@ Package pdftex.def Info: Files/Nordland_feedConsumption_years.jpg used on input
  line 55.
 (pdftex.def)             Requested size: 250.48637pt x 187.86264pt.
 
-<Files/Hordaland_feedConsumption_years.jpg, id=978, 803.0pt x 602.25pt>
+<Files/Hordaland_feedConsumption_years.jpg, id=991, 803.0pt x 602.25pt>
 File: Files/Hordaland_feedConsumption_years.jpg Graphic file (type jpg)
 
 <use Files/Hordaland_feedConsumption_years.jpg>
@@ -1268,35 +1258,35 @@ Package pdftex.def Info: Files/Hordaland_feedConsumption_years.jpg used on inpu
 t line 55.
 (pdftex.def)             Requested size: 250.48637pt x 187.86264pt.
 
-<Files/Finnmark-Temp&Feed.png, id=980, 578.16pt x 433.62pt>
+<Files/Finnmark-Temp&Feed.png, id=993, 578.16pt x 433.62pt>
 File: Files/Finnmark-Temp&Feed.png Graphic file (type png)
 
 <use Files/Finnmark-Temp&Feed.png>
 Package pdftex.def Info: Files/Finnmark-Temp&Feed.png used on input line 73.
 (pdftex.def)             Requested size: 250.48637pt x 187.86227pt.
 
-<Files/Troms-Temp&Feed.png, id=983, 578.16pt x 433.62pt>
+<Files/Troms-Temp&Feed.png, id=996, 578.16pt x 433.62pt>
 File: Files/Troms-Temp&Feed.png Graphic file (type png)
 
 <use Files/Troms-Temp&Feed.png>
 Package pdftex.def Info: Files/Troms-Temp&Feed.png used on input line 73.
 (pdftex.def)             Requested size: 250.48637pt x 187.86227pt.
 
-<Files/Nordland-Temp&Feed.png, id=985, 578.16pt x 433.62pt>
+<Files/Nordland-Temp&Feed.png, id=998, 578.16pt x 433.62pt>
 File: Files/Nordland-Temp&Feed.png Graphic file (type png)
 
 <use Files/Nordland-Temp&Feed.png>
 Package pdftex.def Info: Files/Nordland-Temp&Feed.png used on input line 89.
 (pdftex.def)             Requested size: 250.48637pt x 187.86227pt.
 
-<Files/Hordaland-Temp&Feed.png, id=987, 578.16pt x 433.62pt>
+<Files/Hordaland-Temp&Feed.png, id=1000, 578.16pt x 433.62pt>
 File: Files/Hordaland-Temp&Feed.png Graphic file (type png)
 
 <use Files/Hordaland-Temp&Feed.png>
 Package pdftex.def Info: Files/Hordaland-Temp&Feed.png used on input line 89.
 (pdftex.def)             Requested size: 250.48637pt x 187.86227pt.
 
-<Files/norway_averageSeaTemp.png, id=989, 1675.2186pt x 897.5934pt>
+<Files/norway_averageSeaTemp.png, id=1002, 1675.2186pt x 897.5934pt>
 File: Files/norway_averageSeaTemp.png Graphic file (type png)
 
 <use Files/norway_averageSeaTemp.png>
@@ -1308,7 +1298,7 @@ n_years.jpg> <./Files/Nordland_feedConsumption_years.jpg> <./Files/Hordaland_fe
 edConsumption_years.jpg>] [44 <./Files/Finnmark-Temp&Feed.png> <./Files/Troms-T
 emp&Feed.png> <./Files/Nordland-Temp&Feed.png> <./Files/Hordaland-Temp&Feed.png
 >]
-<Files/norway_feed-biomass.png, id=1011, 1675.2186pt x 922.8879pt>
+<Files/norway_feed-biomass.png, id=1024, 1675.2186pt x 922.8879pt>
 File: Files/norway_feed-biomass.png Graphic file (type png)
 
 <use Files/norway_feed-biomass.png>
@@ -1348,7 +1338,13 @@ Appendix C.
 ------------------------------------------------------------------------------
 [61
 
-] [62]) (./Thesis.bbl [63]
+] [62]
+Overfull \hbox (20.28416pt too wide) in paragraph at lines 86--88
+\OT1/cmr/m/n/10.95 The "man-ager.resize(*manager.window.maxsize())" func-tion a
+l-lows to max-i-mize to fullscreen
+ []
+
+) (./Thesis.bbl [63]
 Underfull \hbox (badness 10000) in paragraph at lines 4--10
 []\OT1/cmr/m/n/10.95 Jason Brown-lee.  How to cre-ate an arima model for time s
 e-
@@ -1401,18 +1397,15 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 130.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 130.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 130.
  ) 
 Here is how much of TeX's memory you used:
- 16057 strings out of 493029
- 222127 string characters out of 6136235
+ 16044 strings out of 493029
+ 221984 string characters out of 6136235
  511520 words of memory out of 5000000
- 18695 multiletter control sequences out of 15000+600000
+ 18678 multiletter control sequences out of 15000+600000
  15491 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  49i,12n,45p,13111b,1932s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1430,10 +1423,10 @@ m/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on Thesis.pdf (73 pages, 2698136 bytes).
+Output written on Thesis.pdf (73 pages, 2702298 bytes).
 PDF statistics:
- 1829 PDF objects out of 2073 (max. 8388607)
- 1382 compressed objects within 14 object streams
- 586 named destinations out of 1000 (max. 500000)
- 786 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1847 PDF objects out of 2073 (max. 8388607)
+ 1400 compressed objects within 14 object streams
+ 590 named destinations out of 1000 (max. 500000)
+ 794 words of extra memory for PDF output out of 10000 (max. 10000000)
 
