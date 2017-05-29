@@ -10,7 +10,10 @@ Jason Brownlee.
 
 \bibitem{wiki:DataScience}
 Wikipedia.
-\newblock Data science --- wikipedia{,} the free encyclopedia, 2017.
+\newblock Data science --- wikipedia{,} the free encyclopedia.
+\newblock
+  \url{https://en.wikipedia.org/w/index.php?title=Data_science&oldid=778145331"},
+  2017.
 \newblock [Online].
 
 \bibitem{ArthurSamuel}
@@ -26,24 +29,36 @@ Time series analysis: Forecasting and control.
 
 \bibitem{wiki:AR}
 Wikipedia.
-\newblock Autoregressive model --- wikipedia{,} the free encyclopedia, 2017.
+\newblock Autoregressive model --- wikipedia{,} the free encyclopedia.
+\newblock
+  \url{https://en.wikipedia.org/w/index.php?title=Autoregressive_model&oldid=768765293"},
+  2017.
 \newblock [Online].
 
 \bibitem{wiki:MA}
 Wikipedia.
-\newblock Moving-average model --- wikipedia{,} the free encyclopedia, 2017.
+\newblock Moving-average model --- wikipedia{,} the free encyclopedia.
+\newblock
+  \url{https://en.wikipedia.org/w/index.php?title=Moving-average_model&oldid=775234540"},
+  2017.
 \newblock [Online].
 
 \bibitem{wiki:ARMA}
 Wikipedia.
 \newblock Autoregressive–moving-average model --- wikipedia{,} the free
-  encyclopedia, 2017.
+  encyclopedia.
+\newblock
+  \url{https://en.wikipedia.org/w/index.php?title=Autoregressive%E2%80%93moving-average_model&oldid=781957673"},
+  2017.
 \newblock [Online].
 
 \bibitem{wiki:ARIMA}
 Wikipedia.
 \newblock Autoregressive integrated moving average --- wikipedia{,} the free
-  encyclopedia, 2017.
+  encyclopedia.
+\newblock
+  \url{https://en.wikipedia.org/w/index.php?title=Autoregressive_integrated_moving_average&oldid=777845495"},
+  2017.
 \newblock [Online].
 
 \bibitem{SenCanada}

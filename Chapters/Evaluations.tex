@@ -1,30 +1,134 @@
 \chap{Discussion and Evaluations}
-The results obtained are actually providing an answer to the initial questions of this thesis. In particular:
 
-------> Initial approach with Data Science field, done?
+The present study investigates about the possibility of testing the Data Science process using Python, trying to apply it to the Norwegian salmon farming industry, in order to gather and let be available as many useful results as possible about.\\
+---------------------\\
+Justify your approach\\
+---------------------\\
+Is possible to say that the results obtained are providing an answer to most of the initial objectives of this thesis. \\
+In particular, this study shows that is actually possible to have a first approach to the Data Science field using Python and all the considerations reported during each step of the implementation are showing an overview of the Data Science process.
 
-- The working procedure that has been followed during this work allows to have an initial approach with the data science field, since have been reported INITIAL considerations about any step of the general data science process. ( Data colleciton, analysis, displaying, extraction, forecasting..)
+Further more, all the output results, such as graphic or coefficients value, are showing which kind of modules and packages Python provides in order to solve data analysis problems that allow to understand better Python potential in this field.
 
-------> Test the Python potential in Data Science field, done?
-- The results reported during this thesis are actually showing the Python potential in data analysis, displaying and forecast.
+Since the implemented system is has a high reusability and high automatization level, is possible to use it in order to make the same initial data analysis, displayig and forecast in a really short time about different datasets composed by data coming from every kind of area of interest.
 
-------> Are the data about Norwegian salmon farming structured, described and readable?
-- This study process actually changed the structure of the data. From the original data sources to the final dataset, with relative descriptions, graphics, coefficients,.. there is a big different that could be helpful for future reuse of the data for more specific analysis.
+The results about the Norwegian salmon farming are actually not reporting any kind of new interesting informations. That because this thesis has been based mainly on the Data Science process and Python using more than a concrete information extraction.
 
-Interpret and explain your results
+Some useful results are anyway provided, such as a structured dataset, more accessable and readable, together with descriptions of the data that could be helpful in the future for more specific analysis in this area. Further more, is possible to check out clear and readable graphics about several parametrs of each single county of Norway that could be used for an initial view analysis. Also coefficients values are already calculated, and an initial forecast system allows to have a general idea about the future expectations in this area.
 
-Answer your research question
 
-Justify your approach
+\newpage
+
+\section{Forecast of feed consumption values}
+The forecasted values of feed consumption in Norway are not that accurated cause of the big difference between north and south about that parameter. \\
+- Strong relation between average sea temperature and feedConsumption/biomass. \\
+- Strong relation between normalized values of average sea temperature and feedConsumption
+
+\makebox[1\textwidth][c]{
+\begin{minipage}[t]{0.6\textwidth}
+\begin{figure}[H]
+    \includegraphics[trim={0 0 0 0},clip,width=1\textwidth]{Files/Finnmark_feedConsumption_years.jpg}
+    \caption{Annual consumption of feed trend in Finnmark. }
+    \label{fig: Finnmark_feed}
+\end{figure}
+\end{minipage} \hfill
+\begin{minipage}[t]{0.60\textwidth}
+\begin{figure}[H]
+    \includegraphics[trim={0 0 0 0},clip,width=1\textwidth]{Files/Troms_feedConsumption_years.jpg}
+    \caption{Annual consumption of feed trend in Troms. }
+    \label{fig: Troms_feed}
+\end{figure}
+\end{minipage}}
+\makebox[1\textwidth][c]{
+\begin{minipage}[t]{0.6\textwidth}
+\begin{figure}[H]
+    \includegraphics[trim={0 0 0 0},clip,width=1\textwidth]{Files/Nordland_feedConsumption_years.jpg}
+    \caption{Annual consumption of feed trend in Nordland. }
+    \label{fig: Nordland_feed}
+\end{figure}
+\end{minipage} \hfill
+\begin{minipage}[t]{0.60\textwidth}
+\begin{figure}[H]
+    \includegraphics[trim={0 0 0 0},clip,width=1\textwidth]{Files/Hordaland_feedConsumption_years.jpg}
+    \caption{Annual consumption of feed trend in Hordaland. }
+    \label{fig: Hordaland_feed}
+\end{figure}
+\end{minipage}}
+
+
+\makebox[1\textwidth][c]{
+\begin{minipage}[t]{0.6\textwidth}
+\begin{figure}[H]
+    \includegraphics[trim={0 0 0 0},clip,width=1\textwidth]{Files/Finnmark-Temp&Feed.png}
+    \caption{Comparison between average sea temperature and feed consumption in Finnmark}
+    \label{fig: Finnmark_seaTemp&feed}
+\end{figure}
+\end{minipage} \hfill
+\begin{minipage}[t]{0.6\textwidth}
+\begin{figure}[H]
+	\centering
+    \includegraphics[trim={0 0 0 0},clip,width=1\textwidth]{Files/Troms-Temp&Feed.png}
+    \caption{Comparison between average sea temperature and feed consumption in Troms}
+    \label{fig: Troms_seaTemp&feed}
+\end{figure}
+\end{minipage}}
+\makebox[1\textwidth][c]{
+\begin{minipage}[t]{0.6\textwidth}
+\begin{figure}[H]
+    \includegraphics[trim={0 0 0 0},clip,width=1\textwidth]{Files/Nordland-Temp&Feed.png}
+    \caption{Comparison between average sea temperature and feed consumption in Nordland}
+    \label{fig: Nordland_seaTemp&feed}
+\end{figure}
+\end{minipage} \hfill
+\begin{minipage}[t]{0.6\textwidth}
+\begin{figure}[H]
+	\centering
+    \includegraphics[trim={0 0 0 0},clip,width=1\textwidth]{Files/Hordaland-Temp&Feed.png}
+    \caption{Comparison between average sea temperature and feed consumption in Hordaland}
+    \label{fig: Hordaland_seaTemp&feed}
+\end{figure}
+\end{minipage}}
+
+
+
+\begin{figure}[H]
+	\makebox[\textwidth][c]{
+    \includegraphics[trim={0 3cm 0 0},clip,width=1.3\textwidth]{Files/norway_averageSeaTemp.png}}
+    \caption{Monthly average sea temperature from 200}
+    \label{fig: Norway_averageSeaTemp}
+\end{figure}
+
+\begin{figure}[H]
+	\makebox[\textwidth][c]{
+    \includegraphics[trim={0 0 0 0},clip,width=1.3\textwidth]{Files/norway_feed-biomass.png}}
+    \caption{Data science concept}
+    \label{fig: Data_science}
+\end{figure}
+
+
 
 \section{Evaluation and limitations of the study}
-- The implemented Python system can be reused for any kind of input dataset (with just the monthly frequency requirement).
-It allows to make some analysis done during this thesis about other dataset in a fast and easy way.
- 
-- All the systems implemented in this thesis are probably efficient and productive for a personal use. That's because there is no GUI implemented and to customize the output graphics in a better way you have to know Python language.
+\vspace{-5mm}
+This study has a number of possible limitations, mainly due to a lack of background knowledge and experience about the current area, and also because of the relatively short time available.
 
-- Not enough informations have been extracted from the data cause of a lack in the background theory about Norwegian salmon farming, and not enough time to document myself in a proper way.
+ABOUT PYTHON RESULTS:
+\vspace{-5mm}
+\begin{itemize}
+ \setlength{\itemsep}{-5pt}
+\item PRO: The implemented Python system has a quite high reusability. It means that is possible to use it also with dataset filled with data parameter coming from other area of interest.
+\item CONS: The implemented system in this thesis is probably efficient and productive for a personal use. That's because there is no GUI implemented and to change the customization of the output graphics you have to know Python language.
+\item CONS: Not enough informations about machine learning field, so during this thesis was implemented just a basic implementation of the forecasting system, just to give an idea about how it works and give the possibility to improve it in future works.
+\end{itemize}
 
-- Not enough informations about machine learning field, so during this thesis was implemented just a basic implementation of the forecasting system, just to give an idea about how it works and give the possibility to improve it in future works.
 
-The purpose of the discussion is to interpret and describe the significance of your findings in light of what was already known about the research problem being investigated, and to explain any new understanding or insights about the problem after you've taken the findings into consideration. The discussion will always connect to the introduction by way of the research questions or hypotheses you posed and the literature you reviewed, but it does not simply repeat or rearrange the introduction; the discussion should always explain how your study has moved the reader's understanding of the research problem forward from where you left them at the end of the introduction.
+ABOUT DATA ANALYSIS RESULTS:
+\vspace{-5mm}
+\begin{itemize}
+ \setlength{\itemsep}{-5pt}
+ \item PRO: Well structured datasets provided
+ \item PRO: Usability of the results 
+ \item CONS: Since the data sources are public, it's not possible to know the real reliability of it.
+ \item CONS: The data collected are allowing just limitated analysis.
+ \item CONS: Not enough informations have been extracted from the data cause of a lack in the background theory about Norwegian salmon farming, and not enough time to document myself in a proper way.
+\end{itemize}
+
+

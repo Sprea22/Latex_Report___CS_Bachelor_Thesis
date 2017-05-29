@@ -2,28 +2,37 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Data science concept\relax }}{4}{figure.caption.17}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Data science process}}{5}{figure.caption.18}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Norwegian counties involved in aquaculture business}}{8}{figure.caption.23}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Data science concept\relax }}{6}{figure.caption.19}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Data science process}}{7}{figure.caption.20}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Norwegian counties involved in aquaculture business}}{10}{figure.caption.25}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Plan flow chart}}{11}{figure.caption.26}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Dataset structure.\relax }}{15}{figure.caption.40}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Dataset structure.\relax }}{16}{figure.caption.43}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Dataset structure.\relax }}{16}{figure.caption.39}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Dataset structure.\relax }}{17}{figure.caption.42}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Subsystems overview}}{18}{figure.caption.48}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Total graphic about current input over the whole period.\relax }}{22}{figure.caption.58}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Graphics for each single year of the current input data.\relax }}{23}{figure.caption.64}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Correlation matrix between different months of the same input\relax }}{24}{figure.caption.71}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Correlation matrix between different years of the same input\relax }}{25}{figure.caption.78}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Correlation matrix between different inputs with data.\relax }}{29}{figure.caption.97}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Normalized angular coefficients of each input's trendline.\relax }}{30}{figure.caption.102}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Average Sea Temperature from 2007 to 2014 in Norway.\relax }}{32}{figure.caption.114}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Total graphic about current input over the whole period.\relax }}{23}{figure.caption.62}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Graphics for each single year of the current input data.\relax }}{24}{figure.caption.68}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Correlation matrix between different months of the same input\relax }}{25}{figure.caption.75}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Correlation matrix between different years of the same input\relax }}{26}{figure.caption.82}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Correlation matrix between different inputs with data.\relax }}{30}{figure.caption.101}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Normalized angular coefficients of each input's trendline.\relax }}{31}{figure.caption.106}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Average Sea Temperature from 2007 to 2014 in Norway.\relax }}{33}{figure.caption.118}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Graphic that displays different MAPE values for each ARIMA order.\relax }}{36}{figure.caption.128}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Graphic that display historic, future and predicted values of a input.\relax }}{38}{figure.caption.148}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Graphic that displays different MAPE values for each ARIMA order.\relax }}{36}{figure.caption.132}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Graphic that display historic, future and predicted values of a input.\relax }}{38}{figure.caption.151}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Idea of the Servie System for predictions.\relax }}{43}{figure.caption.159}
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Annual consumption of feed trend in Finnmark. \relax }}{43}{figure.caption.156}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Annual consumption of feed trend in Troms. \relax }}{43}{figure.caption.157}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Annual consumption of feed trend in Nordland. \relax }}{43}{figure.caption.158}
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Annual consumption of feed trend in Hordaland. \relax }}{43}{figure.caption.159}
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Comparison between average sea temperature and feed consumption in Finnmark\relax }}{44}{figure.caption.160}
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Comparison between average sea temperature and feed consumption in Troms\relax }}{44}{figure.caption.161}
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Comparison between average sea temperature and feed consumption in Nordland\relax }}{44}{figure.caption.162}
+\contentsline {figure}{\numberline {8.8}{\ignorespaces Comparison between average sea temperature and feed consumption in Hordaland\relax }}{44}{figure.caption.163}
+\contentsline {figure}{\numberline {8.9}{\ignorespaces Monthly average sea temperature from 200\relax }}{45}{figure.caption.164}
+\contentsline {figure}{\numberline {8.10}{\ignorespaces Data science concept\relax }}{45}{figure.caption.165}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

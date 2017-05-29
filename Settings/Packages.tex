@@ -22,4 +22,27 @@
 \usepackage{verbatim}  % Needed for the "comment" environment to make LaTeX comments
 %5%\usepackage{vector}  % Allows "\bvec{}" and "\buvec{}" for "blackboard" style bold vectors in maths
 
+\DeclareFixedFont{\ttb}{T1}{txtt}{bx}{n}{12} % for bold
+\DeclareFixedFont{\ttm}{T1}{txtt}{m}{n}{12}  % for normal
+\definecolor{deepblue}{rgb}{0,0,0.5}
+\definecolor{deepred}{rgb}{0.6,0,0}
+\definecolor{deepgreen}{rgb}{0,0.5,0}
 
+% Python style for highlighting
+\lstset{
+	backgroundcolor = \color{Ivory},
+    language=Python,
+    basicstyle=\footnotesize,
+    otherkeywords={self},             
+    keywordstyle=\footnotesize\color{deepblue},
+    emph={__init__},          
+    emphstyle=\footnotesize\color{deepred},    
+    stringstyle=\color{deepgreen},
+    frame=single,                         
+    showstringspaces=false  ,
+    breaklines=true,
+    numbers=left,
+    numberstyle=\footnotesize,
+    tabsize=3,
+    breakatwhitespace=false
+}

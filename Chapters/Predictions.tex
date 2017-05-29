@@ -1,15 +1,10 @@
 
 \chapter{Prediction System}
-
-Some basic and general goals were defined before starting this phase, with the idea of "doing as much as possible". \\
-The main purpose was the one of, after the previous analysis, predict some values and evaluate the quality of the results.
-This prediction system was not defined with some specific requirements, so the first main problem was to find a reliable, accurated and user-friendly way to predict and display prediction of values.
-
-Since the current dataset can be considered like a time series, in this phase we will develop the data prediction system using an ARIMA machine implemented in python.
-
-The ARIMA machine can be configured with several configurations, it allows you to have more accurated results; so the first thing was to find the right configuration of the ARIMA machine of each single input which we are interested to forecast.
-
-During this phase of the work have been implemented 3 different subsystems for different purposes:
+The main goal during this phase was to find a way to implement a forecast system in Python.
+Since the datasets used during this thesis could be considered as a time series, was decide to implement and test an Autoregressive Integrated Moving Average (ARIMA) model. \\
+Since there are several possible configurations for fit an ARIMA model, is important to find the right one to use with each input dataset because it would allows to have much better prediction results.
+In order to find the best ARIMA configuration there are different methods and procedure, like one of the most known that is "Box–Jenkins method"\footnote{Check out the Box–Jenkins method at the current link: \\ \url{https://en.wikipedia.org/wiki/Box\%E2\%80\%93Jenkins_method}}. In this study was decied to use an easier method, in order to have a first approach with this system and a general idea about the problem. It basically consists in testing different ARIMA model configurations for the same input dataset and then check the results.\\
+For this reason during this phase of the work have been implemented 2 different subsytems for two different purposes:
 \begin{enumerate}
 \item Evaluating System
 \item Prediction System
@@ -24,7 +19,7 @@ Used for evaluate different configurations of ARIMA machine. \\ It tests 112 dif
 There are not any kind of needed requirements. It's possible to use this system on dataset of arbitrary length.
 
 \textbf{Code implementation:}\\
-It's possible to check out the full implemented code in the appendice: \ref{Evaluating_System}
+This time the full commented code has not been reported in the appendice since is longer and more complicated than the previous. If you are interested to check out more details about the code, is possible to find the Github repository here : [\ref{Repository}]
 
 The most important part of the code about the Evaluating System is the following.\\
 Basically the method ARIMA() allows to train a model based on historic values (history) and a specific order (p,d,q). After that it's possible to call the method forecast() through the trained model and having some predictions like result.
@@ -108,8 +103,9 @@ predHistoric.plot(color="red", linewidth=1.5, label="Prediction test:")
 
 # Plot current input's future prediction
 predFuture.plot(color="green", linewidth=1.5, label="Future Prediction:")
-
 \end{lstlisting}
+
+This time the full commented code has not been reported in the appendice since is longer and more complicated than the previous. If you are interested to check out more details about the code, is possible to find the Github repository here : [\ref{Repository}]
 
 \textbf{Results:}\\
 This system will automatically generate two documents that contain:

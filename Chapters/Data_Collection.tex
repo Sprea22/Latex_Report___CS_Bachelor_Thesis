@@ -8,8 +8,10 @@ In this particular case the main data collection way was internet, but some impo
 \citation{}
 
 \subsection{Data from SINTEF Nord}
-Some of the data used during this thesis were provided from the team members of the eSushi project team at SINTEF Nord. \\
-The data are about each single norwegian county and with the following details:\\
+Some of the data used during this thesis were provided from the members of the eSushi project at SINTEF Nord.
+The origin source of the data is "Archieve Norstore"\footnote{Source link for data downloaded by Archieve Norstore: \\\url{https://archive.norstore.no/pages/public/datasetDetail.jsf?id=10.11582/2015.00014}} and they are about each single norwegian county with the following details:\\
+
+
 
 \begin{table}[ht]
 \makebox[\textwidth][c]{
@@ -20,7 +22,7 @@ The data are about each single norwegian county and with the following details:\
 \multicolumn{1}{p{4cm}|}{\raggedright Reported number of cages with salmon and rainbow trout.}
 								& Celsius & Monthly & January 2007 - April 2014 	\\ \hline	
 \end{tabular}}}
-    \caption{Data provided from SINTEF Nord.}
+    \caption{Data provided from SINTEF Nord. }
     \label{table: SINTEF_Data} 
 \end{table}
 
@@ -29,7 +31,7 @@ The data are about each single norwegian county and with the following details:\
 \newpage
  
 \subsection{Data from Fiskeridir} 
-The current website has been the main data source for this work. It provides several statistics about Aquaculture in Norway.\\
+Fiskeridir\footnote{Source link for data downloaded by Fiskeridir: \\ \url{http://www.fiskeridir.no/Akvakultur/Statistikk-akvakultur/Biomassestatistikk}} has been the main data source for this work. It provides several statistics about Aquaculture in Norway.\\
 The data inputs from the current website used for this thesis are reported below, and they are available for each single county in Norway involved in Aquaculture business:
 
 \begin{table}[ht]
@@ -70,7 +72,7 @@ About the current data source is also important to know that:
 
 
 \subsection{Data from Indexmundi} 
-Is possible to find data about fish (salmon) monthly price, Norwegian Krone per KG.\\
+An another source of data for this study was Indexmundi\footnote{Source link for data downloaded by Indexmundi: \\ \url{http://www.indexmundi.com/commodities/?commodity=fish}}. From this particular source is possible to get data about fish (salmon) monthly price, Norwegian Krone per KG.\\
 
 \begin{table}[ht]
 \makebox[\textwidth][c]{
@@ -87,14 +89,17 @@ Is possible to find data about fish (salmon) monthly price, Norwegian Krone per 
 \end{table}  
 
 \section{Increase accessibility and availability of data}
-In order to increase the accessibility and availability of the row data have been downloaded from the above reported sources, during this phase the main goals were:
+In order to increase the accessibility and availability of the downloaded data, during this phase the main goals were:
+\vspace{-2mm}
 \begin{itemize}
-\item provide an accurate description (in English, since it was available just in Norwegian)
-\item Report the data in a standard and reusable standard (CSV).
+ \setlength{\itemsep}{-5pt}
+\item Provide an accurate description in English language, since most of the data were available just in Norwegian.
+\item Report the data in a standard and reusable format (CSV).
 \item Design and build a easily readable dataset structure.
 \end{itemize} 
 
-The final decision about the datasets set up during this thesis provided the followng list of datasets, where the structure can be checked in the following two pages:
+The final decision about the datasets set up during this thesis provided the followng list of datasets, where the structure can be checked in the following two pages.
+\vspace{-2mm}
  \setlength{\itemsep}{-5pt}
 \begin{itemize}
 \item Overview Dataset: Norway.csv
@@ -154,6 +159,8 @@ The final decision about the datasets set up during this thesis provided the fol
     \caption{Dataset structure.}
 \end{figure}
 
+How is possible to check in the following table, the dataset that contains data about a single county has a shorter availability period of the values than the dataset about Norway, that is because of the sea average temperature values that have shorter range compared with the other inputs (2007-2014 instead of 2005-2016).
+
 \begin{table}[ht]
 \makebox[\textwidth][c]{
 \resizebox{1.2\textwidth}{!}{
@@ -169,6 +176,6 @@ The final decision about the datasets set up during this thesis provided the fol
 7. Biomass							& Monthly 			& January 2007 - December 2014 		& Single county 	\\ \hline
 8. Salmon Number 					& Monthly 			& January 2007 - December 2014 		& Single county	\\ \hline
     \end{tabular}}}
-         \caption{Structure of the dataset about each norwegian county.}
-    \label{table: County_dataset_struc} 
+         \caption{Structure of the dataset about each norwegian county.}   
+   \label{table: County_dataset_struc} 
 \end{table}      
