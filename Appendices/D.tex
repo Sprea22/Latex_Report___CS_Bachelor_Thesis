@@ -1,25 +1,36 @@
 \chap{Prediction System Implementation code}
 \section{Common libraries}
 \label{Pred_common_libraries}
+All the libraries reported below here are used both from the Evaluation system and the Prediction system. In particular, these initial libraries have already been used during the previous system implementations,  is possible to check out their utilities here: [\ref{SIA_libraries}]
 \begin{lstlisting}
 import os
 import sys
-import warnings
 import numpy as np
 import pandas as pd
 from pandas import Series
-from statsmodels.tsa.arima_model import ARIMA
-from sklearn.metrics import mean_squared_error
 \end{lstlisting}
+
+This "warnings" library is used just to warn programmers about something wrong or also to suppresses repeated warning from the same source.
+\begin{lstlisting}
+import warnings
+\end{lstlisting}
+
+This following library provides an ARIMA model, that is basically a class of statistical models for analyzing and forecasting time series data.\footnote{ARIMA\_model source code: \\ \url{http://www.statsmodels.org/0.6.1/\_modules/statsmodels/tsa/arima\_model.html\#ARIMA}}
+\begin{lstlisting}
+from statsmodels.tsa.arima_model import ARIMA
+\end{lstlisting}
+
 
 \newpage
 
 \section{Common methods}
 \label{Pred_common_methods}
+This pyplot style configuration allows to customize the graphic desig. In this case was used ggplot, a popular plotting package.
 \begin{lstlisting}
 pyplot.style.use('ggplot')
 \end{lstlisting}
 
+The following method allows to calculate the MAPE between a list of values and an another one. In particular, MAPE \footnote{MAPE formula and description: \\ \url{https://en.wikipedia.org/wiki/Mean_absolute_percentage_error}} is a measure of prediction accuracy of a forecasting method in statistics, for example in trend estimation. It usually expresses accuracy as a percentage.
 \begin{lstlisting}
 def mean_absolute_percentage_error(y_true, y_pred): 
 	try:
@@ -42,8 +53,52 @@ def mean_absolute_percentage_error(y_true, y_pred):
 
 \section{Evaluating System}
 \label{Evaluating_System}
-Use the common library reported above: [\ref{Pred_common_libraries}] \\
-Use the common methods reported above: [\ref{Pred_common_methods}] \\
+This system uses the common library reported above: [\ref{Pred_common_libraries}]
+
+This system uses the common methods reported above: [\ref{Pred_common_methods}] \\
+
+
+This method is used for test all the ARIMA orders required, that are basically made by the combination of the input lists "p\_values" , "d\_values", "q\_values". During this code is possible to get the resulting MAPE for each single configuration from the method "evaluate\_arima\_model()" and then write them down in a report document.
+\begin{lstlisting}
+
+def evaluate_models(dataset, p_values, d_values, q_values):
+	dataset = dataset.astype('float32')
+	best_score, best_cfg = float("inf"), None
+	filename = "Results_Forecast/"+sys.argv[1]+"/"+sys.argv[2]+"_MAPE.csv"
+	if not os.path.exists(os.path.dirname(filename)):	
+		os.makedirs(os.path.dirname(filename))
+	with open(filename, "w") as myfile:
+		myfile.write("P, D, Q, MAPE\n")
+	for p in p_values:
+		for d in d_values:
+			for q in q_values:
+				order = (p,d,q)
+				try:
+					mape = evaluate_arima_model(dataset, order)
+					with open(filename, "a") as myfile:
+						myfile.write('%d, %d, %d, %.3f%% \n' % (p,d,q,mape))
+					if mape < best_score:
+						best_score, best_cfg = mape, order
+					print('ARIMA%s MAPE=%.3f%%' % (order,mape))
+				except:
+					print('ARIMA%s MAPE=Nil' % str(order))
+					continue
+	print('Best ARIMA%s MAPE=%.3f%%' % (best_cfg, best_score))
+\end{lstlisting}
+
+\newpage
+
+During this method, the input dataset is split in two: 
+\vspace{-2mm}
+\begin{itemize}
+ \setlength{\itemsep}{-5pt}
+\item 66\% for the initial training dataset
+\item 34\% for the test dataset
+\end{itemize}
+
+Then the ARIMA model is fitted with the values contained in the training dataset, and a single prediction is made each iteration and stored in a list. This is so that at the end of the test set, all predictions can be compared to the list of expected values and an error score calculated.  \cite{previousWork2}\\
+Then in this case a mean absolute percentage error is calculated and returned.
+
 \begin{lstlisting}
 def evaluate_arima_model(X, arima_order):
 	train_size = int(len(X) * 0.66)
@@ -59,39 +114,16 @@ def evaluate_arima_model(X, arima_order):
 	error = mean_absolute_percentage_error(test, predictions)
 	return error
 \end{lstlisting}
-\begin{lstlisting}
-def evaluate_models(dataset, p_values, d_values, q_values):
-	dataset = dataset.astype('float32')
-	best_score, best_cfg = float("inf"), None
-	filename = "Results_Forecast/"+sys.argv[1]+"/"+sys.argv[2]+"_MAPE.csv"
-	if not os.path.exists(os.path.dirname(filename)):	
-		os.makedirs(os.path.dirname(filename))
 
-	with open(filename, "w") as myfile:
-		myfile.write("P, D, Q, MAPE\n")
-	for p in p_values:
-		for d in d_values:
-			for q in q_values:
-				order = (p,d,q)
-				try:
-					mape = evaluate_arima_model(dataset, order)
-					with open(filename, "a") as myfile:
-						myfile.write('%d, %d, %d, %.3f%% \n' % (p,d,q,mape))
-					if mape < best_score:
-
-						best_score, best_cfg = mape, order
-					print('ARIMA%s MAPE=%.3f%%' % (order,mape))
-				except:
-					print('ARIMA%s MAPE=Nil' % str(order))
-					continue
-	print('Best ARIMA%s MAPE=%.3f%%' % (best_cfg, best_score))
-\end{lstlisting}
+Once defined the needed methods, this system reads the input dataset and parameter decided by the user via shell. How is possible to see, the ARIMA parameters testing lists are already given in the code, but it's easily possible to change it, in order to add or remove configurations tested during this system.
+It's suggested that warning be ignored for this code to avoid a lot of noise form the runn procedure. 
 \begin{lstlisting}
-series = pd.read_csv("Datasets/"+sys.argv[1]+".csv", header=0, usecols=[sys.argv[2]])
+series = pd.read_csv("Datasets/"+sys.argv[1]+".csv", usecols=[sys.argv[2]])
 
 p_values = [0, 1, 2, 4, 6, 8, 10]
 d_values = [0, 1, 2, 3]
 q_values = [0, 1, 2, 3]
+
 warnings.filterwarnings("ignore")
 evaluate_models(series.values, p_values, d_values, q_values)
 \end{lstlisting}
@@ -100,8 +132,15 @@ evaluate_models(series.values, p_values, d_values, q_values)
 
 \section{Prediction System}
 \label{Prediction_System}
-Use the common library reported above: [\ref{Pred_common_libraries}] \\
-Use the common methods reported above: [\ref{Pred_common_methods}] \\
+This system uses the common library reported above: [\ref{Pred_common_libraries}]
+
+This system uses the common library reported above: [\ref{Pred_common_methods}] \\
+
+During the initial part of this system's code all the needed data values are read and formatted in the right way. \\
+"series" contains the historic values of the current dataset.\\
+"yearInput" contains the years of the current dataset's period.\\
+"realValues" contains the real future value for the next year. \\
+"order" contains the ARIMA order inserted by the user via shell.
 \begin{lstlisting}
 series = pd.read_csv("Datasets/"+sys.argv[1]+".csv", usecols=[sys.argv[2]])
 yearInput = pd.read_csv("Datasets/" + sys.argv[1]+".csv", usecols=[0])
@@ -115,25 +154,35 @@ dataset = dataset.astype('float32')
 p_values = int(sys.argv[4])
 d_values = int(sys.argv[5])
 q_values = int(sys.argv[6])
+
 order = (p_values, d_values, q_values)
 warnings.filterwarnings("ignore")
+\end{lstlisting}
 
+Once read all the required data, the ARIMA model is fitted with the historic values of the current dataset, and it's used for forecast an arbitrary number of values in the future choosen by the user with the "sys.argv[3]".
+\begin{lstlisting}
 model = ARIMA(dataset, order=order)
 model_fit = model.fit(disp=0)
 forecast = model_fit.forecast(int(sys.argv[3]))[0]
 \end{lstlisting}
+
+
+The following rows of code were implemented just to report the results into a document.
+It allows to have a document with the real future value, predicted future value and the MAPE between each of them.
 \begin{lstlisting}
 index = []
 for i in range(1,int(sys.argv[3])+1):
 	index.append(len(dataset) +i)
 mape_list = []
 for i in range(0,len(forecast)):
-	mape_list.append(mean_absolute_percentage_error(realValuesData[i], forecast[i]))
+	mape_list.append(mean_absolute_percentage_error(realValuesData[i], forecast[i]))	
 rows = zip(index, realValuesData, forecast, mape_list)
 f = open("Results_Forecast/"+sys.argv[1]+"/"+sys.argv[1]+"_"+sys.argv[2]+"_futurePred.csv", 'w')
 csv.writer(f).writerows(rows)
 f.close()
 \end{lstlisting}
+
+Once elaborated and saved the results, this system will show a graphic of the historic data values and also of the real and predict future values.
 \begin{lstlisting}
 realValues= pd.read_csv("Results_Forecast/"+sys.argv[1]+"/"+sys.argv[1]+"_"+sys.argv[2]+"_futurePred.csv", index_col=[0], usecols=[0,1])
 predFuture = pd.read_csv("Results_Forecast/"+sys.argv[1]+"/"+sys.argv[1]+"_"+sys.argv[2]+"_futurePred.csv", index_col=[0], usecols=[0,2])
@@ -142,9 +191,12 @@ ax = pyplot.subplot(111)
 ax.plot(realValues, "g", label='Real 2015 Values', linewidth=2)
 ax.plot(predFuture, "r", label='Prediction 2015 values', linewidth=2)
 ax.plot(series, "b", label='Historic values', linewidth=2)
-ax.legend(loc='upper center', bbox_to_anchor=(0.5, 1.05), ncol=3, fancybox=True, shadow=True, fontsize=20)
+
 \end{lstlisting}
+
+This last part of the code were implemented just to customize the output graphic. It basically allows to display the current period's years on the xlabel and some other features, such as legend, title and full screen image once displayed.
 \begin{lstlisting}
+ax.legend(loc='upper center', bbox_to_anchor=(0.5, 1.05), ncol=3, fancybox=True, shadow=True, fontsize=20)
 years = []
 j = 0
 for i in range(len(yearInput)):
@@ -157,10 +209,7 @@ x = range(0, len(yearInput.values))
 pyplot.xticks(np.arange(min(x), max(x)+1, 12.0), years)
 pyplot.xlabel("Years")
 pyplot.ylabel(sys.argv[2]+" in "+sys.argv[1], fontsize=20)
-
 manager = pyplot.get_current_fig_manager()
 manager.resize(*manager.window.maxsize())
-
 pyplot.show()
-
 \end{lstlisting}

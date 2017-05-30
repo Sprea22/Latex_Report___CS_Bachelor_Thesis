@@ -17,21 +17,26 @@
 \contentsline {figure}{\numberline {5.4}{\ignorespaces Correlation matrix between different years of the same input\relax }}{25}{figure.caption.83}
 \contentsline {figure}{\numberline {5.7}{\ignorespaces Correlation matrix between different inputs with data.\relax }}{29}{figure.caption.102}
 \contentsline {figure}{\numberline {5.8}{\ignorespaces Normalized angular coefficients of each input's trendline.\relax }}{30}{figure.caption.107}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Average Sea Temperature from 2007 to 2014 in Norway.\relax }}{32}{figure.caption.121}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Monthly Average Sea Temperature from 2007 to 2014 in Norway.\relax }}{32}{figure.caption.121}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Graphic that display historic, real and predicted future values of a input.\relax }}{38}{figure.caption.145}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Graphic that display historic, real and predicted future values of a input.\relax }}{37}{figure.caption.146}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Annual consumption of feed trend in Norway. \relax }}{41}{figure.caption.153}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Annual consumption of feed trend in Finnmark. \relax }}{41}{figure.caption.154}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Annual consumption of feed trend in Troms. \relax }}{41}{figure.caption.155}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Annual consumption of feed trend in Nordland. \relax }}{41}{figure.caption.156}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Annual consumption of feed trend in Hordaland. \relax }}{41}{figure.caption.157}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Annual consumption of feed trend in Finnmark. \relax }}{44}{figure.caption.151}
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Annual consumption of feed trend in Troms. \relax }}{44}{figure.caption.152}
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Annual consumption of feed trend in Nordland. \relax }}{44}{figure.caption.153}
-\contentsline {figure}{\numberline {8.4}{\ignorespaces Annual consumption of feed trend in Hordaland. \relax }}{44}{figure.caption.154}
-\contentsline {figure}{\numberline {8.5}{\ignorespaces Comparison between average sea temperature and feed consumption in Finnmark\relax }}{45}{figure.caption.155}
-\contentsline {figure}{\numberline {8.6}{\ignorespaces Comparison between average sea temperature and feed consumption in Troms\relax }}{45}{figure.caption.156}
-\contentsline {figure}{\numberline {8.7}{\ignorespaces Comparison between average sea temperature and feed consumption in Nordland\relax }}{45}{figure.caption.157}
-\contentsline {figure}{\numberline {8.8}{\ignorespaces Comparison between average sea temperature and feed consumption in Hordaland\relax }}{45}{figure.caption.158}
-\contentsline {figure}{\numberline {8.9}{\ignorespaces Monthly average sea temperature from 200\relax }}{46}{figure.caption.159}
-\contentsline {figure}{\numberline {8.10}{\ignorespaces Data science concept\relax }}{46}{figure.caption.160}
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Comparison between average sea temperature and feed consumption in Finnmark\relax }}{45}{figure.caption.165}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Comparison between average sea temperature and feed consumption in Troms\relax }}{45}{figure.caption.166}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Comparison between average sea temperature and feed consumption in Nordland\relax }}{45}{figure.caption.167}
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Comparison between average sea temperature and feed consumption in Hordaland\relax }}{45}{figure.caption.168}
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Monthly average sea temperature from 2007 to 2014 in Norway\relax }}{46}{figure.caption.169}
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Monthly average feed consumption per biomass from 2007 to 2014 in Norway\relax }}{46}{figure.caption.170}
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Correlation matrix between all the parameters of the dataset about Finnmark\relax }}{47}{figure.caption.171}
+\contentsline {figure}{\numberline {8.8}{\ignorespaces Correlation matrix between all the parameters of the dataset about Troms\relax }}{47}{figure.caption.172}
+\contentsline {figure}{\numberline {8.9}{\ignorespaces Correlation matrix between all the parameters of the dataset about Nordland\relax }}{47}{figure.caption.173}
+\contentsline {figure}{\numberline {8.10}{\ignorespaces Correlation matrix between all the parameters of the dataset about Hordaland\relax }}{47}{figure.caption.174}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

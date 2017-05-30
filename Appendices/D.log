@@ -1,0 +1,4937 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.3.3)  30 MAY 2017 15:48
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**D.tex
+(./D.tex
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
+! Undefined control sequence.
+l.1 \chap
+         {Prediction System Implementation code}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \chap{P
+           rediction System Implementation code}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no P in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+! Undefined control sequence.
+l.2 \section
+            {Common libraries}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no C in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no [ in font nullfont!
+! Undefined control sequence.
+<write> ...rence `SIA_libraries' on page \thepage 
+                                                  \space undefined\on@line .
+l.4 ... their utilities here: [\ref{SIA_libraries}
+                                                  ]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `SIA_libraries' on page  undefined on input line 4.
+
+Missing character: There is no ] in font nullfont!
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 \begin{lstlisting}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.11 \end{lstlisting}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 1--12
+[]
+ []
+
+
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 1--12
+[]
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 T
+      his "warnings" library is used just to warn programmers about somethin...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no T in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no " in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no " in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no j in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no . in font nullfont!
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 \begin{lstlisting}
+                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no s in font nullfont!
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 \end{lstlisting}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 13--17
+[]
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 T
+      his following library provides an ARIMA model, that is basically a cla...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no T in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no . in font nullfont!
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 18.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 18.
+! Undefined control sequence.
+\@footnotetext ...tins {\reset@font \footnotesize 
+                                                  \interlinepenalty \interfo...
+l.18 ...statsmodels/tsa/arima\_model.html\#ARIMA}}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\@footnotetext ...}\color@begingroup \@makefntext 
+                                                  {\rule \z@ \footnotesep \i...
+l.18 ...statsmodels/tsa/arima\_model.html\#ARIMA}}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \url 
+                     
+l.18 ...statsmodels/tsa/arima\_model.html\#ARIMA}}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (65.12791pt too wide) in paragraph at lines 18--18
+[][]\OT1/cmr/m/n/10 ARIMA[]model
+ []
+
+
+Overfull \hbox (27.30559pt too wide) in paragraph at lines 18--18
+\OT1/cmr/m/n/10 source
+ []
+
+
+Overfull \hbox (22.50005pt too wide) in paragraph at lines 18--18
+\OT1/cmr/m/n/10 code: 
+ []
+
+
+Overfull \hbox (393.95093pt too wide) in paragraph at lines 18--18
+\OT1/cmr/m/n/10 http://www.statsmodels.org/0.6.1/[]modules/statsmodels/tsa/arim
+a[]model.html#ARIMA| 
+ []
+
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 \begin{lstlisting}
+                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no f in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.20 from statsmodels.tsa.arima_
+                                model import ARIMA
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 \end{lstlisting}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.21 \end{lstlisting}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 18--22
+[]
+ []
+
+
+Overfull \hbox (4.48613pt too wide) in paragraph at lines 18--22
+[]
+ []
+
+
+Overfull \hbox (94.63165pt too wide) in paragraph at lines 18--22
+[]\OML/cmm/m/it/10 odelimportARIMA$ 
+ []
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 \newpage
+             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[1
+! Undefined control sequence.
+<write> ...bel{Pred_common_libraries}{{}{\thepage 
+                                                  }}
+l.24 \newpage
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{Pred_common_libraries}{{}{}}
+]
+! Undefined control sequence.
+l.26 \section
+             {Common methods}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 \section{C
+               ommon methods}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no C in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no . in font nullfont!
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 \begin{lstlisting}
+                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no p in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no ' in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no ' in font nullfont!
+Missing character: There is no ) in font nullfont!
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 \end{lstlisting}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 26--32
+[]
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 T
+      he following method allows to calculate the MAPE between a list of val...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no T in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no E in font nullfont!
+! Undefined control sequence.
+\@footnotetext ...tins {\reset@font \footnotesize 
+                                                  \interlinepenalty \interfo...
+l.33 ....org/wiki/Mean_absolute_percentage_error}}
+                                                   is a measure of predictio...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\@footnotetext ...}\color@begingroup \@makefntext 
+                                                  {\rule \z@ \footnotesep \i...
+l.33 ....org/wiki/Mean_absolute_percentage_error}}
+                                                   is a measure of predictio...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \url 
+                     
+l.33 ....org/wiki/Mean_absolute_percentage_error}}
+                                                   is a measure of predictio...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.33 ....org/wiki/Mean_absolute_percentage_error}}
+                                                   is a measure of predictio...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<argument> ...wiki/Mean_absolute_percentage_error}
+                                                  
+l.33 ....org/wiki/Mean_absolute_percentage_error}}
+                                                   is a measure of predictio...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+<recently read> }
+                 
+l.33 ....org/wiki/Mean_absolute_percentage_error}}
+                                                   is a measure of predictio...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\@footnotetext ...rut \strutbox }\color@endgroup }
+                                                  
+l.33 ....org/wiki/Mean_absolute_percentage_error}}
+                                                   is a measure of predictio...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 \begin{lstlisting}
+                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.50 \end{lstlisting}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.51 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (30.27785pt too wide) in paragraph at lines 33--51
+[][]\OT1/cmr/m/n/10 MAPE
+ []
+
+
+Overfull \hbox (15.30559pt too wide) in paragraph at lines 33--51
+\OT1/cmr/m/n/10 for-
+ []
+
+
+Overfull \hbox (21.38895pt too wide) in paragraph at lines 33--51
+\OT1/cmr/m/n/10 mula
+ []
+
+
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 33--51
+\OT1/cmr/m/n/10 and
+ []
+
+
+Overfull \hbox (13.33334pt too wide) in paragraph at lines 33--51
+\OT1/cmr/m/n/10 de-
+ []
+
+
+Overfull \hbox (23.97224pt too wide) in paragraph at lines 33--51
+\OT1/cmr/m/n/10 scrip-
+ []
+
+
+Overfull \hbox (20.00006pt too wide) in paragraph at lines 33--51
+\OT1/cmr/m/n/10 tion: 
+ []
+
+
+Overfull \hbox (1112.17488pt too wide) in paragraph at lines 33--51
+\OT1/cmr/m/n/10 https://en.wikipedia.org/wiki/Mean$[]\OML/cmm/m/it/10 bsolute[]
+ercentage[]rror|isameasureofpredictionaccuracyofaforecastingmethodinstatistics;
+ forexampleintrendestimation:Itusuallyexpressesaccuracyasapercentage:defmean[]b
+solute[]ercentage[]rror\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 y[]rue; y[]red\OT1/cmr
+/m/n/10 ) :
+ []
+
+
+Overfull \hbox (19.21758pt too wide) in paragraph at lines 33--51
+\OML/cmm/m/it/10 try \OT1/cmr/m/n/10 :
+ []
+
+
+Overfull \hbox (26.4757pt too wide) in paragraph at lines 33--51
+\OML/cmm/m/it/10 rng \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (76.36089pt too wide) in paragraph at lines 33--51
+\OML/cmm/m/it/10 len\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 y[]rue\OT1/cmr/m/n/10 )\O
+ML/cmm/m/it/10 diff \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (98.61728pt too wide) in paragraph at lines 33--51
+\OT1/cmr/m/n/10 []\OML/cmm/m/it/10 foriinrange\OT1/cmr/m/n/10 (0\OML/cmm/m/it/1
+0 ; rng\OT1/cmr/m/n/10 ) :
+ []
+
+
+Overfull \hbox (98.28989pt too wide) in paragraph at lines 33--51
+\OML/cmm/m/it/10 diff:append\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 y[]rue\OT1/cmr/m/
+n/10 [\OML/cmm/m/it/10 i\OT1/cmr/m/n/10 ] \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (77.21599pt too wide) in paragraph at lines 33--51
+\OML/cmm/m/it/10 y[]red\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 i\OT1/cmr/m/n/10 ])\OM
+L/cmm/m/it/10 diff\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 i\OT1/cmr/m/n/10 ] =
+ []
+
+
+Overfull \hbox (92.01036pt too wide) in paragraph at lines 33--51
+\OML/cmm/m/it/10 diff\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 i\OT1/cmr/m/n/10 ]\OML/c
+mm/m/it/10 =y[]rue\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 i\OT1/cmr/m/n/10 ]\OML/cmm/
+m/it/10 abs \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (81.78674pt too wide) in paragraph at lines 33--51
+\OML/cmm/m/it/10 np:abs\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 diff\OT1/cmr/m/n/10 )\
+OML/cmm/m/it/10 mn \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (146.45282pt too wide) in paragraph at lines 33--51
+\OML/cmm/m/it/10 np:mean\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 abs\OT1/cmr/m/n/10 )\
+OML/cmm/m/it/10 percentageError \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (19.7825pt too wide) in paragraph at lines 33--51
+\OML/cmm/m/it/10 mn \OMS/cmsy/m/n/10 ^^C
+ []
+
+
+Overfull \hbox (48.55327pt too wide) in paragraph at lines 33--51
+\OT1/cmr/m/n/10 100\OML/cmm/m/it/10 except \OT1/cmr/m/n/10 :
+ []
+
+
+Overfull \hbox (26.4757pt too wide) in paragraph at lines 33--51
+\OML/cmm/m/it/10 rng \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (29.82057pt too wide) in paragraph at lines 33--51
+\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 abs \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (67.2259pt too wide) in paragraph at lines 33--51
+\OML/cmm/m/it/10 np:abs\OT1/cmr/m/n/10 ((\OML/cmm/m/it/10 y[]rue \OMS/cmsy/m/n/
+10 ^^@
+ []
+
+
+Overfull \hbox (146.4213pt too wide) in paragraph at lines 33--51
+\OML/cmm/m/it/10 y[]red\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 =y[]rue\OT1/cmr/m/n/10
+ )\OML/cmm/m/it/10 percentageError \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (19.26506pt too wide) in paragraph at lines 33--51
+\OML/cmm/m/it/10 abs \OMS/cmsy/m/n/10 ^^C
+ []
+
+
+Overfull \hbox (119.89153pt too wide) in paragraph at lines 33--51
+\OT1/cmr/m/n/10 100\OML/cmm/m/it/10 returnpercentageError$ 
+ []
+
+! Undefined control sequence.
+l.54 \section
+             {Evaluating System}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<write> ...red_common_libraries' on page \thepage 
+                                                  \space undefined\on@line .
+l.56 ...ported above: [\ref{Pred_common_libraries}
+                                                  ] \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `Pred_common_libraries' on page  undefined on input li
+ne 56.
+
+! Undefined control sequence.
+<write> ...`Pred_common_methods' on page \thepage 
+                                                  \space undefined\on@line .
+l.57 ...reported above: [\ref{Pred_common_methods}
+                                                  ] \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `Pred_common_methods' on page  undefined on input line
+ 57.
+
+
+Overfull \hbox (47.08348pt too wide) in paragraph at lines 54--58
+[]\OT1/cmr/m/n/10 Evaluating
+ []
+
+
+Overfull \hbox (18.11115pt too wide) in paragraph at lines 54--58
+\OT1/cmr/m/n/10 Sys-
+ []
+
+
+Overfull \hbox (16.6667pt too wide) in paragraph at lines 54--58
+\OT1/cmr/m/n/10 tem
+ []
+
+
+Overfull \hbox (19.50003pt too wide) in paragraph at lines 54--58
+[]\OT1/cmr/m/n/10 This
+ []
+
+
+Overfull \hbox (16.50002pt too wide) in paragraph at lines 54--58
+\OT1/cmr/m/n/10 sys-
+ []
+
+
+Overfull \hbox (16.6667pt too wide) in paragraph at lines 54--58
+\OT1/cmr/m/n/10 tem
+ []
+
+
+Overfull \hbox (17.8889pt too wide) in paragraph at lines 54--58
+\OT1/cmr/m/n/10 uses
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 54--58
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (21.11115pt too wide) in paragraph at lines 54--58
+\OT1/cmr/m/n/10 com-
+ []
+
+
+Overfull \hbox (18.88895pt too wide) in paragraph at lines 54--58
+\OT1/cmr/m/n/10 mon
+ []
+
+
+Overfull \hbox (8.8889pt too wide) in paragraph at lines 54--58
+\OT1/cmr/m/n/10 li-
+ []
+
+
+Overfull \hbox (23.66673pt too wide) in paragraph at lines 54--58
+\OT1/cmr/m/n/10 brary
+ []
+
+
+Overfull \hbox (11.69444pt too wide) in paragraph at lines 54--58
+\OT1/cmr/m/n/10 re-
+ []
+
+
+Overfull \hbox (28.63896pt too wide) in paragraph at lines 54--58
+\OT1/cmr/m/n/10 ported
+ []
+
+
+Overfull \hbox (27.77785pt too wide) in paragraph at lines 54--58
+\OT1/cmr/m/n/10 above:
+ []
+
+
+Overfull \hbox (16.41663pt too wide) in paragraph at lines 54--58
+\OT1/cmr/m/n/10 [[]] 
+ []
+
+
+Overfull \hbox (19.50003pt too wide) in paragraph at lines 54--58
+\OT1/cmr/m/n/10 This
+ []
+
+
+Overfull \hbox (16.50002pt too wide) in paragraph at lines 54--58
+\OT1/cmr/m/n/10 sys-
+ []
+
+
+Overfull \hbox (16.6667pt too wide) in paragraph at lines 54--58
+\OT1/cmr/m/n/10 tem
+ []
+
+
+Overfull \hbox (17.8889pt too wide) in paragraph at lines 54--58
+\OT1/cmr/m/n/10 uses
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 54--58
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (21.11115pt too wide) in paragraph at lines 54--58
+\OT1/cmr/m/n/10 com-
+ []
+
+
+Overfull \hbox (18.88895pt too wide) in paragraph at lines 54--58
+\OT1/cmr/m/n/10 mon
+ []
+
+
+Overfull \hbox (25.5556pt too wide) in paragraph at lines 54--58
+\OT1/cmr/m/n/10 meth-
+ []
+
+
+Overfull \hbox (14.77782pt too wide) in paragraph at lines 54--58
+\OT1/cmr/m/n/10 ods
+ []
+
+
+Overfull \hbox (11.69444pt too wide) in paragraph at lines 54--58
+\OT1/cmr/m/n/10 re-
+ []
+
+
+Overfull \hbox (28.63896pt too wide) in paragraph at lines 54--58
+\OT1/cmr/m/n/10 ported
+ []
+
+
+Overfull \hbox (27.77785pt too wide) in paragraph at lines 54--58
+\OT1/cmr/m/n/10 above:
+ []
+
+
+Overfull \hbox (16.41663pt too wide) in paragraph at lines 54--58
+\OT1/cmr/m/n/10 [[]] 
+ []
+
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 \begin{lstlisting}
+                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (19.50003pt too wide) in paragraph at lines 59--61
+[]\OT1/cmr/m/n/10 This
+ []
+
+
+Overfull \hbox (33.05565pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 method
+ []
+
+
+Overfull \hbox (6.72223pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 is
+ []
+
+
+Overfull \hbox (19.50003pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 used
+ []
+
+
+Overfull \hbox (11.97226pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 for
+ []
+
+
+Overfull \hbox (16.16669pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 test
+ []
+
+
+Overfull \hbox (10.55559pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 all
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (35.13895pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 ARIMA
+ []
+
+
+Overfull \hbox (12.25002pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 or-
+ []
+
+
+Overfull \hbox (17.86113pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 ders
+ []
+
+
+Overfull \hbox (11.69444pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 re-
+ []
+
+
+Overfull \hbox (30.30562pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 quired,
+ []
+
+
+Overfull \hbox (18.33339pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 that
+ []
+
+
+Overfull \hbox (13.36113pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 are
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 ba-
+ []
+
+
+Overfull \hbox (10.05556pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 si-
+ []
+
+
+Overfull \hbox (20.27783pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 cally
+ []
+
+
+Overfull \hbox (23.33339pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 made
+ []
+
+
+Overfull \hbox (10.55559pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 by
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (21.11115pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 com-
+ []
+
+
+Overfull \hbox (11.66669pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 bi-
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 na-
+ []
+
+
+Overfull \hbox (17.22227pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 tion
+ []
+
+
+Overfull \hbox (8.05559pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 of
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (11.66669pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 in-
+ []
+
+
+Overfull \hbox (15.00005pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 put
+ []
+
+
+Overfull \hbox (17.33336pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 lists
+ []
+
+
+Overfull \hbox (45.60011pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 "p[]values"
+ []
+
+
+Overfull \hbox (2.77779pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (48.3779pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 "d[]values",
+ []
+
+
+Overfull \hbox (48.10011pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 "q[]values".
+ []
+
+
+Overfull \hbox (20.44447pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 Dur-
+ []
+
+
+Overfull \hbox (13.33337pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 ing
+ []
+
+
+Overfull \hbox (16.1667pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 this
+ []
+
+
+Overfull \hbox (19.72226pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 code
+ []
+
+
+Overfull \hbox (6.72223pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 is
+ []
+
+
+Overfull \hbox (18.11115pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 pos-
+ []
+
+
+Overfull \hbox (10.05556pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 si-
+ []
+
+
+Overfull \hbox (12.7778pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 ble
+ []
+
+
+Overfull \hbox (8.88892pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 to
+ []
+
+
+Overfull \hbox (13.33336pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 get
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (11.69444pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 re-
+ []
+
+
+Overfull \hbox (19.50003pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 sult-
+ []
+
+
+Overfull \hbox (13.33337pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 ing
+ []
+
+
+Overfull \hbox (30.27785pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 MAPE
+ []
+
+
+Overfull \hbox (11.97226pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 for
+ []
+
+
+Overfull \hbox (19.16669pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 each
+ []
+
+
+Overfull \hbox (15.61113pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 sin-
+ []
+
+
+Overfull \hbox (12.22224pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 gle
+ []
+
+
+Overfull \hbox (18.33336pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 con-
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 fig-
+ []
+
+
+Overfull \hbox (8.8889pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 u-
+ []
+
+
+Overfull \hbox (12.25002pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 ra-
+ []
+
+
+Overfull \hbox (17.22227pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 tion
+ []
+
+
+Overfull \hbox (20.30562pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 from
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (33.05565pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 method
+ []
+
+
+Overfull \hbox (25.27783pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 "eval-
+ []
+
+
+Overfull \hbox (8.8889pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 u-
+ []
+
+
+Overfull \hbox (84.728pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 ate[]arima[]model()"
+ []
+
+
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 and
+ []
+
+
+Overfull \hbox (19.44449pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 then
+ []
+
+
+Overfull \hbox (22.25003pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 write
+ []
+
+
+Overfull \hbox (22.22227pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 them
+ []
+
+
+Overfull \hbox (23.0556pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 down
+ []
+
+
+Overfull \hbox (8.33336pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 in
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 a
+ []
+
+
+Overfull \hbox (11.69444pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 re-
+ []
+
+
+Overfull \hbox (18.63895pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 port
+ []
+
+
+Overfull \hbox (18.61115pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 doc-
+ []
+
+
+Overfull \hbox (8.8889pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 u-
+ []
+
+
+Overfull \hbox (24.72227pt too wide) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 ment.
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.62 def evaluate_
+                  models(dataset, p_values, d_values, q_values):
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Undefined control sequence.
+l.69 		myfile.write("P, D, Q, MAPE\n
+                                    ")
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.85 \end{lstlisting}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.85 \end{lstlisting}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (13.05559pt too wide) in paragraph at lines 62--86
+[]\OT1/cmr/m/n/10 def
+ []
+
+
+Overfull \hbox (224.57336pt too wide) in paragraph at lines 62--86
+\OT1/cmr/m/n/10 evaluate$[]\OML/cmm/m/it/10 odels\OT1/cmr/m/n/10 (\OML/cmm/m/it
+/10 dataset; p[]alues; d[]alues; q[]alues\OT1/cmr/m/n/10 ) :
+ []
+
+
+Overfull \hbox (42.89815pt too wide) in paragraph at lines 62--86
+\OML/cmm/m/it/10 dataset \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (197.50226pt too wide) in paragraph at lines 62--86
+\OML/cmm/m/it/10 dataset:astype\OT1/cmr/m/n/10 ([]\OML/cmm/m/it/10 float\OT1/cm
+r/m/n/10 32[])\OML/cmm/m/it/10 best[]core; best[]fg \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (137.70424pt too wide) in paragraph at lines 62--86
+\OML/cmm/m/it/10 float\OT1/cmr/m/n/10 ("\OML/cmm/m/it/10 inf\OT1/cmr/m/n/10 ")\
+OML/cmm/m/it/10 ; Nonefilename \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (95.8484pt too wide) in paragraph at lines 62--86
+\OT1/cmr/m/n/10 "\OML/cmm/m/it/10 Results[]orecast=\OT1/cmr/m/n/10 " +
+ []
+
+
+Overfull \hbox (56.1575pt too wide) in paragraph at lines 62--86
+\OML/cmm/m/it/10 sys:argv\OT1/cmr/m/n/10 [1] +
+ []
+
+
+Overfull \hbox (22.77785pt too wide) in paragraph at lines 62--86
+\OT1/cmr/m/n/10 "\OML/cmm/m/it/10 =\OT1/cmr/m/n/10 " +
+ []
+
+
+Overfull \hbox (56.1575pt too wide) in paragraph at lines 62--86
+\OML/cmm/m/it/10 sys:argv\OT1/cmr/m/n/10 [2] +
+ []
+
+
+Overfull \hbox (280.63776pt too wide) in paragraph at lines 62--86
+\OT1/cmr/m/n/10 "[]\OML/cmm/m/it/10 APE:csv\OT1/cmr/m/n/10 "\OML/cmm/m/it/10 if
+notos:path:exists\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 os:path:dirname\OT1/cmr/m/n/
+10 (\OML/cmm/m/it/10 filename\OT1/cmr/m/n/10 )) :
+ []
+
+
+Overfull \hbox (344.3985pt too wide) in paragraph at lines 62--86
+\OML/cmm/m/it/10 os:makedirs\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 os:path:dirname\O
+T1/cmr/m/n/10 (\OML/cmm/m/it/10 filename\OT1/cmr/m/n/10 ))\OML/cmm/m/it/10 with
+open\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 filename; \OT1/cmr/m/n/10 "\OML/cmm/m/it/
+10 w\OT1/cmr/m/n/10 ")\OML/cmm/m/it/10 asmyfile \OT1/cmr/m/n/10 :
+ []
+
+
+Overfull \hbox (215.2947pt too wide) in paragraph at lines 62--86
+\OML/cmm/m/it/10 myfile:write\OT1/cmr/m/n/10 ("\OML/cmm/m/it/10 P; D; Q; MAPE\O
+T1/cmr/m/n/10 ")\OML/cmm/m/it/10 forpinp[]alues \OT1/cmr/m/n/10 :
+ []
+
+
+Overfull \hbox (69.30756pt too wide) in paragraph at lines 62--86
+\OML/cmm/m/it/10 fordind[]alues \OT1/cmr/m/n/10 :
+ []
+
+
+Overfull \hbox (68.18486pt too wide) in paragraph at lines 62--86
+\OML/cmm/m/it/10 forqinq[]alues \OT1/cmr/m/n/10 :
+ []
+
+
+Overfull \hbox (34.8426pt too wide) in paragraph at lines 62--86
+\OML/cmm/m/it/10 order \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (50.94322pt too wide) in paragraph at lines 62--86
+\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 p; d; q\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 try 
+\OT1/cmr/m/n/10 :
+ []
+
+
+Overfull \hbox (34.30905pt too wide) in paragraph at lines 62--86
+\OML/cmm/m/it/10 mape \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (316.17676pt too wide) in paragraph at lines 62--86
+\OML/cmm/m/it/10 evaluate[]rima[]odel\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 dataset;
+ order\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 withopen\OT1/cmr/m/n/10 (\OML/cmm/m/it/
+10 filename; \OT1/cmr/m/n/10 "\OML/cmm/m/it/10 a\OT1/cmr/m/n/10 ")\OML/cmm/m/it
+/10 asmyfile \OT1/cmr/m/n/10 :
+ []
+
+
+Overfull \hbox (108.42477pt too wide) in paragraph at lines 62--86
+\OML/cmm/m/it/10 myfile:write\OT1/cmr/m/n/10 ([]\OML/cmm/m/it/10 ifmape <
+ []
+
+
+Overfull \hbox (45.69678pt too wide) in paragraph at lines 62--86
+\OML/cmm/m/it/10 best[]core \OT1/cmr/m/n/10 :
+ []
+
+
+Overfull \hbox (87.56221pt too wide) in paragraph at lines 62--86
+\OML/cmm/m/it/10 best[]core; best[]fg \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (154.25432pt too wide) in paragraph at lines 62--86
+\OML/cmm/m/it/10 mape; orderprint\OT1/cmr/m/n/10 ([]\OML/cmm/m/it/10 ARIMAexcep
+t \OT1/cmr/m/n/10 :
+ []
+
+
+Overfull \hbox (196.09036pt too wide) in paragraph at lines 62--86
+\OML/cmm/m/it/10 print\OT1/cmr/m/n/10 ([]\OML/cmm/m/it/10 ARIMAcontinueprint\OT
+1/cmr/m/n/10 ([]\OML/cmm/m/it/10 BestARIMA$ 
+ []
+
+
+Overfull \hbox (30.44452pt too wide) in paragraph at lines 89--92
+[]\OT1/cmr/m/n/10 During
+ []
+
+
+Overfull \hbox (16.1667pt too wide) in paragraph at lines 89--92
+\OT1/cmr/m/n/10 this
+ []
+
+
+Overfull \hbox (35.83344pt too wide) in paragraph at lines 89--92
+\OT1/cmr/m/n/10 method,
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 89--92
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (11.66669pt too wide) in paragraph at lines 89--92
+\OT1/cmr/m/n/10 in-
+ []
+
+
+Overfull \hbox (15.00005pt too wide) in paragraph at lines 89--92
+\OT1/cmr/m/n/10 put
+ []
+
+
+Overfull \hbox (31.72229pt too wide) in paragraph at lines 89--92
+\OT1/cmr/m/n/10 dataset
+ []
+
+
+Overfull \hbox (6.72223pt too wide) in paragraph at lines 89--92
+\OT1/cmr/m/n/10 is
+ []
+
+
+Overfull \hbox (18.94449pt too wide) in paragraph at lines 89--92
+\OT1/cmr/m/n/10 split
+ []
+
+
+Overfull \hbox (8.33336pt too wide) in paragraph at lines 89--92
+\OT1/cmr/m/n/10 in
+ []
+
+
+Overfull \hbox (18.33336pt too wide) in paragraph at lines 89--92
+\OT1/cmr/m/n/10 two:
+ []
+
+
+Overfull \hbox (18.33339pt too wide) in paragraph at lines 93--94
+\OT1/cmr/m/n/10 66%
+ []
+
+
+Overfull \hbox (11.97226pt too wide) in paragraph at lines 93--94
+\OT1/cmr/m/n/10 for
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 93--94
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (14.44447pt too wide) in paragraph at lines 93--94
+\OT1/cmr/m/n/10 ini-
+ []
+
+
+Overfull \hbox (14.44449pt too wide) in paragraph at lines 93--94
+\OT1/cmr/m/n/10 tial
+ []
+
+
+Overfull \hbox (24.47227pt too wide) in paragraph at lines 93--94
+\OT1/cmr/m/n/10 train-
+ []
+
+
+Overfull \hbox (13.33337pt too wide) in paragraph at lines 93--94
+\OT1/cmr/m/n/10 ing
+ []
+
+
+Overfull \hbox (31.72229pt too wide) in paragraph at lines 93--94
+\OT1/cmr/m/n/10 dataset 
+ []
+
+
+Overfull \hbox (18.33339pt too wide) in paragraph at lines 94--95
+\OT1/cmr/m/n/10 34%
+ []
+
+
+Overfull \hbox (11.97226pt too wide) in paragraph at lines 94--95
+\OT1/cmr/m/n/10 for
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 94--95
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (16.16669pt too wide) in paragraph at lines 94--95
+\OT1/cmr/m/n/10 test
+ []
+
+
+Overfull \hbox (31.72229pt too wide) in paragraph at lines 94--95
+\OT1/cmr/m/n/10 dataset 
+ []
+
+\citation{previousWork2}
+! Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.97 ...ulated and returned. [\cite{previousWork2}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `previousWork2' on page  undefined on input line 97.
+
+
+Overfull \hbox (22.77782pt too wide) in paragraph at lines 97--98
+[]\OT1/cmr/m/n/10 Then
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (35.13895pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 ARIMA
+ []
+
+
+Overfull \hbox (26.38896pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 model
+ []
+
+
+Overfull \hbox (6.72223pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 is
+ []
+
+
+Overfull \hbox (12.7778pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 fit-
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 ted
+ []
+
+
+Overfull \hbox (19.44449pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 with
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (15.83337pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 val-
+ []
+
+
+Overfull \hbox (13.94446pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 ues
+ []
+
+
+Overfull \hbox (18.33336pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 con-
+ []
+
+
+Overfull \hbox (27.22229pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 tained
+ []
+
+
+Overfull \hbox (8.33336pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 in
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (24.47227pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 train-
+ []
+
+
+Overfull \hbox (13.33337pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 ing
+ []
+
+
+Overfull \hbox (34.50008pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 dataset,
+ []
+
+
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 and
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 a
+ []
+
+
+Overfull \hbox (15.61113pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 sin-
+ []
+
+
+Overfull \hbox (12.22224pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 gle
+ []
+
+
+Overfull \hbox (17.25002pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 pre-
+ []
+
+
+Overfull \hbox (16.11113pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 dic-
+ []
+
+
+Overfull \hbox (17.22227pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 tion
+ []
+
+
+Overfull \hbox (6.72223pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 is
+ []
+
+
+Overfull \hbox (23.33339pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 made
+ []
+
+
+Overfull \hbox (19.16669pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 each
+ []
+
+
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 it-
+ []
+
+
+Overfull \hbox (11.69444pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 er-
+ []
+
+
+Overfull \hbox (8.33334pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 a-
+ []
+
+
+Overfull \hbox (17.22227pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 tion
+ []
+
+
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 and
+ []
+
+
+Overfull \hbox (26.75005pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 stored
+ []
+
+
+Overfull \hbox (8.33336pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 in
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 a
+ []
+
+
+Overfull \hbox (16.1667pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 list.
+ []
+
+
+Overfull \hbox (19.50003pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 This
+ []
+
+
+Overfull \hbox (6.72223pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 is
+ []
+
+
+Overfull \hbox (8.94446pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 so
+ []
+
+
+Overfull \hbox (18.33339pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 that
+ []
+
+
+Overfull \hbox (8.88892pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 at
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (15.55559pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 end
+ []
+
+
+Overfull \hbox (8.05559pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 of
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (16.16669pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 test
+ []
+
+
+Overfull \hbox (15.05557pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 set,
+ []
+
+
+Overfull \hbox (10.55559pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 all
+ []
+
+
+Overfull \hbox (17.25002pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 pre-
+ []
+
+
+Overfull \hbox (16.11113pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 dic-
+ []
+
+
+Overfull \hbox (21.16672pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 tions
+ []
+
+
+Overfull \hbox (15.00003pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 can
+ []
+
+
+Overfull \hbox (10.2778pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 be
+ []
+
+
+Overfull \hbox (21.11115pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 com-
+ []
+
+
+Overfull \hbox (24.47227pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 pared
+ []
+
+
+Overfull \hbox (8.88892pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 to
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (13.38892pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 list
+ []
+
+
+Overfull \hbox (8.05559pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 of
+ []
+
+
+Overfull \hbox (13.05557pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 ex-
+ []
+
+
+Overfull \hbox (28.61116pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 pected
+ []
+
+
+Overfull \hbox (15.83337pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 val-
+ []
+
+
+Overfull \hbox (13.94446pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 ues
+ []
+
+
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 and
+ []
+
+
+Overfull \hbox (10.55559pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 an
+ []
+
+
+Overfull \hbox (11.69444pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 er-
+ []
+
+
+Overfull \hbox (12.83336pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 ror
+ []
+
+
+Overfull \hbox (21.75002pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 score
+ []
+
+
+Overfull \hbox (15.55557pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 cal-
+ []
+
+
+Overfull \hbox (13.33334pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 cu-
+ []
+
+
+Overfull \hbox (24.4445pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 lated.
+ []
+
+
+Overfull \hbox (9.16669pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 In
+ []
+
+
+Overfull \hbox (16.1667pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 this
+ []
+
+
+Overfull \hbox (20.61113pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 case,
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 a
+ []
+
+
+Overfull \hbox (23.33339pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 mean
+ []
+
+
+Overfull \hbox (33.6945pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 squared
+ []
+
+
+Overfull \hbox (11.69444pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 er-
+ []
+
+
+Overfull \hbox (12.83336pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 ror
+ []
+
+
+Overfull \hbox (21.75002pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 score
+ []
+
+
+Overfull \hbox (6.72223pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 is
+ []
+
+
+Overfull \hbox (15.55557pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 cal-
+ []
+
+
+Overfull \hbox (13.33334pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 cu-
+ []
+
+
+Overfull \hbox (21.66672pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 lated
+ []
+
+
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 and
+ []
+
+
+Overfull \hbox (11.69444pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 re-
+ []
+
+
+Overfull \hbox (31.69452pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 turned.
+ []
+
+
+Overfull \hbox (13.76389pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10 [[[]] 
+ []
+
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.99 \begin{lstlisting}
+                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.100 def evaluate_
+                   arima_model(X, arima_order):
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.113 \end{lstlisting}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.113 \end{lstlisting}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (13.05559pt too wide) in paragraph at lines 100--114
+[]\OT1/cmr/m/n/10 def
+ []
+
+
+Overfull \hbox (166.22171pt too wide) in paragraph at lines 100--114
+\OT1/cmr/m/n/10 evaluate$[]\OML/cmm/m/it/10 rima[]odel\OT1/cmr/m/n/10 (\OML/cmm
+/m/it/10 X; arima[]rder\OT1/cmr/m/n/10 ) :
+ []
+
+
+Overfull \hbox (51.15538pt too wide) in paragraph at lines 100--114
+\OML/cmm/m/it/10 train[]ize \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (52.63393pt too wide) in paragraph at lines 100--114
+\OML/cmm/m/it/10 int\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 len\OT1/cmr/m/n/10 (\OML/
+cmm/m/it/10 X\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^C
+ []
+
+
+Overfull \hbox (76.3665pt too wide) in paragraph at lines 100--114
+\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 66)\OML/cmm/m/it/10 train; t
+est \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (22.40273pt too wide) in paragraph at lines 100--114
+\OML/cmm/m/it/10 X\OT1/cmr/m/n/10 [0 :
+ []
+
+
+Overfull \hbox (105.82465pt too wide) in paragraph at lines 100--114
+\OML/cmm/m/it/10 train[]ize\OT1/cmr/m/n/10 ]\OML/cmm/m/it/10 ; X\OT1/cmr/m/n/10
+ [\OML/cmm/m/it/10 train[]ize \OT1/cmr/m/n/10 :
+ []
+
+
+Overfull \hbox (45.73682pt too wide) in paragraph at lines 100--114
+\OT1/cmr/m/n/10 ]\OML/cmm/m/it/10 history \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (125.77957pt too wide) in paragraph at lines 100--114
+\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 xforxintrain\OT1/cmr/m/n/10 ]\OML/cmm/m/it/10
+ predictions \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (128.74818pt too wide) in paragraph at lines 100--114
+\OML/cmm/m/it/10 list\OT1/cmr/m/n/10 ()\OML/cmm/m/it/10 fortinrange\OT1/cmr/m/n
+/10 (\OML/cmm/m/it/10 len\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 test\OT1/cmr/m/n/10 
+)) :
+ []
+
+
+Overfull \hbox (37.22458pt too wide) in paragraph at lines 100--114
+\OML/cmm/m/it/10 model \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (114.22182pt too wide) in paragraph at lines 100--114
+\OML/cmm/m/it/10 ARIMA\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 history; order \OT1/cmr
+/m/n/10 =
+ []
+
+
+Overfull \hbox (104.63052pt too wide) in paragraph at lines 100--114
+\OML/cmm/m/it/10 arima[]rder\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 model[]it \OT1/cm
+r/m/n/10 =
+ []
+
+
+Overfull \hbox (75.28851pt too wide) in paragraph at lines 100--114
+\OML/cmm/m/it/10 model:fit\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 disp \OT1/cmr/m/n/1
+0 =
+ []
+
+
+Overfull \hbox (39.36461pt too wide) in paragraph at lines 100--114
+\OT1/cmr/m/n/10 0)\OML/cmm/m/it/10 yhat \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (344.06714pt too wide) in paragraph at lines 100--114
+\OML/cmm/m/it/10 model[]it:forecast\OT1/cmr/m/n/10 ()[0]\OML/cmm/m/it/10 predic
+tions:append\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 yhat\OT1/cmr/m/n/10 )\OML/cmm/m/i
+t/10 history:append\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 test\OT1/cmr/m/n/10 [\OML/
+cmm/m/it/10 t\OT1/cmr/m/n/10 ])\OML/cmm/m/it/10 error \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (264.08714pt too wide) in paragraph at lines 100--114
+\OML/cmm/m/it/10 mean[]bsolute[]ercentage[]rror\OT1/cmr/m/n/10 (\OML/cmm/m/it/1
+0 test; predictions\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 returnerror$ 
+ []
+
+
+Overfull \hbox (22.22226pt too wide) in paragraph at lines 115--116
+[]\OT1/cmr/m/n/10 Once
+ []
+
+
+Overfull \hbox (13.33334pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 de-
+ []
+
+
+Overfull \hbox (21.11116pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 fined
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (30.00005pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 needed
+ []
+
+
+Overfull \hbox (25.5556pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 meth-
+ []
+
+
+Overfull \hbox (17.5556pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 ods,
+ []
+
+
+Overfull \hbox (16.1667pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 this
+ []
+
+
+Overfull \hbox (16.50002pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 sys-
+ []
+
+
+Overfull \hbox (16.6667pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 tem
+ []
+
+
+Overfull \hbox (22.86115pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 reads
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (11.66669pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 in-
+ []
+
+
+Overfull \hbox (15.00005pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 put
+ []
+
+
+Overfull \hbox (31.72229pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 dataset
+ []
+
+
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 and
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 pa-
+ []
+
+
+Overfull \hbox (20.58337pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 ram-
+ []
+
+
+Overfull \hbox (7.77777pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 e-
+ []
+
+
+Overfull \hbox (12.25002pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 ter
+ []
+
+
+Overfull \hbox (13.33334pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 de-
+ []
+
+
+Overfull \hbox (22.77782pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 cided
+ []
+
+
+Overfull \hbox (10.55559pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 by
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (17.86113pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 user
+ []
+
+
+Overfull \hbox (13.0556pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 via
+ []
+
+
+Overfull \hbox (22.27782pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 shell.
+ []
+
+
+Overfull \hbox (19.44447pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 How
+ []
+
+
+Overfull \hbox (6.72223pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 is
+ []
+
+
+Overfull \hbox (18.11115pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 pos-
+ []
+
+
+Overfull \hbox (10.05556pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 si-
+ []
+
+
+Overfull \hbox (12.7778pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 ble
+ []
+
+
+Overfull \hbox (8.88892pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 to
+ []
+
+
+Overfull \hbox (15.61111pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 see,
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (35.13895pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 ARIMA
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 pa-
+ []
+
+
+Overfull \hbox (20.58337pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 ram-
+ []
+
+
+Overfull \hbox (7.77777pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 e-
+ []
+
+
+Overfull \hbox (16.19446pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 ters
+ []
+
+
+Overfull \hbox (19.50002pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 test-
+ []
+
+
+Overfull \hbox (13.33337pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 ing
+ []
+
+
+Overfull \hbox (17.33336pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 lists
+ []
+
+
+Overfull \hbox (13.36113pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 are
+ []
+
+
+Overfull \hbox (11.11113pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 al-
+ []
+
+
+Overfull \hbox (24.1945pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 ready
+ []
+
+
+Overfull \hbox (22.77783pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 given
+ []
+
+
+Overfull \hbox (8.33336pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 in
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (22.50005pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 code,
+ []
+
+
+Overfull \hbox (15.00005pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 but
+ []
+
+
+Overfull \hbox (13.38892pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 it's
+ []
+
+
+Overfull \hbox (16.72223pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 eas-
+ []
+
+
+Overfull \hbox (10.83337pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 ily
+ []
+
+
+Overfull \hbox (18.11115pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 pos-
+ []
+
+
+Overfull \hbox (10.05556pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 si-
+ []
+
+
+Overfull \hbox (12.7778pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 ble
+ []
+
+
+Overfull \hbox (8.88892pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 to
+ []
+
+
+Overfull \hbox (29.72227pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 change
+ []
+
+
+Overfull \hbox (9.44447pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 it,
+ []
+
+
+Overfull \hbox (8.33336pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 in
+ []
+
+
+Overfull \hbox (12.25002pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 or-
+ []
+
+
+Overfull \hbox (13.91669pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 der
+ []
+
+
+Overfull \hbox (8.88892pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 to
+ []
+
+
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 add
+ []
+
+
+Overfull \hbox (8.91669pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 or
+ []
+
+
+Overfull \hbox (11.69444pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 re-
+ []
+
+
+Overfull \hbox (22.50005pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 move
+ []
+
+
+Overfull \hbox (18.33336pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 con-
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 fig-
+ []
+
+
+Overfull \hbox (8.8889pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 u-
+ []
+
+
+Overfull \hbox (12.25002pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 ra-
+ []
+
+
+Overfull \hbox (21.16672pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 tions
+ []
+
+
+Overfull \hbox (26.1667pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 tested
+ []
+
+
+Overfull \hbox (18.36115pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 dur-
+ []
+
+
+Overfull \hbox (13.33337pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 ing
+ []
+
+
+Overfull \hbox (16.1667pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 this
+ []
+
+
+Overfull \hbox (16.50002pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 sys-
+ []
+
+
+Overfull \hbox (19.44449pt too wide) in paragraph at lines 115--116
+\OT1/cmr/m/n/10 tem. 
+ []
+
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.118 \begin{lstlisting}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.119 series = pd.read_
+                       csv("Datasets/"+sys.argv[1]+".csv",  usecols=[sys.arg...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.120 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (14.22224pt too wide) in paragraph at lines 117--120
+[]\OT1/cmr/m/n/10 It's
+ []
+
+
+Overfull \hbox (17.83336pt too wide) in paragraph at lines 117--120
+\OT1/cmr/m/n/10 sug-
+ []
+
+
+Overfull \hbox (27.27782pt too wide) in paragraph at lines 117--120
+\OT1/cmr/m/n/10 gested
+ []
+
+
+Overfull \hbox (18.33339pt too wide) in paragraph at lines 117--120
+\OT1/cmr/m/n/10 that
+ []
+
+
+Overfull \hbox (24.75003pt too wide) in paragraph at lines 117--120
+\OT1/cmr/m/n/10 warn-
+ []
+
+
+Overfull \hbox (13.33337pt too wide) in paragraph at lines 117--120
+\OT1/cmr/m/n/10 ing
+ []
+
+
+Overfull \hbox (10.2778pt too wide) in paragraph at lines 117--120
+\OT1/cmr/m/n/10 be
+ []
+
+
+Overfull \hbox (11.11113pt too wide) in paragraph at lines 117--120
+\OT1/cmr/m/n/10 ig-
+ []
+
+
+Overfull \hbox (24.47227pt too wide) in paragraph at lines 117--120
+\OT1/cmr/m/n/10 nored
+ []
+
+
+Overfull \hbox (11.97226pt too wide) in paragraph at lines 117--120
+\OT1/cmr/m/n/10 for
+ []
+
+
+Overfull \hbox (16.1667pt too wide) in paragraph at lines 117--120
+\OT1/cmr/m/n/10 this
+ []
+
+
+Overfull \hbox (19.72226pt too wide) in paragraph at lines 117--120
+\OT1/cmr/m/n/10 code
+ []
+
+
+Overfull \hbox (8.88892pt too wide) in paragraph at lines 117--120
+\OT1/cmr/m/n/10 to
+ []
+
+
+Overfull \hbox (23.05562pt too wide) in paragraph at lines 117--120
+\OT1/cmr/m/n/10 avoid
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 117--120
+\OT1/cmr/m/n/10 a
+ []
+
+
+Overfull \hbox (11.6667pt too wide) in paragraph at lines 117--120
+\OT1/cmr/m/n/10 lot
+ []
+
+
+Overfull \hbox (8.05559pt too wide) in paragraph at lines 117--120
+\OT1/cmr/m/n/10 of
+ []
+
+
+Overfull \hbox (21.72226pt too wide) in paragraph at lines 117--120
+\OT1/cmr/m/n/10 noise
+ []
+
+
+Overfull \hbox (20.30562pt too wide) in paragraph at lines 117--120
+\OT1/cmr/m/n/10 form
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 117--120
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (20.58339pt too wide) in paragraph at lines 117--120
+\OT1/cmr/m/n/10 runn
+ []
+
+
+Overfull \hbox (17.80559pt too wide) in paragraph at lines 117--120
+\OT1/cmr/m/n/10 pro-
+ []
+
+
+Overfull \hbox (12.22221pt too wide) in paragraph at lines 117--120
+\OT1/cmr/m/n/10 ce-
+ []
+
+
+Overfull \hbox (22.25005pt too wide) in paragraph at lines 117--120
+\OT1/cmr/m/n/10 dure.
+ []
+
+
+Overfull \hbox (11.72221pt too wide) in paragraph at lines 117--120
+\OT1/cmr/m/n/10 se-
+ []
+
+
+Overfull \hbox (15.08334pt too wide) in paragraph at lines 117--120
+\OT1/cmr/m/n/10 ries
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 117--120
+\OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (114.09964pt too wide) in paragraph at lines 117--120
+\OT1/cmr/m/n/10 pd.read$[]\OML/cmm/m/it/10 sv\OT1/cmr/m/n/10 ("\OML/cmm/m/it/10
+ Datasets=\OT1/cmr/m/n/10 " +
+ []
+
+
+Overfull \hbox (56.1575pt too wide) in paragraph at lines 117--120
+\OML/cmm/m/it/10 sys:argv\OT1/cmr/m/n/10 [1] +
+ []
+
+
+Overfull \hbox (74.11002pt too wide) in paragraph at lines 117--120
+\OT1/cmr/m/n/10 "\OML/cmm/m/it/10 :csv\OT1/cmr/m/n/10 "\OML/cmm/m/it/10 ; useco
+ls \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (57.82417pt too wide) in paragraph at lines 117--120
+\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 sys:argv\OT1/cmr/m/n/10 [2]])$ 
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.121 p_
+        values = [0, 1, 2, 4, 6, 8, 10]
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.124 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (44.39708pt too wide) in paragraph at lines 121--124
+[]\OT1/cmr/m/n/10 p$[]\OML/cmm/m/it/10 alues \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (116.26854pt too wide) in paragraph at lines 121--124
+\OT1/cmr/m/n/10 [0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/c
+mr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 4\OML/cmm/m/it/10 ; \OT1/cmr/m/n/
+10 6\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 8\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 10]\
+OML/cmm/m/it/10 d[]alues \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (82.1945pt too wide) in paragraph at lines 121--124
+\OT1/cmr/m/n/10 [0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/c
+mr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 3]\OML/cmm/m/it/10 q[]alues \OT1/
+cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (38.88887pt too wide) in paragraph at lines 121--124
+\OT1/cmr/m/n/10 [0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/c
+mr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 3]$ 
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.126 evaluate_
+               models(series.values, p_values, d_values, q_values)
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.127 \end{lstlisting}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.127 \end{lstlisting}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (145.22253pt too wide) in paragraph at lines 125--128
+[]\OT1/cmr/m/n/10 warnings.filterwarnings("ignore")
+ []
+
+
+Overfull \hbox (245.11586pt too wide) in paragraph at lines 125--128
+\OT1/cmr/m/n/10 evaluate$[]\OML/cmm/m/it/10 odels\OT1/cmr/m/n/10 (\OML/cmm/m/it
+/10 series:values; p[]alues; d[]alues; q[]alues\OT1/cmr/m/n/10 )$ 
+ []
+
+! Undefined control sequence.
+l.131 \section
+              {Prediction System}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<write> ...red_common_libraries' on page \thepage 
+                                                  \space undefined\on@line .
+l.133 ...orted above: [\ref{Pred_common_libraries}
+                                                  ] \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `Pred_common_libraries' on page  undefined on input li
+ne 133.
+
+! Undefined control sequence.
+<write> ...`Pred_common_methods' on page \thepage 
+                                                  \space undefined\on@line .
+l.134 ...eported above: [\ref{Pred_common_methods}
+                                                  ] \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `Pred_common_methods' on page  undefined on input line
+ 134.
+
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.135 \begin{lstlisting}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.136 series = pd.read_
+                       csv("Datasets/"+sys.argv[1]+".csv", usecols=[sys.argv...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.139 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (45.16676pt too wide) in paragraph at lines 131--139
+[]\OT1/cmr/m/n/10 Prediction
+ []
+
+
+Overfull \hbox (18.11115pt too wide) in paragraph at lines 131--139
+\OT1/cmr/m/n/10 Sys-
+ []
+
+
+Overfull \hbox (16.6667pt too wide) in paragraph at lines 131--139
+\OT1/cmr/m/n/10 tem
+ []
+
+
+Overfull \hbox (19.50003pt too wide) in paragraph at lines 131--139
+[]\OT1/cmr/m/n/10 This
+ []
+
+
+Overfull \hbox (16.50002pt too wide) in paragraph at lines 131--139
+\OT1/cmr/m/n/10 sys-
+ []
+
+
+Overfull \hbox (16.6667pt too wide) in paragraph at lines 131--139
+\OT1/cmr/m/n/10 tem
+ []
+
+
+Overfull \hbox (17.8889pt too wide) in paragraph at lines 131--139
+\OT1/cmr/m/n/10 uses
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 131--139
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (21.11115pt too wide) in paragraph at lines 131--139
+\OT1/cmr/m/n/10 com-
+ []
+
+
+Overfull \hbox (18.88895pt too wide) in paragraph at lines 131--139
+\OT1/cmr/m/n/10 mon
+ []
+
+
+Overfull \hbox (8.8889pt too wide) in paragraph at lines 131--139
+\OT1/cmr/m/n/10 li-
+ []
+
+
+Overfull \hbox (23.66673pt too wide) in paragraph at lines 131--139
+\OT1/cmr/m/n/10 brary
+ []
+
+
+Overfull \hbox (11.69444pt too wide) in paragraph at lines 131--139
+\OT1/cmr/m/n/10 re-
+ []
+
+
+Overfull \hbox (28.63896pt too wide) in paragraph at lines 131--139
+\OT1/cmr/m/n/10 ported
+ []
+
+
+Overfull \hbox (27.77785pt too wide) in paragraph at lines 131--139
+\OT1/cmr/m/n/10 above:
+ []
+
+
+Overfull \hbox (16.41663pt too wide) in paragraph at lines 131--139
+\OT1/cmr/m/n/10 [[]] 
+ []
+
+
+Overfull \hbox (19.50003pt too wide) in paragraph at lines 131--139
+\OT1/cmr/m/n/10 This
+ []
+
+
+Overfull \hbox (16.50002pt too wide) in paragraph at lines 131--139
+\OT1/cmr/m/n/10 sys-
+ []
+
+
+Overfull \hbox (16.6667pt too wide) in paragraph at lines 131--139
+\OT1/cmr/m/n/10 tem
+ []
+
+
+Overfull \hbox (17.8889pt too wide) in paragraph at lines 131--139
+\OT1/cmr/m/n/10 uses
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 131--139
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (21.11115pt too wide) in paragraph at lines 131--139
+\OT1/cmr/m/n/10 com-
+ []
+
+
+Overfull \hbox (18.88895pt too wide) in paragraph at lines 131--139
+\OT1/cmr/m/n/10 mon
+ []
+
+
+Overfull \hbox (8.8889pt too wide) in paragraph at lines 131--139
+\OT1/cmr/m/n/10 li-
+ []
+
+
+Overfull \hbox (23.66673pt too wide) in paragraph at lines 131--139
+\OT1/cmr/m/n/10 brary
+ []
+
+
+Overfull \hbox (11.69444pt too wide) in paragraph at lines 131--139
+\OT1/cmr/m/n/10 re-
+ []
+
+
+Overfull \hbox (28.63896pt too wide) in paragraph at lines 131--139
+\OT1/cmr/m/n/10 ported
+ []
+
+
+Overfull \hbox (27.77785pt too wide) in paragraph at lines 131--139
+\OT1/cmr/m/n/10 above:
+ []
+
+
+Overfull \hbox (16.41663pt too wide) in paragraph at lines 131--139
+\OT1/cmr/m/n/10 [[]] 
+ []
+
+
+Overfull \hbox (11.72221pt too wide) in paragraph at lines 131--139
+\OT1/cmr/m/n/10 se-
+ []
+
+
+Overfull \hbox (15.08334pt too wide) in paragraph at lines 131--139
+\OT1/cmr/m/n/10 ries
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 131--139
+\OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (114.09964pt too wide) in paragraph at lines 131--139
+\OT1/cmr/m/n/10 pd.read$[]\OML/cmm/m/it/10 sv\OT1/cmr/m/n/10 ("\OML/cmm/m/it/10
+ Datasets=\OT1/cmr/m/n/10 " +
+ []
+
+
+Overfull \hbox (56.1575pt too wide) in paragraph at lines 131--139
+\OML/cmm/m/it/10 sys:argv\OT1/cmr/m/n/10 [1] +
+ []
+
+
+Overfull \hbox (74.11002pt too wide) in paragraph at lines 131--139
+\OT1/cmr/m/n/10 "\OML/cmm/m/it/10 :csv\OT1/cmr/m/n/10 "\OML/cmm/m/it/10 ; useco
+ls \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (113.92264pt too wide) in paragraph at lines 131--139
+\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 sys:argv\OT1/cmr/m/n/10 [2]])\OML/cmm/m/it/10
+ yearInput \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (113.9665pt too wide) in paragraph at lines 131--139
+\OML/cmm/m/it/10 pd:read[]sv\OT1/cmr/m/n/10 ("\OML/cmm/m/it/10 Datasets=\OT1/cm
+r/m/n/10 " +
+ []
+
+
+Overfull \hbox (56.1575pt too wide) in paragraph at lines 131--139
+\OML/cmm/m/it/10 sys:argv\OT1/cmr/m/n/10 [1] +
+ []
+
+
+Overfull \hbox (74.11002pt too wide) in paragraph at lines 131--139
+\OT1/cmr/m/n/10 "\OML/cmm/m/it/10 :csv\OT1/cmr/m/n/10 "\OML/cmm/m/it/10 ; useco
+ls \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (74.50246pt too wide) in paragraph at lines 131--139
+\OT1/cmr/m/n/10 [0])\OML/cmm/m/it/10 realValues \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (146.65485pt too wide) in paragraph at lines 131--139
+\OML/cmm/m/it/10 pd:read[]sv\OT1/cmr/m/n/10 ("\OML/cmm/m/it/10 Results[]orecast
+=\OT1/cmr/m/n/10 " +
+ []
+
+
+Overfull \hbox (56.1575pt too wide) in paragraph at lines 131--139
+\OML/cmm/m/it/10 sys:argv\OT1/cmr/m/n/10 [1] +
+ []
+
+
+Overfull \hbox (22.77785pt too wide) in paragraph at lines 131--139
+\OT1/cmr/m/n/10 "\OML/cmm/m/it/10 =\OT1/cmr/m/n/10 " +
+ []
+
+
+Overfull \hbox (56.1575pt too wide) in paragraph at lines 131--139
+\OML/cmm/m/it/10 sys:argv\OT1/cmr/m/n/10 [1] +
+ []
+
+
+Overfull \hbox (17.26395pt too wide) in paragraph at lines 131--139
+\OT1/cmr/m/n/10 "[] +
+ []
+
+
+Overfull \hbox (56.1575pt too wide) in paragraph at lines 131--139
+\OML/cmm/m/it/10 sys:argv\OT1/cmr/m/n/10 [2] +
+ []
+
+
+Overfull \hbox (50.37396pt too wide) in paragraph at lines 131--139
+\OT1/cmr/m/n/10 "[]015\OML/cmm/m/it/10 :csv\OT1/cmr/m/n/10 ")$ 
+ []
+
+
+Overfull \hbox (66.05568pt too wide) in paragraph at lines 140--144
+[]\OT1/cmr/m/n/10 realValuesData
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 140--144
+\OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (11.69444pt too wide) in paragraph at lines 140--144
+\OT1/cmr/m/n/10 re-
+ []
+
+
+Overfull \hbox (11.11113pt too wide) in paragraph at lines 140--144
+\OT1/cmr/m/n/10 al-
+ []
+
+
+Overfull \hbox (17.7778pt too wide) in paragraph at lines 140--144
+\OT1/cmr/m/n/10 Val-
+ []
+
+
+Overfull \hbox (94.41689pt too wide) in paragraph at lines 140--144
+\OT1/cmr/m/n/10 ues[sys.argv[2]].values
+ []
+
+
+Overfull \hbox (11.69444pt too wide) in paragraph at lines 140--144
+\OT1/cmr/m/n/10 re-
+ []
+
+
+Overfull \hbox (11.11113pt too wide) in paragraph at lines 140--144
+\OT1/cmr/m/n/10 al-
+ []
+
+
+Overfull \hbox (17.7778pt too wide) in paragraph at lines 140--144
+\OT1/cmr/m/n/10 Val-
+ []
+
+
+Overfull \hbox (17.27779pt too wide) in paragraph at lines 140--144
+\OT1/cmr/m/n/10 ues-
+ []
+
+
+Overfull \hbox (21.52783pt too wide) in paragraph at lines 140--144
+\OT1/cmr/m/n/10 Data
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 140--144
+\OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (11.69444pt too wide) in paragraph at lines 140--144
+\OT1/cmr/m/n/10 re-
+ []
+
+
+Overfull \hbox (11.11113pt too wide) in paragraph at lines 140--144
+\OT1/cmr/m/n/10 al-
+ []
+
+
+Overfull \hbox (17.7778pt too wide) in paragraph at lines 140--144
+\OT1/cmr/m/n/10 Val-
+ []
+
+
+Overfull \hbox (17.27779pt too wide) in paragraph at lines 140--144
+\OT1/cmr/m/n/10 ues-
+ []
+
+
+Overfull \hbox (95.1947pt too wide) in paragraph at lines 140--144
+\OT1/cmr/m/n/10 Data.astype('float32')
+ []
+
+
+Overfull \hbox (31.72229pt too wide) in paragraph at lines 140--144
+\OT1/cmr/m/n/10 dataset
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 140--144
+\OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (11.72221pt too wide) in paragraph at lines 140--144
+\OT1/cmr/m/n/10 se-
+ []
+
+
+Overfull \hbox (44.30563pt too wide) in paragraph at lines 140--144
+\OT1/cmr/m/n/10 ries.values
+ []
+
+
+Overfull \hbox (31.72229pt too wide) in paragraph at lines 140--144
+\OT1/cmr/m/n/10 dataset
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 140--144
+\OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (105.38916pt too wide) in paragraph at lines 140--144
+\OT1/cmr/m/n/10 dataset.astype('float32') 
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.145 p_
+        values = int(sys.argv[4])
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.150 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (44.39708pt too wide) in paragraph at lines 145--150
+[]\OT1/cmr/m/n/10 p$[]\OML/cmm/m/it/10 alues \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (113.26247pt too wide) in paragraph at lines 145--150
+\OML/cmm/m/it/10 int\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 sys:argv\OT1/cmr/m/n/10 [
+4])\OML/cmm/m/it/10 d[]alues \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (112.52173pt too wide) in paragraph at lines 145--150
+\OML/cmm/m/it/10 int\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 sys:argv\OT1/cmr/m/n/10 [
+5])\OML/cmm/m/it/10 q[]alues \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (104.0587pt too wide) in paragraph at lines 145--150
+\OML/cmm/m/it/10 int\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 sys:argv\OT1/cmr/m/n/10 [
+6])\OML/cmm/m/it/10 order \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (276.84259pt too wide) in paragraph at lines 145--150
+\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 p[]alues; d[]alues; q[]alues\OT1/cmr/m/n/10 )
+\OML/cmm/m/it/10 warnings:filterwarnings\OT1/cmr/m/n/10 ("\OML/cmm/m/it/10 igno
+re\OT1/cmr/m/n/10 ")$ 
+ []
+
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.151 \end{lstlisting}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.152 \begin{lstlisting}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.155 model_
+            fit = model.fit(disp=0)
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.157 \end{lstlisting}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.157 \end{lstlisting}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.158 \begin{lstlisting}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.162 mape_
+           list = []
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{lstlisting}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.169 \end{lstlisting}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (26.38896pt too wide) in paragraph at lines 154--170
+[]\OT1/cmr/m/n/10 model
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 154--170
+\OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (73.52792pt too wide) in paragraph at lines 154--170
+\OT1/cmr/m/n/10 ARIMA(dataset,
+ []
+
+
+Overfull \hbox (12.25002pt too wide) in paragraph at lines 154--170
+\OT1/cmr/m/n/10 or-
+ []
+
+
+Overfull \hbox (48.41676pt too wide) in paragraph at lines 154--170
+\OT1/cmr/m/n/10 der=order)
+ []
+
+
+Overfull \hbox (49.1848pt too wide) in paragraph at lines 154--170
+\OT1/cmr/m/n/10 model$[]\OML/cmm/m/it/10 it \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (75.28851pt too wide) in paragraph at lines 154--170
+\OML/cmm/m/it/10 model:fit\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 disp \OT1/cmr/m/n/1
+0 =
+ []
+
+
+Overfull \hbox (57.62161pt too wide) in paragraph at lines 154--170
+\OT1/cmr/m/n/10 0)\OML/cmm/m/it/10 forecast \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (167.21707pt too wide) in paragraph at lines 154--170
+\OML/cmm/m/it/10 model[]it:forecast\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 int\OT1/cm
+r/m/n/10 (\OML/cmm/m/it/10 sys:argv\OT1/cmr/m/n/10 [3]))[0]$
+ []
+
+
+Overfull \hbox (11.66669pt too wide) in paragraph at lines 154--170
+\OT1/cmr/m/n/10 in-
+ []
+
+
+Overfull \hbox (15.27782pt too wide) in paragraph at lines 154--170
+\OT1/cmr/m/n/10 dex
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 154--170
+\OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 154--170
+\OT1/cmr/m/n/10 []
+ []
+
+
+Overfull \hbox (11.97226pt too wide) in paragraph at lines 154--170
+\OT1/cmr/m/n/10 for
+ []
+
+
+Overfull \hbox (2.77779pt too wide) in paragraph at lines 154--170
+\OT1/cmr/m/n/10 i
+ []
+
+
+Overfull \hbox (8.33336pt too wide) in paragraph at lines 154--170
+\OT1/cmr/m/n/10 in
+ []
+
+
+Overfull \hbox (120.44476pt too wide) in paragraph at lines 154--170
+\OT1/cmr/m/n/10 range(1,int(sys.argv[3])+1):
+ []
+
+
+Overfull \hbox (11.66669pt too wide) in paragraph at lines 154--170
+\OT1/cmr/m/n/10 in-
+ []
+
+
+Overfull \hbox (106.16693pt too wide) in paragraph at lines 154--170
+\OT1/cmr/m/n/10 dex.append(len(dataset)
+ []
+
+
+Overfull \hbox (14.44449pt too wide) in paragraph at lines 154--170
+\OT1/cmr/m/n/10 +i)
+ []
+
+
+Overfull \hbox (48.97989pt too wide) in paragraph at lines 154--170
+\OT1/cmr/m/n/10 mape$[]\OML/cmm/m/it/10 ist \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (142.49127pt too wide) in paragraph at lines 154--170
+\OT1/cmr/m/n/10 []\OML/cmm/m/it/10 foriinrange\OT1/cmr/m/n/10 (0\OML/cmm/m/it/1
+0 ; len\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 forecast\OT1/cmr/m/n/10 )) :
+ []
+
+
+Overfull \hbox (385.09169pt too wide) in paragraph at lines 154--170
+\OML/cmm/m/it/10 mape[]ist:append\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 mean[]bsolut
+e[]ercentage[]rror\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 realValuesData\OT1/cmr/m/n/
+10 [\OML/cmm/m/it/10 i\OT1/cmr/m/n/10 ]\OML/cmm/m/it/10 ; forecast\OT1/cmr/m/n/
+10 [\OML/cmm/m/it/10 i\OT1/cmr/m/n/10 ]))\OML/cmm/m/it/10 rows \OT1/cmr/m/n/10 
+=
+ []
+
+
+Overfull \hbox (225.21559pt too wide) in paragraph at lines 154--170
+\OML/cmm/m/it/10 zip\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 index; realValuesData; fo
+recast; mape[]ist\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 f \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (120.2744pt too wide) in paragraph at lines 154--170
+\OML/cmm/m/it/10 open\OT1/cmr/m/n/10 ("\OML/cmm/m/it/10 Results[]orecast=\OT1/c
+mr/m/n/10 " +
+ []
+
+
+Overfull \hbox (56.1575pt too wide) in paragraph at lines 154--170
+\OML/cmm/m/it/10 sys:argv\OT1/cmr/m/n/10 [1] +
+ []
+
+
+Overfull \hbox (22.77785pt too wide) in paragraph at lines 154--170
+\OT1/cmr/m/n/10 "\OML/cmm/m/it/10 =\OT1/cmr/m/n/10 " +
+ []
+
+
+Overfull \hbox (56.1575pt too wide) in paragraph at lines 154--170
+\OML/cmm/m/it/10 sys:argv\OT1/cmr/m/n/10 [1] +
+ []
+
+
+Overfull \hbox (17.26395pt too wide) in paragraph at lines 154--170
+\OT1/cmr/m/n/10 "[] +
+ []
+
+
+Overfull \hbox (56.1575pt too wide) in paragraph at lines 154--170
+\OML/cmm/m/it/10 sys:argv\OT1/cmr/m/n/10 [2] +
+ []
+
+
+Overfull \hbox (275.65134pt too wide) in paragraph at lines 154--170
+\OT1/cmr/m/n/10 "[]\OML/cmm/m/it/10 uturePred:csv\OT1/cmr/m/n/10 "\OML/cmm/m/it
+/10 ;[] w[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 csv:writer\OT1/cmr/m/n/10 (\OML/cm
+m/m/it/10 f\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 :writerows\OT1/cmr/m/n/10 (\OML/cm
+m/m/it/10 rows\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 f:close\OT1/cmr/m/n/10 ()$ 
+ []
+
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.173 \begin{lstlisting}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.174 realValues= pd.read_
+                          csv("Results_Forecast/"+sys.argv[1]+"/"+sys.argv[1...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.176 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (52.30565pt too wide) in paragraph at lines 174--176
+[]\OT1/cmr/m/n/10 realValues=
+ []
+
+
+Overfull \hbox (146.78798pt too wide) in paragraph at lines 174--176
+\OT1/cmr/m/n/10 pd.read$[]\OML/cmm/m/it/10 sv\OT1/cmr/m/n/10 ("\OML/cmm/m/it/10
+ Results[]orecast=\OT1/cmr/m/n/10 " +
+ []
+
+
+Overfull \hbox (56.1575pt too wide) in paragraph at lines 174--176
+\OML/cmm/m/it/10 sys:argv\OT1/cmr/m/n/10 [1] +
+ []
+
+
+Overfull \hbox (22.77785pt too wide) in paragraph at lines 174--176
+\OT1/cmr/m/n/10 "\OML/cmm/m/it/10 =\OT1/cmr/m/n/10 " +
+ []
+
+
+Overfull \hbox (56.1575pt too wide) in paragraph at lines 174--176
+\OML/cmm/m/it/10 sys:argv\OT1/cmr/m/n/10 [1] +
+ []
+
+
+Overfull \hbox (17.26395pt too wide) in paragraph at lines 174--176
+\OT1/cmr/m/n/10 "[] +
+ []
+
+
+Overfull \hbox (56.1575pt too wide) in paragraph at lines 174--176
+\OML/cmm/m/it/10 sys:argv\OT1/cmr/m/n/10 [2] +
+ []
+
+
+Overfull \hbox (131.27376pt too wide) in paragraph at lines 174--176
+\OT1/cmr/m/n/10 "[]\OML/cmm/m/it/10 uturePred:csv\OT1/cmr/m/n/10 "\OML/cmm/m/it
+/10 ; index[]ol \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (57.66672pt too wide) in paragraph at lines 174--176
+\OT1/cmr/m/n/10 [0]\OML/cmm/m/it/10 ; usecols \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (86.45154pt too wide) in paragraph at lines 174--176
+\OT1/cmr/m/n/10 [0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 1])\OML/cmm/m/it/10 predFu
+ture \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (146.65485pt too wide) in paragraph at lines 174--176
+\OML/cmm/m/it/10 pd:read[]sv\OT1/cmr/m/n/10 ("\OML/cmm/m/it/10 Results[]orecast
+=\OT1/cmr/m/n/10 " +
+ []
+
+
+Overfull \hbox (56.1575pt too wide) in paragraph at lines 174--176
+\OML/cmm/m/it/10 sys:argv\OT1/cmr/m/n/10 [1] +
+ []
+
+
+Overfull \hbox (22.77785pt too wide) in paragraph at lines 174--176
+\OT1/cmr/m/n/10 "\OML/cmm/m/it/10 =\OT1/cmr/m/n/10 " +
+ []
+
+
+Overfull \hbox (56.1575pt too wide) in paragraph at lines 174--176
+\OML/cmm/m/it/10 sys:argv\OT1/cmr/m/n/10 [1] +
+ []
+
+
+Overfull \hbox (17.26395pt too wide) in paragraph at lines 174--176
+\OT1/cmr/m/n/10 "[] +
+ []
+
+
+Overfull \hbox (56.1575pt too wide) in paragraph at lines 174--176
+\OML/cmm/m/it/10 sys:argv\OT1/cmr/m/n/10 [2] +
+ []
+
+
+Overfull \hbox (131.27376pt too wide) in paragraph at lines 174--176
+\OT1/cmr/m/n/10 "[]\OML/cmm/m/it/10 uturePred:csv\OT1/cmr/m/n/10 "\OML/cmm/m/it
+/10 ; index[]ol \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (57.66672pt too wide) in paragraph at lines 174--176
+\OT1/cmr/m/n/10 [0]\OML/cmm/m/it/10 ; usecols \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (23.88892pt too wide) in paragraph at lines 174--176
+\OT1/cmr/m/n/10 [0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2])$ 
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.181 ax.legend(loc='upper center', bbox_
+                                         to_anchor=(0.5, 1.05), ncol=3, fanc...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.182 \end{lstlisting}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.182 \end{lstlisting}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: Environment lstlisting undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183 \begin{lstlisting}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (10.27782pt too wide) in paragraph at lines 177--196
+[]\OT1/cmr/m/n/10 ax
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 py-
+ []
+
+
+Overfull \hbox (75.05577pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 plot.subplot(111)
+ []
+
+
+Overfull \hbox (81.47241pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 ax.plot(realValues,
+ []
+
+
+Overfull \hbox (17.77783pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 "g",
+ []
+
+
+Overfull \hbox (11.11113pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 la-
+ []
+
+
+Overfull \hbox (43.19453pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 bel='Real
+ []
+
+
+Overfull \hbox (20.00006pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 2015
+ []
+
+
+Overfull \hbox (17.7778pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 Val-
+ []
+
+
+Overfull \hbox (19.50003pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 ues',
+ []
+
+
+Overfull \hbox (57.22237pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 linewidth=2)
+ []
+
+
+Overfull \hbox (85.47244pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 ax.plot(predFuture,
+ []
+
+
+Overfull \hbox (16.69449pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 "r",
+ []
+
+
+Overfull \hbox (11.11113pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 la-
+ []
+
+
+Overfull \hbox (68.77794pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 bel='Prediction
+ []
+
+
+Overfull \hbox (20.00006pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 2015
+ []
+
+
+Overfull \hbox (15.83337pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 val-
+ []
+
+
+Overfull \hbox (19.50003pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 ues',
+ []
+
+
+Overfull \hbox (57.22237pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 linewidth=2)
+ []
+
+
+Overfull \hbox (60.4168pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 ax.plot(series,
+ []
+
+
+Overfull \hbox (18.33339pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 "b",
+ []
+
+
+Overfull \hbox (11.11113pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 la-
+ []
+
+
+Overfull \hbox (57.86124pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 bel='Historic
+ []
+
+
+Overfull \hbox (15.83337pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 val-
+ []
+
+
+Overfull \hbox (19.50003pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 ues',
+ []
+
+
+Overfull \hbox (57.22237pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 linewidth=2)
+ []
+
+
+Overfull \hbox (93.08357pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 ax.legend(loc='upper
+ []
+
+
+Overfull \hbox (17.77779pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 cen-
+ []
+
+
+Overfull \hbox (17.80559pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 ter',
+ []
+
+
+Overfull \hbox (70.87828pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 bbox$[]\OML/cmm/m/it/10 o[]nchor \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (76.1355pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 (0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 5\OML/cmm/m/it/10 ; \OT1/cm
+r/m/n/10 1\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 05)\OML/cmm/m/it/10 ; ncol \OT1/cmr
+/m/n/10 =
+ []
+
+
+Overfull \hbox (61.70375pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 3\OML/cmm/m/it/10 ; fancybox \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (70.6181pt too wide) in paragraph at lines 177--196
+\OML/cmm/m/it/10 True; shadow \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (75.71494pt too wide) in paragraph at lines 177--196
+\OML/cmm/m/it/10 True; fontsize \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (13.88893pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 20)$
+ []
+
+
+Overfull \hbox (22.30559pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 years
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 []
+ []
+
+
+Overfull \hbox (3.05557pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 j
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 0
+ []
+
+
+Overfull \hbox (11.97226pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 for
+ []
+
+
+Overfull \hbox (2.77779pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 i
+ []
+
+
+Overfull \hbox (8.33336pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 in
+ []
+
+
+Overfull \hbox (97.55579pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 range(len(yearInput)):
+ []
+
+
+Overfull \hbox (5.83336pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 if
+ []
+
+
+Overfull \hbox (31.38899pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 j==11:
+ []
+
+
+Overfull \hbox (155.44482pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 years.append(yearInput.values[i][0])
+ []
+
+
+Overfull \hbox (15.83339pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 j=0
+ []
+
+
+Overfull \hbox (18.3889pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 else:
+ []
+
+
+Overfull \hbox (26.66676pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 j=j+1
+ []
+
+
+Overfull \hbox (5.2778pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 x
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (35.58342pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 range(0,
+ []
+
+
+Overfull \hbox (96.19467pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 len(yearInput.values))
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 py-
+ []
+
+
+Overfull \hbox (128.41702pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 plot.xticks(np.arange(min(x),
+ []
+
+
+Overfull \hbox (47.22238pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 max(x)+1,
+ []
+
+
+Overfull \hbox (24.44452pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 12.0),
+ []
+
+
+Overfull \hbox (26.19449pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 years)
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 py-
+ []
+
+
+Overfull \hbox (87.86133pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 plot.xlabel("Years")
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 py-
+ []
+
+
+Overfull \hbox (108.47253pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 plot.ylabel(sys.argv[2]+"
+ []
+
+
+Overfull \hbox (8.33336pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 in
+ []
+
+
+Overfull \hbox (61.25017pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 "+sys.argv[1],
+ []
+
+
+Overfull \hbox (20.5556pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 font-
+ []
+
+
+Overfull \hbox (37.27785pt too wide) in paragraph at lines 177--196
+\OT1/cmr/m/n/10 size=20) 
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.197 manager = pyplot.get_
+                           current_fig_manager()
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.199 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (37.25009pt too wide) in paragraph at lines 197--199
+[]\OT1/cmr/m/n/10 manager
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 197--199
+\OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (344.43282pt too wide) in paragraph at lines 197--199
+\OT1/cmr/m/n/10 pyplot.get$[]\OML/cmm/m/it/10 urrent[]ig[]anager\OT1/cmr/m/n/10
+ ()\OML/cmm/m/it/10 manager:resize\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 ^^C\OML/cmm
+/m/it/10 manager:window:maxsize\OT1/cmr/m/n/10 ())$ 
+ []
+
+
+Overfull \hbox (59.77792pt too wide) in paragraph at lines 200--201
+[]\OT1/cmr/m/n/10 pyplot.show() 
+ []
+
+
+! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.202 \end{lstlisting}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
+! Emergency stop.
+<*> D.tex
+         
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 21 strings out of 493030
+ 302 string characters out of 6136261
+ 76098 words of memory out of 5000000
+ 3655 multiletter control sequences out of 15000+600000
+ 3948 words of font info for 15 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 24i,5n,19p,403b,165s stack positions out of 5000i,500n,10000p,200000b,80000s
+Output written on D.dvi (1 page, 640 bytes).

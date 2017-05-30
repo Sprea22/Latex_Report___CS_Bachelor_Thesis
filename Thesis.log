@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.3)  30 MAY 2017 11:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.3)  30 MAY 2017 18:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -859,35 +859,32 @@ File: t1txtt.fd 2000/12/15 v3.1
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 ))
-(./Settings/Administrative.tex) (./Thesis.aux
-
-LaTeX Warning: Label `fig: Data_science' multiply defined.
-
-)
+(./Settings/Administrative.tex) (./Thesis.aux)
 \openout1 = `Thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
- (/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 )
 Package caption Info: rotating package is loaded.
@@ -909,7 +906,7 @@ Package caption Info: End \AtBeginDocument code.
 )
 \c@lstlisting=\count153
 \AtBeginShipoutBox=\box64
-Package hyperref Info: Link coloring ON on input line 39.
+Package hyperref Info: Link coloring ON on input line 40.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -918,9 +915,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count154
 )
-LaTeX Info: Redefining \ref on input line 39.
-LaTeX Info: Redefining \pageref on input line 39.
-LaTeX Info: Redefining \nameref on input line 39.
+LaTeX Info: Redefining \ref on input line 40.
+LaTeX Info: Redefining \pageref on input line 40.
+LaTeX Info: Redefining \nameref on input line 40.
 
 (./Frontpages/Fixed/Title.tex
 ------------------------------------------------------------------------------
@@ -971,22 +968,34 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ------------------------------------------------------------------------------
  List of Figures
 ------------------------------------------------------------------------------
-(./Thesis.lof)
+(./Thesis.lof
+Overfull \hbox (0.6351pt too wide) in paragraph at lines 39--39
+ [][] [][][]\OT1/cmr/m/n/10.95 Correlation ma-trix be-tween all the pa-ram-e-te
+rs of the dataset about Horda- 
+ []
+
+)
 \tf@lof=\write4
 \openout4 = `Thesis.lof'.
 
  [6
 
 
-]) (./Frontpages/Fixed/ListOfTables.tex
+] [7]) (./Frontpages/Fixed/ListOfTables.tex
 ------------------------------------------------------------------------------
  List of Tables
 ------------------------------------------------------------------------------
-(./Thesis.lot)
+(./Thesis.lot
+Overfull \hbox (1.85057pt too wide) in paragraph at lines 16--16
+ \OT1/cmr/m/n/10.95 dic-tion, with the cor-re-spond-ing MAPE for the coun-ties:
+ Finn-mark, Horda- 
+ []
+
+)
 \tf@lot=\write5
 \openout5 = `Thesis.lot'.
 
- [7
+ [8
 
 
 
@@ -994,7 +1003,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ------------------------------------------------------------------------------
  Abbreviations
 ------------------------------------------------------------------------------
-[8
+[9
 
 
 
@@ -1020,7 +1029,7 @@ Chapter 2.
 ------------------------------------------------------------------------------
  2 Background Theory
 ------------------------------------------------------------------------------
-<Files/Data_Science_Concept.pdf, id=308, 597.50829pt x 845.0471pt>
+<Files/Data_Science_Concept.pdf, id=343, 597.50829pt x 845.0471pt>
 File: Files/Data_Science_Concept.pdf Graphic file (type pdf)
 
 <use Files/Data_Science_Concept.pdf>
@@ -1034,14 +1043,14 @@ Overfull \hbox (2.43332pt too wide) in paragraph at lines 11--30
 [6
 
  <./Files/Data_Science_Concept.pdf>]
-<Files/Data_Science_Process.pdf, id=325, 751.80875pt x 599.23875pt>
+<Files/Data_Science_Process.pdf, id=360, 751.80875pt x 599.23875pt>
 File: Files/Data_Science_Process.pdf Graphic file (type pdf)
 
 <use Files/Data_Science_Process.pdf>
 Package pdftex.def Info: Files/Data_Science_Process.pdf used on input line 45.
 (pdftex.def)             Requested size: 500.9664pt x 361.39186pt.
  [7 <./Files/Data_Science_Process.pdf>]
-[8] [9] <Files/Counties.jpeg, id=358, 2326.6925pt x 1246.6575pt>
+[8] [9] <Files/Counties.jpeg, id=392, 2326.6925pt x 1246.6575pt>
 File: Files/Counties.jpeg Graphic file (type jpg)
 
 <use Files/Counties.jpeg>
@@ -1072,13 +1081,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 75--76
 
  []
 
-[14] <Files/Dataset.pdf, id=396, 733.74126pt x 463.7325pt>
+[14] <Files/Dataset.pdf, id=429, 733.74126pt x 463.7325pt>
 File: Files/Dataset.pdf Graphic file (type pdf)
 
 <use Files/Dataset.pdf>
 Package pdftex.def Info: Files/Dataset.pdf used on input line 131.
 (pdftex.def)             Requested size: 417.47307pt x 263.84909pt.
- <Files/Dataset2.pdf, id=397, 733.74126pt x 463.7325pt>
+ <Files/Dataset2.pdf, id=430, 733.74126pt x 463.7325pt>
 File: Files/Dataset2.pdf Graphic file (type pdf)
 
 <use Files/Dataset2.pdf>
@@ -1093,7 +1102,7 @@ Chapter 4.
 ------------------------------------------------------------------------------
 [18
 
-] <Files/SystemDesign.pdf, id=430, 739.76375pt x 319.1925pt>
+] <Files/SystemDesign.pdf, id=464, 739.76375pt x 319.1925pt>
 File: Files/SystemDesign.pdf Graphic file (type pdf)
 
 <use Files/SystemDesign.pdf>
@@ -1106,28 +1115,28 @@ Chapter 5.
 ------------------------------------------------------------------------------
 [20
 
-] [21] <Files/Cages_Total.pdf, id=451, 578.16pt x 433.62pt>
+] [21] <Files/Cages_Total.pdf, id=485, 578.16pt x 433.62pt>
 File: Files/Cages_Total.pdf Graphic file (type pdf)
 
 <use Files/Cages_Total.pdf>
 Package pdftex.def Info: Files/Cages_Total.pdf used on input line 67.
 (pdftex.def)             Requested size: 375.7232pt x 281.79012pt.
  [22 <./Files/Cages_Total.pdf>]
-<Files/Cages_Years.pdf, id=495, 578.16pt x 433.62pt>
+<Files/Cages_Years.pdf, id=528, 578.16pt x 433.62pt>
 File: Files/Cages_Years.pdf Graphic file (type pdf)
 
 <use Files/Cages_Years.pdf>
 Package pdftex.def Info: Files/Cages_Years.pdf used on input line 97.
 (pdftex.def)             Requested size: 375.7232pt x 281.79012pt.
  [23 <./Files/Cages_Years.pdf>]
-<Files/Cages_Months_Matrix.pdf, id=550, 578.16pt x 433.62pt>
+<Files/Cages_Months_Matrix.pdf, id=583, 578.16pt x 433.62pt>
 File: Files/Cages_Months_Matrix.pdf Graphic file (type pdf)
 
 <use Files/Cages_Months_Matrix.pdf>
 Package pdftex.def Info: Files/Cages_Months_Matrix.pdf used on input line 129.
 (pdftex.def)             Requested size: 375.7232pt x 281.79012pt.
  [24 <./Files/Cages_Months_Matrix.pdf>]
-<Files/Cages_Years_Matrix.pdf, id=614, 578.16pt x 433.62pt>
+<Files/Cages_Years_Matrix.pdf, id=647, 578.16pt x 433.62pt>
 File: Files/Cages_Years_Matrix.pdf Graphic file (type pdf)
 
 <use Files/Cages_Years_Matrix.pdf>
@@ -1153,7 +1162,7 @@ File: Files/Cages_Months_Matrix.pdf Graphic file (type pdf)
 Package pdftex.def Info: Files/Cages_Months_Matrix.pdf used on input line 225.
 (pdftex.def)             Requested size: 208.73653pt x 156.553pt.
  [27]
-[28] <Files/Total_Dataset_Matrix.pdf, id=692, 578.16pt x 433.62pt>
+[28] <Files/Total_Dataset_Matrix.pdf, id=725, 578.16pt x 433.62pt>
 File: Files/Total_Dataset_Matrix.pdf Graphic file (type pdf)
 
 <use Files/Total_Dataset_Matrix.pdf>
@@ -1161,7 +1170,7 @@ Package pdftex.def Info: Files/Total_Dataset_Matrix.pdf used on input line 270.
 
 (pdftex.def)             Requested size: 354.85464pt x 266.13547pt.
  [29 <./Files/Total_Dataset_Matrix.pdf>]
-<Files/Norm_Ang_Coeffs.pdf, id=751, 578.16pt x 433.62pt>
+<Files/Norm_Ang_Coeffs.pdf, id=784, 578.16pt x 433.62pt>
 File: Files/Norm_Ang_Coeffs.pdf Graphic file (type pdf)
 
 <use Files/Norm_Ang_Coeffs.pdf>
@@ -1177,176 +1186,232 @@ Underfull \hbox (badness 10000) in paragraph at lines 313--329
 
  []
 
-[31] <Files/Norway-averageTemp.jpeg, id=813, 2326.6925pt x 1281.78876pt>
-File: Files/Norway-averageTemp.jpeg Graphic file (type jpg)
+[31] <Files/norway_averageSeaTemp.jpeg, id=846, 2326.6925pt x 1246.6575pt>
+File: Files/norway_averageSeaTemp.jpeg Graphic file (type jpg)
 
-<use Files/Norway-averageTemp.jpeg>
-Package pdftex.def Info: Files/Norway-averageTemp.jpeg used on input line 360.
-(pdftex.def)             Requested size: 584.45975pt x 286.23679pt.
-) (./Chapters/Predictions.tex [32 <./Files/Norway-averageTemp.jpeg>]
+<use Files/norway_averageSeaTemp.jpeg>
+Package pdftex.def Info: Files/norway_averageSeaTemp.jpeg used on input line 36
+0.
+(pdftex.def)             Requested size: 584.45975pt x 277.41219pt.
+) (./Chapters/Predictions.tex [32 <./Files/norway_averageSeaTemp.jpeg>]
 Chapter 6.
 ------------------------------------------------------------------------------
  6 Prediction System
 ------------------------------------------------------------------------------
 [33
 
-] [34] [35] [36] [37]
-<Files/Finnmark-feedConsumption_pred.pdf, id=872, 1675.76062pt x 897.95473pt>
+]
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+
+ []
+
+[34]
+Underfull \hbox (badness 10000) in paragraph at lines 42--46
+
+ []
+
+[35] [36]
+<Files/Finnmark-feedConsumption_pred.pdf, id=904, 1675.76062pt x 897.95473pt>
 File: Files/Finnmark-feedConsumption_pred.pdf Graphic file (type pdf)
 
 <use Files/Finnmark-feedConsumption_pred.pdf>
 Package pdftex.def Info: Files/Finnmark-feedConsumption_pred.pdf used on input 
-line 181.
+line 112.
 (pdftex.def)             Requested size: 542.71625pt x 290.8042pt.
- [38 <./Files/Finnmark-feedConsumption_pred.pdf>]) [39
+ [37 <./Files/Finnmark-feedConsumption_pred.pdf>]) [38
 
 ] (./Chapters/Results_Overview.tex
 Chapter 7.
 ------------------------------------------------------------------------------
  7 Results Overview
 ------------------------------------------------------------------------------
+[39
 
-Underfull \hbox (badness 10000) in paragraph at lines 7--23
-
+]
+Overfull \hbox (1.88199pt too wide) in paragraph at lines 36--37
+[]\OT1/cmr/m/n/10.95 Document con-tain-ing the cor-re-la-tion co-ef-fi-cients v
+al-ues be-tween dif-fer-ent years
  []
 
-[40
 
-]) (./Chapters/Evaluations.tex [41]
+Overfull \hbox (12.49742pt too wide) in paragraph at lines 37--38
+[]\OT1/cmr/m/n/10.95 Document con-tain-ing the cor-re-la-tion co-ef-fi-cients v
+al-ues be-tween dif-fer-ent months
+ []
+
+[40] <Files/Norway0714_feedConsumption_years.pdf, id=980, 578.16pt x 433.62pt>
+File: Files/Norway0714_feedConsumption_years.pdf Graphic file (type pdf)
+
+<use Files/Norway0714_feedConsumption_years.pdf>
+Package pdftex.def Info: Files/Norway0714_feedConsumption_years.pdf used on inp
+ut line 71.
+(pdftex.def)             Requested size: 292.22987pt x 219.17155pt.
+
+<Files/Finnmark_feedConsumption_years.pdf, id=982, 578.16pt x 433.62pt>
+File: Files/Finnmark_feedConsumption_years.pdf Graphic file (type pdf)
+
+<use Files/Finnmark_feedConsumption_years.pdf>
+Package pdftex.def Info: Files/Finnmark_feedConsumption_years.pdf used on input
+ line 87.
+(pdftex.def)             Requested size: 208.73653pt x 156.553pt.
+
+<Files/Troms_feedConsumption_years.pdf, id=984, 578.16pt x 433.62pt>
+File: Files/Troms_feedConsumption_years.pdf Graphic file (type pdf)
+
+<use Files/Troms_feedConsumption_years.pdf>
+Package pdftex.def Info: Files/Troms_feedConsumption_years.pdf used on input li
+ne 87.
+(pdftex.def)             Requested size: 208.73653pt x 156.553pt.
+
+<Files/Nordland_feedConsumption_years.pdf, id=986, 578.16pt x 433.62pt>
+File: Files/Nordland_feedConsumption_years.pdf Graphic file (type pdf)
+
+<use Files/Nordland_feedConsumption_years.pdf>
+Package pdftex.def Info: Files/Nordland_feedConsumption_years.pdf used on input
+ line 104.
+(pdftex.def)             Requested size: 208.73653pt x 156.553pt.
+
+<Files/Hordaland_feedConsumption_years.pdf, id=988, 578.16pt x 433.62pt>
+File: Files/Hordaland_feedConsumption_years.pdf Graphic file (type pdf)
+
+<use Files/Hordaland_feedConsumption_years.pdf>
+Package pdftex.def Info: Files/Hordaland_feedConsumption_years.pdf used on inpu
+t line 104.
+(pdftex.def)             Requested size: 208.73653pt x 156.553pt.
+ [41 <./Files/Norway0714_feedConsumption_years.pdf> <./Files/Finnmark_feedConsu
+mption_years.pdf> <./Files/Troms_feedConsumption_years.pdf> <./Files/Nordland_f
+eedConsumption_years.pdf> <./Files/Hordaland_feedConsumption_years.pdf>]) (./Ch
+apters/Evaluations.tex [42]
 Chapter 8.
 ------------------------------------------------------------------------------
  8 Discussion and Evaluations
 ------------------------------------------------------------------------------
-[42
+[43
 
-] [43]
-<Files/Finnmark_feedConsumption_years.jpg, id=942, 803.0pt x 602.25pt>
-File: Files/Finnmark_feedConsumption_years.jpg Graphic file (type jpg)
-
-<use Files/Finnmark_feedConsumption_years.jpg>
-Package pdftex.def Info: Files/Finnmark_feedConsumption_years.jpg used on input
- line 40.
-(pdftex.def)             Requested size: 250.48637pt x 187.86264pt.
-
-<Files/Troms_feedConsumption_years.jpg, id=944, 803.0pt x 602.25pt>
-File: Files/Troms_feedConsumption_years.jpg Graphic file (type jpg)
-
-<use Files/Troms_feedConsumption_years.jpg>
-Package pdftex.def Info: Files/Troms_feedConsumption_years.jpg used on input li
-ne 40.
-(pdftex.def)             Requested size: 250.48637pt x 187.86264pt.
-
-<Files/Nordland_feedConsumption_years.jpg, id=946, 803.0pt x 602.25pt>
-File: Files/Nordland_feedConsumption_years.jpg Graphic file (type jpg)
-
-<use Files/Nordland_feedConsumption_years.jpg>
-Package pdftex.def Info: Files/Nordland_feedConsumption_years.jpg used on input
- line 55.
-(pdftex.def)             Requested size: 250.48637pt x 187.86264pt.
-
-<Files/Hordaland_feedConsumption_years.jpg, id=948, 803.0pt x 602.25pt>
-File: Files/Hordaland_feedConsumption_years.jpg Graphic file (type jpg)
-
-<use Files/Hordaland_feedConsumption_years.jpg>
-Package pdftex.def Info: Files/Hordaland_feedConsumption_years.jpg used on inpu
-t line 55.
-(pdftex.def)             Requested size: 250.48637pt x 187.86264pt.
-
-<Files/Finnmark-Temp&Feed.png, id=950, 578.16pt x 433.62pt>
+] [44] <Files/Finnmark-Temp&Feed.png, id=1253, 578.16pt x 433.62pt>
 File: Files/Finnmark-Temp&Feed.png Graphic file (type png)
 
 <use Files/Finnmark-Temp&Feed.png>
-Package pdftex.def Info: Files/Finnmark-Temp&Feed.png used on input line 73.
+Package pdftex.def Info: Files/Finnmark-Temp&Feed.png used on input line 63.
 (pdftex.def)             Requested size: 250.48637pt x 187.86227pt.
 
-<Files/Troms-Temp&Feed.png, id=953, 578.16pt x 433.62pt>
+<Files/Troms-Temp&Feed.png, id=1256, 578.16pt x 433.62pt>
 File: Files/Troms-Temp&Feed.png Graphic file (type png)
 
 <use Files/Troms-Temp&Feed.png>
-Package pdftex.def Info: Files/Troms-Temp&Feed.png used on input line 73.
+Package pdftex.def Info: Files/Troms-Temp&Feed.png used on input line 63.
 (pdftex.def)             Requested size: 250.48637pt x 187.86227pt.
 
-<Files/Nordland-Temp&Feed.png, id=955, 578.16pt x 433.62pt>
+<Files/Nordland-Temp&Feed.png, id=1258, 578.16pt x 433.62pt>
 File: Files/Nordland-Temp&Feed.png Graphic file (type png)
 
 <use Files/Nordland-Temp&Feed.png>
-Package pdftex.def Info: Files/Nordland-Temp&Feed.png used on input line 89.
+Package pdftex.def Info: Files/Nordland-Temp&Feed.png used on input line 79.
 (pdftex.def)             Requested size: 250.48637pt x 187.86227pt.
 
-<Files/Hordaland-Temp&Feed.png, id=957, 578.16pt x 433.62pt>
+<Files/Hordaland-Temp&Feed.png, id=1260, 578.16pt x 433.62pt>
 File: Files/Hordaland-Temp&Feed.png Graphic file (type png)
 
 <use Files/Hordaland-Temp&Feed.png>
-Package pdftex.def Info: Files/Hordaland-Temp&Feed.png used on input line 89.
+Package pdftex.def Info: Files/Hordaland-Temp&Feed.png used on input line 79.
+(pdftex.def)             Requested size: 250.48637pt x 187.86227pt.
+ [45 <./Files/Finnmark-Temp&Feed.png> <./Files/Troms-Temp&Feed.png> <./Files/No
+rdland-Temp&Feed.png> <./Files/Hordaland-Temp&Feed.png>]
+<Files/norway_averageSeaTemp.pdf, id=1276, 1675.76062pt x 897.95473pt>
+File: Files/norway_averageSeaTemp.pdf Graphic file (type pdf)
+
+<use Files/norway_averageSeaTemp.pdf>
+Package pdftex.def Info: Files/norway_averageSeaTemp.pdf used on input line 88.
+
+(pdftex.def)             Requested size: 542.71625pt x 226.30289pt.
+
+<Files/norway_feed-biomass.pdf, id=1278, 1675.76062pt x 897.95473pt>
+File: Files/norway_feed-biomass.pdf Graphic file (type pdf)
+
+<use Files/norway_feed-biomass.pdf>
+Package pdftex.def Info: Files/norway_feed-biomass.pdf used on input line 95.
+(pdftex.def)             Requested size: 542.71625pt x 226.30289pt.
+ [46 <./Files/norway_averageSeaTemp.pdf> <./Files/norway_feed-biomass.pdf>]
+<Files/Finnmark_Total_Matrix.pdf, id=1390, 578.16pt x 433.62pt>
+File: Files/Finnmark_Total_Matrix.pdf Graphic file (type pdf)
+
+<use Files/Finnmark_Total_Matrix.pdf>
+Package pdftex.def Info: Files/Finnmark_Total_Matrix.pdf used on input line 118
+.
 (pdftex.def)             Requested size: 250.48637pt x 187.86227pt.
 
-<Files/norway_averageSeaTemp.png, id=959, 1675.2186pt x 897.5934pt>
-File: Files/norway_averageSeaTemp.png Graphic file (type png)
+<Files/Troms_Total_Matrix.pdf, id=1392, 578.16pt x 433.62pt>
+File: Files/Troms_Total_Matrix.pdf Graphic file (type pdf)
 
-<use Files/norway_averageSeaTemp.png>
-Package pdftex.def Info: Files/norway_averageSeaTemp.png used on input line 95.
+<use Files/Troms_Total_Matrix.pdf>
+Package pdftex.def Info: Files/Troms_Total_Matrix.pdf used on input line 118.
+(pdftex.def)             Requested size: 250.48637pt x 187.86227pt.
 
-(pdftex.def)             Requested size: 542.71625pt x 263.13052pt.
- [44 <./Files/Finnmark_feedConsumption_years.jpg> <./Files/Troms_feedConsumptio
-n_years.jpg> <./Files/Nordland_feedConsumption_years.jpg> <./Files/Hordaland_fe
-edConsumption_years.jpg>] [45 <./Files/Finnmark-Temp&Feed.png> <./Files/Troms-T
-emp&Feed.png> <./Files/Nordland-Temp&Feed.png> <./Files/Hordaland-Temp&Feed.png
->]
-<Files/norway_feed-biomass.png, id=981, 1675.2186pt x 922.8879pt>
-File: Files/norway_feed-biomass.png Graphic file (type png)
+<Files/Nordland_Total_Matrix.pdf, id=1394, 578.16pt x 433.62pt>
+File: Files/Nordland_Total_Matrix.pdf Graphic file (type pdf)
 
-<use Files/norway_feed-biomass.png>
-Package pdftex.def Info: Files/norway_feed-biomass.png used on input line 102.
-(pdftex.def)             Requested size: 542.71625pt x 298.97743pt.
- [46 <./Files/norway_averageSeaTemp.png> <./Files/norway_feed-biomass.png>]) (.
-/Chapters/Conclusion.tex [47]
+<use Files/Nordland_Total_Matrix.pdf>
+Package pdftex.def Info: Files/Nordland_Total_Matrix.pdf used on input line 134
+.
+(pdftex.def)             Requested size: 250.48637pt x 187.86227pt.
+
+<Files/Hordaland_Total_Matrix.pdf, id=1396, 578.16pt x 433.62pt>
+File: Files/Hordaland_Total_Matrix.pdf Graphic file (type pdf)
+
+<use Files/Hordaland_Total_Matrix.pdf>
+Package pdftex.def Info: Files/Hordaland_Total_Matrix.pdf used on input line 13
+4.
+(pdftex.def)             Requested size: 250.48637pt x 187.86227pt.
+ [47 <./Files/Finnmark_Total_Matrix.pdf> <./Files/Troms_Total_Matrix.pdf> <./Fi
+les/Nordland_Total_Matrix.pdf> <./Files/Hordaland_Total_Matrix.pdf>]) (./Chapte
+rs/Conclusion.tex [48]
 Chapter 9.
 ------------------------------------------------------------------------------
  9 Conclusion
 ------------------------------------------------------------------------------
-[48
+[49
 
-]) [49] [50
+]) [50] [51
 
 ] (./Appendices/A.tex
 Appendix A.
 ------------------------------------------------------------------------------
  A SIA Implementation code
 ------------------------------------------------------------------------------
-[51
+[52
 
-] [52] [53]
+] [53] [54]
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 148.
- [54] [55] [56] [57]) (./Appendices/B.tex [58]
+ [55] [56] [57] [58]) (./Appendices/B.tex [59]
 Appendix B.
 ------------------------------------------------------------------------------
  B MIA Implementation code
 ------------------------------------------------------------------------------
-[59
+[60
 
-] [60]) (./Appendices/C.tex [61]
+] [61]) (./Appendices/C.tex [62]
 Appendix C.
 ------------------------------------------------------------------------------
  C Norway's Map System Implementation Code
 ------------------------------------------------------------------------------
-[62
+[63
 
-] [63]
+] [64]
 Overfull \hbox (20.28416pt too wide) in paragraph at lines 86--88
 \OT1/cmr/m/n/10.95 The "man-ager.resize(*manager.window.maxsize())" func-tion a
 l-lows to max-i-mize to fullscreen
  []
 
-) (./Appendices/D.tex [64]
+) (./Appendices/D.tex [65]
 Appendix D.
 ------------------------------------------------------------------------------
  D Prediction System Implementation code
 ------------------------------------------------------------------------------
-[65
+[66
 
-] [66]
-Underfull \hbox (badness 10000) in paragraph at lines 45--47
+] [67]
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
  []
 
@@ -1356,12 +1421,12 @@ File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <9> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 80.
- [67] [68]
-Underfull \hbox (badness 10000) in paragraph at lines 103--105
+ [68] [69]
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
 
  []
 
-[69]) (./Thesis.bbl [70]
+[70]) (./Thesis.bbl [71]
 Underfull \hbox (badness 10000) in paragraph at lines 4--10
 []\OT1/cmr/m/n/10.95 Jason Brown-lee.  How to cre-ate an arima model for time s
 e-
@@ -1386,46 +1451,60 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--18
  []
 
 
-Underfull \hbox (badness 4832) in paragraph at lines 31--37
+Underfull \hbox (badness 4832) in paragraph at lines 27--33
 []\OT1/cmr/m/n/10.95 Wikipedia.  Au-tore-gres-sive model --- wikipedia, the fre
 e en-cy-clo-pe-dia.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--37
+Underfull \hbox (badness 10000) in paragraph at lines 27--33
 [][]$\OT1/cmtt/m/n/10.95 https : / / en . wikipedia . org / w / index . php ? t
 itle = Autoregressive _ model &
  []
 
 
-Underfull \hbox (badness 7273) in paragraph at lines 39--45
+Underfull \hbox (badness 7273) in paragraph at lines 35--41
 []\OT1/cmr/m/n/10.95 Wikipedia.  Moving-average model --- wikipedia, the free e
 n-cy-clo-pe-
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--73
+[]\OT1/cmr/m/n/10.95 Jason Brown-lee.  How to grid search arima model hy-per-pa
+-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--73
+\OT1/cmr/m/n/10.95 ram-e-ters with python.  [][]$\OT1/cmtt/m/n/10.95 http : / /
+ machinelearningmastery . com /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--73
+\OT1/cmtt/m/n/10.95 grid-[]search-[]arima-[]hyperparameters-[]with-[]python/$[]
+[]\OT1/cmr/m/n/10.95 , Jan-uary 18, 2017.
+ []
+
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 130.
- [71
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 131.
+ [72
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 130.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 131.
  (./Thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 130.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 130.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 130.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 131.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 131.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 131.
  ) 
 Here is how much of TeX's memory you used:
- 16297 strings out of 493029
- 225280 string characters out of 6136235
- 519520 words of memory out of 5000000
- 18791 multiletter control sequences out of 15000+600000
+ 16345 strings out of 493029
+ 226557 string characters out of 6136235
+ 512520 words of memory out of 5000000
+ 18818 multiletter control sequences out of 15000+600000
  15491 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 49i,12n,45p,13111b,1942s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,12n,45p,13111b,1936s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
@@ -1441,10 +1520,10 @@ cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on Thesis.pdf (80 pages, 2706701 bytes).
+Output written on Thesis.pdf (82 pages, 13398622 bytes).
 PDF statistics:
- 2014 PDF objects out of 2073 (max. 8388607)
- 1598 compressed objects within 16 object streams
- 725 named destinations out of 1000 (max. 500000)
- 829 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2649 PDF objects out of 2984 (max. 8388607)
+ 1753 compressed objects within 18 object streams
+ 743 named destinations out of 1000 (max. 500000)
+ 916 words of extra memory for PDF output out of 10000 (max. 10000000)
 

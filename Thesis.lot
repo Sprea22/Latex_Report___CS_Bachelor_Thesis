@@ -11,9 +11,12 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {6.1}{\ignorespaces MAPE Results for some particular dataset about the parameter "feedConsumption"\relax }}{35}{table.caption.135}
+\contentsline {table}{\numberline {6.1}{\ignorespaces MAPE Results for some particular dataset about the parameter "feedConsumption"\relax }}{35}{table.caption.136}
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {7.1}{\ignorespaces Comparison between real 2015 "feed consumption" values and their prediction, with the corresponding MAPE for the counties: Finnmark, Hordaland, Troms\relax }}{42}{table.caption.158}
+\contentsline {table}{\numberline {7.2}{\ignorespaces Comparison between real 2015 "feed consumption" values and their prediction, with the corresponding MAPE for the counties: Nordland, Norway\relax }}{42}{table.caption.159}
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {8.1}{\ignorespaces Comparison between Evaluation MAPE and Prediction MAPE\relax }}{44}{table.caption.162}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

@@ -5,16 +5,16 @@ The style file: unsrt.bst
 Database file #1: Bibliography.bib
 You've used 10 entries,
             1791 wiz_defined-function locations,
-            491 strings with 4972 characters,
-and the built_in function-call counts, 1317 in all, are:
-= -- 109
+            493 strings with 5090 characters,
+and the built_in function-call counts, 1337 in all, are:
+= -- 114
 > -- 41
 < -- 0
 + -- 20
 - -- 10
 * -- 13
-:= -- 204
-add.period$ -- 32
+:= -- 209
+add.period$ -- 34
 call.type$ -- 10
 change.case$ -- 9
 chr.to.int$ -- 0
@@ -22,17 +22,17 @@ cite$ -- 10
 duplicate$ -- 50
 empty$ -- 181
 format.name$ -- 10
-if$ -- 312
+if$ -- 317
 int.to.chr$ -- 0
 int.to.str$ -- 10
 missing$ -- 0
-newline$ -- 55
+newline$ -- 57
 num.names$ -- 9
-pop$ -- 66
+pop$ -- 65
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 29
+skip$ -- 27
 stack$ -- 0
 substring$ -- 0
 swap$ -- 10
@@ -43,4 +43,4 @@ type$ -- 0
 warning$ -- 0
 while$ -- 9
 width$ -- 12
-write$ -- 105
+write$ -- 109

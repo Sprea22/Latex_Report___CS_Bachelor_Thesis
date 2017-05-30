@@ -19,10 +19,6 @@ Wikipedia.
 \bibitem{ArthurSamuel}
 Arthur Samuel, 1959.
 
-\bibitem{MachineLearningMastery}
-Jason Brownlee.
-\newblock Machine learning mastery, 2017.
-
 \bibitem{TimeSeries}
 Time series analysis: Forecasting and control.
 \newblock [page 1].
@@ -66,5 +62,13 @@ Standing Senate~Committee on~Fisheries and Oceans.
 \newblock Volume two - aquaculture industry and governance in norway and
   scotland, June 2016.
 \newblock [Online].
+
+\bibitem{previousWork2}
+Jason Brownlee.
+\newblock How to grid search arima model hyperparameters with python.
+\newblock
+  \url{http://machinelearningmastery.com/grid-search-arima-hyperparameters-with-python/},
+  January 18, 2017.
+\newblock Online.
 
 \end{thebibliography}

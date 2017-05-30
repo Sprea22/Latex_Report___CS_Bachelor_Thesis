@@ -12,7 +12,7 @@ For this reason during this phase of the work have been implemented 2 different 
 \newpage
 \section{Evaluating System}
 \textbf{Goal:}\\ 
-Used for evaluate different configurations of ARIMA machine. \\ It tests 112 different configurations for the current input and report in a document the tested configurations with the corresponding MAPE (Mean Average Percentage Error) value.
+Used for evaluate different configurations of ARIMA machine. \\ It tests 112 different configurations for the current input and report in a document the tested configurations with the corresponding MAPE (Mean Average Percentage Error)\footnote{MAPE formula and description: \\ \url{https://en.wikipedia.org/wiki/Mean_absolute_percentage_error}} value, which is a measure of prediction accuracy of a forecasting method in statistics, for example in trend estimation. It usually expresses accuracy as a percentage.
 
 \textbf{Requirements:}\\
 There are not any kind of needed requirements. It's possible to use this system on dataset of arbitrary length.
@@ -33,6 +33,8 @@ d_values = [0, 1, 2, 3]
 q_values = [0, 1, 2, 3]
 \end{lstlisting}
 
+It's important to remind that the following evaluation system is fitting the model with the first 66\% of the dataset values, and then the model forecasting is tested and compared on the final 34\% .\\
+
 It's possible to check out the full implemented code in the appendice: [\ref{Evaluating_System}]
 
 \newpage
@@ -40,11 +42,10 @@ It's possible to check out the full implemented code in the appendice: [\ref{Eva
 \textbf{Results:}\\
 The system will report in a document the MAPE between real value and predicted values for each of the 112 tested ARIMA machine.
 During this part of the work was also create a script for execute an ARIMA evaluation about each single paramater of each single dataset, but once executed it required too much time for complete all the evaluations. \\
-For that reason have been reported in a document just some relevant evaluations result. The table below here gaves an example about how the documents look like and also report some results about specific paramater that are going to be used in the next phase.
+For that reason have been reported in a document just some relevant evaluations result. The table below here gaves an example about how the documents look like and also report some results about specific paramater that are going to be used in the next phase.\\
 
  \begin{table}[ht]
 \makebox[\textwidth][c]{
-\resizebox{1\textwidth}{!}{
     \begin{tabular}{ | l | l | l | l |}
             \hline
 \textbf{Input} 	& \textbf{Parameter}	& \textbf{ARIMA Conf} 	& \textbf{MAPE result} 	\\ \hline
@@ -53,82 +54,12 @@ Hordaland & feedConsumption				& (8, 0, 0)  			& 6.811\%				\\ \hline
 Troms & feedConsumption					& (2, 0, 0)  			& 11.593\% 				\\ \hline
 Nordland & feedConsumption				& (6, 0, 0)  			& 12.741\%		 	\\ \hline
 Norway0714 & feedConsumption			& (6, 1, 0)  			& 7.296\%  				\\ \hline
-    \end{tabular}}}
+    \end{tabular}}
          \caption{MAPE Results for some particular dataset about the parameter "feedConsumption"}   
    \label{table: MAPE_Results_feedConsumption} 
 \end{table}     
 
-\newpage
 
-\makebox[\textwidth][c]{
-\resizebox{1.3\textwidth}{!}{
-\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|}
-\hline
-\multirow{3}{*}{Predicted Months} & \multicolumn{3}{c|}{Finnmark : (6,1,0)} & \multicolumn{3}{c|}{Hordaland : (8, 0, 0)} & \multicolumn{3}{c|}{Troms : ( , , )}\\
-\cline{2-10}
- & Real & Pred & Error & Real & Pred & Error & Real & Pred & Error\\
-\hline
- January 2015 & 7571.038 	& 	& \% 		& 15039.948 & 	 & \% &  12534.708		& 	 & \% \\
-\hline
- February 2015 & 4947.371 	& 	& \% 		& 12432.481 & 	 & \% &  9098.07		& 	 & \%  \\
- \hline
- March 2015 & 4686.465 		& 	& \% 		& 12523.293 & 	 & \% &  9381.861		& 	 & \% \\
- \hline
- April 2015 & 4263.749		 & 	 & \%		& 14231.265 & 	 & \% & 9493.93			& 	& \%  \\
- \hline
- May 2015 & 5472.568 		& 	& \%		& 14543.612 & 	 & \% &	11215.47		& 	 & \%  \\
- \hline
- June 2015 & 8270.913 		& 	& \%		& 15314.691 & 	 & \% & 16370.732		& 	 & \%\\
- \hline
- July 2015 & 12356.162 		& 	& \%		& 19617.51 & 	 & \% & 21041.845		& 	 & \%  \\
- \hline
- August 2015 & 15877.981 	& 	 & \%		& 26429.183 & 	 & \% & 26981.845		& 	 & \% \\
- \hline
- September 2015 & 15382.371 & 	& \%		& 28152.314 & 	 & \% & 25229.126		&  	& \% \\
- \hline
- October 2015 & 15039.109 	&	& \%		& 26869.594 & 	 & \% & 27327.632		&  &  \% \\
- \hline
- November 2015 & 11453.453 	& 	 & \%		& 23914.498 &	 & \% & 22476.374		&  	& \% \\
- \hline
- December 2015 & 9450.334 	& 	 & \%		& 20332.347 & 	 & \% & 17239.549		& 	 &  \% \\
- \hline
-% etc. ...
-\end{tabular}  }}
-
-\makebox[\textwidth][c]{
-\resizebox{1\textwidth}{!}{
-\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
-\hline
-\multirow{3}{*}{Predicted Months} & \multicolumn{3}{c|}{Nordland : (,,)} & \multicolumn{3}{c|}{Norway : (, , )} \\
-\cline{2-7}
- & Real & Pred & Error & Real & Pred & Error \\
-\hline
- January 2015 & 7571.038 	& 	& \% 		& 15039.948 & 	 & \%  \\
-\hline
- February 2015 & 4947.371 	& 	& \% 		& 12432.481 & 	 & \%   \\
- \hline
- March 2015 & 4686.465 		& 	& \% 		& 12523.293 & 	 & \%   \\
- \hline
- April 2015 & 4263.749		 & 	 & \%		& 14231.265 & 	 & \%   \\
- \hline
- May 2015 & 5472.568 		& 	& \%		& 14543.612 & 	 & \% 	\\
- \hline
- June 2015 & 8270.913 		& 	& \%		& 15314.691 & 	 & \%  \\
- \hline
- July 2015 & 12356.162 		& 	& \%		& 19617.51 & 	 & \%   \\
- \hline
- August 2015 & 15877.981 	& 	 & \%		& 26429.183 & 	 & \% \\
- \hline
- September 2015 & 15382.371 & 	& \%		& 28152.314 & 	 & \%  \\
- \hline
- October 2015 & 15039.109 	&	& \%		& 26869.594 & 	 & \%  \\
- \hline
- November 2015 & 11453.453 	& 	 & \%		& 23914.498 &	 & \%  \\
- \hline
- December 2015 & 9450.334 	& 	 & \%		& 20332.347 & 	 & \%  \\
- \hline
-% etc. ...
-\end{tabular}  }}
  
 \newpage
 \section{Prediction System}
