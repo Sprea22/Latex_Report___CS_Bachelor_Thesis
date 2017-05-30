@@ -1,4 +1,3 @@
-
 \chapter{Prediction System}
 The main goal during this phase was to find a way to implement a forecast system in Python.
 Since the datasets used during this thesis could be considered as a time series, was decide to implement and test an Autoregressive Integrated Moving Average (ARIMA) model. \\
@@ -13,14 +12,12 @@ For this reason during this phase of the work have been implemented 2 different 
 \newpage
 \section{Evaluating System}
 \textbf{Goal:}\\ 
-Used for evaluate different configurations of ARIMA machine. \\ It tests 112 different configurations for the current input that we would like to forecast and report the results with each MAPE (Mean Average Percentage Error) values.
+Used for evaluate different configurations of ARIMA machine. \\ It tests 112 different configurations for the current input and report in a document the tested configurations with the corresponding MAPE (Mean Average Percentage Error) value.
 
 \textbf{Requirements:}\\
 There are not any kind of needed requirements. It's possible to use this system on dataset of arbitrary length.
 
 \textbf{Code implementation:}\\
-This time the full commented code has not been reported in the appendice since is longer and more complicated than the previous. If you are interested to check out more details about the code, is possible to find the Github repository here : [\ref{Repository}]
-
 The most important part of the code about the Evaluating System is the following.\\
 Basically the method ARIMA() allows to train a model based on historic values (history) and a specific order (p,d,q). After that it's possible to call the method forecast() through the trained model and having some predictions like result.
 \begin{lstlisting}
@@ -36,91 +33,153 @@ d_values = [0, 1, 2, 3]
 q_values = [0, 1, 2, 3]
 \end{lstlisting}
 
+It's possible to check out the full implemented code in the appendice: [\ref{Evaluating_System}]
+
 \newpage
 
 \textbf{Results:}\\
-The system will display the MAPE between real value and predicted values for each of the 112 tested ARIMA machine. In particular, once tested all the configurations, the system will provide the configuration that gave the best MAPE result.\\
-All these results have been reported in a document that is possible to check for check out the different configurations result.
+The system will report in a document the MAPE between real value and predicted values for each of the 112 tested ARIMA machine.
+During this part of the work was also create a script for execute an ARIMA evaluation about each single paramater of each single dataset, but once executed it required too much time for complete all the evaluations. \\
+For that reason have been reported in a document just some relevant evaluations result. The table below here gaves an example about how the documents look like and also report some results about specific paramater that are going to be used in the next phase.
 
-The following graphic display the different ARIMA configurations tested, providing also:
-\vspace{-5mm}
-\begin{itemize}
- \setlength{\itemsep}{-5pt} 
-\item General overview about MAPE values for each single tested configuratons. 
-\item Best configuration with relative MAPE value.
-\item Color legend, where the red means lower MAPE, so more accurate predictions, and blue means higher MAPE, so less accurate predictions.
-\end{itemize}
+ \begin{table}[ht]
+\makebox[\textwidth][c]{
+\resizebox{1\textwidth}{!}{
+    \begin{tabular}{ | l | l | l | l |}
+            \hline
+\textbf{Input} 	& \textbf{Parameter}	& \textbf{ARIMA Conf} 	& \textbf{MAPE result} 	\\ \hline
+Finnmark & feedConsumption				& (6, 1, 0) 			& 13.771\% 		 		\\ \hline	
+Hordaland & feedConsumption				& (8, 0, 0)  			& 6.811\%				\\ \hline				
+Troms & feedConsumption					& (2, 0, 0)  			& 11.593\% 				\\ \hline
+Nordland & feedConsumption				& (6, 0, 0)  			& 12.741\%		 	\\ \hline
+Norway0714 & feedConsumption			& (6, 1, 0)  			& 7.296\%  				\\ \hline
+    \end{tabular}}}
+         \caption{MAPE Results for some particular dataset about the parameter "feedConsumption"}   
+   \label{table: MAPE_Results_feedConsumption} 
+\end{table}     
 
-\begin{figure}[H]
-	\raggedleft
-	\makebox[1\textwidth][c]{\includegraphics[width=1.5\textwidth]{Files/Cages_MAPE.pdf}}
-    \caption{Graphic that displays different MAPE values for each ARIMA order.}
-\end{figure}
+\newpage
 
- 
+\makebox[\textwidth][c]{
+\resizebox{1.3\textwidth}{!}{
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\multirow{3}{*}{Predicted Months} & \multicolumn{3}{c|}{Finnmark : (6,1,0)} & \multicolumn{3}{c|}{Hordaland : (8, 0, 0)} & \multicolumn{3}{c|}{Troms : ( , , )}\\
+\cline{2-10}
+ & Real & Pred & Error & Real & Pred & Error & Real & Pred & Error\\
+\hline
+ January 2015 & 7571.038 	& 	& \% 		& 15039.948 & 	 & \% &  12534.708		& 	 & \% \\
+\hline
+ February 2015 & 4947.371 	& 	& \% 		& 12432.481 & 	 & \% &  9098.07		& 	 & \%  \\
+ \hline
+ March 2015 & 4686.465 		& 	& \% 		& 12523.293 & 	 & \% &  9381.861		& 	 & \% \\
+ \hline
+ April 2015 & 4263.749		 & 	 & \%		& 14231.265 & 	 & \% & 9493.93			& 	& \%  \\
+ \hline
+ May 2015 & 5472.568 		& 	& \%		& 14543.612 & 	 & \% &	11215.47		& 	 & \%  \\
+ \hline
+ June 2015 & 8270.913 		& 	& \%		& 15314.691 & 	 & \% & 16370.732		& 	 & \%\\
+ \hline
+ July 2015 & 12356.162 		& 	& \%		& 19617.51 & 	 & \% & 21041.845		& 	 & \%  \\
+ \hline
+ August 2015 & 15877.981 	& 	 & \%		& 26429.183 & 	 & \% & 26981.845		& 	 & \% \\
+ \hline
+ September 2015 & 15382.371 & 	& \%		& 28152.314 & 	 & \% & 25229.126		&  	& \% \\
+ \hline
+ October 2015 & 15039.109 	&	& \%		& 26869.594 & 	 & \% & 27327.632		&  &  \% \\
+ \hline
+ November 2015 & 11453.453 	& 	 & \%		& 23914.498 &	 & \% & 22476.374		&  	& \% \\
+ \hline
+ December 2015 & 9450.334 	& 	 & \%		& 20332.347 & 	 & \% & 17239.549		& 	 &  \% \\
+ \hline
+% etc. ...
+\end{tabular}  }}
+
+\makebox[\textwidth][c]{
+\resizebox{1\textwidth}{!}{
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+\hline
+\multirow{3}{*}{Predicted Months} & \multicolumn{3}{c|}{Nordland : (,,)} & \multicolumn{3}{c|}{Norway : (, , )} \\
+\cline{2-7}
+ & Real & Pred & Error & Real & Pred & Error \\
+\hline
+ January 2015 & 7571.038 	& 	& \% 		& 15039.948 & 	 & \%  \\
+\hline
+ February 2015 & 4947.371 	& 	& \% 		& 12432.481 & 	 & \%   \\
+ \hline
+ March 2015 & 4686.465 		& 	& \% 		& 12523.293 & 	 & \%   \\
+ \hline
+ April 2015 & 4263.749		 & 	 & \%		& 14231.265 & 	 & \%   \\
+ \hline
+ May 2015 & 5472.568 		& 	& \%		& 14543.612 & 	 & \% 	\\
+ \hline
+ June 2015 & 8270.913 		& 	& \%		& 15314.691 & 	 & \%  \\
+ \hline
+ July 2015 & 12356.162 		& 	& \%		& 19617.51 & 	 & \%   \\
+ \hline
+ August 2015 & 15877.981 	& 	 & \%		& 26429.183 & 	 & \% \\
+ \hline
+ September 2015 & 15382.371 & 	& \%		& 28152.314 & 	 & \%  \\
+ \hline
+ October 2015 & 15039.109 	&	& \%		& 26869.594 & 	 & \%  \\
+ \hline
+ November 2015 & 11453.453 	& 	 & \%		& 23914.498 &	 & \%  \\
+ \hline
+ December 2015 & 9450.334 	& 	 & \%		& 20332.347 & 	 & \%  \\
+ \hline
+% etc. ...
+\end{tabular}  }}
  
 \newpage
 \section{Prediction System}
 \textbf{Goal:}\\ 
-This system has three main goals:
+This system has two main goals:
 \vspace{-5mm}
 \begin{itemize}
  \setlength{\itemsep}{-5pt} 
-\item Testing a specific ARIMA configuration on a particular data input, and display how much accurate it is (MAPE).
-\item Predict some future value with the same ARIMA configuration.
-\item Display the historic data together with the testing and future predictions.
+\item Predict some future value with the a specific ARIMA configuration.
+\item Display the historic data together with real future values and predicted future values.
 \end{itemize}
 
 \textbf{Requirements:}\\
-There are not any kind of needed requirements. It's possible to use this system on input dataset of arbitrary length.
+The only requirement is to use in a correct way this system is that the real future values are available, in order to compare it with the predicted one. It's possible to use this system on input dataset of arbitrary length.
 
 
 \textbf{Code implementation:}\\
-To reach the first of the goals reported above the system will divide the input dataset in two parts, train and test. It allows to train the ARIMA model with just the "train" part of the dataset, that usually is 66\% of the whole dataset, and then try to predict the rest of the dataset values, comparing in the end with the values contain in the "test" part to have a general idea about the accuracy.
+The method ARIMA() allows to train a model based on historic values (history) and a specific order (p,d,q). After that it's possible to call the method forecast() through the trained model with a "int" parameter that represents the desired number of predictions that have to be calculated.
 
-The method ARIMA() allows to train a model based on historic values (history) and a specific order (p,d,q). After that it's possible to call the method forecast() through the trained model and having some predictions like result.
-
-\begin{lstlisting}
-model = ARIMA(history, order=arima_order)
-model_fit = model.fit(disp=0)
-yhat = model_fit.forecast()[0]
-\end{lstlisting}
-
-Then the system will also predict a number of future values choosen by the system user.
 \begin{lstlisting}
 model = ARIMA(dataset, order=order)
 model_fit = model.fit(disp=0)
 forecast = model_fit.forecast(int(sys.argv[3]))[0]
 \end{lstlisting}
 
-The final step is to display the historic data together with the test prediction and the future prediction on the same graphic. 
+Once calculated and saved the predictions in a document, the system will basically display on the same graphic "realVaues" that contains the real future values, "predFuture" that contains the predicted future values and "series" that contains the dataset historic values.
 \begin{lstlisting}
-# Plot current input's historic values 
-series.plot(color="blue", linewidth=1.5, label="Series: "+sys.argv[1])
-
-# Plot current input's test prediction
-predHistoric.plot(color="red", linewidth=1.5, label="Prediction test:")
-
-# Plot current input's future prediction
-predFuture.plot(color="green", linewidth=1.5, label="Future Prediction:")
+ax.plot(realValues, "g", label='Real 2015 Values', linewidth=2)
+ax.plot(predFuture, "r", label='Prediction 2015 values', linewidth=2)
+ax.plot(series, "b", label='Historic values', linewidth=2)
 \end{lstlisting}
 
-This time the full commented code has not been reported in the appendice since is longer and more complicated than the previous. If you are interested to check out more details about the code, is possible to find the Github repository here : [\ref{Repository}]
+It's possible to check out the full implemented code in the appendice: [\ref{Prediction_System}]
+
+\newpage
 
 \textbf{Results:}\\
-This system will automatically generate two documents that contain:
+This system will automatically generate a document that contain:
 \vspace{-5mm}
 \begin{itemize}
  \setlength{\itemsep}{-5pt} 
-\item Test predictions values
-\item Future predictions values
+\item Real future values
+\item Predicted future values
+\item MAPE between each prediction and the corresponding real value.
 \end{itemize}
 
-And then it provides also the possibility to visualize the historic, test and future predictions values on the same graphic, that looks like the following example:
+And then it provides also the possibility to visualize the historic, real and predicted future values on the same graphic, that looks like the following example:
 
 \begin{figure}[H]
-    \makebox[\textwidth][c]{\includegraphics[width=1.5\textwidth]{Files/Cages_Predictions.pdf}}
-    \caption{Graphic that display historic, future and predicted values of a input.}
+    \makebox[\textwidth][c]{\includegraphics[width=1.3\textwidth]{Files/Finnmark-feedConsumption_pred.pdf}}
+    \caption{Graphic that display historic, real and predicted future values of a input.}
 \end{figure}
 
 

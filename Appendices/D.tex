@@ -1,40 +1,54 @@
 \chap{Prediction System Implementation code}
-
-\section{Evaluating System}
+\section{Common libraries}
+\label{Pred_common_libraries}
 \begin{lstlisting}
 import os
-import csv
 import sys
 import warnings
 import numpy as np
 import pandas as pd
 from pandas import Series
-from matplotlib import pyplot
 from statsmodels.tsa.arima_model import ARIMA
 from sklearn.metrics import mean_squared_error
+\end{lstlisting}
 
+\newpage
+
+\section{Common methods}
+\label{Pred_common_methods}
+\begin{lstlisting}
 pyplot.style.use('ggplot')
 \end{lstlisting}
 
-\label{Evaluating_System}
 \begin{lstlisting}
 def mean_absolute_percentage_error(y_true, y_pred): 
-	rng = len(y_true)
-	diff = []
-	for i in range(0,rng):
-		diff.append(y_true[i] - y_pred[i])
-		diff[i] = diff[i] / y_true[i]
-	abs = np.abs(diff)
-	mn = np.mean(abs)
-	percentageError = mn * 100
+	try:
+		rng = len(y_true)
+		diff = []
+		for i in range(0,rng):
+			diff.append(y_true[i] - y_pred[i])
+			diff[i] = diff[i] / y_true[i]
+		abs = np.abs(diff)
+		mn = np.mean(abs)
+		percentageError = mn * 100
+	except:
+		rng = 0
+		abs = np.abs((y_true-y_pred)/y_true)
+		percentageError = abs * 100
 	return percentageError
-    
+\end{lstlisting}
+
+\newpage
+
+\section{Evaluating System}
+\label{Evaluating_System}
+Use the common library reported above: [\ref{Pred_common_libraries}] \\
+Use the common methods reported above: [\ref{Pred_common_methods}] \\
+\begin{lstlisting}
 def evaluate_arima_model(X, arima_order):
-	# prepare training dataset
 	train_size = int(len(X) * 0.66)
 	train, test = X[0:train_size], X[train_size:]
 	history = [x for x in train]
-	# make predictions
 	predictions = list()
 	for t in range(len(test)):
 		model = ARIMA(history, order=arima_order)
@@ -42,14 +56,14 @@ def evaluate_arima_model(X, arima_order):
 		yhat = model_fit.forecast()[0]
 		predictions.append(yhat)
 		history.append(test[t])
-	# calculate out of sample error
 	error = mean_absolute_percentage_error(test, predictions)
 	return error
-
+\end{lstlisting}
+\begin{lstlisting}
 def evaluate_models(dataset, p_values, d_values, q_values):
 	dataset = dataset.astype('float32')
 	best_score, best_cfg = float("inf"), None
-	filename = "Results/"+sys.argv[1]+"/"+sys.argv[2]+"/"+"Predictions/MAPE.csv"
+	filename = "Results_Forecast/"+sys.argv[1]+"/"+sys.argv[2]+"_MAPE.csv"
 	if not os.path.exists(os.path.dirname(filename)):	
 		os.makedirs(os.path.dirname(filename))
 
@@ -61,19 +75,20 @@ def evaluate_models(dataset, p_values, d_values, q_values):
 				order = (p,d,q)
 				try:
 					mape = evaluate_arima_model(dataset, order)
-
+					with open(filename, "a") as myfile:
+						myfile.write('%d, %d, %d, %.3f%% \n' % (p,d,q,mape))
 					if mape < best_score:
-						with open(filename, "a") as myfile:
-							myfile.write('%d, %d, %d, %.3f%% \n' % (p,d,q,mape))
+
 						best_score, best_cfg = mape, order
 					print('ARIMA%s MAPE=%.3f%%' % (order,mape))
 				except:
 					print('ARIMA%s MAPE=Nil' % str(order))
 					continue
 	print('Best ARIMA%s MAPE=%.3f%%' % (best_cfg, best_score))
-
+\end{lstlisting}
+\begin{lstlisting}
 series = pd.read_csv("Datasets/"+sys.argv[1]+".csv", header=0, usecols=[sys.argv[2]])
-# evaluate parameters
+
 p_values = [0, 1, 2, 4, 6, 8, 10]
 d_values = [0, 1, 2, 3]
 q_values = [0, 1, 2, 3]
@@ -81,9 +96,71 @@ warnings.filterwarnings("ignore")
 evaluate_models(series.values, p_values, d_values, q_values)
 \end{lstlisting}
 
+\newpage
+
 \section{Prediction System}
 \label{Prediction_System}
+Use the common library reported above: [\ref{Pred_common_libraries}] \\
+Use the common methods reported above: [\ref{Pred_common_methods}] \\
 \begin{lstlisting}
+series = pd.read_csv("Datasets/"+sys.argv[1]+".csv", usecols=[sys.argv[2]])
+yearInput = pd.read_csv("Datasets/" + sys.argv[1]+".csv", usecols=[0])
+realValues = pd.read_csv("Results_Forecast/"+sys.argv[1]+"/"+sys.argv[1]+"_"+sys.argv[2]+"_2015.csv")
 
+realValuesData = realValues[sys.argv[2]].values
+realValuesData = realValuesData.astype('float32')
+dataset = series.values
+dataset = dataset.astype('float32')
+
+p_values = int(sys.argv[4])
+d_values = int(sys.argv[5])
+q_values = int(sys.argv[6])
+order = (p_values, d_values, q_values)
+warnings.filterwarnings("ignore")
+
+model = ARIMA(dataset, order=order)
+model_fit = model.fit(disp=0)
+forecast = model_fit.forecast(int(sys.argv[3]))[0]
+\end{lstlisting}
+\begin{lstlisting}
+index = []
+for i in range(1,int(sys.argv[3])+1):
+	index.append(len(dataset) +i)
+mape_list = []
+for i in range(0,len(forecast)):
+	mape_list.append(mean_absolute_percentage_error(realValuesData[i], forecast[i]))
+rows = zip(index, realValuesData, forecast, mape_list)
+f = open("Results_Forecast/"+sys.argv[1]+"/"+sys.argv[1]+"_"+sys.argv[2]+"_futurePred.csv", 'w')
+csv.writer(f).writerows(rows)
+f.close()
+\end{lstlisting}
+\begin{lstlisting}
+realValues= pd.read_csv("Results_Forecast/"+sys.argv[1]+"/"+sys.argv[1]+"_"+sys.argv[2]+"_futurePred.csv", index_col=[0], usecols=[0,1])
+predFuture = pd.read_csv("Results_Forecast/"+sys.argv[1]+"/"+sys.argv[1]+"_"+sys.argv[2]+"_futurePred.csv", index_col=[0], usecols=[0,2])
+
+ax = pyplot.subplot(111)
+ax.plot(realValues, "g", label='Real 2015 Values', linewidth=2)
+ax.plot(predFuture, "r", label='Prediction 2015 values', linewidth=2)
+ax.plot(series, "b", label='Historic values', linewidth=2)
+ax.legend(loc='upper center', bbox_to_anchor=(0.5, 1.05), ncol=3, fancybox=True, shadow=True, fontsize=20)
+\end{lstlisting}
+\begin{lstlisting}
+years = []
+j = 0
+for i in range(len(yearInput)):
+    if j==11:
+        years.append(yearInput.values[i][0])
+        j=0
+    else:
+        j=j+1 
+x = range(0, len(yearInput.values))
+pyplot.xticks(np.arange(min(x), max(x)+1, 12.0), years)
+pyplot.xlabel("Years")
+pyplot.ylabel(sys.argv[2]+" in "+sys.argv[1], fontsize=20)
+
+manager = pyplot.get_current_fig_manager()
+manager.resize(*manager.window.maxsize())
+
+pyplot.show()
 
 \end{lstlisting}
