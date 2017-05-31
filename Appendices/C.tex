@@ -11,7 +11,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 \end{lstlisting}
 
-The library "cartopy" provides cartographic tools for Python, in particular "crs" (Coordinate Reference Systems) that is the very core of cartopy since allow to use a list of several projections with the same interface. Furthermore, the class "shapereader" provides an interface for accessing the contents of a shapefile.
+The library "cartopy" provides cartographic tools for Python, in particular "crs" (Coordinate Reference Systems) that is the very core of 'cartopy' since allow to use a list of several projections with the same interface. Furthermore, the class "shapereader" provides an interface for accessing the contents of a shapefile.
 \begin{lstlisting}
 import cartopy.crs as ccrs
 import cartopy.io.shapereader as shpreader
@@ -25,7 +25,7 @@ import matplotlib.patches as mpatches
 
 \section{Norwegian map implementation}
 \label{Map_system_implementation}
-The following implemented method allows to give a specific shapely geometries to the axes. The method get this particular parameter with "shapeInput". Furhtermore, "labelInput" is in this case the name of the current Norwegian county and the "colorInput" the specific color which will be used for display the geomtry.
+The following implemented method allows to give a specific shapely geometries to the axes. The method get this particular parameter with "shapeInput". Furthermore, "labelInput" is in this case the name of the current Norwegian county and the "colorInput" the specific color which will be used for display the geometry.
 \begin{lstlisting}
 def add_geom(axes, shapeInput, labelInput, colorInput):
 	axes.add_geometries(shapeInput, ccrs.Robinson(), edgecolor='black',label = labelInput, facecolor=colorInput, alpha=0.8)
@@ -38,7 +38,7 @@ fname = 'Datasets/NOR/NOR_adm1.shp'
 NOR_shapes = list(shpreader.Reader(fname).geometries())
 \end{lstlisting}
 
-How reported in the implementation partm during this part of the work was created a specific dataset "countiesAverages". [\ref{Map_displaying}] The system creates a list that contains the value of the paramater "dataInput" for each county.
+How reported in the implementation part during this part of the work was created a specific dataset "countiesAverages". [\ref{Map_displaying}] The system creates a list that contains the value of the parameter "dataInput" for each county.
 \begin{lstlisting}
 dataInput = sys.argv[1]
 inputSeries = pd.read_csv("Datasets/countiesAverages.csv")
@@ -54,7 +54,7 @@ cNorm = matplotlib.colors.Normalize(vmin=minValues, vmax=maxValues)
 
 \newpage
 
-The "colMap" variable contains a specific range of colors and it will be used together with thenormalized range of values by the class "ScalarMappable" that returns RGBA colors, that with the function "colorbar" are used for generate a legend about the values and the colors.
+The "colMap" variable contains a specific range of colors and it will be used together with the normalized range of values by the class "ScalarMappable" that returns RGBA colors, that with the function "colorbar" are used for generate a legend about the values and the colors.
 \begin{lstlisting}
 colMap='bwr'
 cm = plt.get_cmap(colMap)
@@ -84,7 +84,7 @@ rogaland_og_agder = add_geom(ax,NOR_shapes[17], "Rogaland og Agder",col[8])
 \end{lstlisting}
 
 Final settings for modify the title of the graphic and display a legend with the correct labels. \\
-The "manager.resize(*manager.window.maxsize())" function allows to maximize to fullscreen the displayed graphic with "plt.show".
+The "manager.resize(*manager.window.maxsize())" function allows to maximize to full screen the displayed graphic with "plt.show".
 \begin{lstlisting}
 plt.title('Norway - '+sys.argv[1] , fontsize=35)
 labels = ['Finnmark', 'Troms', 'Nordland','Nord Trondelag', 'Sor Trondelag', 'More og Romsdal',	'Sogn og Fjordane', 'Hordaland', 	'Rogaland og Agder','Other counties', ]

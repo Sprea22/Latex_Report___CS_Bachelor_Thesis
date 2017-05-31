@@ -6,27 +6,27 @@
 
 \section{SIA: Imported libraries}
 \label{SIA_libraries}
-The library "os" is really important since provides a waay of using operating system dependent functinality.
+The library "os" provides a way of using operating system dependent functionality.
 \begin{lstlisting}
 import os
 \end{lstlisting}
 
-Also the library "sys" would be very useful for test and execute the program, mainly because it allows to input directly from terminal.
+The library "sys" is useful for test and execute the program, mainly because it allows to input directly via shell terminal.
 \begin{lstlisting}
 import sys
 \end{lstlisting}
 
-The "pandas" library will be very useful for read the data from CSV dataset and setup the plot abut it.
+The "pandas" library will be very useful for read the data from CSV dataset and setup up the plot about it.
 \begin{lstlisting}
 import pandas as pd
 \end{lstlisting}
 
-The "numpy" library it's used for mathematic purpose, such as calculating the correlation coefficent between two series.
+The "numpy" library is the fundamental package for scientific computing with Python. It's used for mathematic purposes, such as calculating the correlation coefficient between two series.
 \begin{lstlisting}
 import numpy as np
 \end{lstlisting}
  
-The "pyplot" library it's used for basic graphic displaying and customization, easy to use but very efficent.
+The "pyplot" library it's used for basic graphic displaying and customization, easy to use but very efficient.
 \begin{lstlisting}
 import matplotlib.pyplot as pyplot
 \end{lstlisting}
@@ -37,7 +37,7 @@ from PIL import Image
 \end{lstlisting}
 
 \section{SIA: Implemented methods}
-This pyplot style configuration allows to customize the graphic desig. In this case was used ggplot, a popular plotting package.
+This 'pyplot' style configuration allows to customize the graphic design. In this case was used a popular plotting package called 'ggplot'.
 \begin{lstlisting}
 pyplot.style.use('ggplot')
 \end{lstlisting}
@@ -133,7 +133,7 @@ series1.plot(color="blue", linewidth=1.5)
 \end{lstlisting}
 
 
-Thera are some settings about the axis x just to display the data in the right format, are easy to change and to costume.
+There are some settings about the axis x just to display the data in the right format, are easy to change and to costume.
 \begin{lstlisting}
 years = []
 j = 0
@@ -148,9 +148,9 @@ pyplot.xticks(np.arange(min(x), max(x)+1, 12.0), years)
 pyplot.title(sys.argv[1] + "\n" + sys.argv[2]+ ": Total graphic")
 \end{lstlisting}
 
-Once setted up the plot of the current data, the next step was to display the trendline of the current graphic.
+Once set up the plot of the current data, the next step was to display the trendline of the current graphic.
 
-At this point the current data values have been read again and passed to the method just impleneted above for calculating the trendline.
+At this point the current data values have been read again and passed to the method just implemented above for calculating the trendline.
 \begin{lstlisting}
 series1 = pd.read_csv("Datasets/" + sys.argv[1]+".csv", usecols=[sys.argv[2]], squeeze=True)
 z1, z2 = trendline(x, series1.values.astype(float), "red")
@@ -178,7 +178,7 @@ months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec
 x_pos = np.arange(len(months))
 \end{lstlisting}
 
-The following code allows the system to split the values and display them in the right way: that means that are going to be splitted for each single year and then plotted on the same graphic.
+The following code allows the system to split the values and display them in the right way: that means that are going to be split for each single year and then plotted on the same graphic.
 \begin{lstlisting}
 tempValues = []
 j = 0
@@ -235,7 +235,7 @@ for i in range(len(series3.values)+1):
 			j = 1
 \end{lstlisting}
 
-With the library "numpy" is possible to calculate the correlation coefficents between all the variables in the series just read.
+With the library "numpy" is possible to calculate the correlation coefficients between all the variables in the series just read.
 \begin{lstlisting}
 corrRes = np.corrcoef(corr)
 \end{lstlisting}
@@ -246,7 +246,7 @@ fig3 = pyplot.figure()
 ax = fig3.add_subplot(111)
 \end{lstlisting}
 
-Creating the correlation matrix using the already calculated correlation coefficents.
+Creating the correlation matrix using the already calculated correlation coefficients.
 \begin{lstlisting}
 cax = ax.matshow(corrRes, interpolation='nearest')
 \end{lstlisting}
@@ -322,7 +322,7 @@ saveMatrix(corrRes, "Results/"+sys.argv[1]+"/"+sys.argv[2]+"/"+sys.argv[1]+"_"+s
 \section{SIA section V: Single overview}
 \label{SIA_section_V}
 \textbf{Code implementation:}\\
-create\_single\_overview() : this method will use the "Image" library for autogenerate a collage of the current input's graphics and save it like an overview image. The content of the params will basically decide how the "Current input overview image" will looks like.
+create\_single\_overview() : this method will use the "Image" library in order to generates a collage of the current input's graphics and save it like an overview image. The content of the parameters will basically decide how the "Current input overview image" will looks like.
 
 It uses each single "current input overview image" of all the inputs and the "correlation matrix between all the inputs image" for combine them in a unique "total overview" and save it using the PDF format.
 

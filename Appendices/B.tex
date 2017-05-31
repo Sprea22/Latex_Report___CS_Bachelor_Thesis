@@ -2,28 +2,28 @@
 \label{MIA_Implementation}
 \section{MIA: Imported libraries}
 \label{MIA_Libraries}
-The "pandas" library will be very useful for read the data from CSV dataset and setup the plot abut it.
+The "pandas" library will be very useful for read the data from CSV dataset and setup up the plot about it.
 \begin{lstlisting}
 import pandas as pd
 \end{lstlisting}
 
-The "numpy" library it's used for mathematic purpose, such as calculating the correlation coefficent between two series.
+The "numpy" library is the fundamental package for scientific computing with Python. It's used for mathematic purposes, such as calculating the correlation coefficient between two series.
 \begin{lstlisting}
 import numpy as np
 \end{lstlisting}
 
-Also the library "sys" would be very useful for test and execute the program, mainly because it allows to input directly from terminal.
+The library "sys" is useful for test and execute the program, mainly because it allows to input directly via shell terminal.
 \begin{lstlisting}
 import sys
 \end{lstlisting}
 
-The "pyplot" library it's used for basic graphic displaying and customization, easy to use but very efficent.
+The "pyplot" library it's used for basic graphic displaying and customization, easy to use but very efficient.
 \begin{lstlisting}
 import matplotlib.pyplot as pyplot
 \end{lstlisting}
 
 
-This pyplot style configuration allows to customize the graphic desig. In this case was used ggplot, a popular plotting package.
+This 'pyplot' style configuration allows to customize the graphic design. In this case was used a popular plotting package called 'ggplot'.
 \begin{lstlisting}
 pyplot.style.use('ggplot')
 \end{lstlisting}
@@ -32,7 +32,7 @@ pyplot.style.use('ggplot')
 \section{MIA section I: Total Correlation Coefficients}
 \label{MIA_section_I}
 
-During the first part of the implementation of this system was used again the "pandas" library for reading all the values of each single paramaeter of the current input dataset.
+During the first part of the implementation of this system was used again the "pandas" library for reading all the values of each single parameter of the current input dataset.
 \begin{lstlisting}
 series = pd.read_csv("Datasets/" + sys.argv[1]+".csv", usecols=range(2,10), header=0)
 corr = []
@@ -40,7 +40,7 @@ for column in series:
     corr.append(series[column].values)
 \end{lstlisting} 
 
-Then, once read and organized the values, are calculated all the correlation coefficients between each single paramater values
+Then, once read and organized the values, are calculated all the correlation coefficients between each single parameter values.
 \begin{lstlisting}
 corrRes = np.corrcoef(corr)
 mat = np.matrix(corrRes)
@@ -77,7 +77,7 @@ pyplot.savefig("Results/" + sys.argv[1]+"/Total_Evidences/"+sys.argv[1]+"_Total_
 \section{MIA section II: Normalized Angular Coefficients}
 \label{MIA_section_II}
 
-During this part of the code the system will read for each single paramater of the current input dataset the trend line normalized angular coefficient. The coefficients values are organized and saved in a temporary data structure.
+During this part of the code the system will read for each single parameter of the current input dataset the trend line normalized angular coefficient. The coefficients values are organized and saved in a temporary data structure.
 \begin{lstlisting}
 temp = [] 
 for i in series.columns:
@@ -94,7 +94,7 @@ x = range(len(series.columns))
 pyplot.barh(x, temp)
 \end{lstlisting}
 
-Last part of the code was used for graphic's customization and for saving it.
+Last part of the code was used for graphic customization and for saving it.
 \begin{lstlisting}
 pyplot.yticks(x,series.columns)
 pyplot.title("Normalized Angular coefficients - " + sys.argv[1])
