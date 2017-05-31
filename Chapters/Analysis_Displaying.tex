@@ -4,9 +4,9 @@
 Total implementation link for data analyzer : \\
 \url{https://github.com/Sprea22/Python_Systems}
 
-During this part the main purpose is to analyze the whole dataset in order to find some kind of useful informations later on. 
+During this part the main purpose is to analyze the whole dataset in order to find information that can be useful in later steps. 
 
-The system that it's going to be implemented during this part of the work could be divided in two subsystems, with the relative outcomes:
+The system that is going to be implemented during this part of the work could be divided in two subsystems, with the relative outcomes:
 \begin{itemize}
 \item Single Input Analyzer (SIA): Used for analyze a single data input.
 \begin{itemize}
@@ -61,11 +61,12 @@ seris.plot()
 It's possible to check out the full commented implementation in the appendice: [\ref{SIA_section_I}]
 
 \textbf{Results:} \\
-With this first part of the code has been reached the first goal of displaying and saving the basic graphic about the current input, with also the relative trend line and saving it angular coefficient in a document, that looks like:
+With this first part of the code the first goal of displaying and saving the basic graphic about the current input has been reached, also including the relative trend line and saving its angular coefficient in a document. An example result is shown in figure[\ref{Total_graphic}].
 
 \begin{figure}[H]
 \includegraphics[width=0.9\textwidth]{Files/Cages_Total.pdf}
 \caption{Total graphic about current input over the whole period.}
+\label{Total_graphic}
 \end{figure}
 
 
@@ -91,11 +92,12 @@ pyplot.plot()
 It's possible to check out the full ccommented code in the appendice: [\ref{SIA_section_II}]
 
 \textbf{Results:} \\
-With this second part of the code has been reached the goal of displaying and saving the graphic of the plots for each single year of the current input, that looks like:
+With this second part of the code the goal of displaying and saving the graphic of the plots for each single year about the current input has been reached. An example result is shown in figure [\ref{Years_graphic}].
 \begin{figure}[H]
 	\centering
     \includegraphics[width=0.9\textwidth]{Files/Cages_Years.pdf}
     \caption{Graphics for each single year of the current input data.}
+    \label{Years_graphic}
 \end{figure}
 
 
@@ -111,7 +113,7 @@ Calculate and save the correlation coefficients between each single year over th
 The current data input has to be with a monthly frequency. 
 
 \textbf{Implementation:}\\
-To reach the current goal have been used the scientific computing library "numpy", that allows to calculate the correlation coefficients between data. Then the library "pyplot" has been used to display the results on a matrix.
+To reach the current goal the scientific computing library "numpy" has been used , this allows to calculate the correlation coefficients between data. Then the library "pyplot" has been used to display the results on a matrix.
 \begin{lstlisting}
 numpy.corrcoef()
 figure = pyplot.figure()
@@ -122,12 +124,12 @@ ax.matshow()
 It's possible to check out the full ccommented code in the appendice: [\ref{SIA_section_III}]
 
 \textbf{Results:} \\
-With this part of the code have been calculated and displayed the correlation coefficients between each single year of the current input, that looks like:
-
+With this part of the code the correlation coefficient values between each single year of the current input have been calculated, displayed and reported in a document. An example result is shown in figure [\ref{Corr_Months}].
 \begin{figure}[H]
 	\centering
-    \includegraphics[width=0.9\textwidth]{Files/Cages_Months_Matrix.pdf}
+    \includegraphics[trim={0 0.3cm 0 0.3cm},clip,width=0.9\textwidth]{Files/Cages_Months_Matrix.pdf}
     \caption{Correlation matrix between different months of the same input}
+    \label{Corr_Months}
 \end{figure}
 
 
@@ -143,7 +145,7 @@ Calculate and save the correlation coefficients between each single month of the
 The current data input has to be with a monthly frequency. 
 
 \textbf{Implementation:}\\
-To reach the current goal have been used the scientific computing library "numpy", that allows to calculate the correlation coefficients between data. Then the library "pyplot" has been used to display the results on a matrix.
+To reach the current goal the scientific computing library "numpy" has been used, this allows to calculate the correlation coefficients between data. Then the library "pyplot" has been used to display the results on a matrix.
 
 \begin{lstlisting}
 numpy.corrcoef()
@@ -156,12 +158,13 @@ It's possible to check out the full ccommented code in the appendice: [\ref{SIA_
 
 
 \textbf{Results:} \\
-With this part of the code have been calculated and displayed the correlation coefficients between each single month of the current input, that looks like: 
+With this part of the code the correlation coefficient values between each single month of the current input have been calculated, displayed and reported in a document. An example result is shown in figure [\ref{Corr_Years}].
 
 \begin{figure}[H]
 	\centering
-    \includegraphics[width=0.9\textwidth]{Files/Cages_Years_Matrix.pdf}
+    \includegraphics[trim={0 0.3cm 0 0.3cm},clip,width=0.9\textwidth]{Files/Cages_Years_Matrix.pdf}
     \caption{Correlation matrix between different years of the same input}
+    \label{Corr_Years}
 \end{figure}
 
 
@@ -175,7 +178,7 @@ Generate and display a single overview image that contains all the graphics prev
 All the graphics about the current input have to be already calculated and saved.
 
 \textbf{Implementation:}\\
-During this part of the implemented system has been indispensable the Python Imaging Library, called also PIL. 
+During this part of the implemented system the Python Imaging Library has been indispensable, called also PIL\footnote{Python Imaging Library : \url{http://www.pythonware.com/products/pil/}}. 
 \begin{lstlisting}
 from PIL import Image
 \end{lstlisting}
@@ -191,12 +194,12 @@ The following method contains the full code that allows to create the overview i
 def create_single_overview(cols, rows, dest, width, height, listofimages):
 \end{lstlisting}
 The output of this phase depends by the input to this method, that are basically the list of image and the preferences about the collage's structure.\\
-Is possible to view the final result of this phase in the next page and is possible to check out the full ccommented code in the appendice: [\ref{SIA_section_V}]
+It's possible to view the final result of this phase in the next page and it's possible to check out the full commented code in the appendice: [\ref{SIA_section_V}]
 
 \newpage
 
 \textbf{Results:}\\
-With this part of the code it's possible to have a single overview image about the current input, that basically allows to compare all the graphics already calculated about this input. The general overview graphic contains:
+With this part of the code it's possible to have a single overview image about the current input. This basically allows to compare all the graphics already calculated about this input. The general overview graphic contains:
 \begin{itemize}
 \item Total graphic of the input data for the whole period.
 \item Graphic of the input data for each single year.
@@ -240,7 +243,7 @@ It's possible to check out the total implementation of the MIA in the appendice 
 
 \subsection{MIA: Imported libraries}
 Specific Python libraries have been imported for the implementation of this system.
-It's possible to find out a list of this libraries with a specific description for each of them in the appendice [\ref{MIA_Libraries}].
+It's possible to find a list of the libraries with a specific description for each of them in the appendice [\ref{MIA_Libraries}].
 
 \newpage
 
@@ -249,10 +252,10 @@ It's possible to find out a list of this libraries with a specific description f
 Calculate and save the correlation coefficients between different inputs of the current dataset and then show it with a matrix.
 
 \textbf{Requirements:}\\
-To let the MIA system works in a proper way, is necessary that the current dataset has been already analyzed from the SIA system.
+To let the MIA system works in a proper way, it's necessary that the current dataset has been already analyzed from the SIA system.
 
 \textbf{Implementation:}\\
-To reach the current goal have been used the scientific computing library "numpy", that allows to calculate the correlation coefficients between data. Then the library "pyplot" has been used to display the results on a matrix.
+To reach the current goal the scientific computing library "numpy" has been used. This allows to calculate the correlation coefficients between data. Then the library "pyplot" has been used to display the results on a matrix.
 \begin{lstlisting}
 numpy.corrcoef()
 figure = pyplot.figure()
@@ -279,7 +282,7 @@ Display the comparison graphic between the normalized angular coefficient of eac
 To let the MIA system works in a proper way, is necessary that the current dataset has been already analyzed from the SIA system.
 
 \textbf{Implementation:}\\
-Also to reach this goal have been used the two libraries "pandas" and "pyplot". The first one allows us to read the values that the library "pyplot" will display, in this case in a histogram.
+Also to reach this goal the two libraries "pandas" and "pyplot" have been used. The first one allows us to read the values that the library "pyplot" will display, in this case in a histogram.
 \begin{lstlisting}
 pandas.read_csv()
 pyplot.barh()
@@ -308,23 +311,23 @@ The main goal of this phase is to find a way to visualize some data values on a 
 \textbf{Requirements:}\\
 This displaying system was implemented just for displaying data about Norway, that means it's not reusable for other input datasets.
 
-During this work has been created a specific dataset for test the system works. It contains the average value of a specific input about a single county on the whole available period. The following table shows some examples about the dataset structure: for each county has been calculated the average value from 2007 to 2014 of different parameters.\\
+During this work a specific dataset for test the system works has been created. It contains the average value of a specific input about a single county on the whole available period. The following table shows some examples about the dataset structure: for each count the average value from 2007 to 2014 of different parameters have been calculated.\\
 
 \makebox[\textwidth][c]{
-\resizebox{1.2\textwidth}{!}{
-    \begin{tabular}{ | l | l | l | l | l | l |}
+\resizebox{1\textwidth}{!}{
+    \begin{tabular}{ | l | l | l | l | l |}
             \hline
-\textbf{county}						&	\textbf{averageSeaTemp}	&	\textbf{cages}				& \textbf{localities}			& \textbf{...}	&  \textbf{feedConsumption/biomass}
+\textbf{county}						&	\textbf{averageSeaTemp}	&	\textbf{cages}						& \textbf{...}	&  \textbf{feedConsumption/biomass}
 	\\ \hline
-Finnmark					&	5.2128134819	&	257.2395833333		&	33.8333333333		& ...	& 0.1611964666	\\ \hline
-Troms						&	6.2185416667	&	393.3958333333		&	52.1666666667		& ...	&	0.1831404686	\\ \hline
-Nordland 					&	6.8333444959	&	804.5104166667		&	109.0208333333		& ...	&	0.1849358645	\\ \hline
-Nord-Trondelag				&	7.322600258		&	231.6875			&	30.3645833333		& ...	&	0.1852350478	\\ \hline
-Sor-Trondelag				&	7.5381376237	&	306.9479166667		&	51.3645833333		& ...	&	0.1862036956	\\ \hline
-More\_og\_Romsdal				&	8.0087820154	&	347.3229166667		&	59.5729166667		& ...	&	0.1831662176	\\ \hline
-Sogn\_og\_Fjordane			&	8.1081250683	&	318.9583333333		&	52.5				& ...	&	0.1863151035	\\ \hline
-Hordaland					&	7.8033025443	&	738.8854166667		&	131.1770833333		& ...	&	0.1925203347	\\ \hline
-Rogaland\_og\_Agder 			&	7.1951075619	&	338.53125			&	53.0416666667		& ...	&	0.1840209916	\\ \hline
+Finnmark					&	5.2128134819	&	257.2395833333				& ...	& 0.1611964666	\\ \hline
+Troms						&	6.2185416667	&	393.3958333333				& ...	&	0.1831404686	\\ \hline
+Nordland 					&	6.8333444959	&	804.5104166667				& ...	&	0.1849358645	\\ \hline
+Nord-Trondelag				&	7.322600258		&	231.6875					& ...	&	0.1852350478	\\ \hline
+Sor-Trondelag				&	7.5381376237	&	306.9479166667			& ...	&	0.1862036956	\\ \hline
+More\_og\_Romsdal				&	8.0087820154	&	347.3229166667				& ...	&	0.1831662176	\\ \hline
+Sogn\_og\_Fjordane			&	8.1081250683	&	318.9583333333					& ...	&	0.1863151035	\\ \hline
+Hordaland					&	7.8033025443	&	738.8854166667		& ...	&	0.1925203347	\\ \hline
+Rogaland\_og\_Agder 			&	7.1951075619	&	338.53125					& ...	&	0.1840209916	\\ \hline
     \end{tabular}}}\\
     
 
@@ -355,8 +358,10 @@ matplotlib.colors.Normalize
 It's possible to check out the full ccommented code in the appendice: [\ref{Map_System}]
 
 \textbf{Results:} \\
-During this implementation was implemented a cartographic representation of some parameters about each single county involved in the Norwegian aquaculture business, but is possible to use the reported library to implement a system about an another territory or an another country.
+During this implementation a cartographic representation of some parameters about each single county involved in the Norwegian aquaculture business was implemented. But it's possible to use the reported library to implement a system about an another territory or an another country.
 \begin{figure}[H]
-    	\makebox[\textwidth][c]{\includegraphics[trim={0cm 2cm 0 3cm},clip, width=1.4\textwidth]{Files/norway_averageSeaTemp.jpeg}}
-    \caption{Monthly Average Sea Temperature from 2007 to 2014 in Norway.}
+	\makebox[\textwidth][c]{
+    \includegraphics[trim={5cm 4cm 3cm 3cm},clip,width=1\textwidth]{Files/norway_averageSeaTemp.pdf}}
+    \caption{Monthly average sea temperature from 2007 to 2014 in Norway}
+    \label{fig: Norway_averageSeaTemp}
 \end{figure}

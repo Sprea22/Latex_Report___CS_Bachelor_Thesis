@@ -1,9 +1,9 @@
 \chapter{Prediction System}
 The main goal during this phase was to find a way to implement a forecast system in Python.
-Since the datasets used during this thesis could be considered as a time series, was decide to implement and test an Autoregressive Integrated Moving Average (ARIMA) model. \\
-Since there are several possible configurations for fit an ARIMA model, is important to find the right one to use with each input dataset because it would allows to have much better prediction results.
-In order to find the best ARIMA configuration there are different methods and procedure, like one of the most known that is "Box–Jenkins method"\footnote{Check out the Box–Jenkins method at the current link: \\ \url{https://en.wikipedia.org/wiki/Box\%E2\%80\%93Jenkins_method}}. In this study was decied to use an easier method, in order to have a first approach with this system and a general idea about the problem. It basically consists in testing different ARIMA model configurations for the same input dataset and then check the results.\\
-For this reason during this phase of the work have been implemented 2 different subsytems for two different purposes:
+Since the datasets used during this thesis could be considered as a time series, it was decide to implement and test an Autoregressive Integrated Moving Average (ARIMA) model. \\
+Since there are several possible configurations that fits an ARIMA model, it is important to find the right one to use with each input dataset because it would give much better prediction results.
+In order to find the best ARIMA configuration there are different methods and procedures. The most known is "Box–Jenkins method"\footnote{Check out the Box–Jenkins method at the current link: \\ \url{https://en.wikipedia.org/wiki/Box\%E2\%80\%93Jenkins_method}}. In this study it was decided to use an easier method, in order to have a first approach with this system and a general idea about the problem. It basically consists of testing different ARIMA model configurations for the same input dataset and then comparing the results.\\
+For this reason, during this phase of the work two different subsytems for two different purposes have been implemented:
 \begin{enumerate}
 \item Evaluating System
 \item Prediction System
@@ -12,7 +12,7 @@ For this reason during this phase of the work have been implemented 2 different 
 \newpage
 \section{Evaluating System}
 \textbf{Goal:}\\ 
-Used for evaluate different configurations of ARIMA machine. \\ It tests 112 different configurations for the current input and report in a document the tested configurations with the corresponding MAPE (Mean Average Percentage Error)\footnote{MAPE formula and description: \\ \url{https://en.wikipedia.org/wiki/Mean_absolute_percentage_error}} value, which is a measure of prediction accuracy of a forecasting method in statistics, for example in trend estimation. It usually expresses accuracy as a percentage.
+Used for evaluating different configurations of the ARIMA machine. \\ It tests 112 different configurations for the current input and reports the tested configurations with the corresponding MAPE (Mean Average Percentage Error)\footnote{MAPE formula and description: \\ \url{https://en.wikipedia.org/wiki/Mean_absolute_percentage_error}} value in a document. MAPE is a measure of prediction accuracy of a forecasting method in statistics, for example in trend estimation, and it usually expresses accuracy as a percentage.
 
 \textbf{Requirements:}\\
 There are not any kind of needed requirements. It's possible to use this system on dataset of arbitrary length.
@@ -26,7 +26,7 @@ model_fit = model.fit(disp=0)
 yhat = model_fit.forecast()[0]
 \end{lstlisting}
 
-More in the specific, the 112 different ARIMA configurations that were tested are all the possible combinations between the following three parameters values:
+More specific, all the 112 different ARIMA configurations tested are all the possible combinations between the following three parameters values:
 \begin{lstlisting}
 p_values = [0, 1, 2, 4, 6, 8, 10]
 d_values = [0, 1, 2, 3]
@@ -40,9 +40,9 @@ It's possible to check out the full implemented code in the appendice: [\ref{Eva
 \newpage
 
 \textbf{Results:}\\
-The system will report in a document the MAPE between real value and predicted values for each of the 112 tested ARIMA machine.
-During this part of the work was also create a script for execute an ARIMA evaluation about each single paramater of each single dataset, but once executed it required too much time for complete all the evaluations. \\
-For that reason have been reported in a document just some relevant evaluations result. The table below here gaves an example about how the documents look like and also report some results about specific paramater that are going to be used in the next phase.\\
+The system will report the MAPE between real value and predicted values for each of the 112 tested ARIMA machine in a document.
+During this part of the work also a script\footnote{Link to the implemented script "autoEvaluate.sh" : \\url{https://github.com/Sprea22/Personal\_Utilities}} for executing an ARIMA evaluation about each single parameter of each single dataset was created, but once executed it required too much time to complete all the evaluations.
+For that reason, just some relevant evaluations result have been reported in a document. The table below reports some results about specific parameters that are going to be used in the next phase.\\
 
  \begin{table}[ht]
 \makebox[\textwidth][c]{
@@ -106,11 +106,12 @@ This system will automatically generate a document that contain:
 \item MAPE between each prediction and the corresponding real value.
 \end{itemize}
 
-And then it provides also the possibility to visualize the historic, real and predicted future values on the same graphic, that looks like the following example:
+It provides also the possibility to visualize the historic, real and predicted future values on the same graphic, as shown in the example figure [\ref{GraphicForecasting}].
 
 \begin{figure}[H]
     \makebox[\textwidth][c]{\includegraphics[width=1.3\textwidth]{Files/Finnmark-feedConsumption_pred.pdf}}
     \caption{Graphic that display historic, real and predicted future values of a input.}
+\label{GraphicForecasting}
 \end{figure}
 
 

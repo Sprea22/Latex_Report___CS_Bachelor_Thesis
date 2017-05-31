@@ -1,8 +1,8 @@
 \contentsline {chapter}{Abstract}{i}{chapter*.1}
 \contentsline {chapter}{Acknowledgements}{ii}{chapter*.2}
 \contentsline {chapter}{List of Figures}{vi}{dummy.4}
-\contentsline {chapter}{List of Tables}{viii}{dummy.6}
-\contentsline {chapter}{Abbreviations}{ix}{dummy.8}
+\contentsline {chapter}{List of Tables}{vii}{dummy.6}
+\contentsline {chapter}{Abbreviations}{viii}{dummy.8}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.11}
 \contentsline {section}{\numberline {1.1}Aim of the study}{2}{section.12}
 \contentsline {section}{\numberline {1.2}Research Objectives}{2}{section.13}
@@ -12,72 +12,72 @@
 \contentsline {chapter}{\numberline {2}Background Theory}{6}{chapter.17}
 \contentsline {section}{\numberline {2.1}Data science}{6}{section.18}
 \contentsline {section}{\numberline {2.2}Machine learning}{8}{section.21}
-\contentsline {subsection}{\numberline {2.2.1}Time Series analysis and predictions}{8}{subsection.22}
+\contentsline {subsection}{\numberline {2.2.1}Time Series analysis and predictions}{9}{subsection.22}
 \contentsline {subsection}{\numberline {2.2.2}Autoregressive integrated moving average (ARIMA)}{9}{subsection.23}
-\contentsline {section}{\numberline {2.3}Aquaculture in Norway}{10}{section.24}
-\contentsline {part}{I\hspace {1em}Data Collection and Validation}{11}{part.26}
-\contentsline {chapter}{\numberline {3}Data Sources and Elaboration}{12}{chapter.27}
-\contentsline {section}{\numberline {3.1}Data Sources}{12}{section.28}
-\contentsline {subsection}{\numberline {3.1.1}Data from SINTEF Nord}{12}{subsection.29}
-\contentsline {subsection}{\numberline {3.1.2}Data from Fiskeridir}{13}{subsection.32}
-\contentsline {subsection}{\numberline {3.1.3}Data from Indexmundi}{14}{subsection.35}
-\contentsline {section}{\numberline {3.2}Increase accessibility and availability of data}{14}{section.38}
-\contentsline {subsection}{\numberline {3.2.1}Dataset about Norway}{15}{subsection.39}
-\contentsline {subsection}{\numberline {3.2.2}Dataset about single county}{16}{subsection.42}
-\contentsline {part}{II\hspace {1em}Implementation}{17}{part.45}
-\contentsline {chapter}{\numberline {4}Implementation Design and Requirements}{18}{chapter.46}
-\contentsline {section}{\numberline {4.1}System Requirements}{18}{section.47}
-\contentsline {subsection}{\numberline {4.1.1}Requirements for reusability}{18}{subsection.48}
-\contentsline {subsection}{\numberline {4.1.2}System requirements}{18}{subsection.49}
-\contentsline {section}{\numberline {4.2}System Design}{19}{section.54}
-\contentsline {chapter}{\numberline {5}Analyzer System}{20}{chapter.56}
-\contentsline {section}{\numberline {5.1}Single Input Analyzer}{21}{section.57}
-\contentsline {subsection}{\numberline {5.1.1}SIA: Imported libraries}{21}{subsection.58}
-\contentsline {subsection}{\numberline {5.1.2}SIA section I: Total graphic for all the years}{22}{subsection.59}
-\contentsline {subsection}{\numberline {5.1.3}SIA section II: Single graphics for each year}{23}{subsection.64}
-\contentsline {subsection}{\numberline {5.1.4}SIA section III: Correlation matrix between years}{24}{subsection.70}
-\contentsline {subsection}{\numberline {5.1.5}SIA section IV: Correlation matrix between months}{25}{subsection.77}
-\contentsline {subsection}{\numberline {5.1.6}SIA section V: Single overview}{26}{subsection.84}
-\contentsline {section}{\numberline {5.2}Multiple Inputs Analyzer}{28}{section.94}
-\contentsline {subsection}{\numberline {5.2.1}MIA: Imported libraries}{28}{subsection.95}
-\contentsline {subsection}{\numberline {5.2.2}MIA section I: Total Correlation Coefficients}{29}{subsection.96}
-\contentsline {subsection}{\numberline {5.2.3}MIA section II: Normalized Angular Coefficients}{30}{subsection.103}
-\contentsline {section}{\numberline {5.3}Data Displaying on a map}{31}{section.108}
-\contentsline {chapter}{\numberline {6}Prediction System}{33}{chapter.122}
-\contentsline {section}{\numberline {6.1}Evaluating System}{34}{section.126}
-\contentsline {section}{\numberline {6.2}Prediction System}{36}{section.137}
-\contentsline {part}{III\hspace {1em}Results, Discussion, and Conclusions}{38}{part.147}
-\contentsline {chapter}{\numberline {7}Results Overview}{39}{chapter.148}
-\contentsline {section}{\numberline {7.1}Implemented Python Systems}{39}{section.150}
-\contentsline {section}{\numberline {7.2}Generated Evidences and values}{40}{section.151}
-\contentsline {section}{\numberline {7.3}Particular interest results}{40}{section.152}
-\contentsline {chapter}{\numberline {8}Discussion and Evaluations}{43}{chapter.160}
-\contentsline {section}{\numberline {8.1}Evaluation System implemented}{44}{section.161}
-\contentsline {section}{\numberline {8.2}Improvements for feed consumption values forecasting }{45}{section.163}
-\contentsline {section}{\numberline {8.3}Evaluation and limitations of the study}{48}{section.175}
-\contentsline {chapter}{\numberline {9}Conclusion}{49}{chapter.176}
-\contentsline {section}{\numberline {9.1}Summary}{49}{section.177}
-\contentsline {section}{\numberline {9.2}Recommendations to future work}{50}{section.178}
+\contentsline {section}{\numberline {2.3}Aquaculture in Norway}{11}{section.24}
+\contentsline {part}{I\hspace {1em}Data Collection and Validation}{12}{part.26}
+\contentsline {chapter}{\numberline {3}Data Sources and Elaboration}{13}{chapter.27}
+\contentsline {section}{\numberline {3.1}Data Sources}{13}{section.28}
+\contentsline {subsection}{\numberline {3.1.1}Data from SINTEF Nord}{13}{subsection.29}
+\contentsline {subsection}{\numberline {3.1.2}Data from Fiskeridirektoratet}{14}{subsection.33}
+\contentsline {subsection}{\numberline {3.1.3}Data from Indexmundi}{15}{subsection.37}
+\contentsline {section}{\numberline {3.2}Increase accessibility and availability of data}{15}{section.40}
+\contentsline {subsection}{\numberline {3.2.1}Dataset about Norway}{16}{subsection.41}
+\contentsline {subsection}{\numberline {3.2.2}Dataset about single county}{17}{subsection.44}
+\contentsline {part}{II\hspace {1em}Implementation}{18}{part.47}
+\contentsline {chapter}{\numberline {4}Implementation Design and Requirements}{19}{chapter.48}
+\contentsline {section}{\numberline {4.1}System Requirements}{19}{section.49}
+\contentsline {subsection}{\numberline {4.1.1}Requirements for reusability}{19}{subsection.50}
+\contentsline {subsection}{\numberline {4.1.2}System requirements}{19}{subsection.51}
+\contentsline {section}{\numberline {4.2}System Design}{20}{section.57}
+\contentsline {chapter}{\numberline {5}Analyzer System}{21}{chapter.59}
+\contentsline {section}{\numberline {5.1}Single Input Analyzer}{22}{section.60}
+\contentsline {subsection}{\numberline {5.1.1}SIA: Imported libraries}{22}{subsection.61}
+\contentsline {subsection}{\numberline {5.1.2}SIA section I: Total graphic for all the years}{23}{subsection.62}
+\contentsline {subsection}{\numberline {5.1.3}SIA section II: Single graphics for each year}{24}{subsection.67}
+\contentsline {subsection}{\numberline {5.1.4}SIA section III: Correlation matrix between years}{25}{subsection.73}
+\contentsline {subsection}{\numberline {5.1.5}SIA section IV: Correlation matrix between months}{26}{subsection.80}
+\contentsline {subsection}{\numberline {5.1.6}SIA section V: Single overview}{27}{subsection.87}
+\contentsline {section}{\numberline {5.2}Multiple Inputs Analyzer}{29}{section.98}
+\contentsline {subsection}{\numberline {5.2.1}MIA: Imported libraries}{29}{subsection.99}
+\contentsline {subsection}{\numberline {5.2.2}MIA section I: Total Correlation Coefficients}{30}{subsection.100}
+\contentsline {subsection}{\numberline {5.2.3}MIA section II: Normalized Angular Coefficients}{31}{subsection.107}
+\contentsline {section}{\numberline {5.3}Data Displaying on a map}{32}{section.112}
+\contentsline {chapter}{\numberline {6}Prediction System}{34}{chapter.126}
+\contentsline {section}{\numberline {6.1}Evaluating System}{35}{section.130}
+\contentsline {section}{\numberline {6.2}Prediction System}{37}{section.142}
+\contentsline {part}{III\hspace {1em}Results, Discussion, and Conclusions}{39}{part.152}
+\contentsline {chapter}{\numberline {7}Results Overview}{40}{chapter.153}
+\contentsline {section}{\numberline {7.1}Implemented Python Systems}{40}{section.155}
+\contentsline {section}{\numberline {7.2}Generated Evidences and values}{41}{section.156}
+\contentsline {section}{\numberline {7.3}Particularly interesting results}{41}{section.157}
+\contentsline {chapter}{\numberline {8}Discussion and Evaluations}{45}{chapter.166}
+\contentsline {section}{\numberline {8.1}Evaluation and limitations of the study}{45}{section.167}
+\contentsline {section}{\numberline {8.2}Considerations about implemented Evaluation System }{46}{section.168}
+\contentsline {section}{\numberline {8.3}Improvements for feed consumption forecasting }{49}{section.172}
+\contentsline {chapter}{\numberline {9}Conclusion}{52}{chapter.184}
+\contentsline {section}{\numberline {9.1}Summary}{52}{section.185}
+\contentsline {section}{\numberline {9.2}Recommendations to future work}{53}{section.186}
 \vspace {2em}
-\contentsline {part}{IV\hspace {1em}Full Code Implementation}{51}{part.179}
-\contentsline {chapter}{\numberline {A}SIA Implementation code}{52}{appendix.180}
-\contentsline {section}{\numberline {A.1}SIA: Imported libraries}{52}{section.181}
-\contentsline {section}{\numberline {A.2}SIA: Implemented methods}{53}{section.194}
-\contentsline {section}{\numberline {A.3}SIA section I: Total graphic for all the years}{55}{section.260}
-\contentsline {section}{\numberline {A.4}SIA section II: Single graphics for each year}{56}{section.286}
-\contentsline {section}{\numberline {A.5}SIA section III: Correlation matrix between years}{57}{section.316}
-\contentsline {section}{\numberline {A.6}SIA section IV: Correlation matrix between months}{58}{section.353}
-\contentsline {section}{\numberline {A.7}SIA section V: Single overview}{59}{section.381}
-\contentsline {chapter}{\numberline {B}MIA Implementation code}{60}{appendix.390}
-\contentsline {section}{\numberline {B.1}MIA: Imported libraries}{60}{section.391}
-\contentsline {section}{\numberline {B.2}MIA section I: Total Correlation Coefficients}{61}{section.402}
-\contentsline {section}{\numberline {B.3}MIA section II: Normalized Angular Coefficients}{62}{section.434}
-\contentsline {chapter}{\numberline {C}Norway's Map System Implementation Code}{63}{appendix.451}
-\contentsline {section}{\numberline {C.1}Map System: Imported libraries}{63}{section.452}
-\contentsline {section}{\numberline {C.2}Norwegian map implementation}{64}{section.465}
-\contentsline {chapter}{\numberline {D}Prediction System Implementation code}{66}{appendix.516}
-\contentsline {section}{\numberline {D.1}Common libraries}{66}{section.517}
-\contentsline {section}{\numberline {D.2}Common methods}{67}{section.529}
-\contentsline {section}{\numberline {D.3}Evaluating System}{68}{section.549}
-\contentsline {section}{\numberline {D.4}Prediction System}{70}{section.598}
-\contentsline {chapter}{Bibliography}{72}{appendix*.656}
+\contentsline {part}{IV\hspace {1em}Full Code Implementation}{55}{part.191}
+\contentsline {chapter}{\numberline {A}SIA Implementation code}{56}{appendix.192}
+\contentsline {section}{\numberline {A.1}SIA: Imported libraries}{56}{section.193}
+\contentsline {section}{\numberline {A.2}SIA: Implemented methods}{57}{section.206}
+\contentsline {section}{\numberline {A.3}SIA section I: Total graphic for all the years}{59}{section.272}
+\contentsline {section}{\numberline {A.4}SIA section II: Single graphics for each year}{60}{section.298}
+\contentsline {section}{\numberline {A.5}SIA section III: Correlation matrix between years}{61}{section.328}
+\contentsline {section}{\numberline {A.6}SIA section IV: Correlation matrix between months}{62}{section.365}
+\contentsline {section}{\numberline {A.7}SIA section V: Single overview}{63}{section.393}
+\contentsline {chapter}{\numberline {B}MIA Implementation code}{64}{appendix.402}
+\contentsline {section}{\numberline {B.1}MIA: Imported libraries}{64}{section.403}
+\contentsline {section}{\numberline {B.2}MIA section I: Total Correlation Coefficients}{65}{section.414}
+\contentsline {section}{\numberline {B.3}MIA section II: Normalized Angular Coefficients}{66}{section.446}
+\contentsline {chapter}{\numberline {C}Norway's Map System Implementation Code}{67}{appendix.463}
+\contentsline {section}{\numberline {C.1}Map System: Imported libraries}{67}{section.464}
+\contentsline {section}{\numberline {C.2}Norwegian map implementation}{68}{section.477}
+\contentsline {chapter}{\numberline {D}Prediction System Implementation code}{70}{appendix.528}
+\contentsline {section}{\numberline {D.1}Common libraries}{70}{section.529}
+\contentsline {section}{\numberline {D.2}Common methods}{71}{section.541}
+\contentsline {section}{\numberline {D.3}Evaluating System}{72}{section.561}
+\contentsline {section}{\numberline {D.4}Prediction System}{74}{section.610}
+\contentsline {chapter}{Bibliography}{77}{appendix*.668}

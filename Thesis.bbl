@@ -19,6 +19,37 @@ Wikipedia.
 \bibitem{ArthurSamuel}
 Arthur Samuel, 1959.
 
+\bibitem{wiki:clusterAnalysis}
+Wikipedia.
+\newblock Cluster analysis --- wikipedia{,} the free encyclopedia.
+\newblock
+  \url{https://en.wikipedia.org/w/index.php?title=Cluster_analysis&oldid=782997586},
+  2017.
+\newblock [Online].
+
+\bibitem{wiki:Classification}
+Wikipedia.
+\newblock Statistical classification --- wikipedia{,} the free encyclopedia.
+\newblock
+  \url{https://en.wikipedia.org/w/index.php?title=Statistical_classification&oldid=781889759},
+  2017.
+\newblock [Online].
+
+\bibitem{wiki:Databases}
+Wikipedia.
+\newblock Database --- wikipedia{,} the free encyclopedia, 2017.
+\newblock [Online].
+
+\bibitem{DataProcessFramework}
+Quora.
+\newblock The data science process, 2014.
+\newblock [Online].
+
+\bibitem{wiki:Regression}
+Wikipedia.
+\newblock Regression analysis --- wikipedia{,} the free encyclopedia, 2017.
+\newblock [Online].
+
 \bibitem{TimeSeries}
 Time series analysis: Forecasting and control.
 \newblock [page 1].
@@ -62,6 +93,15 @@ Standing Senate~Committee on~Fisheries and Oceans.
 \newblock Volume two - aquaculture industry and governance in norway and
   scotland, June 2016.
 \newblock [Online].
+
+\bibitem{limitations}
+Senior~Editor Amanda~Hindle.
+\newblock How to write about your study limitations without limiting your
+  impact.
+\newblock
+  \url{https://www.edanzediting.com/blogs/how-write-about-your-study-limitations-without-limiting-your-impact},
+  January 23, 2015.
+\newblock Online.
 
 \bibitem{previousWork2}
 Jason Brownlee.

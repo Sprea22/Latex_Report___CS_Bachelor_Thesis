@@ -3,20 +3,21 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Data provided from SINTEF Nord. \relax }}{12}{table.caption.31}
-\contentsline {table}{\numberline {3.2}{\ignorespaces Data provided from Fiskeridir.\relax }}{13}{table.caption.34}
-\contentsline {table}{\numberline {3.3}{\ignorespaces Data provided from Indexmundi.\relax }}{14}{table.caption.37}
-\contentsline {table}{\numberline {3.4}{\ignorespaces Structure of the dataset about Norway.\relax }}{15}{table.caption.41}
-\contentsline {table}{\numberline {3.5}{\ignorespaces Structure of the dataset about each norwegian county.\relax }}{16}{table.caption.44}
+\contentsline {table}{\numberline {3.1}{\ignorespaces Data provided from SINTEF Nord. \relax }}{13}{table.caption.32}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Data provided from Fiskeridirektoratet.\relax }}{14}{table.caption.36}
+\contentsline {table}{\numberline {3.3}{\ignorespaces Data provided from Indexmundi.\relax }}{15}{table.caption.39}
+\contentsline {table}{\numberline {3.4}{\ignorespaces Structure of the dataset about Norway.\relax }}{16}{table.caption.43}
+\contentsline {table}{\numberline {3.5}{\ignorespaces Structure of the dataset about each norwegian county.\relax }}{17}{table.caption.46}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {6.1}{\ignorespaces MAPE Results for some particular dataset about the parameter "feedConsumption"\relax }}{35}{table.caption.136}
+\contentsline {table}{\numberline {6.1}{\ignorespaces MAPE Results for some particular dataset about the parameter "feedConsumption"\relax }}{36}{table.caption.141}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {7.1}{\ignorespaces Comparison between real 2015 "feed consumption" values and their prediction, with the corresponding MAPE for the counties: Finnmark, Hordaland, Troms\relax }}{42}{table.caption.158}
-\contentsline {table}{\numberline {7.2}{\ignorespaces Comparison between real 2015 "feed consumption" values and their prediction, with the corresponding MAPE for the counties: Nordland, Norway\relax }}{42}{table.caption.159}
+\contentsline {table}{\numberline {7.1}{\ignorespaces Norway: Predicted feed consumption values: Real, Pred, Error. }}{43}{table.caption.163}
+\contentsline {table}{\numberline {7.2}{\ignorespaces Finnmark, Hordaland: Predicted feed consumption values: Real, Pred, Error. }}{44}{table.caption.164}
+\contentsline {table}{\numberline {7.3}{\ignorespaces Nordland, Troms: Predicted feed consumption values: Real, Pred, Error. }}{44}{table.caption.165}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {8.1}{\ignorespaces Comparison between Evaluation MAPE and Prediction MAPE\relax }}{44}{table.caption.162}
+\contentsline {table}{\numberline {8.1}{\ignorespaces Comparison between Evaluation MAPE and Prediction MAPE\relax }}{46}{table.caption.169}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

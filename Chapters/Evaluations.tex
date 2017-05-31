@@ -1,21 +1,37 @@
 \chap{Discussion and Evaluations}
 
-The present study investigates about the possibility of testing the Data Science process using Python, trying to apply it to the Norwegian salmon farming industry, in order to gather and let be available as many useful results as possible about.\\
-JUSTIFY YOUR APPROACH\\
-Is possible to say that the results obtained are providing an answer to most of the initial objectives of this thesis. \\
-In particular, this study shows that is actually possible to have a first approach to the Data Science field using Python and all the considerations reported during each step of the implementation are showing an overview of the Data Science process.\\
-Further more, all the output results, such as graphic or coefficients value, are showing which kind of modules and packages Python provides in order to solve data analysis problems that allow to understand better Python potential in this field.\\
-Since the implemented system is has a high reusability and high automatization level, is possible to use it in order to make the same initial data analysis, displayig and forecast in a really short time about different datasets composed by data coming from every kind of area of interest.\\
-The results about the Norwegian salmon farming are actually not reporting any kind of new interesting informations. That because this thesis has been based mainly on the Data Science process and Python using more than a concrete information extraction.\\
-Some useful results are anyway provided, such as a structured dataset, more accessable and readable, together with descriptions of the data that could be helpful in the future for more specific analysis in this area. Further more, is possible to check out clear and readable graphics about several parametrs of each single county of Norway that could be used for an initial view analysis. Also coefficients values are already calculated, and an initial forecast system allows to have a general idea about the future expectations in this area.
+The current study investigates about the possibility of testing the Data Science process using Python, trying to apply it to the Norwegian salmon farming industry, in order to gather and let be available as many useful results as possible.
 
+\section{Evaluation and limitations of the study}
+\vspace{-5mm}
+This study has a number of possible limitations, mainly due to:
+\vspace{-5mm}
+\begin{itemize}
+ \setlength{\itemsep}{-5pt}
+ \item A lack of background knowledge about Data Science procedures.
+ \item A lack of background knowledge about Salmon farming in Norway.
+ \item Relatively short time available for this work.
+ \item Limited availability of data sources.
+\end{itemize}
 
-\newpage
+"No one expects science to be perfect the first time and while your peers can be highly critical, no one’s work is beyond limitations. Our knowledge base is built on uncovering each piece of the puzzle, one at a time, and limitations show us where new efforts need to be made. So much like peer review, don’t think of limitations as being inherently bad, but more an opportunity for a new challenge. In the end, your limitation may be someone else’s inspiration." \cite{limitations}
+  
+During this work I got more and more knowledge and experience mainly about the fields reported above (Data Science procedures and Salmon farming in Norway), and it allowed to get anyway some positive and useful results that provide an answer to most of the initial objectives of this thesis. \\
+In particular, this study shows that is actually possible to have a first approach to the Data Science field using Python. All the documented steps of this works allow to have a complete overview of the general Data Science process.
 
-\section{Evaluation System implemented}
-The following results table allows to make several observations about it: \\
-1) how is possible to see, the evaluation system provide ARIMA configuration that, tested with real future values, are providing a much higher MAPE value. \\
-2) The only MAPE value that is almost the same of the one calculated during the evaluation sstem is the one about the Norway dataset. Would be useful to understand why.
+Furthermore, the resulting Python systems and the corresponding evidences are showing which modules and packages are provided by Python in order to analyze, display and forecast data values. The high reusability and automation levels of the implemented system allow to easily reuse it in order to apply the same analysis, displaying and forecasting on a different dataset that contains data from a different area of interest. \\
+On the other side the current system is probably efficient and productive for a personal use. That's because is not provided an implemented GUI, and to customize the system's outputs you have to have some basic knowledge of Python language, that could be a sort of limitation for several people, but it could also be considered like a kind of incentive for people to get to know this powerful programming language.
+
+The approach used for this thesis didn't provide any kind of results that can be considered as new informations about the Norwegian salmon farming field, but it provided several ideas and discussion's starting points for further works. That's because this thesis was mainly focused on the Data Science process, Python utilities and to find out observations for future researches instead of the information extraction process itself.
+
+Even that, as reported in the Results Overview chapter, several systems, evidences and values have been calculated and reported during this work. 
+
+In the next sections are reported evaluations and limitations about this study, and then the discussions that I considered most relevant and interesting about this work, which would also be useful for further works.
+
+\section{Considerations about implemented Evaluation System }
+The following resulting table reveals several informations. \\
+The column "Evaluation MAPE" is the average MAPE of the forecasted values during the Evaluation System with the reported ARIMA order. \\ 
+The column "Forecast MAPE" represents the average MAPE of the 12 values predicted in the future, already reported in the results. [\ref{table: RealPredMAPE1}] 
 
  \begin{table}[ht]
 \makebox[1\textwidth][c]{
@@ -24,65 +40,104 @@ The following results table allows to make several observations about it: \\
 \textbf{County} 	& \textbf{Parameter} & \textbf{ARIMA Order}	& \textbf{Evaluation MAPE} 	& \textbf{Forecast MAPE} 	\\ \hline
 Finnmark 	& feedConsumption				& (6, 1, 0) 			& 13.771\% 	&	19.20\% 		\\ \hline	
 Hordaland 	& feedConsumption				& (8, 0, 0)  			& 6.811\%	& 	17.89\%			\\ \hline				
-Troms 		& feedConsumption				& (2, 0, 0)  			& 11.593\% 	&	21.05\%		\\ \hline
-Nordland 	& feedConsumption				& (6, 0, 0)  			& 12.741\%	&	26.01\% 	\\ \hline
-Norway0714 	& feedConsumption				& (6, 1, 0)  			& 7.296\%  	&	7.94\%		\\ \hline
+Troms 		& feedConsumption				& (2, 0, 0)  			& 11.593\% 	&	21.05\%			\\ \hline
+Nordland 	& feedConsumption				& (6, 0, 0)  			& 12.741\%	&	26.01\% 		\\ \hline
+Norway0714 	& feedConsumption				& (6, 1, 0)  			& 7.296\%  	&	7.94\%			\\ \hline
     \end{tabular}}
          \caption{Comparison between Evaluation MAPE and Prediction MAPE}   
    \label{table: MAPE_Comparison} 
-\end{table}     
+\end{table}        
 
+From the values contained in the table [\ref{MAPE_Comparison}] is possible to see that the average MAPE for the forecasted future values (\textbf{Forecast MAPE}) is much higher than the one reported from the evaluation process (\textbf{Evaluation MAPE}) . \\
+There is just one particular case where the Evaluation MAPE and Forecast MAPE values are really close, that is the one about the Norway dataset.
 
-In the following page are reported the graphics that allow to see the annual trendline of each input reported above here.\\ 
-Is possible to say that there is not a big difference between the Norwegian one and the counties one.
+At this point, would be extremely useful to discover why the predicted future values about the dataset 'Norway0714' are much more accurate and why their average MAPE is really close to the one calculated during the evaluation procedure.
 
-For this reason could be useful to check out an autocorrelation plot.
+In order to understand the reason, certain analysis through the resulting evidences have been made. Below here are reported the considerations about it:
+\vspace{-5mm}
+\begin{itemize}
+ \item Checked the annual feed consumption trend during different years for the current datasets, that is possible to check out in the reported graphics [\ref{fig: Norway_feed}]. Were not found any kind of big differences between the Norway's trend compared with the others.
+ \item Checked correlation coefficients between different years of the feed consumption values for each tested dataset, but there were not any kind of significant high/low correlation levels with the years before.
+ \item Tried to execute the prediction system with settings that are different by the one suggested in the Evaluation system results. Found that for some particular dataset is possible to get better predictions with a different configuration, like for example: \\
+ Prediction system about "feed Consumption" in Nordland executed with the suggested configuration (6,0,0) gave a average MAPE value equal to 26.01\% for the predicted values. If the Prediction system is tested on the same input but fitting the ARIMA model with the order (6,1,0) the average MAPE value decrease to 16.82\% for the predicted values. \\
+ It's possible to clearly see this different watching at the graphics reported in the following page: [\ref{fig: Nordland_ARIMAevaluation}] and [\ref{fig: Nordland_ARIMAmanual}].
+\end{itemize}
+
+This shows that the initial Evaluation system is not that accurate and reliable for each kind of input dataset. For this reason, in order to improve it during further works, is strongly suggest to try the "Box-Jenkinks method" for determine the best ARIMA order's parameters, that would probably be better and more specific for each single type of dataset.
+
 
 \newpage
 
-\section{Improvements for feed consumption values forecasting }
-During the implementation of this work, was noticed a strong relation between the two parameters "Sea Average Temperature" and "Feed Consumption". How is possible to see with the graphics below here\footnote{The graphics reported above have been displayed with a Python system implemented during this study, that allows to display different parameters in a normalized range. The system has not been reported in the thesis work, but is possible to find it here: \url{LINK}}, this relation is significant for several Norwegian counties.
-In the following page is reported an another evidence that allows a wider overview of this relation.
-\vspace{-5mm}
+\begin{figure}[H]
+	\makebox[\textwidth][c]{
+    \includegraphics[trim={0 1cm 0 0},clip,width=1.3\textwidth]{Files/Nordland-feedConsumption_pred.pdf}}
+    \caption[Predicted 2015 feed consumption in Nordland. Evaluation system ARIMA order.]{Predictions of 2015 feed consumption values in Nordland using ARIMA model fitted with the order suggested by the evaluation system results (6,0,0).\\  It provides an average MAPE of 26.01\% between the real and predicted 2015 values. }
+    \label{fig: Nordland_ARIMAevaluation}
+\end{figure}
+
+\begin{figure}[H]
+	\makebox[\textwidth][c]{
+    \includegraphics[trim={0 1cm 0 0},clip,width=1.3\textwidth]{Files/Nordland-feedConsumption_BETTER.pdf}}
+    \caption[Predicted 2015 feed consumption in Nordland. Manual ARIMA order.]{Predictions of 2015 feed consumption values in Nordland using ARIMA model fitted with an order manually chosen (6,1,0).\\  It provides an average MAPE of 16.82\% between the real and predicted 2015 values. }
+    \label{fig: Nordland_ARIMAmanual}
+\end{figure}
+
+
+\newpage
+
+\section{Improvements for feed consumption forecasting }
+During the implementation of this work, was also noticed a strong relation between the two parameters "Sea Average Temperature" and "Feed Consumption".
+I decided to focus on this particular correlation because, also if it's already well known that is possible to feed more the salmon when the temperature is higher, it could be very useful for further predictions about feed consumption values, since the sea average temperature would be considered like a parameter to use for improve the final results.
+
+This correlation is significant for all the Norwegian counties and it's clearly possible to see it with the example graphic\footnote{The graphics reported above have been displayed with a Python system implemented during this study, that allows to display different parameters in a normalized range. The system has not been reported in the thesis work, but is possible to find it here named "Analysis.py": \\ \url{https://github.com/Sprea22/Personal_Utilities}} reported below here. 
+
+\vspace{-10mm}
 
 \makebox[1\textwidth][c]{
 \begin{minipage}[t]{0.6\textwidth}
 \begin{figure}[H]
-    \includegraphics[trim={0 0 0 0},clip,width=1\textwidth]{Files/Finnmark-Temp&Feed.png}
-    \caption{Comparison between average sea temperature and feed consumption in Finnmark}
+    \includegraphics[trim={0 0.5cm 0 0},clip,width=1\textwidth]{Files/Finnmark-Temp&Feed.png}
+    \caption[Finnmark: average sea temperature compared with feed consumption]{Comparison between average sea temperature and feed consumption in Finnmark}
     \label{fig: Finnmark_seaTemp&feed}
 \end{figure}
 \end{minipage} \hfill
 \begin{minipage}[t]{0.6\textwidth}
 \begin{figure}[H]
 	\centering
-    \includegraphics[trim={0 0 0 0},clip,width=1\textwidth]{Files/Troms-Temp&Feed.png}
-    \caption{Comparison between average sea temperature and feed consumption in Troms}
+    \includegraphics[trim={0 0.5cm 0 0},clip,width=1\textwidth]{Files/Troms-Temp&Feed.png}
+    \caption[Troms: average sea temperature compared with feed consumption]{Comparison between average sea temperature and feed consumption in Troms}
     \label{fig: Troms_seaTemp&feed}
 \end{figure}
 \end{minipage}}
 \makebox[1\textwidth][c]{
 \begin{minipage}[t]{0.6\textwidth}
 \begin{figure}[H]
-    \includegraphics[trim={0 0 0 0},clip,width=1\textwidth]{Files/Nordland-Temp&Feed.png}
-    \caption{Comparison between average sea temperature and feed consumption in Nordland}
+    \includegraphics[trim={0 0.5cm 0 1cm},clip,width=1\textwidth]{Files/Nordland-Temp&Feed.png}
+    \caption[Nordland: average sea temperature compared with feed consumption]{Comparison betwen average sea temperature and feed consumption in Nordland}
     \label{fig: Nordland_seaTemp&feed}
 \end{figure}
 \end{minipage} \hfill
 \begin{minipage}[t]{0.6\textwidth}
 \begin{figure}[H]
 	\centering
-    \includegraphics[trim={0 0 0 0},clip,width=1\textwidth]{Files/Hordaland-Temp&Feed.png}
-    \caption{Comparison between average sea temperature and feed consumption in Hordaland}
+    \includegraphics[trim={0 0.5cm 0 1cm},clip,width=1\textwidth]{Files/Hordaland-Temp&Feed.png}
+    \caption[Hordaland: average sea temperature compared with feed consumption]{Comparison between average sea temperature and feed consumption in Hordaland}
     \label{fig: Hordaland_seaTemp&feed}
 \end{figure}
 \end{minipage}}
 
 \newpage
 
-The following two graphics allow to have a very clear overview of what just written above.
-In the first graphic is reported the average sea temperature, where blue means lower temperature and red higher temperature. In the second graphic is reported the feed consumption per biomass, where red means an higher consumption and blue a lower one.
+The following graphics allow to have a very clear overview of what just written above.\\
+\vspace{-10mm}
+\begin{itemize}
+ \setlength{\itemsep}{-5pt}
+ \item In the first graphic is reported the average sea temperature, where blue means lower temperature and red higher temperature.
+ \item In the second graphic is reported the feed consumption per biomass, where red means an higher consumption and blue a lower one.
+\end{itemize}
+
 So it's clearly possible to see how the average sea temperature and the feed consumption per biomass have a significant correlation for every single Norwegian county.
+
 \begin{figure}[H]
 	\makebox[\textwidth][c]{
     \includegraphics[trim={0 4cm 0 3cm},clip,width=1.3\textwidth]{Files/norway_averageSeaTemp.pdf}}
@@ -99,12 +154,14 @@ So it's clearly possible to see how the average sea temperature and the feed con
 
 \newpage
 
-Further more, how is possible to check below here, also the correlation coefficient values calculated between all the parameter confirm what reported above.\\
+Furthermore, is even possible to check the correlation coefficient values reported in the correlation matrix below here. These graphic represent the correlation coefficient between different parameter about the same dataset (county in this case).\\
+It's possible to see how the "feedConsumption" and "averageSeaTemp" correlation value is representing an high correlation between the two parameters in example datasets reported here and, if you check through the other counties graphics, this correlation is valid for all the Norwegian counties.\\  \vspace{-15mm}
+
 \makebox[1\textwidth][c]{
 \begin{minipage}[t]{0.6\textwidth}
 \begin{figure}[H]
     \includegraphics[trim={0 0 0 0},clip,width=1\textwidth]{Files/Finnmark_Total_Matrix.pdf}
-    \caption{Correlation matrix between all the parameters of the dataset about Finnmark}
+    \caption[Correlation matrix between parameter of Finnmark dataset.]{Correlation matrix between all the parameters of the dataset about Finnmark}
     \label{fig: Finnmark_parametersComparison}
 \end{figure}
 \end{minipage} \hfill
@@ -112,7 +169,7 @@ Further more, how is possible to check below here, also the correlation coeffici
 \begin{figure}[H]
 	\centering
     \includegraphics[trim={0 0 0 0},clip,width=1\textwidth]{Files/Troms_Total_Matrix.pdf}
-    \caption{Correlation matrix between all the parameters of the dataset about Troms}
+    \caption[Correlation matrix between parameter of Troms dataset.]{Correlation matrix between all the parameters of the dataset about Troms}
     \label{fig: Troms_parametersComparison}
 \end{figure}
 \end{minipage}}
@@ -120,7 +177,7 @@ Further more, how is possible to check below here, also the correlation coeffici
 \begin{minipage}[t]{0.6\textwidth}
 \begin{figure}[H]
     \includegraphics[trim={0 0 0 0},clip,width=1\textwidth]{Files/Nordland_Total_Matrix.pdf}
-    \caption{Correlation matrix between all the parameters of the dataset about Nordland}
+    \caption[Correlation matrix between parameter of Nordland dataset.]{Correlation matrix between all the parameters of the dataset about Nordland}
     \label{fig: Nordland_parametersComparison}
 \end{figure}
 \end{minipage} \hfill
@@ -128,41 +185,10 @@ Further more, how is possible to check below here, also the correlation coeffici
 \begin{figure}[H]
 	\centering
     \includegraphics[trim={0 0 0 0},clip,width=1\textwidth]{Files/Hordaland_Total_Matrix.pdf}
-    \caption{Correlation matrix between all the parameters of the dataset about Hordaland}
+    \caption[Correlation matrix between parameter of Hordaland dataset.]{Correlation matrix between all the parameters of the dataset about Hordaland}
     \label{fig: Hordaland_parametersComparison}
 \end{figure}
 \end{minipage}}
 
-\vspace{+10mm}
-
-I decided to focus on this particular parameter because, also if it's already known that is possible to feed the salmon more when the temperature is higher, it could be very useful for an implementation of a future prediction system.\\
-It means that, during the forecasting of future feed consumption values, the sea average temperature would be considered for improve the final results.
-
-\newpage
-
-\section{Evaluation and limitations of the study}
-\vspace{-5mm}
-This study has a number of possible limitations, mainly due to a lack of background knowledge and experience about the current area, and also because of the relatively short time available.
-
-ABOUT PYTHON RESULTS:
-\vspace{-5mm}
-\begin{itemize}
- \setlength{\itemsep}{-5pt}
-\item PRO: The implemented Python system has a quite high reusability. It means that is possible to use it also with dataset filled with data parameter coming from other area of interest.
-\item CONS: The implemented system in this thesis is probably efficient and productive for a personal use. That's because there is no GUI implemented and to change the customization of the output graphics you have to know Python language.
-\item CONS: Not enough informations about machine learning field, so during this thesis was implemented just a basic implementation of the forecasting system, just to give an idea about how it works and give the possibility to improve it in future works.
-\end{itemize}
-
-
-ABOUT DATA ANALYSIS RESULTS:
-\vspace{-5mm}
-\begin{itemize}
- \setlength{\itemsep}{-5pt}
- \item PRO: Well structured datasets provided
- \item PRO: Usability of the results 
- \item CONS: Since the data sources are public, it's not possible to know the real reliability of it.
- \item CONS: The data collected are allowing just limitated analysis.
- \item CONS: Not enough informations have been extracted from the data cause of a lack in the background theory about Norwegian salmon farming, and not enough time to document myself in a proper way.
-\end{itemize}
 
 
