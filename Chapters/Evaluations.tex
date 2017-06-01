@@ -21,7 +21,7 @@ The column "Evaluation MAPE" is the average MAPE of the forecasted values during
 The column "Forecast MAPE" represents the average MAPE of the 12 values predicted in the future, already reported in the results. [\ref{table: RealPredMAPE1}] 
 
  \begin{table}[ht]
-\makebox[1\textwidth][c]{
+\makebox[\textwidth][c]{
     \begin{tabular}{ | l | l | l | l | l |}
             \hline
 \textbf{County} 	& \textbf{Parameter} & \textbf{ARIMA Order}	& \textbf{Evaluation MAPE} 	& \textbf{Forecast MAPE} 	\\ \hline
@@ -45,8 +45,9 @@ In order to understand the reason, certain analysis through the resulting eviden
  \item Checked the annual feed consumption trend during different years for the current datasets, that is possible to check out in the reported graphics [\ref{fig: Norway_feed}]. No big differences between the Norway's trend compared with the others was found.
  \item Checked correlation coefficients between different years of the feed consumption values for each tested dataset, but there were not any kind of significant high/low correlation levels with the years before.
  \item Tried to execute the prediction system with settings that are different by the one suggested in the Evaluation system results. Found that for some particular dataset is possible to get better predictions with a different configuration, like for example: \\
- Prediction system about "feed consumption" in Nordland executed with the suggested configuration (6,0,0) shows an average MAPE value equal to 26.01\% for the predicted values. If the Prediction system is tested on the same input but fitting the ARIMA model with the order (6,1,0) the average MAPE value decrease to 16.82\% for the predicted values. It's possible to clearly see this difference watching at the graphics reported in the following page: [\ref{fig: Nordland_ARIMAevaluation}] and [\ref{fig: Nordland_ARIMAmanual}]. \\ 
-Furthermore, it's possible to check in the table [\ref{table: MAPE_Comparison}] that the configuration of Troms gives the worst Evaluation MAPE result, and once tested with a manual configuration of (6, 1, 0) the resulting MAPE is decrease to 21.05\%.
+ Prediction system about "feed consumption" in Nordland executed with the suggested configuration (6,0,0) shows an average MAPE value equal to 26.01\% for the predicted values, like showed in the table [\ref{table: MAPE_Comparison}]. \\
+If the Prediction system is tested on the same input but fitting the ARIMA model with the order (6,1,0) the average MAPE value decrease to 16.82\% for the predicted values. It's possible to clearly see this difference watching at the graphics reported in the following page: [\ref{fig: Nordland_ARIMAevaluation}] and [\ref{fig: Nordland_ARIMAmanual}]. \\ 
+Furthermore, it's even possible to check in the table [\ref{table: MAPE_Comparison}] that the predictions about Troms, calculated with the suggested configuration (2, 0, 0),  gives a resulting Forecast MAPE of 43.03\%. But once tested with a manual configuration of (6, 1, 0) the resulting Forecast MAPE is decrease to 21.05\%.
 \end{itemize}
 
 This shows that the initial Evaluation system is not that accurate and reliable for each kind of input dataset. For this reason, in order to improve it during further works, is strongly suggest to try the "Box-Jenkinks method" for determine the best ARIMA order's parameters, that would probably be better and more specific for each single dataset. It provides a more accurate procedure for analyze a series, in order to determine the best ARIMA parameters to use. More details about it are reported in recommendation for further works.
@@ -56,14 +57,16 @@ This shows that the initial Evaluation system is not that accurate and reliable 
 
 \begin{figure}[H]
 	\makebox[\textwidth][c]{
-    \includegraphics[trim={0 1cm 0 0},clip,width=1.3\textwidth]{Files/Nordland-feedConsumption_pred.pdf}}
+    \includegraphics[trim={0 1cm 0 0},clip,width=1\textwidth]{Files/Nordland-feedConsumption_pred.pdf}}
     \caption[Predicted 2015 feed consumption in Nordland. Evaluation system ARIMA order.]{Predictions of 2015 feed consumption values in Nordland using ARIMA model fitted with the order suggested by the evaluation system results (6,0,0).\\  It provides an average MAPE of 26.01\% between the real and predicted 2015 values. }
     \label{fig: Nordland_ARIMAevaluation}
 \end{figure}
 
+\vspace{1cm}
+
 \begin{figure}[H]
 	\makebox[\textwidth][c]{
-    \includegraphics[trim={0 1cm 0 0},clip,width=1.3\textwidth]{Files/Nordland-feedConsumption_BETTER.pdf}}
+    \includegraphics[trim={0 1cm 0 0},clip,width=1\textwidth]{Files/Nordland-feedConsumption_BETTER.pdf}}
     \caption[Predicted 2015 feed consumption in Nordland. Manual ARIMA order.]{Predictions of 2015 feed consumption values in Nordland using ARIMA model fitted with an order manually chosen (6,1,0).\\  It provides an average MAPE of 16.82\% between the real and predicted 2015 values. }
     \label{fig: Nordland_ARIMAmanual}
 \end{figure}
@@ -128,14 +131,14 @@ So it's clearly possible to see how the average sea temperature and the feed con
 \begin{figure}[H]
 	\makebox[\textwidth][c]{
     \includegraphics[trim={0 4cm 0 3cm},clip,width=1.3\textwidth]{Files/norway_averageSeaTemp.pdf}}
-    \caption{Shows the average of the monthly average sea temperature (Celsius) from 2007 to 2014 in Norway}
+    \caption[Map: monthly average sea temperature in Norway]{Shows the average of the monthly average sea temperature (Celsius) from 2007 to 2014 in Norway}
     \label{fig: Norway_averageSeaTemp}
 \end{figure}
 
 \begin{figure}[H]
 	\makebox[\textwidth][c]{
     \includegraphics[trim={0 4cm 0 3cm},clip,width=1.3\textwidth]{Files/norway_feed-biomass.pdf}}
-    \caption{Shows the average of the monthly average feed consumption per biomass (kg/kg)from 2007 to 2014 in Norway}
+    \caption[Map: monthly average feed consumption / biomass in Norway]{Shows the average of the monthly average feed consumption per biomass (kg/kg)from 2007 to 2014 in Norway}
     \label{fig: Norway_feed-biomass}
 \end{figure}
 
@@ -189,7 +192,7 @@ This study has a number of limitations, mainly due to:
 \begin{itemize}
  \setlength{\itemsep}{-5pt}
   \item Hard to get access to salmon farming knowledge.
-  \item Relatively short time available for this work since data time takes time.
+  \item Relatively short time available for this work since data access takes time.
 \end{itemize}
 
 As Senior Editor Amanda Hindle wrote, "No one expects science to be perfect the first time and while your peers can be highly critical, no one’s work is beyond limitations. Our knowledge base is built on uncovering each piece of the puzzle, one at a time, and limitations show us where new efforts need to be made. So much like peer review, don’t think of limitations as being inherently bad, but more an opportunity for a new challenge. In the end, your limitation may be someone else’s inspiration." \cite{limitations}
