@@ -4,43 +4,43 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Data science concept\relax }}{6}{figure.caption.19}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Data science process}}{7}{figure.caption.20}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Norwegian counties involved in aquaculture business}}{11}{figure.caption.25}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Norwegian counties involved in aquaculture business}}{11}{figure.caption.26}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Dataset structure.\relax }}{16}{figure.caption.42}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Dataset structure.\relax }}{17}{figure.caption.45}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Dataset structure.\relax }}{16}{figure.caption.43}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Dataset structure.\relax }}{17}{figure.caption.46}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Subsystems overview}}{20}{figure.caption.58}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Subsystems overview}}{20}{figure.caption.59}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Total graphic about current input over the whole period.\relax }}{23}{figure.caption.66}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Graphics for each single year of the current input data.\relax }}{24}{figure.caption.72}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Correlation matrix between different months of the same input\relax }}{25}{figure.caption.79}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Correlation matrix between different years of the same input\relax }}{26}{figure.caption.86}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Correlation matrix between different inputs with data.\relax }}{30}{figure.caption.106}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Normalized angular coefficients of each input's trendline.\relax }}{31}{figure.caption.111}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Monthly average sea temperature from 2007 to 2014 in Norway\relax }}{33}{figure.caption.125}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Total graphic about current input over the whole period.\relax }}{23}{figure.caption.68}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Graphics for each single year of the current input data.\relax }}{24}{figure.caption.74}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Correlation matrix between different months of the same input\relax }}{25}{figure.caption.81}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Correlation matrix between different years of the same input\relax }}{26}{figure.caption.88}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Correlation matrix between different inputs with data.\relax }}{30}{figure.caption.108}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Normalized angular coefficients of each input's trendline.\relax }}{31}{figure.caption.113}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Monthly average sea temperature from 2007 to 2014 in Norway\relax }}{33}{figure.caption.127}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Graphic that display historic, real and predicted future values of a input.\relax }}{38}{figure.caption.151}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Graphic that display historic, real and predicted future values of a input.\relax }}{38}{figure.caption.153}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Annual consumption of feed trend in Norway. \relax }}{42}{figure.caption.158}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Annual consumption of feed trend in Finnmark. \relax }}{42}{figure.caption.159}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Annual consumption of feed trend in Troms. \relax }}{42}{figure.caption.160}
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Annual consumption of feed trend in Nordland. \relax }}{42}{figure.caption.161}
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Annual consumption of feed trend in Hordaland. \relax }}{42}{figure.caption.162}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Annual consumption of feed trend in Norway. \relax }}{42}{figure.caption.160}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Annual consumption of feed trend in Finnmark. \relax }}{42}{figure.caption.161}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Annual consumption of feed trend in Troms. \relax }}{42}{figure.caption.162}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Annual consumption of feed trend in Nordland. \relax }}{42}{figure.caption.163}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Annual consumption of feed trend in Hordaland. \relax }}{42}{figure.caption.164}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Predicted 2015 feed consumption in Nordland. Evaluation system ARIMA order.}}{48}{figure.caption.170}
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Predicted 2015 feed consumption in Nordland. Manual ARIMA order.}}{48}{figure.caption.171}
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Finnmark: average sea temperature compared with feed consumption}}{49}{figure.caption.174}
-\contentsline {figure}{\numberline {8.4}{\ignorespaces Troms: average sea temperature compared with feed consumption}}{49}{figure.caption.175}
-\contentsline {figure}{\numberline {8.5}{\ignorespaces Nordland: average sea temperature compared with feed consumption}}{49}{figure.caption.176}
-\contentsline {figure}{\numberline {8.6}{\ignorespaces Hordaland: average sea temperature compared with feed consumption}}{49}{figure.caption.177}
-\contentsline {figure}{\numberline {8.7}{\ignorespaces Monthly average sea temperature from 2007 to 2014 in Norway\relax }}{50}{figure.caption.178}
-\contentsline {figure}{\numberline {8.8}{\ignorespaces Monthly average feed consumption per biomass from 2007 to 2014 in Norway\relax }}{50}{figure.caption.179}
-\contentsline {figure}{\numberline {8.9}{\ignorespaces Correlation matrix between parameter of Finnmark dataset.}}{51}{figure.caption.180}
-\contentsline {figure}{\numberline {8.10}{\ignorespaces Correlation matrix between parameter of Troms dataset.}}{51}{figure.caption.181}
-\contentsline {figure}{\numberline {8.11}{\ignorespaces Correlation matrix between parameter of Nordland dataset.}}{51}{figure.caption.182}
-\contentsline {figure}{\numberline {8.12}{\ignorespaces Correlation matrix between parameter of Hordaland dataset.}}{51}{figure.caption.183}
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Predicted 2015 feed consumption in Nordland. Evaluation system ARIMA order.}}{48}{figure.caption.172}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Predicted 2015 feed consumption in Nordland. Manual ARIMA order.}}{48}{figure.caption.173}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Finnmark: average sea temperature compared with feed consumption}}{49}{figure.caption.176}
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Troms: average sea temperature compared with feed consumption}}{49}{figure.caption.177}
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Nordland: average sea temperature compared with feed consumption}}{49}{figure.caption.178}
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Hordaland: average sea temperature compared with feed consumption}}{49}{figure.caption.179}
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Monthly average sea temperature from 2007 to 2014 in Norway\relax }}{50}{figure.caption.180}
+\contentsline {figure}{\numberline {8.8}{\ignorespaces Monthly average feed consumption per biomass from 2007 to 2014 in Norway\relax }}{50}{figure.caption.181}
+\contentsline {figure}{\numberline {8.9}{\ignorespaces Correlation matrix between parameter of Finnmark dataset.}}{51}{figure.caption.182}
+\contentsline {figure}{\numberline {8.10}{\ignorespaces Correlation matrix between parameter of Troms dataset.}}{51}{figure.caption.183}
+\contentsline {figure}{\numberline {8.11}{\ignorespaces Correlation matrix between parameter of Nordland dataset.}}{51}{figure.caption.184}
+\contentsline {figure}{\numberline {8.12}{\ignorespaces Correlation matrix between parameter of Hordaland dataset.}}{51}{figure.caption.185}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {9.1}{\ignorespaces General idea about Prediction Systems as a service.\relax }}{53}{figure.caption.188}
+\contentsline {figure}{\numberline {9.1}{\ignorespaces General idea about Prediction Systems as a service.\relax }}{53}{figure.caption.190}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

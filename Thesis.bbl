@@ -48,7 +48,7 @@ Quora.
 \bibitem{wiki:ML}
 Wikipedia.
 \newblock Machine learning --- wikipedia{,} the free encyclopedia, 2017.
-\newblock [Online; accessed 31-May-2017].
+\newblock [Online].
 
 \bibitem{wiki:Regression}
 Wikipedia.
@@ -107,6 +107,11 @@ Senior~Editor Amanda~Hindle.
   \url{https://www.edanzediting.com/blogs/how-write-about-your-study-limitations-without-limiting-your-impact},
   January 23, 2015.
 \newblock Online.
+
+\bibitem{wiki:BoxJenkinsMethod}
+Wikipedia.
+\newblock Box–jenkins method --- wikipedia{,} the free encyclopedia, 2016.
+\newblock [Online].
 
 \bibitem{previousWork2}
 Jason Brownlee.

@@ -2,11 +2,18 @@
 
 \section{Summary}
 
-Aim and objectives of the study.
+The focus of this study was on having an initial approach with Data Science field, in order to investigate and document possible methods and techniques. At the same time, an another target of this work was to evaluate the feasibility of Python in the Data Science, describing implementation procedures and reporting observations. Specifically, this implementation was also use for reporting the initial analysis, displaying and forecasting results about Norwegian salmon farming, in order to provide structured, described and accessible data.
 
-Implemented procedure with links in the report.
+Data collection [\ref{Data_collection}]. \\
+Requirements definition and implementation design [\ref{Design_Requirements}].\\
+Analysis and Displaying system implementation [\ref{AnalyzerSystem}]. \\
+Map displaying system implementation [\ref{Map_displaying}]. \\
+Prediction system implementation [\ref{PredictionSystem}].
 
-Results.
+This study shows: \\
+It's possible to have an approach with Data Science field using Python. \\
+Provide a general idea about Forecasting systems and problems. \\
+Introduce some discussion points and provide some useful suggestions for further works.
 
 Discussion.
 
@@ -46,14 +53,13 @@ In this section are reported some ideas for future work and some extra implement
 
 \newpage
 
+\item \textbf{Improve the ARIMA evaluation system}\\ Since the Evaluation system implemented during system was a very basic and easy implementation, I strongly recommend to check out the "Box–Jenkins method"\cite{wiki:BoxJenkinsMethod}. In time series analysis this method applies autoregressive integrated moving average (ARIMA) models to find the best fit of a time-series model to past values of a time series. It provide a three phase approach, that are model identification, parameter estimation and model checking. In particular, it provides a clear description of how to interpret the graphic, such as the autocorrelation plot of a series, that is very important for identify stationarity and seasonality of a series, which are indispensable details to consider if you want to improve the prediction system.
+
 \item \textbf{Improve the prediction system}\\ This is the part which has much more possible future works. Forecasting system development is today a fundamental issue that involves different area of studies. To achieve an accurate model and significant results it needs much more specific research than the one reported in this study, that was just for report a general idea about it. I strongly recommend for further works:
 \begin{itemize}
-\item Improve this forecasting model, applying and studying the "Box-Jenkins method"\footnote{Box-Jenkins method : \url{https://en.wikipedia.org/wiki/Box\%E2\%80\%93Jenkins\_method}} in order to improve the Evaluation system and get better predictions of future value.
-\item Research about a new forecasting model, in particular Artificial intelligence methods, such as "Artificial Neural Networks"\footnote{ANN link: \url{https://en.wikipedia.org/wiki/Artificial\_neural\_network}}.
+\item Improve this forecasting model, applying and studying the "Box-Jenkins method"\footnote{Box-Jenkins method : \url{https://en.wikipedia.org/wiki/Box\%E2\%80\%93Jenkins\_method}} in order to improve the Evaluation system and get better predictions of future value.z
+\item If you are interested in "salmon feed consumption" forecasting I strongly suggest you to consider the discussion about the relation between "Feed Consumption" and "Average Sea Temperature", since it could provides a significant help in order to improve the accuracy level of the system.
 \end{itemize}
-
-If you are interested in "salmon feed consumption" forecasting or similar topics I strongly suggest you to consider the discussion about the relation between "Feed Consumption" and "Average Sea Temperature", since it could be a significant help to the accuracy level of the system.
-
 \end{itemize}
 
 
