@@ -37,22 +37,34 @@ Wikipedia.
 
 \bibitem{wiki:Databases}
 Wikipedia.
-\newblock Database --- wikipedia{,} the free encyclopedia, 2017.
+\newblock Database --- wikipedia{,} the free encyclopedia.
+\newblock
+  \url{https://en.wikipedia.org/w/index.php?title=Database&oldid=782511180},
+  2017.
 \newblock [Online].
 
 \bibitem{DataProcessFramework}
 Quora.
-\newblock The data science process, 2014.
+\newblock The data science process.
+\newblock
+  \url{https://www.quora.com/Are-there-any-thematic-frameworks-unifying-data-science-approaches-and-methods},
+  2014.
 \newblock [Online].
 
 \bibitem{wiki:ML}
 Wikipedia.
-\newblock Machine learning --- wikipedia{,} the free encyclopedia, 2017.
+\newblock Machine learning --- wikipedia{,} the free encyclopedia.
+\newblock
+  \url{https://en.wikipedia.org/w/index.php?title=Machine_learning&oldid=781814639},
+  2017.
 \newblock [Online].
 
 \bibitem{wiki:Regression}
 Wikipedia.
-\newblock Regression analysis --- wikipedia{,} the free encyclopedia, 2017.
+\newblock Regression analysis --- wikipedia{,} the free encyclopedia.
+\newblock
+  \url{https://en.wikipedia.org/w/index.php?title=Regression_analysis&oldid=777736334},
+  2017.
 \newblock [Online].
 
 \bibitem{TimeSeries}
@@ -110,7 +122,10 @@ Senior~Editor Amanda~Hindle.
 
 \bibitem{wiki:BoxJenkinsMethod}
 Wikipedia.
-\newblock Box–jenkins method --- wikipedia{,} the free encyclopedia, 2016.
+\newblock Box–jenkins method --- wikipedia{,} the free encyclopedia.
+\newblock
+  \url{https://en.wikipedia.org/w/index.php?title=Box%E2%80%93Jenkins_method&oldid=756788483},
+  2016.
 \newblock [Online].
 
 \bibitem{previousWork2}
